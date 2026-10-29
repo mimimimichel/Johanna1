@@ -84,14 +84,17 @@ Légende effort humain en croisière : 🟢 faible · 🟡 moyen · 🔴 fort. P
 | F7 | Mini-magasins autonomes 24/7 (sans caisse) | 🟡 | ⭐⭐ |
 | F8 | Réseau franchisable de l'un des concepts ci-dessus | 🟡 | ⭐⭐ |
 
-## G. Exploiter ton expertise (amorçage cash) — ⚠️ à réécrire avec le vrai profil de Johanna
+## G. Exploiter ton expertise (product, innovation, aéro, conformité)
 | # | Idée | Effort | ×200 |
 |---|---|---|---|
-| G1 | Freelance Foundry / data à TJM élevé → réinvestir tout le surplus | 🔴 | ⭐ (seul) |
-| G2 | Cabinet boutique Palantir / IA avec consultants (levier humain) | 🔴→🟡 | ⭐⭐ |
-| G3 | Agence d'automatisation IA pour PME, productisée (forfaits) | 🟡 | ⭐⭐ |
-| G4 | Transformer une mission client en produit revendable (« consulting-to-SaaS ») | 🟡 | ⭐⭐⭐ |
-| G5 | Formation / certification entreprise (Foundry, IA Act, data product) | 🟡 | ⭐⭐ |
+| G1 | Freelance product / innovation à TJM élevé (plus tard, à 4/5) → réinvestir tout le surplus | 🔴 | ⭐ (seul) |
+| G2 | Petit cabinet produit / innovation avec freelances (levier humain) | 🔴→🟡 | ⭐⭐ |
+| G3 | Offre productisée : « sprint de cadrage produit / business case en 10 jours » vendue à forfait | 🟡 | ⭐⭐ |
+| G4 | Transformer un problème vu chez les clients aéro en logiciel revendable (« consulting-to-SaaS ») | 🟡 | ⭐⭐⭐ |
+| G5 | Formation certifiante (product management, design thinking, conduite du changement) | 🟡 | ⭐⭐ |
+| G6 | Outil SaaS de conformité export (biens à double usage, règlement UE 2021/821) pour PME sous-traitantes | 🟡 | ⭐⭐⭐ |
+| G7 | Kits / templates de business case, pricing, roadmap pour product managers (FR + EN) | 🟢 | ⭐ |
+| G8 | Outil IA pour la formation aéro (préparation, suivi des pilotes, maintenance) | 🔴→🟡 | ⭐⭐⭐ |
 
 ## H. Paris asymétriques et propriété intellectuelle
 | # | Idée | Effort | ×200 |
@@ -117,7 +120,7 @@ Loto, paris sportifs, memecoins, levier ×100 sur crypto. → Espérance négati
 
 ## Premières intuitions (non validées)
 1. Les ⭐⭐⭐ ont un point commun : **un actif d'entreprise revendu sur multiple** (SaaS vertical, agents IA, rachat PME, consulting-to-SaaS).
-2. ~~Profil data / Foundry~~ → erreur, c'était le profil de Michael. Les atouts de Johanna restent à intégrer (famille G à réécrire).
+2. Ton profil (product B2B, aéro, conformité, business case, pricing) est l'atout clé d'un fondateur de logiciel de niche → C2, C3, C10, G4, G6 bien placées.
 3. Une architecture « **barbell** » se dessine : socle sûr (A1/B1) + 1 moteur principal (business) + quelques paris (A8, A4).
 
-**69 idées** (+ 6 leviers transverses) au total. Prochaine étape : clustering par mécanisme de valeur.
+**71 idées** (+ 6 leviers transverses) au total. Prochaine étape : clustering par mécanisme de valeur.

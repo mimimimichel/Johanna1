@@ -1,6 +1,6 @@
 # Phase 2 — Clusters (converger)
 
-**Méthode : affinity mapping.** On regroupe les 68 idées restantes par **mécanisme qui crée la valeur** (pas par secteur), puis on les passe à travers les nouvelles contraintes.
+**Méthode : affinity mapping.** On regroupe les 70 idées restantes par **mécanisme qui crée la valeur** (pas par secteur), puis on les passe à travers les nouvelles contraintes.
 
 ## Filtres appliqués (issus de tes réponses)
 - **Légal en France** → A12 retiré (Polymarket bloqué).
@@ -13,7 +13,7 @@
 | 🏠 **Maison** | 600 k€ en 2030 | 3,5 ans | Faible à modéré | 1, 2 (+ flux du moteur) |
 | 🚀 **Moteur** | 10 M€ en 2036 | 10 ans | Élevé | 3, 4, 5, 6, 7, 8 |
 
-## Les 9 clusters
+## Les 10 clusters
 
 ### 1. 📈 Rendement de marché — « l'argent travaille seul »
 A1, A2, A3, A5, A7, A9, A10, B9
@@ -65,8 +65,10 @@ A4, A6, A8, A11, H1, H2, H3, H4
 ### Transverse — multiplicateurs (s'appliquent à tous)
 Holding à l'IS (I1), dette (I2), agents IA à la place d'une équipe (I3), exit planifiée (I4), réinvestissement en cascade (I5), associés (I6).
 
-### En attente — ton expertise (cluster G)
-À réécrire dès que j'ai ton profil : c'est souvent là que se cache le meilleur point de départ pour les clusters 3, 4 et 6.
+### 10. 🧠 Ton expertise — « vendre ce que tu sais déjà faire »
+G1-G8
+- Mécanisme : ton savoir-faire (product, innovation, aéro, conformité) devient service productisé, formation, puis logiciel.
+- Rôle : **porte d'entrée** vers les clusters 3 et 4 (trouver un problème payant) + cash d'amorçage.
 
 ## Carte des clusters
 | Cluster | Temps lancement | Temps croisière | Potentiel ×200 | Poche |
@@ -80,6 +82,7 @@ Holding à l'IS (I1), dette (I2), agents IA à la place d'une équipe (I3), exit
 | 7 Machines sans personnel | 🟡 | 🟢 | ⭐ | 🏠 |
 | 8 Produits sous-traités | 🟡 | 🟡 | ⭐⭐ | 🚀 |
 | 9 Paris asymétriques | 🟢 | 🟢 | ⭐⭐ (aléatoire) | 🚀 (≤15 %) |
+| 10 Ton expertise | 🟡 | 🟡 | ⭐⭐ (⭐⭐⭐ vers logiciel) | 🚀 |
 
 ## Lecture
 - Les **combinaisons** sont plus puissantes que les clusters seuls : par exemple 5 → 3 (une audience qui achète un logiciel), 6 + 3 (racheter un micro-SaaS), 2 + 7 (un terrain financé à crédit qui accueille du self-storage).

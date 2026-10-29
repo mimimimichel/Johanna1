@@ -30,25 +30,27 @@ Paradoxe à garder en tête : les 2-3 premières années demandent presque toujo
 |---|---|
 | Cible | **10 M€ brut** en 2036 |
 | Risque | Perte totale des 50 k€ acceptée |
-| Temps | **Faible au lancement** (salariée). Passage possible à 4/5 ou mi-temps si une piste décolle |
+| Temps | **10 h/semaine** au lancement (salariée). Passage possible à 4/5 ou mi-temps si une piste décolle |
 | Emploi | Conservé (sécurité + capacité d'emprunt) |
 | Emprunt | OK |
-| Épargne | Apports mensuels possibles tant que salariée |
+| Épargne | **600 €/mois** tant que salariée |
 | Lignes rouges | **100 % légal**, le plus automatisé possible |
-| Contrainte 2030 | **600 k€ disponibles en 2030** pour acheter une maison ; ils sortent du projet à ce moment-là |
-| Profil | ⚠️ Erreur corrigée : le profil data / Palantir était celui de Michael. **Profil de Johanna à compléter.** |
+| Contrainte 2030 | Maison à **600 k€ (prix)** en 2030, financée par apport + crédit ; l'apport sort du projet |
+| Profil | Voir ci-dessous (CV 2023 et 2025) |
 
 ### Ce que change la contrainte 2030
-- Le projet a **deux objectifs** : 600 k€ en ~3,5 ans (sûr), puis 10 M€ en 2036 (ambitieux).
-- 600 k€ en 2030 depuis 50 k€ + épargne, c'est environ ×5 à ×8 en 3,5 ans : **presque aussi dur que l'objectif principal**, et ça ne se fait pas avec de l'argent qu'on accepte de perdre.
-- Il faut donc **deux poches séparées** : une poche « Maison » prudente et une poche « Moteur » risquée.
-- Question ouverte : faut-il vraiment **600 k€ en cash**, ou 600 k€ de **prix de maison** (apport ~60-120 k€ + crédit) ? Ça change toute la stratégie.
+- 600 k€ = **prix de la maison**, pas du cash : il faut un **apport (~60-120 k€)** et une **capacité d'emprunt intacte** en 2030.
+- Deux poches séparées : 🏠 **Maison** (apport prudent + ne pas saturer l'endettement) et 🚀 **Moteur** (10 M€, risqué).
+- Point de vigilance : tout crédit pris avant 2030 (immobilier locatif, rachat d'entreprise) réduit la capacité d'emprunt pour la maison.
 
-## Questions encore ouvertes
-1. Ton parcours : métier, secteur, compétences, diplômes, réseau (voir LinkedIn).
-2. Heures/semaine réalistes au lancement (2 h ? 5 h ? 10 h ?).
-3. Épargne mensuelle possible (ordre de grandeur).
-4. 600 k€ = cash à sortir, ou prix de la maison ?
+## Profil de Johanna (atouts)
+- **12 ans d'expérience**, aujourd'hui **Consulting Manager** chez Sopra Steria Next (Toulouse) : équipe de 10+ consultants, ~400 k€/an de développement commercial.
+- **Aéronautique B2B** : Airbus Customer Services, Export Control (conformité), formation des pilotes et instructeurs, applications de maintenance et d'ingénierie.
+- **Product management de bout en bout** : vision, business case, modèle de prix, go-to-market, pilotes clients (6/6 compagnies aériennes demandeuses), 800 k€/an d'économies générées, 15 M€/an de contrats influencés.
+- **Méthodes** : design thinking, lean startup, agile (PSPO, SAFe), conduite du changement (Prosci).
+- **Data** : Foundry, Qlik, Tableau. **Design** : diplôme multimédia/web, suite Adobe. **IA générative**, prompt engineering.
+- **Langues** : français, anglais C1, espagnol, notions de japonais et coréen.
+- **Avantage injuste** : savoir **cadrer, prix et vendre un produit B2B** dans une niche réglementée (aéro, conformité) + réseau toulousain. C'est exactement la compétence rare d'un fondateur de logiciel de niche ; le code peut s'acheter ou se générer par IA.
 
 ## Méthode par phase (et pourquoi)
 - **Brainstorm** : mind map par *leviers* (Naval Ravikant : capital, dette, code, média) — ce sont les seuls leviers qui ne demandent pas de temps humain. Complété par 8 « lentilles » forcées pour sortir des sentiers battus. Règle : quantité, zéro jugement.
