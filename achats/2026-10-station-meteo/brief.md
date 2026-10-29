@@ -32,6 +32,6 @@ Suivre température et humidité dans 5 zones de l'appartement (salon, cuisine, 
 ## Tensions et arbitrage probable
 - « Bel écran avec prévisions » + « 5 zones affichées en même temps » + « Google Home en routines » + « ≤ 170 € » : les quatre ensemble sont rares. À trancher : simultanéité, esthétique, ou domotique.
 
-## Questions ouvertes
+## Questions ouvertes (bloquantes pour finaliser)
 - As-tu déjà un écran Google (Nest Hub) ou une tablette inutilisée ?
 - Quelle routine Google Home veux-tu vraiment ? (ex. : alerte humidité chambre, prise de déshumidificateur)
