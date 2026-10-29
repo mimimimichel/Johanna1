@@ -4,13 +4,14 @@ Préférences durables, mises à jour après chaque achat. À lire avant toute r
 
 ## Contexte
 - Vit en appartement, région de Toulouse. Achats en France / UE (livraison en France).
-- Maison connectée : **Google Home**.
+- Maison connectée : **Google Home** + **Home Assistant**.
 
 ## Goûts et exigences récurrentes
 - Objets visibles dans le salon : doivent être **esthétiques** ; pas de style « pro / industriel », pas de monochrome daté.
 - Veut que ça **marche ensemble** : un appareil connecté doit être réellement exploitable dans Google Home (routines), pas seulement « compatible ».
 - Pas d'abonnement payant.
-- Préfère la précision et la durabilité au prix le plus bas.
+- **Fiabilité des données d'abord** (précision, pas de trous), puis connectivité, puis esthétique/écran.
+- Un écran est facultatif si la commande vocale Google répond.
 - Reconditionné accepté avec garantie et économie nette.
 
 ## Ce qui ne marche pas avec elle
