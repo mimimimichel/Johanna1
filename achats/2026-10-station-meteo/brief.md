@@ -1,6 +1,6 @@
 # Brief — Station météo 5 zones
 
-Statut: recherche (v2 : priorité fiabilité, Home Assistant)
+Statut: reco (v2)
 Ouvert le: 2026-10-29 (première tentative avec Gemini, août 2026, non aboutie)
 
 ## Usage réel

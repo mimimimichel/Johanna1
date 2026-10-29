@@ -50,3 +50,27 @@ Manuels : HP2560 (oss.ecowitt.net, p. 44), WS3900/WS3910 (§3.5.1), WN1980 (§5.
 - **Aqara W100 ×5** : environ 200 €, et le déclencheur de température dans Google Home n'est pas fiable.
 - **Tuya génériques** : déjà rejetés par toi, sans déclencheur dans Google Home.
 - **Bresser 100 % radio** : aucune connectivité.
+
+---
+
+# v2 — Recherche après précisions (fiabilité d'abord, Home Assistant présent)
+
+## Capteurs classés par fiabilité des données
+| # | Capteur | Puce | Précision annoncée | Preuve indépendante | Liaison | Prix |
+|---|---|---|---|---|---|---|
+| 1 | Sonoff SNZB-02P | SHT40 (démontage) | ± 0,2 °C / ± 2 % | Meilleur sur 12 capteurs (smarthomescene.com, août 2026) | Zigbee | 17,24 € ; 30,50 € les 2 |
+| 1b | Sonoff SNZB-02B | Sensirion (modèle non précisé) | ± 0,2 / ± 2 | Top 5, « meilleur à piles AAA » | Zigbee | 36,62 € les 4 |
+| 2 | Sonoff SNZB-02WD (IP65) | SHT40 | ± 0,2 / ± 2, jusqu'à −20 °C | Proche d'un SwitchBot Meter Pro (techtest.org) | Zigbee | 20,30 € |
+| 3 | Aqara T1 / WSDCGQ11LM | SHT30 | ± 0,3 / ± 3 | Top 5, mais décrochages signalés | Zigbee | ≈ 22 € |
+| 5 | IKEA TIMMERFLOTTE | SHT4x (non confirmé) | non publiée | Humidité qui varie entre unités | Thread | 7,99 € |
+| 7 | Ecowitt WN31 | ? | ± 1 / ± 5 | Humidité décalée de 5 à 15 % selon des utilisateurs | 868 MHz | — |
+
+À éviter : Sonoff SNZB-02 (sans « P », environ 10 % d'humidité de trop), Tuya génériques (TH01, ZTH02…), Thirdreality (trous jusqu'à 6 h).
+
+## Home Assistant → Google Home
+- **Intégration Google Assistant manuelle** : gratuite, fonctionne encore en 2026. Il faut un accès HTTPS avec nom de domaine et une console développeur Google. Difficulté moyenne à élevée. Source : home-assistant.io/integrations/google_assistant
+- **Home Assistant Cloud** : ≈ 7,50 €/mois ou 75 €/an (prix en euros selon une source secondaire), essai de 31 jours. Renommé « Home Assistant Link » en décembre 2026.
+- **Ponts Matter communautaires** : gratuits et locaux (fork RiDDiX de Home Assistant Matter Hub, Matterbridge). L'original a été abandonné en janvier 2026, c'est le risque de ce choix.
+- **Réponse vocale** : historiquement, la question sur la température ou l'humidité d'une pièce marche. Aucune confirmation sous Gemini for Home en français.
+- **Routines Google** : les déclencheurs d'humidité sont corrects, ceux de température instables. Faire les automatisations dans Home Assistant.
+- **Écran** : tablette + Fully Kiosk + Météo-France. Le Nest Hub revient à l'accueil au bout d'environ 10 minutes.

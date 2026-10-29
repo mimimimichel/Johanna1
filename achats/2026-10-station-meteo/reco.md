@@ -1,71 +1,69 @@
-# Reco — Station météo 5 zones
+# Reco v2 — Capteurs 5 zones (fiabilité d'abord, Home Assistant)
 
-Date : 2026-10-29
+Date : 2026-10-29. Remplace la v1 (SwitchBot / Ecowitt), devenue caduque une fois Home Assistant connu et les priorités précisées.
 
 ## Verdict
-Le pack idéal (écran couleur à prévisions + 5 zones visibles + Google Home + ± 0,5 °C, pour ≤ 170 €) n'existe pas : deux de tes critères éliminatoires se contredisent. Les stations à écran couleur ont des capteurs à ± 1 °C et ne fonctionnent pas avec Google Home ; les capteurs précis et compatibles Google ont des écrans monochromes.
+Prends **5 capteurs Zigbee Sonoff à puce Sensirion SHT40** (4 × SNZB-02P à l'intérieur, 1 × SNZB-02WD étanche à l'extérieur, sous abri), intégrés **en local dans Home Assistant**.
+- Coût : **≈ 133 €** avec une clé Zigbee, **≈ 153 €** avec l'abri extérieur.
+- Si tu as déjà une clé Zigbee : **≈ 97 €**, ou **≈ 117 €** avec l'abri.
 
-**Reco principale : le pack SwitchBot (≈ 155 €)**. Il est précis (± 0,2 °C), il passe par Google Home via Matter pour les routines, et son écran de salon affiche l'heure, la date et les prévisions. Ce qu'on sacrifie : la couleur, et l'affichage des 5 zones à l'écran (elles sont toutes visibles dans l'appli).
+Google Home reçoit les mesures depuis Home Assistant, pour répondre à la voix. Les automatisations se font dans Home Assistant, plus fiable que les routines Google. L'écran devient une option à ajouter plus tard.
 
-**Si l'écran compte plus que Google Home : Ecowitt HP2560_C (≈ 200–230 €)**. C'est le seul écran couleur qui montre les 5 zones ensemble, mais hors budget, à ± 1 °C et sans Google Home.
+## Pourquoi ce choix
+- **Précision** : puce Sensirion SHT40, ± 0,2 °C et ± 2 % d'humidité annoncés, confirmés par une ouverture du boîtier.
+- **Test indépendant** : « meilleur capteur » d'un test de 12 capteurs Zigbee sur 10 jours, face à une référence calibrée (SmartHomeScene, août 2026). Deux capteurs Sonoff côte à côte restent à 0,1–0,2 °C l'un de l'autre.
+- **Pas de trous dans les données** : le Zigbee forme un réseau maillé. Une prise Zigbee branchée entre les pièces éloignées relaie le signal à travers les murs porteurs.
+- **Local** : intégration native dans Home Assistant (ZHA ou Zigbee2MQTT), sans cloud ni compte Sonoff.
+- **Autonomie** : pile CR2477, jusqu'à 4 ans annoncés (2 ans pour le modèle extérieur).
 
 ## Finalistes
-| Critère | A. SwitchBot Matter | B. Ecowitt HP2560_C | C. Ecowitt WS3900 kit |
+| | A. Sonoff SHT40 (reco) | B. Sonoff éco (piles AAA) | C. IKEA TIMMERFLOTTE (Thread) |
 |---|---|---|---|
-| 🔴 5 zones | ✅ | ✅ | ✅ |
-| 🔴 Écran couleur avec prévisions | ❌ monochrome (heure, date, prévisions) | ✅ 7" | ✅ 7,5" |
-| 🔴 Précision ± 0,5 °C | ✅ ± 0,2 °C | ❌ ± 1 °C | ❌ ± 1 °C |
-| 🔴 Budget ≤ 170 € | ✅ 155 € | ❌ ≈ 200–230 € | ✅ ≈ 165–175 € |
-| 🟠 5 zones visibles d'un coup | Appli seulement | ✅ page dédiée | ❌ 2 à la fois |
-| 🟠 Google Home en routines | ✅ via Matter (à tester) | ❌ | ❌ |
-| 🟠 Portée | ⚠️ Bluetooth, à tester | ✅ radio 868 MHz | ✅ radio 868 MHz |
+| Puce | SHT40 confirmée | « Sensirion », modèle non précisé | SHT4x, non confirmé |
+| Preuve indépendante | Meilleur du test | Top 5 du test | Humidité qui varie entre unités |
+| Liaison | Zigbee maillé | Zigbee maillé | Thread, retours mitigés dans HA |
+| Extérieur | SNZB-02WD étanche IP65 | idem | Pas de modèle extérieur |
+| Pack avec clé + abri | ≈ 153 € | ≈ 118 € | ≈ 100 € (montage mixte compliqué) |
 
-## Option A — SwitchBot via Matter (recommandée)
-- **Pour qui** : si la précision et les routines Google Home comptent plus que la couleur.
-- **Ce qu'on sacrifie** : un écran couleur. Le Meter Pro affiche heure, date, prévisions, le salon et l'extérieur, en noir et blanc.
-- **Prérequis** : un appareil Google servant de hub Matter (Nest Mini, Nest Audio, Nest Hub, Google Home Speaker).
-- **Répartition** :
-  - Salon : Meter Pro.
-  - Extérieur : Outdoor Meter, côté nord, à l'abri de la pluie directe.
-  - Cuisine et chambre 1 : un thermo-hygromètre chacune.
-  - Chambre 2 : le capteur intégré au câble du Hub 2.
-- **Risque n° 1 : portée.** Les thermomètres parlent au Hub 2 en Bluetooth, et deux murs porteurs, c'est limite. Mets le Hub 2 au centre et teste tout dans les 14 jours. Sinon, un deuxième hub à environ 70 € corrige le problème.
-- **Risque n° 2 : déclencheur Google non confirmé.** Aucune source ne montre encore un SwitchBot passé par Matter déclenchant une routine Google. À tester tout de suite à réception (voir ci-dessous).
-- **Évolution** : un Nest Hub (≈ 105 €, prix à confirmer) ajouterait plus tard un écran couleur avec heure, date et météo.
+Écartés :
+- **Ecowitt** : ± 1 °C et ± 5 % d'humidité annoncés.
+- **Shelly H&T** : Wi-Fi, ≈ 38 € pièce.
+- **Aqara** : puce plus ancienne (SHT30), décrochages signalés.
+- **Xiaomi** : qualité variable selon la version reçue.
+- **Tuya génériques** : écarts mesurés jusqu'à 0,8 °C.
+- **Eve Weather** : ≈ 70 €, autonomie faible.
+- **Sonoff SNZB-02** (sans « P ») : lit environ 10 % d'humidité de trop.
 
-## Option B — Ecowitt HP2560_C
-- **Pour qui** : si voir les 5 zones d'un coup sur un vrai écran couleur est le plus important, et que Google Home est secondaire.
-- **Ce qu'on sacrifie** : le budget (≈ + 50 €), Google Home, et la précision (± 1 °C sur la fiche).
-- **Affichage** : la page « toutes les zones » est séparée de l'écran principal (qui affiche heure et prévisions). Non vérifié : si cette page reste affichée en permanence.
-- **Pack** :
-  - Console HP2560_C : 165,99 $.
-  - 4 capteurs WN31 : 10,99 $ chacun.
-  - Un abri ventilé pour le capteur extérieur : 20 à 35 € (prix non vérifié).
-
-## Écartés
-- **La Crosse LW3101** : défilement, ± 1 °C, Google Home non vérifié, ≈ 170–200 €.
-- **Bresser Tuya 7006300** : un seul capteur affiché à la fois, capteurs en rupture.
-- **Tapo** : pas de prévisions à l'écran, capteur non prévu pour l'extérieur.
-- **Netatmo** : plus de 250 €.
-- **Aqara** : environ 200 €, déclencheur de température peu fiable.
-
-## Où acheter (option A)
+## Panier (option A)
 | Article | Qté | Vendeur | Prix |
 |---|---|---|---|
-| SwitchBot Hub 2 | 1 | eu.switch-bot.com | 79,99 € |
-| SwitchBot Meter Pro + Outdoor Meter (lot) | 1 | eu.switch-bot.com | 44,99 € |
-| SwitchBot Thermo-hygromètre intérieur/extérieur (lot de 2) | 1 | eu.switch-bot.com | 29,99 € |
-| Option : prise Tapo P110 (pour un déshumidificateur) | 1 | fr.store.tapo.com | 10,99 € |
+| Sonoff SNZB-02P, lot de 2 | 2 | sonoff.tech (boutique UE) | 61,00 € |
+| Sonoff SNZB-02WD (extérieur, IP65) | 1 | sonoff.tech | 20,30 € |
+| Clé Zigbee Sonoff Dongle Plus MG24 — **seulement si tu n'en as pas** | 1 | sonoff.tech | 36,62 € |
+| Prise Zigbee Sonoff iPlug S60ZBTPF (relais du réseau) | 1 | sonoff.tech | 15,20 € |
+| Abri TFA Dostmann 98.1114.02 | 1 | Amazon.fr | ≈ 20–25 € |
 
-Total : **154,97 €** (165,96 € avec la prise). Frais de port à vérifier au panier.
+**Total : ≈ 153 €** livré. La livraison est gratuite dès 59 € depuis l'entrepôt allemand, sous 3 à 6 jours. Prix lus le 2026-10-29 ; celui de l'abri vient d'Amazon et sa date n'a pas pu être vérifiée.
 
-Prix lus le 2026-10-29. Je n'ai pas pu vérifier Amazon.fr, Boulanger et Fnac (sites bloqués pour l'outil).
+- **Variante clé** : la Home Assistant Connect ZBT-2 (≈ 45 €, Domadoo) remplace la clé Sonoff ; total ≈ 161 €.
+- **Abri** : ses dimensions intérieures font 10,2 × 9,5 × 17,5 cm, mais celles du SNZB-02WD n'ont pas été vérifiées. Contrôle qu'il rentre. Un endroit toujours à l'ombre, au nord, peut suffire sans abri.
+- **Quand acheter** : le Black Friday a lieu le 27 novembre. Ces prix sont déjà bas, donc tu peux acheter maintenant si c'est utile.
 
-**Acheter maintenant ou attendre ?** Le Black Friday a lieu le 27 novembre 2026, dans 4 semaines. Sauf urgence, attends et compare la boutique SwitchBot et Amazon.fr (vendu et expédié par Amazon, retour sous 30 jours), avec l'historique de prix sur Keepa.
+## Relier à Google Home
+1. Expose dans Home Assistant les 10 mesures (température et humidité par pièce) avec le bon type : température ou humidité.
+2. Teste avec **l'essai gratuit de 31 jours de Home Assistant Cloud**, qui s'active en 2 clics. Ensuite, deux choix :
+   - garder l'abonnement : ≈ 75 €/an (selon une source secondaire, à confirmer au paiement). Il sera renommé « Home Assistant Link » en décembre ;
+   - passer à une solution **gratuite** : l'intégration Google Assistant manuelle (environ 1 à 2 h de configuration, nécessite un accès HTTPS) ou un pont Matter communautaire (Matterbridge, ou le fork RiDDiX de Home Assistant Matter Hub).
+3. Range chaque capteur dans la bonne pièce dans Google Home. Teste ensuite « Ok Google, quelle est la température dans la chambre ? ».
+4. **Point incertain** : aucune source ne confirme que Gemini for Home répond en français pour un capteur seul. Plan B : un script Home Assistant qui annonce les valeurs sur l'enceinte Google, lancé par une routine Google (« Ok Google, températures maison »).
+5. Les automatisations (seuil d'humidité, alertes) se font dans Home Assistant : les déclencheurs de température de Google restent instables.
 
-## À la réception (pendant le délai de retour)
-- [ ] Laisse les 5 capteurs côte à côte 24 h et vérifie qu'ils restent à moins de 0,5 °C les uns des autres.
-- [ ] Ajoute le Hub 2 à Google Home **via Matter** (pas via le compte SwitchBot), et vérifie que les 5 thermomètres apparaissent.
-- [ ] Crée une routine test « humidité chambre > 65 % → notification » et vérifie qu'elle se déclenche.
-- [ ] Mets chaque capteur à sa place finale et vérifie pendant 48 h que les mesures remontent sans trou.
-- [ ] Si la portée ou la routine échoue : retourne le pack.
+## Écran (option, plus tard)
+- **Meilleure option** : une tablette Android à ≈ 100 € (ou d'occasion) avec Fully Kiosk (8,90 €). Le tableau de bord Home Assistant afficherait heure, date, prévisions Météo-France (intégration gratuite) et les 5 zones en même temps.
+- **À éviter comme écran permanent** : le Nest Hub (99,99 €), qui revient à son écran d'accueil au bout d'environ 10 minutes.
+
+## À la réception
+- [ ] Mets les 5 capteurs côte à côte pendant 24 h, puis règle les décalages dans Home Assistant. Vise moins de 0,3 °C et moins de 3 % d'humidité d'écart.
+- [ ] Branche la clé Zigbee au centre de l'appartement, sur une rallonge USB, loin du routeur Wi-Fi. Branche la prise relais entre le salon et les chambres.
+- [ ] Mets les capteurs en place et vérifie pendant 48 h qu'aucune mesure ne manque dans l'historique.
+- [ ] Teste la question vocale à Google pendant l'essai de Home Assistant Cloud.
