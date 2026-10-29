@@ -120,4 +120,4 @@ Loto, paris sportifs, memecoins, levier ×100 sur crypto. → Espérance négati
 2. Ton profil data / Foundry / produit est un avantage rare → C2, C3, C8, C10, G4 semblent mieux placées que la moyenne.
 3. Une architecture « **barbell** » se dessine : socle sûr (A1/B1) + 1 moteur principal (business) + quelques paris (A8, A4).
 
-**61 idées** au total. Prochaine étape : clustering par mécanisme de valeur.
+**69 idées** (+ 6 leviers transverses) au total. Prochaine étape : clustering par mécanisme de valeur.
