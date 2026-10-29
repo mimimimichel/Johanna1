@@ -35,7 +35,7 @@ Paradoxe à garder en tête : les 2-3 premières années demandent presque toujo
 | Emprunt | OK |
 | Épargne | **600 €/mois** tant que salariée |
 | Lignes rouges | **100 % légal**, le plus automatisé possible |
-| Contrainte 2030 | Maison à **600 k€ (prix)** en 2030, financée par apport + crédit ; l'apport sort du projet |
+| Contrainte 2030 | Maison à **600 k€ (prix)** en 2030, **achetée avec Michael à 50/50** (apport + crédit) ; la part d'apport de Johanna sort du projet |
 | Profil | Voir ci-dessous (CV 2023 et 2025) |
 
 ### Ce que change la contrainte 2030
@@ -51,6 +51,13 @@ Paradoxe à garder en tête : les 2-3 premières années demandent presque toujo
 - **Data** : Foundry, Qlik, Tableau. **Design** : diplôme multimédia/web, suite Adobe. **IA générative**, prompt engineering.
 - **Langues** : français, anglais C1, espagnol, notions de japonais et coréen.
 - **Avantage injuste** : savoir **cadrer, prix et vendre un produit B2B** dans une niche réglementée (aéro, conformité) + réseau toulousain. C'est exactement la compétence rare d'un fondateur de logiciel de niche ; le code peut s'acheter ou se générer par IA.
+
+## Décisions et précisions (après la recherche approfondie)
+- **Maison à deux (50/50 avec Michael)** : la part de Johanna ≈ 300 k€ + ~24 k€ de frais. La contrainte de revenu du foyer est levée ; reste à **ne pas charger son taux d'endettement** avant 2030.
+- **Risque employeur revu à la baisse** : Johanna fait du conseil, ne développe pas de solution ; son employeur n'édite pas de logiciel dans ces domaines (solutions clientes = ServiceNow, SAP GTS). Elle ne crée rien « dans l'exercice de ses fonctions ». Restent à respecter : loyauté (ne pas vendre du conseil concurrent), aucune donnée client, mandat déclaré. Relire le contrat par sécurité.
+- **Export control** : 1 an sur le sujet il y a 5 ans, pas d'expertise, intérêt modéré → **reste une option, n'est plus la piste favorite**.
+- **Domaines réellement maîtrisés** : cadrage projet/produit, digitalisation de funnel commercial B2B, connaissance du portefeuille de services Airbus, notions MRO, pain points du secteur (**pénurie de pièces, pénurie de compétences et de capacité**).
+- Recherche complémentaire lancée sur ces niches.
 
 ## Méthode par phase (et pourquoi)
 - **Brainstorm** : mind map par *leviers* (Naval Ravikant : capital, dette, code, média) — ce sont les seuls leviers qui ne demandent pas de temps humain. Complété par 8 « lentilles » forcées pour sortir des sentiers battus. Règle : quantité, zéro jugement.
