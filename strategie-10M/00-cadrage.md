@@ -57,6 +57,9 @@ Paradoxe à garder en tête : les 2-3 premières années demandent presque toujo
 - **Risque employeur revu à la baisse** : Johanna fait du conseil, ne développe pas de solution ; son employeur n'édite pas de logiciel dans ces domaines (solutions clientes = ServiceNow, SAP GTS). Elle ne crée rien « dans l'exercice de ses fonctions ». Restent à respecter : loyauté (ne pas vendre du conseil concurrent), aucune donnée client, mandat déclaré. Relire le contrat par sécurité.
 - **Export control** : 1 an sur le sujet il y a 5 ans, pas d'expertise, intérêt modéré → **reste une option, n'est plus la piste favorite**.
 - **Domaines réellement maîtrisés** : cadrage projet/produit, digitalisation de funnel commercial B2B, connaissance du portefeuille de services Airbus, notions MRO, pain points du secteur (**pénurie de pièces, pénurie de compétences et de capacité**).
+- **Compétences sales en plus** : digitalisation des métiers commerciaux — gestion du catalogue / product marketing, **CPQ** (configurer-chiffrer-deviser), **facturation automatisée** (quote-to-cash).
+- **Salaire** : ~3 700 € net/mois. Pour sa moitié de la maison, sa capacité d'emprunt seule ≈ 230-240 k€ (35 %, 25 ans, ~3,65 %) : à combiner avec Michael dans un prêt commun ; garder son endettement à zéro avant 2030 reste la règle.
+- **Bascule à plein temps vers 2030-31 si les signaux sont bons : OK.**
 - Recherche complémentaire lancée sur ces niches.
 
 ## Méthode par phase (et pourquoi)
