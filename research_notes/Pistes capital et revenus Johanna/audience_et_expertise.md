@@ -290,7 +290,6 @@ Les financements mutualisés (OPCO, CPF, France Travail) exigent la certificatio
 - TJM d'un formateur indépendant : 400 à 2 000 € HT, et 750 à 900 € HT pour un profil expérimenté — [Abby](https://abby.fr/guide/micro-entreprise/tarif-horaire-formateur-auto-entrepreneur).
 - Formation IA en entreprise : 1 500 à 2 000 €/jour par groupe en intra, 795 à 1 010 € par jour et par personne en inter — [Tensoria](https://tensoria.fr/blog/prix-formation-ia-entreprise).
 - Formation LinkedIn en ligne de 20 h : 1 080 € TTC (Linker) — [Impli](https://www.impli.fr/post/formation-linkedin).
-- LiveMentor (formation en ligne pour entrepreneurs, Paris) : plus de 10 M€ de CA selon CFNews (non daté) — [CFNews](https://www.cfnews.net/L-actualite/M-A-Corporate/Operations/100/LiveMentor-enrichit-sa-bibliotheque-500109).
 
 **International**
 - Maven (cours en cohorte) : le formateur garde 90 % (commission de 10 %, ou 25 % avec services). Maven annonce 14 M$ gagnés au total par les formateurs et environ 20 k$ en moyenne par cohorte (chiffres non datés) — [Maven Accelerator](https://maven.com/maven/course-accelerator) ; [Hackernoon](https://hackernoon.com/snackable-business-model-breakdowns-mavencom).
