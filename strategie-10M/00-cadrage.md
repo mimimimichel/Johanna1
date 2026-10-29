@@ -25,15 +25,30 @@ Elle pousse vers : code, IA, automatisation, sous-traitance, actifs physiques sa
 
 Paradoxe à garder en tête : les 2-3 premières années demandent presque toujours **beaucoup** d'effort ; l'automatisation vient après. On mesurera donc le temps humain par phase (lancement vs croisière).
 
-## Hypothèses à valider (questions pour toi)
-1. **10 M€ brut ou net d'impôts ?** Net = ~13-14 M€ brut en France (plus-values ~30 %, sauf montage holding).
-2. **Tolérance au risque :** acceptes-tu de perdre les 50 k€ en entier ? Une partie ?
-3. **Temps disponible :** combien d'heures/semaine en phase de lancement ? Et en croisière ?
-4. **Emploi actuel :** on garde le salaire (sécurité + capacité d'emprunt) ou on vise à le quitter ?
-5. **Emprunt :** OK pour s'endetter (immobilier, rachat d'entreprise) ?
-6. **Atouts perso :** je suppose une expertise data / produit / Palantir Foundry / IA (vu tes autres outils). À confirmer — c'est un « avantage injuste » à exploiter.
-7. **Apports en cours de route :** les 50 k€ sont-ils la seule mise, ou peut-on ajouter de l'épargne mensuelle ?
-8. **Lignes rouges :** éthique, légal, secteurs exclus.
+## Décisions validées (30/10/2026)
+| Sujet | Décision |
+|---|---|
+| Cible | **10 M€ brut** en 2036 |
+| Risque | Perte totale des 50 k€ acceptée |
+| Temps | **Faible au lancement** (salariée). Passage possible à 4/5 ou mi-temps si une piste décolle |
+| Emploi | Conservé (sécurité + capacité d'emprunt) |
+| Emprunt | OK |
+| Épargne | Apports mensuels possibles tant que salariée |
+| Lignes rouges | **100 % légal**, le plus automatisé possible |
+| Contrainte 2030 | **600 k€ disponibles en 2030** pour acheter une maison ; ils sortent du projet à ce moment-là |
+| Profil | ⚠️ Erreur corrigée : le profil data / Palantir était celui de Michael. **Profil de Johanna à compléter.** |
+
+### Ce que change la contrainte 2030
+- Le projet a **deux objectifs** : 600 k€ en ~3,5 ans (sûr), puis 10 M€ en 2036 (ambitieux).
+- 600 k€ en 2030 depuis 50 k€ + épargne, c'est environ ×5 à ×8 en 3,5 ans : **presque aussi dur que l'objectif principal**, et ça ne se fait pas avec de l'argent qu'on accepte de perdre.
+- Il faut donc **deux poches séparées** : une poche « Maison » prudente et une poche « Moteur » risquée.
+- Question ouverte : faut-il vraiment **600 k€ en cash**, ou 600 k€ de **prix de maison** (apport ~60-120 k€ + crédit) ? Ça change toute la stratégie.
+
+## Questions encore ouvertes
+1. Ton parcours : métier, secteur, compétences, diplômes, réseau (voir LinkedIn).
+2. Heures/semaine réalistes au lancement (2 h ? 5 h ? 10 h ?).
+3. Épargne mensuelle possible (ordre de grandeur).
+4. 600 k€ = cash à sortir, ou prix de la maison ?
 
 ## Méthode par phase (et pourquoi)
 - **Brainstorm** : mind map par *leviers* (Naval Ravikant : capital, dette, code, média) — ce sont les seuls leviers qui ne demandent pas de temps humain. Complété par 8 « lentilles » forcées pour sortir des sentiers battus. Règle : quantité, zéro jugement.

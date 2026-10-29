@@ -17,7 +17,7 @@ Légende effort humain en croisière : 🟢 faible · 🟡 moyen · 🔴 fort. P
 | A9 | Fonds de capital-risque / private equity (FCPI, feeders) | 🟢 | ⭐ |
 | A10 | Actions de petites capitalisations « deep value » | 🟡 | ⭐ |
 | A11 | Pré-IPO / secondaire (parts de salariés de licornes) | 🟢 | ⭐⭐ |
-| A12 | Marchés de prédiction (Polymarket) avec modèle data | 🟡 | ⭐⭐ |
+| ~~A12~~ | ~~Marchés de prédiction (Polymarket)~~ → **retiré : bloqué en France (ANJ)** | – | – |
 
 ## B. Levier DETTE — immobilier et actifs financés
 | # | Idée | Effort | ×200 |
@@ -84,7 +84,7 @@ Légende effort humain en croisière : 🟢 faible · 🟡 moyen · 🔴 fort. P
 | F7 | Mini-magasins autonomes 24/7 (sans caisse) | 🟡 | ⭐⭐ |
 | F8 | Réseau franchisable de l'un des concepts ci-dessus | 🟡 | ⭐⭐ |
 
-## G. Exploiter ton expertise (amorçage cash)
+## G. Exploiter ton expertise (amorçage cash) — ⚠️ à réécrire avec le vrai profil de Johanna
 | # | Idée | Effort | ×200 |
 |---|---|---|---|
 | G1 | Freelance Foundry / data à TJM élevé → réinvestir tout le surplus | 🔴 | ⭐ (seul) |
@@ -117,7 +117,7 @@ Loto, paris sportifs, memecoins, levier ×100 sur crypto. → Espérance négati
 
 ## Premières intuitions (non validées)
 1. Les ⭐⭐⭐ ont un point commun : **un actif d'entreprise revendu sur multiple** (SaaS vertical, agents IA, rachat PME, consulting-to-SaaS).
-2. Ton profil data / Foundry / produit est un avantage rare → C2, C3, C8, C10, G4 semblent mieux placées que la moyenne.
+2. ~~Profil data / Foundry~~ → erreur, c'était le profil de Michael. Les atouts de Johanna restent à intégrer (famille G à réécrire).
 3. Une architecture « **barbell** » se dessine : socle sûr (A1/B1) + 1 moteur principal (business) + quelques paris (A8, A4).
 
 **69 idées** (+ 6 leviers transverses) au total. Prochaine étape : clustering par mécanisme de valeur.
