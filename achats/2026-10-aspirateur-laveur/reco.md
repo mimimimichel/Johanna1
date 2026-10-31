@@ -1,51 +1,79 @@
-# Reco — Robot aspirateur laveur (offres Dealabs, Black Friday 2026)
+# Reco v2 — Robot aspirateur laveur (+ balai laveur en option)
 
-> ⚠️ Reco v1 caduque depuis le cadrage du 2026-10-31 : chien à poils longs, cheveux longs et frisés, lit à 10 cm, budget de 400 € max. Le L40s Pro Ultra (10,4 cm, 459 €) est hors critères. Voir la v2.
+Date : 2026-10-31. Cadrage validé :
+- 70–100 m² ;
+- chien à poils longs et sous-poil dense ;
+- cheveux très longs et frisés ;
+- lit à environ 10 cm du sol ;
+- 400 € maximum ;
+- salissures humides du chien en automne et en hiver.
+
+La v1 (Dreame L40s Pro Ultra) est abandonnée : trop haut (10,4 cm) et hors budget.
 
 ## Verdict
-**GO : Dreame L40s Pro Ultra à 459 € ou moins.**
-- C'est la station la plus complète du lot, avec les meilleurs tests et la seule caméra anti-obstacles parmi les offres actives.
-- 459 € est proche de son plus bas (448 €). Dreame annonce 429 € pour le Black Friday.
-- Achète-le chez **Amazon en direct** (pas chez un vendeur tiers), Boulanger ou Darty, pour avoir le service après-vente en France.
-- **Condition** : il mesure 10,4 cm de haut. Mesure sous ton canapé et tes lits avant d'acheter.
+**Robot : Ecovacs Deebot T50 Pro Omni Gen3, à acheter au Black Friday, cible 299–329 €.**
+- Il mesure 8,1 cm : il passe sous le lit avec de la marge.
+- Brosse anti-enchevêtrement : **0 % de cheveux enroulés** au test Vacuum Wars avec des cheveux de 18 cm, contre 38 % en moyenne. Il ramasse 86 % des poils d'animaux.
+- Il a une caméra IA qui repère les taches et repasse dessus.
+- Station : lavage à 75 °C, séchage à 45 °C, dosage du détergent, vidage automatique.
+- Prix : 399 € aujourd'hui, mais il a déjà été vu à 299 € chez Boulanger et Fnac début octobre. Attends le Black Friday. S'il ne descend pas sous 329 € d'ici le 30/11, 399 € reste dans le budget.
 
-**Alternative : Roborock Qrevo S Pro, à 380 € maximum, chez un vendeur sûr, au Black Friday.**
-- Choisis-le si tu veux **piloter le robot depuis Home Assistant** et miser sur la marque la plus réputée pour son service après-vente et ses pièces détachées. C'est la seule des deux qui a une intégration officielle dans Home Assistant.
-- En échange : le lavage est moins bon, il n'y a pas de dosage automatique du détergent, et il ne détecte pas les câbles.
+**Aucune des offres Dealabs de tes captures ne coche tes nouveaux critères.**
 
-## Verdict par offre
-| Offre | Verdict | Pourquoi |
-|---|---|---|
-| Dreame L40s Pro Ultra — 459 € Amazon | ✅ **GO** | Meilleur rapport équipement/prix : lavage à 75 °C, séchage à air chaud, dosage auto du détergent, caméra, serpillières détachables. Proche du plus bas. |
-| Dreame L40 Ultra A — 349 € Amazon | 🟡 Seulement si budget serré ou meubles < 10,4 cm | Bon prix, mais la station lave à l'eau froide, et le dosage auto du détergent n'est pas confirmé. Pas de caméra. |
-| Dreame L50 Ultra AE — 459 € Dreame | ❌ NO-GO à ce prix | Déjà à 429 € chez Cdiscount et 419,99 € chez Darty. Version allégée du L50 : pas de caméra, il rate les câbles, faible sur les tapis. |
-| Dreame Matrix10 Pro — 569 € Amazon | ❌ NO-GO pour toi | Bon prix (le plus bas jamais vu), mais trop gros pour un appartement : station de 59 cm et 16 kg. Consommables nombreux, et l'intégration Home Assistant est cassée en ce moment. |
-| Roborock Qrevo S Pro — 379,99 € vendeur tiers | ❌ NO-GO pour cette offre | Offre expirée, et un vendeur tiers rend la garantie risquée. Le modèle reste une bonne alternative : attends-le chez un vendeur sûr. |
-| Dreame L10s Pro Gen 3 — 199 € | ❌ NO-GO | Pas de station : tu vides le bac et laves la serpillière à la main. |
-| Dreame L10s Ultra Gen 3 Kit-A — 379 € | — | Expiré. |
-| DJI Romo P — 697 € livré, Amazon.de | ❌ NO-GO | Trop cher, faible sur les tapis, pas d'intégration Home Assistant, faille de sécurité sur les caméras en février 2026. |
+**Pour les dégâts humides du chien (pattes, eau, croquettes trempées) :** aucun robot à moins de 400 € ne les gère bien. La bonne solution, c'est un **balai aspirateur laveur**, avec deux choix possibles :
+- **Tineco Floor One Stretch S6** : cible 160–200 € ;
+- **Roborock F25 XT** : cible 260 €.
 
-## Comparatif des 3 retenus
-| | L40s Pro Ultra | Qrevo S Pro | L40 Ultra A |
+Le robot et le balai ensemble coûtent **≈ 460–530 €**, donc au-dessus des 400 €. C'est à toi de trancher.
+
+## Robot — top 3
+| | 1. Ecovacs T50 Pro Omni Gen3 | 2. Dreame L40 Ultra AE | 3. Roborock Qrevo S Pro |
 |---|---|---|---|
-| Prix cible | 429–459 € | ≤ 380 € | 349 € |
-| Lavage serpillières | 75 °C | 75 °C | eau froide |
-| Séchage | air chaud | air chaud 45 °C | air ambiant ? |
-| Dosage auto du détergent | oui | non | non confirmé |
-| Évitement d'obstacles | caméra + lumière 3D | lumière 3D (rate les câbles) | lumière 3D |
-| Hauteur | 10,4 cm | 9,7 cm | 9,7 cm |
-| Home Assistant | communautaire (fragile) | **officiel** | communautaire |
-| Service après-vente en France | moyen (mauvais retours) | **bon** | moyen |
-| Tests | 8,8/10, 4,3/5 | 83/100, « satisfaisant » en lavage | pas de test indépendant |
+| Hauteur | **8,1 cm** | 9,7 cm | 9,7 cm |
+| Cheveux enroulés (test Vacuum Wars) | **0 %** (sur la 1re génération) | **0 %** (avec la brosse TriCut) | pas de test ; avis mitigés |
+| Poils d'animaux ramassés | **86 %** | 81 % | déconseillé avec animaux (home&smart) |
+| Caméra / obstacles | caméra IA (1re gén. : rate parfois les déjections) | caméra IA, **meilleur score : 19/24** | pas de caméra, rate les câbles |
+| Taches | **repère les taches et repasse** | détecte la saleté et repasse | non |
+| Station | 75 °C, séchage 45 °C, détergent | 75 °C, air chaud, détergent, sac 3,2 L | 75 °C, 45 °C, pas de détergent |
+| Home Assistant | officiel, partiel | communautaire, cassé depuis HA 2026.9 | **officiel, complet** |
+| Prix | 399 € (vu à 299 €) | 359 € chez Dreame, **en rupture** | 379,99 € sur le site Roborock |
 
-## Quand et où acheter
-- Le Black Friday de Dreame a **déjà commencé** : les prix actuels sont presque au plus bas. Il reste peut-être 20 à 40 € à gagner d'ici le 27/11.
-- **L40s** : achète maintenant à 459 € chez Amazon en direct, seulement si la page affiche « Retours sous 30 jours ». Sinon, guette le 429 € sur dreame.fr, Boulanger ou Darty.
-- **Qrevo S Pro** : rien ne presse. Achète-le dès qu'il revient à 380 € ou moins chez Amazon en direct, sur le site Roborock, chez Darty ou Boulanger.
-- **Jamais de vendeur tiers** sur Amazon pour ce type d'appareil : en cas de panne, c'est lui qui doit la garantie.
+- **Prends le n° 2** s'il revient en stock à 379 € ou moins chez un vendeur sûr et que tu veux le meilleur évitement d'obstacles.
+- **Prends le n° 3** si Home Assistant compte plus que les poils.
 
-## À la réception
-- [ ] Vérifie qu'il passe sous les meubles prévus.
-- [ ] Fais une cartographie complète et un premier lavage, puis contrôle l'odeur des serpillières après 48 h.
-- [ ] Mets à jour le firmware. Teste Google Home (« Ok Google, lance l'aspirateur »).
-- [ ] Garde la facture : elle est indispensable pour la garantie.
+## Écartés
+- **Eufy Omni C20** : 54 % de cheveux enroulés.
+- **Dreame L10s Ultra Gen 3** : la brosse emmêle les cheveux, pas de caméra.
+- **Dreame L40 Ultra A** : lavage à l'eau froide, pas de caméra.
+- **Mova P50 Pro Ultra** : 10,4 cm, ne ramasse que 65 % des poils.
+- **Dreame L40s Pro Ultra** : 10,4 cm, hors budget.
+- **Ecovacs T50 Omni Gen3 (sans « Pro »)** : pas de caméra.
+- **Robots à rouleau laveur** : aucun à moins de 400 € et moins de 10 cm.
+
+## Balai aspirateur laveur (option)
+| | Tineco Floor One Stretch S6 | Roborock F25 XT |
+|---|---|---|
+| Prix cible | ≤ 200 € (vu à 160–170 €) | ≤ 260–280 € |
+| Cheveux longs | racle conçue pour limiter l'enroulement (non testé) | sur le F25, modèle de base de la même famille : pas d'enroulement (Lavelab) |
+| Séchage du rouleau | air chaud, ~5 min | 90 °C, ~5 min |
+| Couché à plat | 13 cm | 12,5 cm |
+| Classement Vacuum Wars | 3e | — |
+
+- Il gère bien : les traces de pattes boueuses, l'eau autour de la gamelle, les croquettes trempées.
+- Il gère mal : les feuilles entières (ramasse-les à la main, ou mets un grand paillasson à l'entrée) et les touffes de sous-poil (c'est le travail du robot).
+- Écarté : **Dyson WashG1**, qui ramasse mal les cheveux, avec des cheveux longs enroulés autour de ses rouleaux.
+
+## Où et quand acheter
+- **Le robot** : Boulanger, Fnac, Darty, le site Ecovacs ou Amazon vendu par Amazon. Jamais de vendeur tiers.
+- **Crée une alerte Dealabs** « T50 Pro Omni Gen3 » à 329 € maximum, et « Floor One Stretch S6 » à 180 € maximum.
+- Attention au nom : la version « Stretch **Lite** » est un autre modèle, inférieur.
+
+## Réglages conseillés à l'installation
+- Zone interdite à l'aspiration autour de la gamelle, ou un tapis absorbant dessous.
+- Passage en lavage seul de l'entrée et de la cuisine après la promenade du soir.
+- Pendant la mue : vidage de la station plus fréquent, et contrôle de la brosse chaque semaine les premières semaines.
+
+## Incertitudes
+- Les résultats de tests du T50 Pro Gen3 (cheveux, obstacles) viennent de la 1re génération ; la Gen3 a une brosse et une vision améliorées, mais pas encore testées de façon indépendante.
+- Aucun test indépendant sur les débris mouillés n'a été trouvé, quel que soit le modèle.
+- Les prix du Black Friday ne sont pas encore connus.
