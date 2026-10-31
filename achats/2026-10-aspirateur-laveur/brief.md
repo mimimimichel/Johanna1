@@ -1,26 +1,28 @@
 # Brief — Aspirateur laveur
 
-Statut: reco (provisoire, cadrage en attente)
+Statut: recherche v2 (cadrage reçu)
 Ouvert le: 2026-10-31
 Contexte : promos repérées sur Dealabs avant le Black Friday (27/11/2026). L'utilisatrice envoie des captures ; on rend un go / no go sur chaque offre.
 
 ## Usage réel
-<à compléter après réponses : type d'appareil, surface, sols, animaux>
+Robot aspirateur laveur avec station pour un appartement de 70–100 m², surtout des sols durs. Foyer avec un **chien à poils longs et sous-poil dense** (grosse mue chaque année) et une personne aux **cheveux très longs et très frisés**. Le robot doit passer sous un lit d'environ **10 cm** de dégagement.
 
 ## Ce que j'ai déjà
 - Google Home + Home Assistant (intégration locale = bonus pour un robot)
 
 ## Budget
-- Cible : à définir
-- Plafond : à définir
+- Cible : ≤ 400 € livré
+- Plafond : 400 €
 
-## Grille (provisoire, à valider)
+## Grille (validée le 2026-10-31)
 | Priorité | Critère | Exigence | Comment on vérifie |
 |---|---|---|---|
 | 🔴 | Type | Robot laveur avec station OU balai aspirateur laveur | Réponse utilisatrice |
 | 🔴 | Lavage réel | Serpillières rotatives ou rouleau auto-nettoyé, eau propre/sale séparées | Fiche + tests indépendants |
-| 🔴 | Budget | à définir | Panier |
-| 🟠 | Aspiration et cheveux | Brosse anti-enchevêtrement, bonne note aux tests | Tests (Les Numériques, etc.) |
+| 🔴 | Budget | ≤ 400 €, vendeur sûr | Panier |
+| 🔴 | Poils et cheveux | Brosse principale et brosses latérales qui n'emmêlent pas les cheveux longs et frisés ; bonne aspiration des poils de chien | Tests d'enroulement (Vacuum Wars, Rtings) |
+| 🔴 | Hauteur | ≤ 10 cm (passe sous le lit) | Fiche technique |
+| 🟠 | Évitement des déjections du chien | Caméra IA de préférence | Tests |
 | 🟠 | Entretien | Station : vidage auto, lavage/séchage à l'air chaud des serpillières | Fiche |
 | 🟠 | Fiabilité / SAV | Marque avec SAV en France, pièces détachées vendues | Site marque, avis |
 | 🟠 | Bruit | dB en usage | Tests |

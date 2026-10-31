@@ -1,6 +1,6 @@
 # Reco — Robot aspirateur laveur (offres Dealabs, Black Friday 2026)
 
-Date : 2026-10-31. Reco **provisoire** : les réponses de cadrage (surface, sols, animaux, hauteur sous meubles, budget) ne sont pas encore arrivées. Hypothèses par défaut : appartement de 60 à 80 m², surtout des sols durs, pas d'animal, budget 350–500 €.
+> ⚠️ Reco v1 caduque depuis le cadrage du 2026-10-31 : chien à poils longs, cheveux longs et frisés, lit à 10 cm, budget de 400 € max. Le L40s Pro Ultra (10,4 cm, 459 €) est hors critères. Voir la v2.
 
 ## Verdict
 **GO : Dreame L40s Pro Ultra à 459 € ou moins.**
