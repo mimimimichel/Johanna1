@@ -66,9 +66,14 @@
    ]
   },
   "lavage": {
-   "s": 7.5,
-   "v": "Lavage 80 °C, séchage, détergent, sac.",
-   "src": []
+   "s": 6.5,
+   "v": "Lait + céréales presque tout ramassé (meilleur de 3 robots, Michael Sleen). Mais taches séchées sous la moyenne chez Vacuum Wars et 3,1/6 chez smarthomeassistent.",
+   "src": [
+    {
+     "label": "Michael Sleen",
+     "url": "https://www.michaelsleen.com/best-robot-mop-2025/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

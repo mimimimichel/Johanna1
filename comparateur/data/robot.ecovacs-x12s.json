@@ -57,9 +57,18 @@
    "src": []
   },
   "lavage": {
-   "s": 8.5,
-   "v": "Rouleau laveur rincé en continu.",
-   "src": []
+   "s": 7.5,
+   "v": "Parfait chez smarthomeassistent (1,0/6) sur taches séchées et café frais. Mais son prédécesseur X12 était faible sur la boue (The Hook Up).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/ecovacs-deebot-x12s-pro-omni/"
+    },
+    {
+     "label": "The Hook Up 2026",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
   },
   "hauteur": {
    "s": 6,

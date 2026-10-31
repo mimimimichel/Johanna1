@@ -62,9 +62,14 @@
    "src": []
   },
   "lavage": {
-   "s": 7,
-   "v": "Lavage moyen chez smarthomeassistent, meilleur des Saros 20 chez netzwelt.",
-   "src": []
+   "s": 5,
+   "v": "5,1/6 chez smarthomeassistent : la détection des taches a raté le ketchup et le café séchés.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

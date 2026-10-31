@@ -57,9 +57,14 @@
    "src": []
   },
   "lavage": {
-   "s": 6.5,
-   "v": "75 °C annoncés, pas atteints en test.",
-   "src": []
+   "s": 8.5,
+   "v": "Parfait chez smarthomeassistent : taches séchées 4/4, café frais 4/4 (1,0/6).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l40s-pro-ultra/"
+    }
+   ]
   },
   "hauteur": {
    "s": 3,

@@ -74,9 +74,14 @@
    ]
   },
   "lavage": {
-   "s": 7,
-   "v": "100 °C annoncés mais mesuré nettement en dessous. Station sans sac (cyclone).",
-   "src": []
+   "s": 8,
+   "v": "Lavelab : boue séchée 5/5, café 4/5, soda 5/5 (en 2 passages). Café frais 4/4 chez smarthomeassistent.",
+   "src": [
+    {
+     "label": "Lavelab",
+     "url": "https://lavelab.com/tests/mova-v70-ultra-complete/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

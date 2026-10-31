@@ -24,8 +24,8 @@
   "Obstacles 53/53",
   "Matter"
  ],
- "verdict": "good",
- "verdictText": "Champion des obstacles, très bon prix, mais faible sur les tapis épais.",
+ "verdict": "top",
+ "verdictText": "Meilleur lavage et champion des obstacles pour 649 €, mais faible sur les tapis épais.",
  "pros": [
   "53/53 aux obstacles (parcours complet)",
   "Dépose ses serpillières sur les tapis, capteur ultrasons",
@@ -76,9 +76,18 @@
    ]
   },
   "lavage": {
-   "s": 8,
-   "v": "3 jeux de serpillières, 3 détergents, séchage DashDry.",
-   "src": []
+   "s": 9,
+   "v": "Parfait chez smarthomeassistent (1,0/6). Flaque de lait détectée et lavée plusieurs fois (home&smart). Très au-dessus de la moyenne chez Vacuum Wars.",
+   "src": [
+    {
+     "label": "home&smart",
+     "url": "https://www.homeandsmart.de/dreame-matrix10-ultra-test-193904"
+    },
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

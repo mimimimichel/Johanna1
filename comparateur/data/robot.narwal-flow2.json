@@ -62,8 +62,17 @@
   },
   "lavage": {
    "s": 8.5,
-   "v": "Rouleau laveur, bon sur les traces.",
-   "src": []
+   "v": "Boue séchée : très bon (2e chez The Hook Up). PCWorld : boue mouillée, ketchup, œuf cru, farine + sirop réussis, mais rouleau malodorant ensuite.",
+   "src": [
+    {
+     "label": "The Hook Up 2026",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
+    {
+     "label": "PCWorld",
+     "url": "https://www.pcworld.com/article/3139997/robot-stress-test-narwals-1500-mop-vs-my-nightmare-messes.html"
+    }
+   ]
   },
   "hauteur": {
    "s": 7,

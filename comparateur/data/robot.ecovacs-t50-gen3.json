@@ -63,9 +63,14 @@
    "src": []
   },
   "lavage": {
-   "s": 7,
-   "v": "75 °C, séchage 45 °C, détergent, repasse sur les taches.",
-   "src": []
+   "s": 7.5,
+   "v": "Pas de test de la Gen3. La T50 Pro (1re génération) a le meilleur score de taches jamais mesuré par Vacuum Wars (170 points contre 98 de moyenne).",
+   "src": [
+    {
+     "label": "Vacuum Wars (T50 gen 1)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

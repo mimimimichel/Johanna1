@@ -130,18 +130,23 @@
  "picks": [
   {
    "label": "Meilleur choix",
-   "product": "roborock-saros20",
-   "why": "Le meilleur équilibre : serpillières qui ne touchent jamais les tapis, très bon sur les poils, meilleur lavage, et la meilleure intégration Home Assistant."
-  },
-  {
-   "label": "Meilleur sur tapis épais",
    "product": "mova-v70",
-   "why": "Aspire le mieux les poils incrustés dans les tapis épais, dépose ses serpillières, station sans sac."
+   "why": "Le plus complet pour ton foyer : meilleur sur les poils incrustés dans les tapis épais, serpillières déposées avant les tapis, très bon sur la boue séchée (Lavelab 5/5), station sans sac. Point faible : Home Assistant seulement via l'extension communautaire."
   },
   {
    "label": "Meilleur rapport qualité/prix",
    "product": "dreame-matrix10-ultra",
-   "why": "649 €, champion des obstacles, dépose ses serpillières. Seulement si tes tapis sont ras ou moyens."
+   "why": "649 € : le meilleur lavage du lot, champion des obstacles, serpillières déposées sur les tapis. À prendre si tes tapis sont ras ou moyens : il est faible sur les tapis épais."
+  },
+  {
+   "label": "Meilleure domotique",
+   "product": "roborock-saros20",
+   "why": "Seul du podium avec une intégration Home Assistant officielle, 7,95 cm, serpillières déposées. Mais lavage moyen sur la boue et résultats de lavage contradictoires."
+  },
+  {
+   "label": "Haut de gamme, à surveiller",
+   "product": "dreame-x60-pro",
+   "why": "Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui : à prendre seulement s'il redescend vers 1 099 € ou moins."
   }
  ],
  "rejects": [
@@ -189,7 +194,10 @@
  "notes": [
   "Aucun test ne reproduit le sous-poil dense d'un chien à poils longs : le test « poils d'animaux » de Vacuum Wars est ce qui s'en rapproche le plus.",
   "Tous les bacs des robots font 230 à 320 ml : en période de mue, la station videra après chaque passage.",
-  "Pour les dégâts mouillés du chien (pattes boueuses, eau de gamelle, croquettes trempées), un balai aspirateur laveur reste le bon outil : Tineco Floor One Stretch S6 (≤ 200 €) ou Roborock F25 XT (≈ 260 €).",
+  "Croquettes trempées et eau autour de la gamelle : aucun robot n'a été testé là-dessus, et les manuels Roborock et Dreame interdisent de passer sur un liquide ou une substance collante. C'est à faire à la main ou au balai aspirateur laveur (Tineco Floor One Stretch S6 ≤ 200 €, Roborock F25 XT ≈ 260 €), testés avec succès sur lait + céréales. Astuce : un tapis sous la gamelle et une zone interdite dans l'appli.",
+  "Traces de pattes boueuses : là, le robot aide vraiment. Le mieux est de lancer un lavage rapide de l'entrée après la promenade, avant que la boue sèche.",
+  "Feuilles mouillées : aucun test trouvé. Ramasse les grosses à la main, ou mets un grand paillasson à l'entrée.",
+  "Les labos se contredisent parfois fortement sur le lavage (Saros 20 : parfait chez netzwelt, faible chez smarthomeassistent). Les notes de lavage tiennent compte de tous les tests trouvés.",
   "Prix relevés le 31/10/2026. Black Friday le 27/11 : les prix cibles sont indiqués sur chaque fiche."
  ]
 }

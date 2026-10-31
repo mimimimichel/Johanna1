@@ -20,14 +20,14 @@
   "Évite 47/53"
  ],
  "verdict": "meh",
- "verdictText": "Excellent pour éviter les obstacles, plus faible sur les poils et le lavage.",
+ "verdictText": "Excellent pour éviter les obstacles, mais faible sur les poils et le lavage.",
  "pros": [
   "47/53 aux obstacles, le meilleur des Roborock",
   "Tapis : 92 / 86 sur 100"
  ],
  "cons": [
   "78 % de poils seulement (Vacuum Wars)",
-  "Lavage faible chez Vacuum Wars (15,8)"
+  "A aspiré du café frais au lieu de le laver, taches étalées"
  ],
  "scores": {
   "poils": {
@@ -61,9 +61,14 @@
    "src": []
   },
   "lavage": {
-   "s": 6,
-   "v": "Score de lavage 15,8 chez Vacuum Wars, en dessous des autres.",
-   "src": []
+   "s": 2.5,
+   "v": "Café frais aspiré dans le bac à poussière au lieu d'être lavé, taches étalées (smarthomeassistent, 6,0/6). Vacuum Wars : 62 points contre 108 de moyenne.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-sonic/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

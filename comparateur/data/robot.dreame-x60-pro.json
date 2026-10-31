@@ -77,8 +77,17 @@
   },
   "lavage": {
    "s": 8,
-   "v": "Lavage à 100 °C, séchage à air chaud, détergent automatique, sac 3,2 L.",
-   "src": []
+   "v": "Lavelab : boue séchée 4/5, café et soda 5/5 ; liquide frais détecté puis lavé (aussi chez home&smart). netzwelt : taches séchées enlevées en 3 passages.",
+   "src": [
+    {
+     "label": "Lavelab",
+     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
+    },
+    {
+     "label": "home&smart",
+     "url": "https://www.homeandsmart.de/dreame-x60-pro-ultra-complete-test-2026-0041-548149"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

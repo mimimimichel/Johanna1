@@ -55,9 +55,18 @@
    "src": []
   },
   "lavage": {
-   "s": 7.5,
-   "v": "Lavage 100 °C, sac 3,2 L.",
-   "src": []
+   "s": 4.5,
+   "v": "Boue séchée : a peiné (The Hook Up). Détection des taches « pas fiable » (smarthomeassistent 4,6/6). Sous la moyenne chez Vacuum Wars.",
+   "src": [
+    {
+     "label": "The Hook Up 2026",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/mova-mobius-60/"
+    }
+   ]
   },
   "hauteur": {
    "s": 9.5,

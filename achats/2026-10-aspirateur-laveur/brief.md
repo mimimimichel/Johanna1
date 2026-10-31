@@ -1,6 +1,6 @@
 # Brief — Aspirateur laveur
 
-Statut: recherche v4 (scan marché complet + tapis)
+Statut: reco v4 — voir le Carnet d'achats en ligne
 Ouvert le: 2026-10-31
 Contexte : promos repérées sur Dealabs avant le Black Friday (27/11/2026). L'utilisatrice envoie des captures ; on rend un go / no go sur chaque offre.
 

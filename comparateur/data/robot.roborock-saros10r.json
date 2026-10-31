@@ -57,9 +57,14 @@
    "src": []
   },
   "lavage": {
-   "s": 7,
-   "v": "Lavage correct.",
-   "src": []
+   "s": 6.5,
+   "v": "Café frais 4/4 mais taches séchées moyennes (smarthomeassistent 5,5/6). Rtings : « très bon lavage ». Vacuum Wars : dans la moyenne.",
+   "src": [
+    {
+     "label": "Rtings",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,

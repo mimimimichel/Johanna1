@@ -19,15 +19,15 @@
   "HA officiel",
   "Matter"
  ],
- "verdict": "top",
- "verdictText": "Le meilleur équilibre : poils, tapis, lavage des traces de pattes, et la meilleure domotique.",
+ "verdict": "good",
+ "verdictText": "Le meilleur équilibre : poils, tapis jamais mouillés, et la meilleure domotique. Lavage moyen sur la boue.",
  "pros": [
   "Serpillières laissées à la station ou relevées de 20 à 35 mm",
-  "Meilleur score de lavage chez Vacuum Wars (pattes boueuses)",
   "Intégration Home Assistant officielle + Matter",
   "7,95 cm, sans tourelle"
  ],
  "cons": [
+  "Lavage : résultats contradictoires (parfait chez netzwelt, faible chez smarthomeassistent), moyen sur la boue",
   "Petit bac (259 ml) : vidage fréquent en mue",
   "Rtings : se prend dans les franges de tapis",
   "88 % de poils, un peu moins que les meilleurs"
@@ -73,9 +73,18 @@
    "src": []
   },
   "lavage": {
-   "s": 9,
-   "v": "Meilleur score de lavage du lot chez Vacuum Wars (25,2).",
-   "src": []
+   "s": 6,
+   "v": "Résultats contradictoires : 1,0 (parfait) chez netzwelt sur ketchup et café séchés, mais 5,1/6 chez smarthomeassistent. Boue séchée : moyen chez The Hook Up.",
+   "src": [
+    {
+     "label": "netzwelt",
+     "url": "https://www.netzwelt.de/roborock-saros-20x/testbericht.html"
+    },
+    {
+     "label": "The Hook Up 2026",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
   },
   "hauteur": {
    "s": 10,
