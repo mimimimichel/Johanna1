@@ -3,6 +3,7 @@
 Préférences durables, mises à jour après chaque achat. À lire avant toute recherche.
 
 ## Contexte
+- Le chien est propre : pas de déjections dans la maison. Ses salissures, ce sont des pattes mouillées, des feuilles, de l'eau et des croquettes trempées autour de la gamelle.
 - Foyer avec un **chien à poils longs et sous-poil dense** (grosse mue) et des cheveux très longs et frisés : tout ce qui touche au ménage doit être jugé d'abord sur les poils.
 - Vit en appartement, région de Toulouse. Achats en France / UE (livraison en France).
 - Maison connectée : **Google Home** + **Home Assistant**.
@@ -17,6 +18,7 @@ Préférences durables, mises à jour après chaque achat. À lire avant toute r
 - Reconditionné accepté avec garantie et économie nette.
 
 ## Ce qui ne marche pas avec elle
+- Les suppositions non vérifiées sur son foyer : demander plutôt que supposer.
 - Les marques blanches Tuya / Smart Life sans centralisation claire.
 - Les recommandations qui ne vérifient pas les caractéristiques (affichage réel, compatibilité réelle).
 - Les produits sans connectivité quand la domotique fait partie du besoin.

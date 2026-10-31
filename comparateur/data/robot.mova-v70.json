@@ -24,7 +24,7 @@
  "pros": [
   "Meilleur score tapis épais testé : 93,4 g/100",
   "0 % de cheveux enroulés, 94 % de poils (Vacuum Wars)",
-  "Fausses crottes évitées (46/53)",
+  "Obstacles 46/53",
   "Station sans sac : pas de sacs à racheter"
  ],
  "cons": [
@@ -65,7 +65,7 @@
   },
   "obstacles": {
    "s": 8,
-   "v": "46/53, fausses crottes évitées.",
+   "v": "46/53.",
    "src": [
     {
      "label": "smarthomeassistent",

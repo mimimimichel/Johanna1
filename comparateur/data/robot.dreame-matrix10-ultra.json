@@ -21,13 +21,13 @@
  "tags": [
   "8,9 cm",
   "Serpillières déposées",
-  "Évite tout : 53/53",
+  "Obstacles 53/53",
   "Matter"
  ],
  "verdict": "good",
- "verdictText": "Champion pour éviter les crottes, très bon prix, mais faible sur les tapis épais.",
+ "verdictText": "Champion des obstacles, très bon prix, mais faible sur les tapis épais.",
  "pros": [
-  "53/53 aux obstacles, toutes les fausses crottes évitées",
+  "53/53 aux obstacles (parcours complet)",
   "Dépose ses serpillières sur les tapis, capteur ultrasons",
   "3 types de serpillières changées automatiquement"
  ],
@@ -67,7 +67,7 @@
   },
   "obstacles": {
    "s": 10,
-   "v": "53/53, toutes les fausses crottes évitées.",
+   "v": "53/53, parcours complet sans faute.",
    "src": [
     {
      "label": "smarthomeassistent",

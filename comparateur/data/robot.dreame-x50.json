@@ -17,17 +17,17 @@
   "8,9 cm",
   "Serpillières déposées",
   "Matter",
-  "⚠ crottes"
+  "⚠ obstacles"
  ],
  "verdict": "meh",
- "verdictText": "Excellent sur les poils pour 599 €, mais il a roulé sur une crotte en test.",
+ "verdictText": "Excellent sur les poils pour 599 €, mais moyen pour éviter les obstacles.",
  "pros": [
   "98 % de poils, 0 % d'enroulement (Vacuum Wars)",
   "Aucun enroulement chez smarthomeassistent",
   "599 € chez Dreame"
  ],
  "cons": [
-  "A roulé sur une fausse crotte : 32/53 aux obstacles",
+  "Obstacles moyens : 32/53",
   "Tapis épais moyen : 56 g/100"
  ],
  "scores": {
@@ -57,7 +57,7 @@
   },
   "obstacles": {
    "s": 3,
-   "v": "32/53, a roulé sur une fausse crotte.",
+   "v": "32/53, le plus faible des Dreame haut de gamme.",
    "src": [
     {
      "label": "smarthomeassistent",

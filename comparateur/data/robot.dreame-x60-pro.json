@@ -28,7 +28,7 @@
  ],
  "cons": [
   "1 499 € : attendre ≤ 1 099 €",
-  "Lavelab : a traîné une vraie crotte de chien et frotté un tapis"
+  "Lavelab : serpillières qui frottent un tapis, un petit tapis non détecté"
  ],
  "scores": {
   "poils": {
@@ -66,8 +66,8 @@
    ]
   },
   "obstacles": {
-   "s": 7,
-   "v": "47/53, fausses crottes évitées (smarthomeassistent). Mais Lavelab : a traîné une vraie crotte.",
+   "s": 8,
+   "v": "47/53 (smarthomeassistent).",
    "src": [
     {
      "label": "Lavelab",

@@ -33,18 +33,18 @@
   },
   {
    "key": "obstacles",
-   "short": "Crottes",
-   "label": "Évite les crottes",
-   "weight": 12,
-   "explain": "Repérer et contourner une déjection, une gamelle, des câbles, des jouets. Un robot qui roule sur une crotte l'étale dans tout l'appartement.",
-   "how": "smarthomeassistent : parcours de 53 points avec fausses crottes. Vacuum Wars : 24 obstacles."
+   "short": "Obstacles",
+   "label": "Évite les obstacles",
+   "weight": 8,
+   "explain": "Contourner la gamelle, les câbles, les chaussettes et les jouets sans les pousser ni s'y coincer.",
+   "how": "smarthomeassistent : parcours de 53 points (câbles, chaussettes, jouets, et aussi de fausses déjections en plastique, un test standard pour les foyers avec chien). Vacuum Wars : 24 obstacles."
   },
   {
    "key": "lavage",
    "short": "Lavage",
-   "label": "Lavage et hygiène",
-   "weight": 8,
-   "explain": "Qualité du lavage (traces de pattes) et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
+   "label": "Lavage et traces de pattes",
+   "weight": 12,
+   "explain": "Qualité du lavage, notamment sur les traces de pattes mouillées de l'entrée et de la cuisine, et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
    "how": "Fiche fabricant + mesures de température et de lavage dans les tests."
   },
   {
@@ -90,8 +90,8 @@
     "poils": 35,
     "tapis_mop": 15,
     "tapis_asp": 15,
-    "obstacles": 12,
-    "lavage": 5,
+    "obstacles": 8,
+    "lavage": 9,
     "hauteur": 6,
     "domotique": 4,
     "prix": 5,
@@ -104,8 +104,8 @@
     "poils": 20,
     "tapis_mop": 12,
     "tapis_asp": 8,
-    "obstacles": 10,
-    "lavage": 5,
+    "obstacles": 7,
+    "lavage": 8,
     "hauteur": 6,
     "domotique": 4,
     "prix": 30,
@@ -118,8 +118,8 @@
     "poils": 22,
     "tapis_mop": 13,
     "tapis_asp": 8,
-    "obstacles": 11,
-    "lavage": 6,
+    "obstacles": 8,
+    "lavage": 9,
     "hauteur": 7,
     "domotique": 20,
     "prix": 8,
@@ -141,7 +141,7 @@
   {
    "label": "Meilleur rapport qualité/prix",
    "product": "dreame-matrix10-ultra",
-   "why": "649 €, évite toutes les crottes, dépose ses serpillières. Seulement si tes tapis sont ras ou moyens."
+   "why": "649 €, champion des obstacles, dépose ses serpillières. Seulement si tes tapis sont ras ou moyens."
   }
  ],
  "rejects": [
@@ -167,7 +167,7 @@
   },
   {
    "name": "eufy Omni S2",
-   "reason": "A mouillé les tapis, a roulé sur une crotte, 1 499 €."
+   "reason": "A mouillé les tapis en test, 1 499 €."
   },
   {
    "name": "eufy E28 / S1 Pro",

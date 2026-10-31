@@ -19,14 +19,14 @@
   "⚠ cheveux"
  ],
  "verdict": "no",
- "verdictText": "À éviter avec un chien : les cheveux s'emmêlent et il roule sur les crottes.",
+ "verdictText": "À éviter avec un chien : les cheveux s'emmêlent dans la brosse.",
  "pros": [
   "Prix",
   "Lavage 100 °C"
  ],
  "cons": [
   "« Beaucoup de cheveux emmêlés » : 2,1/10 sur tapis épais",
-  "16/53 aux obstacles, crottes non évitées"
+  "16/53 aux obstacles"
  ],
  "scores": {
   "poils": {
@@ -51,7 +51,7 @@
   },
   "obstacles": {
    "s": 1,
-   "v": "16/53, crottes non évitées.",
+   "v": "16/53, le plus faible du lot.",
    "src": []
   },
   "lavage": {

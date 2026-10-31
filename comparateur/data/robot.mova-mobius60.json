@@ -25,7 +25,7 @@
   "Change et dépose ses serpillières"
  ],
  "cons": [
-  "Aucun test smarthomeassistent ni sur les crottes",
+  "Aucun test smarthomeassistent",
   "Matter non confirmé"
  ],
  "scores": {
@@ -51,7 +51,7 @@
   },
   "obstacles": {
    "s": 6.5,
-   "v": "22/24 chez Vacuum Wars, crottes non testées.",
+   "v": "22/24 chez Vacuum Wars.",
    "src": []
   },
   "lavage": {

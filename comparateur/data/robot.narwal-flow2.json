@@ -17,17 +17,17 @@
   "9,5 cm",
   "Rouleau laveur",
   "⚠ tapis mouillés",
-  "⚠ crottes"
+  "⚠ obstacles"
  ],
  "verdict": "no",
- "verdictText": "Très bon sur les poils, mais a mouillé les tapis et roulé sur une crotte.",
+ "verdictText": "Très bon sur les poils, mais a mouillé les tapis en test.",
  "pros": [
   "0 % d'enroulement, 1er sur les poils chez The Hook Up",
   "Rouleau laveur efficace"
  ],
  "cons": [
   "A mouillé les tapis en test",
-  "A roulé sur une crotte (3/6)",
+  "Évitement d'obstacles moyen chez The Hook Up (3/6)",
   "Ne dépose pas son rouleau"
  ],
  "scores": {
@@ -56,8 +56,8 @@
    "src": []
   },
   "obstacles": {
-   "s": 3,
-   "v": "A roulé sur la crotte chez The Hook Up (3/6).",
+   "s": 5,
+   "v": "3/6 chez The Hook Up, 20/24 chez Vacuum Wars.",
    "src": []
   },
   "lavage": {

@@ -22,7 +22,7 @@
  "verdictText": "Bon prix, mais trop haut pour ton lit et faible sur les tapis épais.",
  "pros": [
   "459 €",
-  "Fausses crottes évitées (42/53)",
+  "Obstacles 42/53",
   "Dépose ses serpillières"
  ],
  "cons": [
@@ -53,7 +53,7 @@
   },
   "obstacles": {
    "s": 7.5,
-   "v": "42/53, fausses crottes évitées.",
+   "v": "42/53.",
    "src": []
   },
   "lavage": {

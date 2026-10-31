@@ -20,7 +20,7 @@
   "Matter"
  ],
  "verdict": "top",
- "verdictText": "Le meilleur équilibre : poils, tapis, lavage, et la meilleure domotique.",
+ "verdictText": "Le meilleur équilibre : poils, tapis, lavage des traces de pattes, et la meilleure domotique.",
  "pros": [
   "Serpillières laissées à la station ou relevées de 20 à 35 mm",
   "Meilleur score de lavage chez Vacuum Wars (pattes boueuses)",
@@ -69,7 +69,7 @@
   },
   "obstacles": {
    "s": 7,
-   "v": "Fausses crottes évitées, 38,5/53 (smarthomeassistent), 17/24 (Vacuum Wars).",
+   "v": "38,5/53 (smarthomeassistent), 17/24 (Vacuum Wars).",
    "src": []
   },
   "lavage": {

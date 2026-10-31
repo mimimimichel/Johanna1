@@ -33,7 +33,7 @@
  "cons": [
   "Aucun test indépendant de la Gen3",
   "Modèle proche : beaucoup de cheveux sur la brosse latérale",
-  "La 1re génération ratait les crottes",
+  "La 1re génération ratait des obstacles",
   "Bac de 260 ml"
  ],
  "scores": {
@@ -59,7 +59,7 @@
   },
   "obstacles": {
    "s": 4,
-   "v": "La 1re génération ratait les crottes (Vacuum Wars). Vision Gen3 non testée.",
+   "v": "La 1re génération ratait des obstacles (Vacuum Wars). Vision Gen3 non testée.",
    "src": []
   },
   "lavage": {
