@@ -1,0 +1,151 @@
+{
+ "slug": "robot",
+ "order": 2,
+ "name": "Robot aspirateur laveur",
+ "short": "Robot",
+ "status": "Comparaison",
+ "updated": "2026-10-31",
+ "need": "Appartement de 70–100 m², chien à poils longs qui mue beaucoup, cheveux longs et frisés, tapis un peu partout, lit à environ 10 cm du sol, Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
+ "criteria": [
+  {
+   "key": "poils",
+   "short": "Poils",
+   "label": "Poils et cheveux",
+   "weight": 25,
+   "explain": "Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
+   "how": "Vacuum Wars : 2 g de poils d'animaux incrustés + 1 g de cheveux de 18 cm. smarthomeassistent : 1 g de vrais cheveux sur stratifié, tapis ras et tapis épais, −1 point si ça s'enroule."
+  },
+  {
+   "key": "tapis_mop",
+   "short": "Tapis au sec",
+   "label": "Tapis au sec",
+   "weight": 15,
+   "explain": "Le robot ne doit jamais poser de serpillière mouillée sur un tapis. Le plus sûr : il dépose ses serpillières à la station avant d'aller sur les tapis.",
+   "how": "Fiche fabricant (dépose automatique, hauteur de relevage) + tests (tapis mouillés ou non, détection des tapis)."
+  },
+  {
+   "key": "tapis_asp",
+   "short": "Tapis épais",
+   "label": "Poils dans les tapis",
+   "weight": 10,
+   "explain": "Capacité à extraire les poils incrustés dans un tapis épais, là où le sous-poil du chien s'accroche.",
+   "how": "smarthomeassistent : grammes récupérés sur 100 g dans un tapis épais. Vacuum Wars : nettoyage en profondeur des tapis."
+  },
+  {
+   "key": "obstacles",
+   "short": "Crottes",
+   "label": "Évite les crottes",
+   "weight": 12,
+   "explain": "Repérer et contourner une déjection, une gamelle, des câbles, des jouets. Un robot qui roule sur une crotte l'étale dans tout l'appartement.",
+   "how": "smarthomeassistent : parcours de 53 points avec fausses crottes. Vacuum Wars : 24 obstacles."
+  },
+  {
+   "key": "lavage",
+   "short": "Lavage",
+   "label": "Lavage et hygiène",
+   "weight": 8,
+   "explain": "Qualité du lavage (traces de pattes) et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
+   "how": "Fiche fabricant + mesures de température et de lavage dans les tests."
+  },
+  {
+   "key": "hauteur",
+   "short": "Hauteur",
+   "label": "Passe sous le lit",
+   "weight": 8,
+   "explain": "Le lit laisse environ 10 cm. Sous 9 cm, aucun souci ; 9,5 à 9,8 cm, ça passe de justesse ; 10,4 cm, il faut mesurer.",
+   "how": "Hauteur du robot, laser rentré pour les modèles à tourelle rétractable."
+  },
+  {
+   "key": "domotique",
+   "short": "Domotique",
+   "label": "Home Assistant et Google",
+   "weight": 7,
+   "explain": "Commande à la voix et routines Google Home, intégration Home Assistant (officielle ou communautaire), Matter.",
+   "how": "Doc Home Assistant, listes Matter, intégrations communautaires."
+  },
+  {
+   "key": "prix",
+   "short": "Prix",
+   "label": "Prix",
+   "weight": 10,
+   "auto": "price",
+   "best": 300,
+   "worst": 1500,
+   "explain": "Calculé automatiquement : 10/10 à 300 €, 5/10 à 900 €, 0/10 à 1 500 €. Prix chez un vendeur sûr à la date indiquée.",
+   "how": "Boutiques officielles et grandes enseignes, relevés du 31/10/2026."
+  },
+  {
+   "key": "fiabilite",
+   "short": "Fiabilité",
+   "label": "Fiabilité et SAV",
+   "weight": 5,
+   "explain": "Réputation du service après-vente en France, pièces détachées, et solidité des preuves (modèle testé par plusieurs labos ou pas du tout).",
+   "how": "Retours SAV, nombre de tests indépendants concordants."
+  }
+ ],
+ "picks": [
+  {
+   "label": "Meilleur choix",
+   "product": "roborock-saros20",
+   "why": "Le meilleur équilibre : serpillières qui ne touchent jamais les tapis, très bon sur les poils, meilleur lavage, et la meilleure intégration Home Assistant."
+  },
+  {
+   "label": "Meilleur sur tapis épais",
+   "product": "mova-v70",
+   "why": "Aspire le mieux les poils incrustés dans les tapis épais, dépose ses serpillières, station sans sac."
+  },
+  {
+   "label": "Meilleur rapport qualité/prix",
+   "product": "dreame-matrix10-ultra",
+   "why": "649 €, évite toutes les crottes, dépose ses serpillières. Seulement si tes tapis sont ras ou moyens."
+  }
+ ],
+ "rejects": [
+  {
+   "name": "Dreame Aqua10 Ultra Roller",
+   "reason": "50 % des cheveux longs enroulés (Vacuum Wars)."
+  },
+  {
+   "name": "Dreame L50s Pro Ultra",
+   "reason": "Ne dépose pas ses serpillières, 2,4 g/100 sur tapis épais, 10,4 cm."
+  },
+  {
+   "name": "Dreame L40 Ultra A / AE, L10s Ultra Gen 3",
+   "reason": "Brosse qui emmêle les cheveux, simple relevage des serpillières."
+  },
+  {
+   "name": "Roborock Qrevo Curv 2 Flow",
+   "reason": "11,9 cm : ne passe pas sous le lit, bloqué sur tapis épais."
+  },
+  {
+   "name": "Ecovacs T90 Pro / T90S",
+   "reason": "Bloqués sur tapis épais (0/100)."
+  },
+  {
+   "name": "eufy Omni S2",
+   "reason": "A mouillé les tapis, a roulé sur une crotte, 1 499 €."
+  },
+  {
+   "name": "eufy E28 / S1 Pro",
+   "reason": "Rtings : inadapté aux propriétaires d'animaux ; 26 % d'enroulement."
+  },
+  {
+   "name": "DJI Romo P / Romo 2",
+   "reason": "Cheveux longs qui pendent de l'aspiration, pas de Home Assistant."
+  },
+  {
+   "name": "iRobot Roomba 705 Combo",
+   "reason": "Pas d'intégration Home Assistant, avenir de la marque incertain après la faillite."
+  },
+  {
+   "name": "Xiaomi X20 Max",
+   "reason": "Gestion des cheveux faible (Vacuum Wars)."
+  }
+ ],
+ "notes": [
+  "Aucun test ne reproduit le sous-poil dense d'un chien à poils longs : le test « poils d'animaux » de Vacuum Wars est ce qui s'en rapproche le plus.",
+  "Tous les bacs des robots font 230 à 320 ml : en période de mue, la station videra après chaque passage.",
+  "Pour les dégâts mouillés du chien (pattes boueuses, eau de gamelle, croquettes trempées), un balai aspirateur laveur reste le bon outil : Tineco Floor One Stretch S6 (≤ 200 €) ou Roborock F25 XT (≈ 260 €).",
+  "Prix relevés le 31/10/2026. Black Friday le 27/11 : les prix cibles sont indiqués sur chaque fiche."
+ ]
+}

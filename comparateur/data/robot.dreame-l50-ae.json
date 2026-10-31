@@ -1,0 +1,78 @@
+{
+ "id": "dreame-l50-ae",
+ "name": "Dreame L50 Ultra AE",
+ "brand": "Dreame",
+ "price": 459,
+ "target": 429,
+ "priceNote": "459 € chez Dreame (offre Dealabs), 429 € chez Cdiscount.",
+ "where": [
+  {
+   "shop": "Dreame FR",
+   "price": 459,
+   "url": "https://fr.dreametech.com/"
+  }
+ ],
+ "height": 9.7,
+ "tags": [
+  "9,7 cm",
+  "Dealabs",
+  "⚠ cheveux"
+ ],
+ "verdict": "no",
+ "verdictText": "À éviter avec un chien : les cheveux s'emmêlent et il roule sur les crottes.",
+ "pros": [
+  "Prix",
+  "Lavage 100 °C"
+ ],
+ "cons": [
+  "« Beaucoup de cheveux emmêlés » : 2,1/10 sur tapis épais",
+  "16/53 aux obstacles, crottes non évitées"
+ ],
+ "scores": {
+  "poils": {
+   "s": 3,
+   "v": "6,4 / 8,8 / 2,1 sur 10, cheveux emmêlés dans la brosse TriCut.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l50-ultra-ae/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 4,
+   "v": "Relevage 10,5 mm ; dépose annoncée mais non confirmée.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 3.5,
+   "v": "36,9 g/100.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 1,
+   "v": "16/53, crottes non évitées.",
+   "src": []
+  },
+  "lavage": {
+   "s": 7,
+   "v": "100 °C.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 7,
+   "v": "9,7 cm.",
+   "src": []
+  },
+  "domotique": {
+   "s": 7,
+   "v": "Extension communautaire Dreame, Google Home, Matter.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 5.5,
+   "v": "Dreame : SAV France critiqué.",
+   "src": []
+  }
+ }
+}

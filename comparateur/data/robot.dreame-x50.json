@@ -1,0 +1,89 @@
+{
+ "id": "dreame-x50",
+ "name": "Dreame X50 Ultra Complete",
+ "brand": "Dreame",
+ "price": 599,
+ "target": 599,
+ "priceNote": "599 € chez Dreame (au lieu de 999 €). Reconditionné B3 vu à 349–399 € chez Cdiscount.",
+ "where": [
+  {
+   "shop": "Dreame FR",
+   "price": 599,
+   "url": "https://fr.dreametech.com/"
+  }
+ ],
+ "height": 8.9,
+ "tags": [
+  "8,9 cm",
+  "Serpillières déposées",
+  "Matter",
+  "⚠ crottes"
+ ],
+ "verdict": "meh",
+ "verdictText": "Excellent sur les poils pour 599 €, mais il a roulé sur une crotte en test.",
+ "pros": [
+  "98 % de poils, 0 % d'enroulement (Vacuum Wars)",
+  "Aucun enroulement chez smarthomeassistent",
+  "599 € chez Dreame"
+ ],
+ "cons": [
+  "A roulé sur une fausse crotte : 32/53 aux obstacles",
+  "Tapis épais moyen : 56 g/100"
+ ],
+ "scores": {
+  "poils": {
+   "s": 9,
+   "v": "98 % / 0 % (Vacuum Wars). 10 / 10 / 6,4, aucun enroulement (smarthomeassistent).",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet"
+    },
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/dreame-x50-ultra-complete-test/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 7.5,
+   "v": "Relevage 10,5 mm, dépose automatique sur tapis épais, serpillières laissées en mode aspiration seule.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 6,
+   "v": "56,2 g/100 sur tapis épais. Rtings : laisse des poils incrustés.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 3,
+   "v": "32/53, a roulé sur une fausse crotte.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/dreame-x50-ultra-complete-test/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 7.5,
+   "v": "Lavage 80 °C, séchage, détergent, sac.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "8,9 cm laser rentré.",
+   "src": []
+  },
+  "domotique": {
+   "s": 7,
+   "v": "Home Assistant via l'extension communautaire Dreame. Google Home. Matter 1.4.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 6,
+   "v": "Dreame : SAV France critiqué. Modèle de 2025, bien testé.",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "ecowitt-gw",
+ "name": "Ecowitt GW1200 + 5 WN31",
+ "brand": "Ecowitt (868 MHz)",
+ "price": 107,
+ "target": 107,
+ "priceNote": "≈ 107 € : passerelle ≈ 32 € + 5 capteurs ≈ 11 $ + abri.",
+ "where": [
+  {
+   "shop": "Ecowitt",
+   "price": 107,
+   "url": "https://shop.ecowitt.com/products/wn31"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "868 MHz",
+  "± 1 °C"
+ ],
+ "verdict": "no",
+ "verdictText": "Excellente portée radio, mais ± 1 °C et humidité décalée.",
+ "pros": [
+  "Radio 868 MHz qui traverse bien les murs",
+  "Intégration Home Assistant locale officielle Ecowitt"
+ ],
+ "cons": [
+  "± 1 °C / ± 5 % annoncés",
+  "Humidité décalée de 5 à 15 % selon des utilisateurs"
+ ],
+ "scores": {
+  "precision": {
+   "s": 3,
+   "v": "± 1 °C / ± 5 % annoncés.",
+   "src": []
+  },
+  "liaison": {
+   "s": 9,
+   "v": "868 MHz, très bonne portée.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 8,
+   "v": "WN31 prévu pour l'extérieur sous abri.",
+   "src": []
+  },
+  "ha": {
+   "s": 9,
+   "v": "Intégration locale Ecowitt.",
+   "src": []
+  },
+  "google": {
+   "s": 5,
+   "v": "Aucune intégration : via Home Assistant seulement.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 8,
+   "v": "Piles AA.",
+   "src": []
+  }
+ }
+}

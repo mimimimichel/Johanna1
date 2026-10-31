@@ -1,0 +1,96 @@
+{
+ "id": "roborock-saros20",
+ "name": "Roborock Saros 20",
+ "brand": "Roborock",
+ "price": 989,
+ "target": 939,
+ "priceNote": "989 € chez Darty (Saros 20X, date non visible). Vu à 939 €. Prix à confirmer avant achat.",
+ "where": [
+  {
+   "shop": "Darty (Saros 20X)",
+   "price": 989,
+   "url": "https://www.dealabs.com/bons-plans/robot-aspirateur-laveur-roborock-saros-20x-36-000-pa-adaptilift-30-starsight-20-station-rockdock-3353232"
+  }
+ ],
+ "height": 7.95,
+ "tags": [
+  "7,95 cm",
+  "Serpillières déposées",
+  "HA officiel",
+  "Matter"
+ ],
+ "verdict": "top",
+ "verdictText": "Le meilleur équilibre : poils, tapis, lavage, et la meilleure domotique.",
+ "pros": [
+  "Serpillières laissées à la station ou relevées de 20 à 35 mm",
+  "Meilleur score de lavage chez Vacuum Wars (pattes boueuses)",
+  "Intégration Home Assistant officielle + Matter",
+  "7,95 cm, sans tourelle"
+ ],
+ "cons": [
+  "Petit bac (259 ml) : vidage fréquent en mue",
+  "Rtings : se prend dans les franges de tapis",
+  "88 % de poils, un peu moins que les meilleurs"
+ ],
+ "scores": {
+  "poils": {
+   "s": 8.5,
+   "v": "88 % de poils, 0 % d'enroulement (Vacuum Wars). 10 / 9,9 sur tapis (smarthomeassistent).",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/roborock-saros-20-review/"
+    },
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8.5,
+   "v": "Serpillières laissées à la station (modes aspiration seule / tapis d'abord) ou relevées de 20 à 35 mm, châssis relevable. Franges : contourner par une zone interdite.",
+   "src": [
+    {
+     "label": "Rtings",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 7,
+   "v": "81 / 71 sur 100 (tapis ras / épais).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20/"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 7,
+   "v": "Fausses crottes évitées, 38,5/53 (smarthomeassistent), 17/24 (Vacuum Wars).",
+   "src": []
+  },
+  "lavage": {
+   "s": 9,
+   "v": "Meilleur score de lavage du lot chez Vacuum Wars (25,2).",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "7,95 cm, pas de tourelle.",
+   "src": []
+  },
+  "domotique": {
+   "s": 9.5,
+   "v": "Intégration Home Assistant officielle (en partie locale), Google Home, Matter.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 8,
+   "v": "Roborock : meilleure réputation SAV et pièces en France. Bien testé.",
+   "src": []
+  }
+ }
+}

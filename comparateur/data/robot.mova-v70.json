@@ -1,0 +1,97 @@
+{
+ "id": "mova-v70",
+ "name": "MOVA V70 Ultra Complete",
+ "brand": "MOVA (Dreame)",
+ "price": 949,
+ "target": 849,
+ "priceNote": "949 € sur la boutique MOVA. Vu à 849 € sur Amazon au Prime Day d'octobre.",
+ "where": [
+  {
+   "shop": "MOVA FR",
+   "price": 949,
+   "url": "https://fr.mova-tech.com/"
+  }
+ ],
+ "height": 8.8,
+ "tags": [
+  "8,8 cm",
+  "Serpillières déposées",
+  "Station sans sac",
+  "HA communautaire"
+ ],
+ "verdict": "top",
+ "verdictText": "Le meilleur sur les tapis épais, très bon sur les poils, et il dépose ses serpillières.",
+ "pros": [
+  "Meilleur score tapis épais testé : 93,4 g/100",
+  "0 % de cheveux enroulés, 94 % de poils (Vacuum Wars)",
+  "Fausses crottes évitées (46/53)",
+  "Station sans sac : pas de sacs à racheter"
+ ],
+ "cons": [
+  "Un point perdu pour des poils enroulés sur tapis épais (smarthomeassistent)",
+  "Eau de lavage mesurée bien sous les 100 °C annoncés",
+  "Matter non confirmé"
+ ],
+ "scores": {
+  "poils": {
+   "s": 8.5,
+   "v": "10 / 7,8 / 8,2 sur 10, un léger enroulement sur tapis épais (smarthomeassistent). 94 % de poils, 0 % d'enroulement (Vacuum Wars).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8.5,
+   "v": "Laisse ses serpillières à la station avant les tapis (smarthomeassistent). Navigation sur tapis 19,25/21.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 9.5,
+   "v": "93,4 g/100 dans un tapis épais (meilleur score testé). 92 % en profondeur chez Vacuum Wars.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "46/53, fausses crottes évitées.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 7,
+   "v": "100 °C annoncés mais mesuré nettement en dessous. Station sans sac (cyclone).",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "8,8 cm laser rentré.",
+   "src": []
+  },
+  "domotique": {
+   "s": 5.5,
+   "v": "Home Assistant via l'extension communautaire (compte MovaHome). Google Home. Matter non confirmé.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 5,
+   "v": "MOVA = sous-marque récente de Dreame, SAV peu documenté. Un seul test complet.",
+   "src": []
+  }
+ }
+}

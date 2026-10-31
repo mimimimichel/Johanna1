@@ -1,0 +1,67 @@
+{
+ "id": "sonoff-02b",
+ "name": "Sonoff SNZB-02B ×4 + SNZB-02WD",
+ "brand": "Sonoff (Zigbee)",
+ "price": 118,
+ "target": 92,
+ "priceNote": "≈ 118 € avec clé Zigbee, prise relais et abri. ≈ 92 € si tu as déjà une clé.",
+ "where": [
+  {
+   "shop": "Sonoff (boutique UE)",
+   "price": 98,
+   "url": "https://sonoff.tech/fr-eu/"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "Sensirion",
+  "Piles AAA",
+  "Zigbee maillé"
+ ],
+ "verdict": "good",
+ "verdictText": "Presque aussi bon, moins cher, à piles AAA.",
+ "pros": [
+  "Top 5 du test SmartHomeScene",
+  "Piles AAA faciles à trouver"
+ ],
+ "cons": [
+  "Modèle exact de la puce non précisé"
+ ],
+ "scores": {
+  "precision": {
+   "s": 9,
+   "v": "« Sensirion », ± 0,2 °C, top 5 du test.",
+   "src": [
+    {
+     "label": "SmartHomeScene",
+     "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/"
+    }
+   ]
+  },
+  "liaison": {
+   "s": 9,
+   "v": "Zigbee maillé.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 9,
+   "v": "Même SNZB-02WD dehors.",
+   "src": []
+  },
+  "ha": {
+   "s": 10,
+   "v": "Local ZHA / Zigbee2MQTT.",
+   "src": []
+  },
+  "google": {
+   "s": 6,
+   "v": "Via Home Assistant.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 8,
+   "v": "2×AAA, jusqu'à 2 ans.",
+   "src": []
+  }
+ }
+}

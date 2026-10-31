@@ -1,0 +1,62 @@
+{
+ "id": "ecowitt-hp2560",
+ "name": "Ecowitt HP2560_C + 4 WN31",
+ "brand": "Ecowitt (console)",
+ "price": 215,
+ "target": 215,
+ "priceNote": "≈ 200–230 € : console 165,99 $ + 4 capteurs + abri.",
+ "where": [
+  {
+   "shop": "Ecowitt",
+   "price": 215,
+   "url": "https://shop.ecowitt.com/products/hp2560_c"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "Écran couleur 7\"",
+  "± 1 °C"
+ ],
+ "verdict": "no",
+ "verdictText": "Le seul écran couleur avec les 5 zones, mais ± 1 °C.",
+ "pros": [
+  "Écran couleur 7\" avec page « toutes les zones »",
+  "Prévisions et heure"
+ ],
+ "cons": [
+  "± 1 °C",
+  "Hors budget"
+ ],
+ "scores": {
+  "precision": {
+   "s": 3,
+   "v": "Capteurs ± 1 °C.",
+   "src": []
+  },
+  "liaison": {
+   "s": 9,
+   "v": "868 MHz.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 8,
+   "v": "WN31 sous abri.",
+   "src": []
+  },
+  "ha": {
+   "s": 9,
+   "v": "Intégration locale Ecowitt.",
+   "src": []
+  },
+  "google": {
+   "s": 4,
+   "v": "Aucune intégration Google.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 8,
+   "v": "Piles AA.",
+   "src": []
+  }
+ }
+}

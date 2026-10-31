@@ -1,0 +1,86 @@
+{
+ "id": "ecovacs-t50-gen3",
+ "name": "Ecovacs Deebot T50 Pro Omni Gen3",
+ "brand": "Ecovacs",
+ "price": 399,
+ "target": 299,
+ "priceNote": "399 € chez Ecovacs et Boulanger. Vu à 299 € chez Boulanger et Fnac début octobre.",
+ "where": [
+  {
+   "shop": "Boulanger",
+   "price": 399,
+   "url": "https://www.boulanger.com/"
+  },
+  {
+   "shop": "Ecovacs FR",
+   "price": 399,
+   "url": "https://www.ecovacs.com/fr/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni-gen3-white"
+  }
+ ],
+ "height": 8.1,
+ "tags": [
+  "8,1 cm",
+  "Petit prix",
+  "Non testé"
+ ],
+ "verdict": "meh",
+ "verdictText": "Le moins cher qui passe sous le lit, mais aucun test de cette version.",
+ "pros": [
+  "299–399 €",
+  "8,1 cm",
+  "Caméra qui repère les taches et repasse"
+ ],
+ "cons": [
+  "Aucun test indépendant de la Gen3",
+  "Modèle proche : beaucoup de cheveux sur la brosse latérale",
+  "La 1re génération ratait les crottes",
+  "Bac de 260 ml"
+ ],
+ "scores": {
+  "poils": {
+   "s": 6,
+   "v": "Non testé. Modèles proches : 86 % / 0 % (T50 Pro gen 1, Vacuum Wars) mais cheveux enroulés sur la brosse latérale (T50 Max Pro, smarthomeassistent).",
+   "src": [
+    {
+     "label": "Vacuum Wars (T50 gen 1)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 5,
+   "v": "Relevage des serpillières, dépose non confirmée.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "Non testé (modèle proche : 6,8/10 sur tapis épais).",
+   "src": []
+  },
+  "obstacles": {
+   "s": 4,
+   "v": "La 1re génération ratait les crottes (Vacuum Wars). Vision Gen3 non testée.",
+   "src": []
+  },
+  "lavage": {
+   "s": 7,
+   "v": "75 °C, séchage 45 °C, détergent, repasse sur les taches.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "8,1 cm.",
+   "src": []
+  },
+  "domotique": {
+   "s": 5.5,
+   "v": "Home Assistant officiel depuis 2026.10.2 (sauf version Care Kit), pièces et carte non garanties. Google Home.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 4,
+   "v": "Aucun test de cette version ; Ecovacs : SAV mitigé.",
+   "src": []
+  }
+ }
+}

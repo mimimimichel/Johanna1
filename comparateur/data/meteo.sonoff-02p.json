@@ -1,0 +1,74 @@
+{
+ "id": "sonoff-02p",
+ "name": "Sonoff SNZB-02P ×4 + SNZB-02WD",
+ "brand": "Sonoff (Zigbee)",
+ "price": 153,
+ "target": 117,
+ "priceNote": "≈ 153 € avec clé Zigbee (36,62 €), prise relais (15,20 €) et abri TFA (≈ 20 €). ≈ 117 € si tu as déjà une clé Zigbee.",
+ "where": [
+  {
+   "shop": "Sonoff (boutique UE)",
+   "price": 133,
+   "url": "https://sonoff.tech/fr-eu/products/sonoff-zigbee-temperature-and-humidity-sensor-snzb-02p"
+  },
+  {
+   "shop": "Amazon (abri TFA)",
+   "price": 20,
+   "url": "https://www.amazon.fr/dp/B017ILZF6C"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "Puce SHT40",
+  "Zigbee maillé",
+  "Local"
+ ],
+ "verdict": "top",
+ "verdictText": "Le plus précis testé, réseau maillé fiable, 100 % local.",
+ "pros": [
+  "« Meilleur capteur » d'un test de 12 capteurs contre référence",
+  "± 0,2 °C, deux capteurs côte à côte à 0,1–0,2 °C",
+  "Pile jusqu'à 4 ans"
+ ],
+ "cons": [
+  "Nécessite une clé Zigbee si tu n'en as pas",
+  "Pas d'écran"
+ ],
+ "scores": {
+  "precision": {
+   "s": 10,
+   "v": "Puce SHT40, ± 0,2 °C / ± 2 %, meilleur du test SmartHomeScene.",
+   "src": [
+    {
+     "label": "SmartHomeScene",
+     "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/"
+    }
+   ]
+  },
+  "liaison": {
+   "s": 9,
+   "v": "Zigbee maillé, renforcé par une prise relais entre les pièces.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 9,
+   "v": "SNZB-02WD étanche IP65, puce SHT40, jusqu'à −20 °C, à mettre sous abri.",
+   "src": []
+  },
+  "ha": {
+   "s": 10,
+   "v": "Local via ZHA ou Zigbee2MQTT.",
+   "src": []
+  },
+  "google": {
+   "s": 6,
+   "v": "Via Home Assistant : Home Assistant Cloud (≈ 75 €/an) ou pont Matter / intégration gratuite à configurer.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 9,
+   "v": "CR2477, jusqu'à 4 ans annoncés.",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "aqara-t1",
+ "name": "Aqara T1 ×5 + hub",
+ "brand": "Aqara (Zigbee)",
+ "price": 150,
+ "target": 150,
+ "priceNote": "≈ 150 € : 5 × 22 € + hub ≈ 20 € + abri.",
+ "where": [
+  {
+   "shop": "Domadoo",
+   "price": 22,
+   "url": "https://www.domadoo.fr/fr/thermometre-connecte/6705-aqara-capteur-de-temperature-et-d-humidite-zigbee-30-t1-th-s02d-6975833352159.html"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "SHT30",
+  "Zigbee"
+ ],
+ "verdict": "meh",
+ "verdictText": "Précis, mais puce plus ancienne et décrochages signalés.",
+ "pros": [
+  "Top 5 du test SmartHomeScene"
+ ],
+ "cons": [
+  "Puce SHT30 (± 0,3 °C)",
+  "Décrochages répétés chez un testeur",
+  "Pas prévu pour l'extérieur"
+ ],
+ "scores": {
+  "precision": {
+   "s": 8,
+   "v": "SHT30, ± 0,3 °C, top 5 du test.",
+   "src": [
+    {
+     "label": "SmartHomeScene",
+     "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/"
+    }
+   ]
+  },
+  "liaison": {
+   "s": 6,
+   "v": "Zigbee, mais 3 anciens capteurs décrochaient (markus-haack).",
+   "src": []
+  },
+  "exterieur": {
+   "s": 4,
+   "v": "Pas prévu pour l'extérieur.",
+   "src": []
+  },
+  "ha": {
+   "s": 9,
+   "v": "Local via clé Zigbee.",
+   "src": []
+  },
+  "google": {
+   "s": 6,
+   "v": "Via Home Assistant.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 7,
+   "v": "CR2032.",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "roborock-saros20-sonic",
+ "name": "Roborock Saros 20 Sonic",
+ "brand": "Roborock",
+ "price": 899,
+ "target": 899,
+ "priceNote": "899 € sur la boutique Roborock (promo Black Friday anticipée).",
+ "where": [
+  {
+   "shop": "Roborock FR",
+   "price": 899,
+   "url": "https://fr.roborock.com/"
+  }
+ ],
+ "height": 8.0,
+ "tags": [
+  "8 cm",
+  "Serpillière déposée",
+  "HA officiel",
+  "Évite 47/53"
+ ],
+ "verdict": "meh",
+ "verdictText": "Excellent pour éviter les obstacles, plus faible sur les poils et le lavage.",
+ "pros": [
+  "47/53 aux obstacles, le meilleur des Roborock",
+  "Tapis : 92 / 86 sur 100"
+ ],
+ "cons": [
+  "78 % de poils seulement (Vacuum Wars)",
+  "Lavage faible chez Vacuum Wars (15,8)"
+ ],
+ "scores": {
+  "poils": {
+   "s": 7,
+   "v": "78 % de poils, 0 % d'enroulement (Vacuum Wars) ; 10 / 9,8 (smarthomeassistent).",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/roborock-saros-20-sonic-review/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8,
+   "v": "Plaque vibrante relevée ou laissée à la station.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 8.5,
+   "v": "92 / 86 sur 100.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-sonic/"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 8.5,
+   "v": "47/53, fausses crottes évitées.",
+   "src": []
+  },
+  "lavage": {
+   "s": 6,
+   "v": "Score de lavage 15,8 chez Vacuum Wars, en dessous des autres.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "Environ 8 cm.",
+   "src": []
+  },
+  "domotique": {
+   "s": 9,
+   "v": "Home Assistant officiel, Google Home.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Roborock : bon SAV.",
+   "src": []
+  }
+ }
+}

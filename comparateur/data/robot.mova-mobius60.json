@@ -1,0 +1,78 @@
+{
+ "id": "mova-mobius60",
+ "name": "MOVA Mobius 60",
+ "brand": "MOVA (Dreame)",
+ "price": 569,
+ "target": 569,
+ "priceNote": "569 € sur la boutique MOVA (au lieu de 1 199 €).",
+ "where": [
+  {
+   "shop": "MOVA FR",
+   "price": 569,
+   "url": "https://fr.mova-tech.com/"
+  }
+ ],
+ "height": 8.9,
+ "tags": [
+  "≈ 8,9 cm",
+  "Serpillières déposées",
+  "Peu testé"
+ ],
+ "verdict": "meh",
+ "verdictText": "Même base que le Matrix10, bon sur les poils, mais un seul test.",
+ "pros": [
+  "94 % de poils, enroulement « parfait » (Vacuum Wars)",
+  "Change et dépose ses serpillières"
+ ],
+ "cons": [
+  "Aucun test smarthomeassistent ni sur les crottes",
+  "Matter non confirmé"
+ ],
+ "scores": {
+  "poils": {
+   "s": 8,
+   "v": "94 % de poils, aucun enroulement (Vacuum Wars). Pas d'autre test.",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8,
+   "v": "Serpillières laissées à la base, relevage 10,5 mm (Vacuum Wars).",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 7,
+   "v": "88 % en profondeur sur tapis (Vacuum Wars).",
+   "src": []
+  },
+  "obstacles": {
+   "s": 6.5,
+   "v": "22/24 chez Vacuum Wars, crottes non testées.",
+   "src": []
+  },
+  "lavage": {
+   "s": 7.5,
+   "v": "Lavage 100 °C, sac 3,2 L.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 9.5,
+   "v": "Environ 8,9 cm (3,5 pouces).",
+   "src": []
+  },
+  "domotique": {
+   "s": 5.5,
+   "v": "Home Assistant via l'extension communautaire. Google Home. Matter non confirmé.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 4.5,
+   "v": "Sous-marque récente, un seul test indépendant.",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "roborock-saros10r",
+ "name": "Roborock Saros 10R",
+ "brand": "Roborock",
+ "price": 699,
+ "target": 699,
+ "priceNote": "699,99 € sur la boutique Roborock.",
+ "where": [
+  {
+   "shop": "Roborock FR",
+   "price": 699.99,
+   "url": "https://fr.roborock.com/"
+  }
+ ],
+ "height": 7.98,
+ "tags": [
+  "7,98 cm",
+  "Serpillières déposées",
+  "HA officiel",
+  "⚠ tapis"
+ ],
+ "verdict": "meh",
+ "verdictText": "Bonne domotique et bons obstacles, mais déçoit sur les poils dans les tapis.",
+ "pros": [
+  "44/53 aux obstacles",
+  "Serpillières déposées",
+  "HA officiel + Matter"
+ ],
+ "cons": [
+  "Rtings : 5/10 sur les poils d'animaux dans les tapis",
+  "Tapis épais : 7,5/10 sur les cheveux"
+ ],
+ "scores": {
+  "poils": {
+   "s": 6,
+   "v": "92 % chez Vacuum Wars, mais Rtings 5/10 (« décevant ») sur poils dans les tapis et 8,5 / 7,5 chez smarthomeassistent.",
+   "src": [
+    {
+     "label": "Rtings",
+     "url": "https://rtings.com/robot-vacuum/reviews/roborock/saros-10r"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8,
+   "v": "Serpillières déposées + relevage.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 6,
+   "v": "80 / 66 sur 100.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "44/53.",
+   "src": []
+  },
+  "lavage": {
+   "s": 7,
+   "v": "Lavage correct.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "7,98 cm.",
+   "src": []
+  },
+  "domotique": {
+   "s": 9.5,
+   "v": "Home Assistant officiel, Google Home, Matter.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Roborock : bon SAV.",
+   "src": []
+  }
+ }
+}

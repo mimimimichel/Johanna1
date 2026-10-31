@@ -1,0 +1,64 @@
+{
+ "id": "switchbot-hub2",
+ "name": "SwitchBot Hub 2 + Meter Pro + 3 capteurs",
+ "brand": "SwitchBot (Bluetooth)",
+ "price": 155,
+ "target": 155,
+ "priceNote": "154,97 € sur la boutique SwitchBot.",
+ "where": [
+  {
+   "shop": "SwitchBot UE",
+   "price": 154.97,
+   "url": "https://eu.switch-bot.com/"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "Écran salon",
+  "Bluetooth",
+  "Matter"
+ ],
+ "verdict": "meh",
+ "verdictText": "Écran au salon et Google via Matter, mais Bluetooth limite la portée.",
+ "pros": [
+  "± 0,2 °C",
+  "Écran : heure, date, prévisions",
+  "Matter vers Google Home"
+ ],
+ "cons": [
+  "Bluetooth : portée limite à travers 2 murs porteurs",
+  "Écran noir et blanc"
+ ],
+ "scores": {
+  "precision": {
+   "s": 8,
+   "v": "± 0,2 °C annoncés, pas de test comparatif trouvé.",
+   "src": []
+  },
+  "liaison": {
+   "s": 5,
+   "v": "Bluetooth vers un hub unique : risque de trous à travers les murs porteurs.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 8,
+   "v": "Capteur extérieur IP65.",
+   "src": []
+  },
+  "ha": {
+   "s": 7,
+   "v": "Bluetooth local dans Home Assistant (proxy si besoin) ou Matter.",
+   "src": []
+  },
+  "google": {
+   "s": 8,
+   "v": "Pont Matter vers Google Home (déclencheur de routine à tester).",
+   "src": []
+  },
+  "autonomie": {
+   "s": 7,
+   "v": "Piles AAA.",
+   "src": []
+  }
+ }
+}

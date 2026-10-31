@@ -1,0 +1,80 @@
+{
+ "id": "roborock-qrevo-s-pro",
+ "name": "Roborock Qrevo S Pro",
+ "brand": "Roborock",
+ "price": 379.99,
+ "target": 349,
+ "priceNote": "379,99 € sur la boutique Roborock (version blanche).",
+ "where": [
+  {
+   "shop": "Roborock FR",
+   "price": 379.99,
+   "url": "https://fr.roborock.com/"
+  }
+ ],
+ "height": 9.7,
+ "tags": [
+  "9,7 cm",
+  "HA officiel",
+  "Dealabs",
+  "⚠ poils"
+ ],
+ "verdict": "no",
+ "verdictText": "Bonne domotique pour pas cher, mais déconseillé avec des animaux.",
+ "pros": [
+  "379,99 €",
+  "HA officiel"
+ ],
+ "cons": [
+  "home&smart le déconseille avec des animaux",
+  "Pas de caméra : rate câbles et crottes",
+  "Pas de dosage du détergent"
+ ],
+ "scores": {
+  "poils": {
+   "s": 4,
+   "v": "« Satisfaisant » sur les poils, en laisse sur les tapis (home&smart).",
+   "src": [
+    {
+     "label": "home&smart",
+     "url": "https://www.homeandsmart.de/roborock-qrevo-s-pro-18500-pa-saugkraft-test-0017-509669"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 4,
+   "v": "Relevage 10 mm seulement.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 4,
+   "v": "Moyen sur tapis.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 2,
+   "v": "Pas de caméra.",
+   "src": []
+  },
+  "lavage": {
+   "s": 6,
+   "v": "75 °C, séchage 45 °C, pas de détergent auto.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 7,
+   "v": "9,7 cm.",
+   "src": []
+  },
+  "domotique": {
+   "s": 8.5,
+   "v": "Home Assistant officiel, Google Home, pas de Matter.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7,
+   "v": "Roborock : bon SAV.",
+   "src": []
+  }
+ }
+}

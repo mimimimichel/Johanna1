@@ -1,0 +1,85 @@
+{
+ "id": "roborock-saros20-neo",
+ "name": "Roborock Saros 20 Neo",
+ "brand": "Roborock",
+ "price": 899,
+ "target": 799,
+ "priceNote": "899 € sur la boutique Roborock. Vu à 799 €.",
+ "where": [
+  {
+   "shop": "Roborock FR",
+   "price": 899,
+   "url": "https://fr.roborock.com/pages/roborock-saros-20-neo"
+  }
+ ],
+ "height": 7.98,
+ "tags": [
+  "7,98 cm",
+  "Serpillières déposées",
+  "HA officiel",
+  "Tapis épais"
+ ],
+ "verdict": "good",
+ "verdictText": "Même système de serpillières que le Saros 20, meilleur sur les tapis épais, moins testé.",
+ "pros": [
+  "Meilleure aspiration de tapis : 96 / 92 sur 100",
+  "Serpillières déposées à la station",
+  "HA officiel"
+ ],
+ "cons": [
+  "Pas de test Vacuum Wars",
+  "smarthomeassistent : gestion des serpillières sur tapis irrégulière d'un passage à l'autre"
+ ],
+ "scores": {
+  "poils": {
+   "s": 8,
+   "v": "10 / 8,7 sur tapis ras / épais (smarthomeassistent). Pas de test Vacuum Wars.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 7.5,
+   "v": "Dépose et relevage comme le Saros 20, mais comportement irrégulier en test.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 9.5,
+   "v": "96 / 92 sur 100 (meilleur de Roborock).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 7.5,
+   "v": "Fausses crottes évitées, 41,5/53.",
+   "src": []
+  },
+  "lavage": {
+   "s": 7,
+   "v": "Lavage moyen chez smarthomeassistent, meilleur des Saros 20 chez netzwelt.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "7,98 cm laser rentré.",
+   "src": []
+  },
+  "domotique": {
+   "s": 9,
+   "v": "Home Assistant officiel, Google Home, Matter probable.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Roborock : bon SAV. Moins de tests que le Saros 20.",
+   "src": []
+  }
+ }
+}

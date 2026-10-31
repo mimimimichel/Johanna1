@@ -1,0 +1,84 @@
+{
+ "id": "narwal-flow2",
+ "name": "Narwal Flow 2",
+ "brand": "Narwal",
+ "price": 935,
+ "target": 935,
+ "priceNote": "935 € sur la boutique Narwal (au lieu de 1 299 €).",
+ "where": [
+  {
+   "shop": "Narwal FR",
+   "price": 935,
+   "url": "https://fr.narwal.com/"
+  }
+ ],
+ "height": 9.5,
+ "tags": [
+  "9,5 cm",
+  "Rouleau laveur",
+  "⚠ tapis mouillés",
+  "⚠ crottes"
+ ],
+ "verdict": "no",
+ "verdictText": "Très bon sur les poils, mais a mouillé les tapis et roulé sur une crotte.",
+ "pros": [
+  "0 % d'enroulement, 1er sur les poils chez The Hook Up",
+  "Rouleau laveur efficace"
+ ],
+ "cons": [
+  "A mouillé les tapis en test",
+  "A roulé sur une crotte (3/6)",
+  "Ne dépose pas son rouleau"
+ ],
+ "scores": {
+  "poils": {
+   "s": 8.5,
+   "v": "0 % d'enroulement (Vacuum Wars), 100 % de poils chez The Hook Up.",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/narwal-flow-2-user-review/"
+    },
+    {
+     "label": "The Hook Up",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 3,
+   "v": "Rouleau relevé de 10 mm seulement ; a mouillé les tapis chez The Hook Up.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 6,
+   "v": "84 % en profondeur ; tapis épais en 2 à 3 passages (Labo Maison).",
+   "src": []
+  },
+  "obstacles": {
+   "s": 3,
+   "v": "A roulé sur la crotte chez The Hook Up (3/6).",
+   "src": []
+  },
+  "lavage": {
+   "s": 8.5,
+   "v": "Rouleau laveur, bon sur les traces.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 7,
+   "v": "9,5 cm : passe de justesse.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via extension communautaire locale, Matter, Google Home via Matter.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 5,
+   "v": "Narwal : peu présent en France.",
+   "src": []
+  }
+ }
+}

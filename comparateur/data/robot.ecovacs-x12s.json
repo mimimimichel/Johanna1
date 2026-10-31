@@ -1,0 +1,80 @@
+{
+ "id": "ecovacs-x12s",
+ "name": "Ecovacs Deebot X12S Pro Omni",
+ "brand": "Ecovacs",
+ "price": 999,
+ "target": 999,
+ "priceNote": "999 € chez Boulanger, Fnac et Amazon (offre d'octobre). Prendre la version Pro Omni (avec sac).",
+ "where": [
+  {
+   "shop": "Boulanger",
+   "price": 999,
+   "url": "https://www.boulanger.com/"
+  }
+ ],
+ "height": 9.8,
+ "tags": [
+  "9,8 cm",
+  "Rouleau laveur",
+  "Évite 53/53",
+  "⚠ tapis épais"
+ ],
+ "verdict": "no",
+ "verdictText": "Parfait sur les obstacles, mais bloqué 3 fois sur un tapis épais.",
+ "pros": [
+  "53/53 aux obstacles",
+  "Rouleau laveur, bon sur les traces"
+ ],
+ "cons": [
+  "Bloqué 3 fois sur tapis épais (0/100)",
+  "Version sans sac : poils de chien qui bouchent la station",
+  "9,8 cm, très juste"
+ ],
+ "scores": {
+  "poils": {
+   "s": 7,
+   "v": "10 / 6,2 sur tapis ras / épais (smarthomeassistent). 100 % / 0 % sur le X12 (Vacuum Wars).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/ecovacs-deebot-x12s-pro-omni/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 4,
+   "v": "Rouleau relevé de 15 mm + capot, mais fermeture du capot pas fiable en test.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 2,
+   "v": "85 / 0 sur 100 : bloqué 3 fois sur tapis épais.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 10,
+   "v": "53/53, crottes évitées.",
+   "src": []
+  },
+  "lavage": {
+   "s": 8.5,
+   "v": "Rouleau laveur rincé en continu.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 6,
+   "v": "9,8 cm : passe de justesse.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant officiel (cloud), nouveaux modèles souvent incomplets. Google Home.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 5.5,
+   "v": "Ecovacs : SAV mitigé. Station sans sac bouchée par les poils (Vacuum Wars).",
+   "src": []
+  }
+ }
+}

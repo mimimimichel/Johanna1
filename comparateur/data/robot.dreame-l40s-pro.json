@@ -1,0 +1,80 @@
+{
+ "id": "dreame-l40s-pro",
+ "name": "Dreame L40s Pro Ultra",
+ "brand": "Dreame",
+ "price": 459,
+ "target": 429,
+ "priceNote": "459 € sur Amazon (offre Dealabs du 30/10). 429 € annoncé par Dreame pour le Black Friday.",
+ "where": [
+  {
+   "shop": "Amazon (vendu par Amazon)",
+   "price": 459,
+   "url": "https://www.amazon.fr/"
+  }
+ ],
+ "height": 10.35,
+ "tags": [
+  "10,35 cm ⚠",
+  "Serpillières déposées",
+  "Dealabs"
+ ],
+ "verdict": "meh",
+ "verdictText": "Bon prix, mais trop haut pour ton lit et faible sur les tapis épais.",
+ "pros": [
+  "459 €",
+  "Fausses crottes évitées (42/53)",
+  "Dépose ses serpillières"
+ ],
+ "cons": [
+  "10,35 cm : passe seulement si le lit dégage plus de 10,5 cm",
+  "Tapis épais : 23 g/100 aspirés, 5,4/10 sur les cheveux",
+  "Cartographie mal les tapis (navigation 12/21)"
+ ],
+ "scores": {
+  "poils": {
+   "s": 6.5,
+   "v": "8,9 (−1) / 10 / 5,4 (−1) sur 10 : enroulements sur stratifié et tapis épais (smarthomeassistent).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l40s-pro-ultra/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 6,
+   "v": "Dépose automatique, mais repère mal les tapis et relève parfois les serpillières sans raison (12/21).",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 3,
+   "v": "23,2 g/100 sur tapis épais.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 7.5,
+   "v": "42/53, fausses crottes évitées.",
+   "src": []
+  },
+  "lavage": {
+   "s": 6.5,
+   "v": "75 °C annoncés, pas atteints en test.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 3,
+   "v": "10,35 cm : à mesurer sous le lit.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via l'extension communautaire Dreame. Google Home.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 6,
+   "v": "Dreame : SAV France critiqué.",
+   "src": []
+  }
+ }
+}

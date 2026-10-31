@@ -1,0 +1,104 @@
+{
+ "slug": "meteo",
+ "order": 1,
+ "name": "Station météo 5 zones",
+ "short": "Météo",
+ "status": "Reco prête",
+ "updated": "2026-10-29",
+ "need": "Température et humidité fiables dans 5 zones (salon, cuisine, 2 chambres, extérieur), dans Home Assistant et si possible à la voix avec Google Home. Écran facultatif.",
+ "criteria": [
+  {
+   "key": "precision",
+   "short": "Précision",
+   "label": "Précision des mesures",
+   "weight": 25,
+   "explain": "Écart entre la valeur affichée et la vraie température/humidité, et cohérence entre les capteurs. La puce Sensirion SHT40 est la référence à ce prix.",
+   "how": "Fiche de la puce + tests côte à côte contre une référence calibrée (SmartHomeScene, 12 capteurs, 10 jours)."
+  },
+  {
+   "key": "liaison",
+   "short": "Liaison",
+   "label": "Pas de trous dans les données",
+   "weight": 20,
+   "explain": "La mesure doit arriver à chaque fois, à travers 2 murs porteurs. Zigbee et Thread forment un réseau maillé ; le Bluetooth porte moins loin.",
+   "how": "Protocole radio + retours d'utilisateurs Home Assistant (décrochages)."
+  },
+  {
+   "key": "exterieur",
+   "short": "Extérieur",
+   "label": "Capteur extérieur",
+   "weight": 10,
+   "explain": "Capteur étanche, qui tient le froid, à mettre sous un abri à l'ombre.",
+   "how": "Indice d'étanchéité (IP65) et plage de température."
+  },
+  {
+   "key": "ha",
+   "short": "Home Assistant",
+   "label": "Home Assistant en local",
+   "weight": 15,
+   "explain": "Fonctionne dans Home Assistant sans passer par un cloud ni un compte de la marque.",
+   "how": "Doc Home Assistant (ZHA, Zigbee2MQTT, intégrations officielles)."
+  },
+  {
+   "key": "google",
+   "short": "Google",
+   "label": "Google Home",
+   "weight": 10,
+   "explain": "Répondre à « Ok Google, quelle température dans la chambre ? » et servir dans des routines.",
+   "how": "Doc Google Home : Matter local, ou passerelle depuis Home Assistant."
+  },
+  {
+   "key": "prix",
+   "short": "Prix",
+   "label": "Prix du pack 5 zones",
+   "weight": 15,
+   "auto": "price",
+   "best": 80,
+   "worst": 250,
+   "explain": "Calculé automatiquement : 10/10 à 80 €, 0/10 à 250 €. Pack complet pour 5 zones (capteurs, passerelle, abri).",
+   "how": "Boutiques officielles, relevés du 29/10/2026."
+  },
+  {
+   "key": "autonomie",
+   "short": "Piles",
+   "label": "Piles et longévité",
+   "weight": 5,
+   "explain": "Piles standard, autonomie d'au moins un an, marque qui suit ses produits.",
+   "how": "Fiche fabricant, retours d'utilisateurs."
+  }
+ ],
+ "picks": [
+  {
+   "label": "Meilleur choix",
+   "product": "sonoff-02p",
+   "why": "Le capteur le plus précis testé, réseau Zigbee fiable, 100 % local dans Home Assistant."
+  },
+  {
+   "label": "Moins cher",
+   "product": "sonoff-02b",
+   "why": "Presque aussi précis, piles AAA, environ 35 € de moins."
+  }
+ ],
+ "rejects": [
+  {
+   "name": "Netatmo",
+   "reason": "Plus de 250 € pour 5 zones, pas de console."
+  },
+  {
+   "name": "Bresser Tuya",
+   "reason": "Un seul capteur affiché à la fois, capteurs en rupture."
+  },
+  {
+   "name": "La Crosse LW3101",
+   "reason": "± 1 °C, défilement, Google Home non vérifié."
+  },
+  {
+   "name": "Sonoff SNZB-02 (sans P)",
+   "reason": "Lit environ 10 % d'humidité de trop."
+  }
+ ],
+ "notes": [
+  "Question ouverte : as-tu déjà une clé Zigbee sur Home Assistant ? Elle fait passer le meilleur pack de 153 € à 117 €.",
+  "À réception : 24 h côte à côte, puis réglage des décalages dans Home Assistant."
+ ]
+}

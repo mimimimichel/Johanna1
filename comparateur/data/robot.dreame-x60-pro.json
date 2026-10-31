@@ -1,0 +1,99 @@
+{
+ "id": "dreame-x60-pro",
+ "name": "Dreame X60 Pro Ultra Complete",
+ "brand": "Dreame",
+ "price": 1499,
+ "target": 1099,
+ "priceNote": "1 499 € chez Dreame aujourd'hui. Déjà vu à 1 099 € en France et 899 € en Allemagne : attendre le Black Friday.",
+ "where": [
+  {
+   "shop": "Dreame FR",
+   "price": 1499,
+   "url": "https://fr.dreametech.com/"
+  }
+ ],
+ "height": 8.9,
+ "tags": [
+  "8,9 cm",
+  "Serpillières déposées",
+  "Matter",
+  "HA communautaire"
+ ],
+ "verdict": "good",
+ "verdictText": "Le plus complet sur les poils et les tapis, mais trop cher aujourd'hui.",
+ "pros": [
+  "Aucun cheveu enroulé, 10/10 partout chez smarthomeassistent",
+  "Aspire 89,5 g/100 dans un tapis épais",
+  "Dépose ses serpillières avant les tapis épais"
+ ],
+ "cons": [
+  "1 499 € : attendre ≤ 1 099 €",
+  "Lavelab : a traîné une vraie crotte de chien et frotté un tapis"
+ ],
+ "scores": {
+  "poils": {
+   "s": 10,
+   "v": "10/10 sur stratifié, tapis et tapis épais, aucun enroulement (smarthomeassistent). 100 % / 0 % sur le X60 Max (Vacuum Wars).",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-x60-pro-ultra-complete-nachtest/"
+    },
+    {
+     "label": "Vacuum Wars (X60 Max)",
+     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8,
+   "v": "Dépose automatique des serpillières sur tapis épais + relevage 21,5 mm. Lavelab : un petit tapis non détecté, serpillières qui frottent.",
+   "src": [
+    {
+     "label": "Lavelab",
+     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 9,
+   "v": "89,5 g récupérés sur 100 g dans un tapis épais.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-x60-pro-ultra-complete-nachtest/"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 7,
+   "v": "47/53, fausses crottes évitées (smarthomeassistent). Mais Lavelab : a traîné une vraie crotte.",
+   "src": [
+    {
+     "label": "Lavelab",
+     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 8,
+   "v": "Lavage à 100 °C, séchage à air chaud, détergent automatique, sac 3,2 L.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "8,9 cm laser rentré.",
+   "src": []
+  },
+  "domotique": {
+   "s": 7,
+   "v": "Home Assistant via l'extension communautaire Dreame (très complète). Google Home. Matter : oui.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 6,
+   "v": "Dreame : SAV France critiqué. Modèle bien testé (smarthomeassistent, Lavelab, Vacuum Wars).",
+   "src": []
+  }
+ }
+}

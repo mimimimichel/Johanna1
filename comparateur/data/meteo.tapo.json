@@ -1,0 +1,62 @@
+{
+ "id": "tapo",
+ "name": "Tapo H100 + T315 + 4 T310",
+ "brand": "TP-Link Tapo",
+ "price": 129,
+ "target": 129,
+ "priceNote": "128,93 € sur la boutique Tapo.",
+ "where": [
+  {
+   "shop": "Tapo FR",
+   "price": 128.93,
+   "url": "https://fr.store.tapo.com/"
+  }
+ ],
+ "height": null,
+ "tags": [
+  "± 0,3 °C",
+  "Cloud"
+ ],
+ "verdict": "no",
+ "verdictText": "Précis, mais pas fait pour l'extérieur et dépendant du cloud.",
+ "pros": [
+  "± 0,3 °C",
+  "Radio sub-GHz solide"
+ ],
+ "cons": [
+  "T310 non prévu pour l'extérieur",
+  "Pont Matter en bêta, bug en février 2026"
+ ],
+ "scores": {
+  "precision": {
+   "s": 7,
+   "v": "± 0,3 °C annoncés.",
+   "src": []
+  },
+  "liaison": {
+   "s": 8,
+   "v": "Radio sub-GHz vers hub.",
+   "src": []
+  },
+  "exterieur": {
+   "s": 3,
+   "v": "Non prévu pour l'extérieur.",
+   "src": []
+  },
+  "ha": {
+   "s": 5,
+   "v": "Cloud ou Matter bêta.",
+   "src": []
+  },
+  "google": {
+   "s": 6,
+   "v": "Cloud, déclencheurs erratiques.",
+   "src": []
+  },
+  "autonomie": {
+   "s": 7,
+   "v": "Piles AAA.",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,520 @@
+<title>Carnet d'achats</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Mise en page : carnet d'acheteuse, mobile d'abord. Bandeau de projets collant, puis verdict, puis onglets Classement / Comparer / Critères / Écartés. */
+:root {
+  --bg: #F2F4F7;
+  --surface: #FFFFFF;
+  --ink: #141A22;
+  --muted: #586273;
+  --line: #DCE1E8;
+  --accent: #2443CC;
+  --accent-soft: #E6EBFF;
+  --on-accent: #FFFFFF;
+  --mark: #FFE38A;
+  --good: #137A4B;
+  --good-soft: #DDF3E8;
+  --warn: #9A6410;
+  --warn-soft: #FBEFD6;
+  --bad: #B23426;
+  --bad-soft: #FBE3E0;
+  --s1: #2443CC;
+  --s2: #D2510F;
+  --s3: #0B8577;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1217; --surface: #171D26; --ink: #E7EBF1; --muted: #9AA4B4; --line: #2A3340;
+    --accent: #8197FF; --accent-soft: #1F2747; --on-accent: #0E1217; --mark: #5B4A0E;
+    --good: #43C98D; --good-soft: #12301F; --warn: #E3AA4E; --warn-soft: #33270F; --bad: #F2796A; --bad-soft: #3A1915;
+    --s1: #8197FF; --s2: #FF8B52; --s3: #3CCBB7;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1217; --surface: #171D26; --ink: #E7EBF1; --muted: #9AA4B4; --line: #2A3340;
+  --accent: #8197FF; --accent-soft: #1F2747; --on-accent: #0E1217; --mark: #5B4A0E;
+  --good: #43C98D; --good-soft: #12301F; --warn: #E3AA4E; --warn-soft: #33270F; --bad: #F2796A; --bad-soft: #3A1915;
+  --s1: #8197FF; --s2: #FF8B52; --s3: #3CCBB7;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.45; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* Bandeau */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 14px; padding-block: 10px; }
+.brand { font-family: var(--f-display); font-weight: 800; font-stretch: 85%; font-size: 1.05rem; letter-spacing: .01em; white-space: nowrap; }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: .9rem; white-space: nowrap; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+main { padding-block: 18px 48px; display: grid; gap: 22px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.6rem, 6vw, 2.2rem); font-weight: 800; font-stretch: 88%; line-height: 1.05; }
+h2 { font-size: 1.15rem; font-weight: 700; font-stretch: 95%; }
+.eyebrow { font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.muted { color: var(--muted); }
+.small { font-size: .88rem; }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+
+.head { display: grid; gap: 8px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: .88rem; color: var(--muted); }
+.status { background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 2px 8px; font-weight: 700; font-size: .8rem; }
+details.need { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; }
+details.need summary { cursor: pointer; font-weight: 600; }
+details.need p { margin: 8px 0 0; }
+
+/* Verdict */
+.picks { display: grid; gap: 10px; }
+.pick { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 6px; }
+.pick.first { border: 2px solid var(--ink); }
+.pick-top { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.pick-name { font-family: var(--f-display); font-weight: 700; font-size: 1.12rem; font-stretch: 92%; }
+.pick p { margin: 0; }
+.pick-foot { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9rem; align-items: center; }
+@media (min-width: 640px) { .picks { grid-template-columns: repeat(2, minmax(0, 1fr)); } .pick.first { grid-column: 1 / -1; } }
+
+.score { font-family: var(--f-data); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.score b { font-size: 1.35rem; }
+.score span { color: var(--muted); font-size: .8rem; }
+
+/* Onglets */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.tab { border: 0; background: none; padding: 10px 12px; border-bottom: 3px solid transparent; cursor: pointer; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.panel { display: grid; gap: 12px; }
+
+/* Classement */
+.rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.row { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+.row-btn { width: 100%; border: 0; background: none; text-align: left; cursor: pointer; padding: 12px; display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: 4px 10px; align-items: start; }
+.pos { font-family: var(--f-data); font-weight: 600; color: var(--muted); font-size: 1rem; padding-top: 2px; }
+.row-name { font-weight: 700; font-size: 1rem; line-height: 1.25; }
+.row-sub { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; margin-top: 4px; font-size: .86rem; color: var(--muted); }
+.row-right { text-align: right; display: grid; gap: 2px; justify-items: end; }
+.price { font-family: var(--f-data); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.bar { grid-column: 2 / -1; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 6px; }
+.bar i { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+.tier-good i { background: var(--good); } .tier-mid i { background: var(--warn); } .tier-low i { background: var(--bad); }
+.verdict { font-size: .74rem; font-weight: 700; border-radius: 5px; padding: 1px 7px; letter-spacing: .02em; white-space: nowrap; }
+.v-top { background: var(--good-soft); color: var(--good); }
+.v-good { background: var(--accent-soft); color: var(--accent); }
+.v-meh { background: var(--warn-soft); color: var(--warn); }
+.v-no { background: var(--bad-soft); color: var(--bad); }
+.tag { font-size: .78rem; border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; white-space: nowrap; }
+
+.detail { border-top: 1px solid var(--line); padding: 12px; display: grid; gap: 14px; }
+.detail p { margin: 0; }
+.pc { display: grid; gap: 10px; }
+@media (min-width: 560px) { .pc { grid-template-columns: 1fr 1fr; } }
+.pc ul { margin: 4px 0 0; padding-left: 1.1em; }
+.pc li { margin: 2px 0; }
+.pros h3 { color: var(--good); font-size: .9rem; } .cons h3 { color: var(--bad); font-size: .9rem; }
+.crit { display: grid; gap: 10px; }
+.crit-row { display: grid; grid-template-columns: minmax(0, 1fr) 3.2rem; gap: 2px 10px; align-items: center; }
+.crit-row .lbl { font-weight: 600; font-size: .92rem; }
+.crit-row .val { text-align: right; font-family: var(--f-data); font-weight: 600; font-variant-numeric: tabular-nums; }
+.crit-row .mini { grid-column: 1 / -1; height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.crit-row .mini i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.crit-row .txt { grid-column: 1 / -1; font-size: .86rem; color: var(--muted); }
+.src { display: inline-flex; flex-wrap: wrap; gap: 4px 10px; margin-left: 4px; }
+.buy { background: var(--bg); border-radius: 8px; padding: 10px; display: grid; gap: 6px; font-size: .9rem; }
+.buy ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.buy li { display: flex; justify-content: space-between; gap: 10px; }
+
+/* Comparer */
+.pickers { display: flex; flex-wrap: wrap; gap: 6px; }
+.pickers .chip[aria-pressed="true"] { color: var(--on-accent); }
+.pickers .chip.c0[aria-pressed="true"] { background: var(--s1); border-color: var(--s1); }
+.pickers .chip.c1[aria-pressed="true"] { background: var(--s2); border-color: var(--s2); }
+.pickers .chip.c2[aria-pressed="true"] { background: var(--s3); border-color: var(--s3); }
+.radar { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 8px; }
+.radar svg { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; justify-content: center; font-size: .85rem; padding: 4px 0 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+table.cmp { border-collapse: collapse; width: 100%; font-size: .9rem; }
+.cmp th, .cmp td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.cmp thead th { font-family: var(--f-display); font-stretch: 92%; font-size: .9rem; line-height: 1.2; min-width: 7.5rem; }
+.cmp th[scope="row"] { position: sticky; left: 0; background: var(--surface); font-weight: 600; min-width: 7.5rem; max-width: 9rem; z-index: 1; }
+.cmp td .n { font-family: var(--f-data); font-weight: 600; font-variant-numeric: tabular-nums; }
+.cmp td.win { background: var(--mark); }
+.cmp td .t { display: block; color: var(--muted); font-size: .8rem; margin-top: 2px; }
+.cmp tr.total th, .cmp tr.total td { font-size: 1rem; border-bottom: 2px solid var(--ink); }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; cursor: pointer; }
+
+/* Critères */
+.weights { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 16px; }
+.live { display: grid; gap: 4px; background: var(--bg); border-radius: 8px; padding: 10px 12px; font-size: .92rem; }
+.live ol { margin: 0; padding-left: 1.3em; }
+.w-row { display: grid; gap: 4px; }
+.w-top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.w-top label { font-weight: 700; }
+.w-top output { font-family: var(--f-data); font-variant-numeric: tabular-nums; color: var(--muted); font-size: .88rem; }
+input[type="range"] { width: 100%; accent-color: var(--accent); }
+.w-row details summary { cursor: pointer; font-size: .86rem; color: var(--accent); }
+.w-row details p { margin: 6px 0 0; font-size: .88rem; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 12px; cursor: pointer; font-weight: 600; }
+.saved { font-size: .82rem; color: var(--muted); }
+
+/* Écartés */
+.rej { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.rej li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; }
+.rej b { display: block; }
+.notes { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
+
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 22px 16px; display: grid; gap: 8px; }
+.empty p { margin: 0; }
+@media (prefers-reduced-motion: no-preference) { .bar i, .crit-row .mini i { transition: width .25s ease; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">Carnet d'achats</div>
+    <nav class="chips" id="nav" aria-label="Projets d'achat"></nav>
+  </div>
+</header>
+<main class="wrap" id="app">
+  <section class="empty" id="boot">
+    <p class="eyebrow">Chargement</p>
+    <h1>Tes projets d'achat</h1>
+    <p class="muted">Chaque projet (station météo, robot aspirateur, téléphone…) a son espace : le verdict, le classement, la comparaison et les critères que tu peux pondérer toi-même.</p>
+  </section>
+</main>
+
+<script>
+(function () {
+  const app = document.getElementById("app");
+  const nav = document.getElementById("nav");
+  const S = {
+    projects: {}, products: {}, active: null, tab: "classement",
+    open: {}, compare: {}, diffOnly: false, weights: {}, noDb: false,
+    loadingTimedOut: false, gotProjects: false, saveNote: ""
+  };
+  let db = null;
+  const productSubs = {};
+  let saveTimer = null;
+
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtScore = (x) => (Math.round(x * 10) / 10).toFixed(1).replace(".", ",");
+  const fmtPrice = (p) => p == null ? "—" : new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: (p % 1 ? 2 : 0) }).format(p);
+  const VERDICT = { top: ["Recommandé", "v-top"], good: ["Bon choix", "v-good"], meh: ["Avec réserves", "v-meh"], no: ["À éviter", "v-no"] };
+  const tierClass = (s) => s >= 7.5 ? "tier-good" : s >= 6 ? "tier-mid" : "tier-low";
+
+  function project() { return S.projects[S.active]; }
+  function productsOf(slug) { return Object.values(S.products[slug] || {}); }
+  function weightsOf(p) {
+    const w = {};
+    const saved = S.weights[p.slug] || p.weights || {};
+    (p.criteria || []).forEach((c) => { w[c.key] = typeof saved[c.key] === "number" ? saved[c.key] : c.weight; });
+    return w;
+  }
+  function critScore(c, prod) {
+    if (c.auto === "price") {
+      if (prod.price == null) return 0;
+      const s = 10 * (c.worst - prod.price) / (c.worst - c.best);
+      return Math.max(0, Math.min(10, s));
+    }
+    const e = prod.scores && prod.scores[c.key];
+    return e && typeof e.s === "number" ? e.s : 0;
+  }
+  function globalScore(p, prod, w) {
+    let tot = 0, sum = 0;
+    p.criteria.forEach((c) => { const wi = w[c.key] || 0; tot += critScore(c, prod) * wi; sum += wi; });
+    return sum ? tot / sum : 0;
+  }
+  function ranked(p) {
+    const w = weightsOf(p);
+    return productsOf(p.slug).map((prod) => ({ prod, g: globalScore(p, prod, w) })).sort((a, b) => b.g - a.g);
+  }
+
+  /* ---------- Navigation ---------- */
+  function renderNav() {
+    const list = Object.values(S.projects).sort((a, b) => (a.order || 0) - (b.order || 0));
+    nav.innerHTML = list.map((p) => `<button class="chip" data-act="proj" data-slug="${esc(p.slug)}" aria-pressed="${p.slug === S.active}">${esc(p.short || p.name)}</button>`).join("");
+  }
+
+  /* ---------- Page ---------- */
+  function render() {
+    renderNav();
+    if (S.noDb) {
+      app.innerHTML = `<section class="empty"><p class="eyebrow">Données indisponibles</p><h1>Tes projets ne peuvent pas s'afficher ici</h1><p class="muted">Les projets sont enregistrés dans le carnet en ligne. Ouvre cette page depuis claude.ai, connectée à ton compte, pour les voir.</p></section>`;
+      return;
+    }
+    const p = project();
+    if (!p) {
+      app.innerHTML = `<section class="empty"><p class="eyebrow">${S.loadingTimedOut ? "Connexion lente" : "Chargement"}</p><h1>Tes projets d'achat</h1><p class="muted">${S.loadingTimedOut ? "Les projets mettent du temps à arriver. Ils s'afficheront dès que la connexion répondra." : (S.gotProjects ? "Aucun projet pour l'instant. Demande à Claude d'en ouvrir un : « Nouveau besoin : … »." : "Chaque projet a son espace : verdict, classement, comparaison et critères pondérables.")}</p></section>`;
+      return;
+    }
+    const prods = productsOf(p.slug);
+    const r = ranked(p);
+    const byId = Object.fromEntries(r.map((x) => [x.prod.id, x]));
+    let html = `<section class="head">
+      <p class="eyebrow">Projet d'achat</p>
+      <h1>${esc(p.name)}</h1>
+      <div class="meta"><span class="status">${esc(p.status || "")}</span><span>Mis à jour le ${esc(frDate(p.updated))}</span><span>${prods.length} modèle${prods.length > 1 ? "s" : ""} comparé${prods.length > 1 ? "s" : ""}</span></div>
+      ${p.need ? `<details class="need"><summary>Le besoin</summary><p>${esc(p.need)}</p></details>` : ""}
+    </section>`;
+    if (!prods.length) {
+      html += `<section class="empty"><p class="muted">Les modèles de ce projet arrivent…</p></section>`;
+      app.innerHTML = html; return;
+    }
+    if (p.picks && p.picks.length) {
+      html += `<section class="picks" aria-label="Verdict">` + p.picks.map((pk, i) => {
+        const x = byId[pk.product]; if (!x) return "";
+        const prod = x.prod; const best = (prod.where || [])[0];
+        return `<article class="pick${i === 0 ? " first" : ""}">
+          <p class="eyebrow">${esc(pk.label)}</p>
+          <div class="pick-top"><span class="pick-name">${esc(prod.name)}</span><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span></div>
+          <p>${esc(pk.why)}</p>
+          <div class="pick-foot"><span class="price">${fmtPrice(prod.price)}</span>${prod.target && prod.target < prod.price ? `<span class="muted">cible ${fmtPrice(prod.target)}</span>` : ""}${best ? `<a href="${esc(best.url)}" target="_blank" rel="noopener">${esc(best.shop)} ↗</a>` : ""}<button class="btn small" data-act="goto" data-id="${esc(prod.id)}">Voir la fiche</button></div>
+        </article>`;
+      }).join("") + `</section>`;
+    }
+    const tabs = [["classement", "Classement"], ["comparer", "Comparer"], ["criteres", "Critères"], ["ecartes", "Écartés et notes"]];
+    html += `<div class="tabs" role="tablist">` + tabs.map(([k, l]) => `<button class="tab" role="tab" data-act="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}</button>`).join("") + `</div>`;
+    html += `<section class="panel" role="tabpanel">${panel(p, r)}</section>`;
+    app.innerHTML = html;
+  }
+
+  function frDate(d) { if (!d) return "—"; const [y, m, dd] = String(d).split("-"); return dd ? `${dd}/${m}/${y}` : d; }
+
+  function panel(p, r) {
+    if (S.tab === "comparer") return panelCompare(p, r);
+    if (S.tab === "criteres") return panelWeights(p, r);
+    if (S.tab === "ecartes") return panelRejects(p);
+    return panelRank(p, r);
+  }
+
+  function panelRank(p, r) {
+    const open = S.open[p.slug] || {};
+    return `<p class="small muted">Classé par score global, selon l'importance donnée à chaque critère (onglet Critères). Touche un modèle pour voir le détail.</p>
+    <ol class="rank">` + r.map((x, i) => {
+      const prod = x.prod; const v = VERDICT[prod.verdict] || ["", ""]; const isOpen = !!open[prod.id];
+      return `<li class="row" id="row-${esc(prod.id)}">
+        <button class="row-btn" data-act="open" data-id="${esc(prod.id)}" aria-expanded="${isOpen}">
+          <span class="pos">${i + 1}</span>
+          <span><span class="row-name">${esc(prod.name)}</span>
+            <span class="row-sub">${v[0] ? `<span class="verdict ${v[1]}">${v[0]}</span>` : ""}${(prod.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span></span>
+          <span class="row-right"><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span><span class="price">${fmtPrice(prod.price)}</span></span>
+          <span class="bar ${tierClass(x.g)}" aria-hidden="true"><i style="width:${x.g * 10}%"></i></span>
+        </button>
+        ${isOpen ? detail(p, prod) : ""}
+      </li>`;
+    }).join("") + `</ol>`;
+  }
+
+  function detail(p, prod) {
+    const crit = p.criteria.map((c) => {
+      const s = critScore(c, prod); const e = (prod.scores || {})[c.key] || {};
+      const txt = c.auto === "price" ? `${fmtPrice(prod.price)}. ${prod.priceNote || ""}` : (e.v || "Pas de donnée.");
+      const src = (e.src || []).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)} ↗</a>`).join("");
+      return `<div class="crit-row"><span class="lbl">${esc(c.label)}</span><span class="val">${fmtScore(s)}</span>
+        <span class="mini" aria-hidden="true"><i style="width:${s * 10}%"></i></span>
+        <span class="txt">${esc(txt)}${src ? `<span class="src">${src}</span>` : ""}</span></div>`;
+    }).join("");
+    const where = (prod.where || []).map((w) => `<li><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.shop)} ↗</a><span class="num">${fmtPrice(w.price)}</span></li>`).join("");
+    return `<div class="detail">
+      ${prod.verdictText ? `<p><b>${esc(prod.verdictText)}</b></p>` : ""}
+      <div class="pc"><div class="pros"><h3>Points forts</h3><ul>${(prod.pros || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div class="cons"><h3>Points faibles</h3><ul>${(prod.cons || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div></div>
+      <div class="crit">${crit}</div>
+      <div class="buy"><b>Où acheter</b>${prod.priceNote ? `<span class="muted">${esc(prod.priceNote)}</span>` : ""}${where ? `<ul>${where}</ul>` : ""}</div>
+    </div>`;
+  }
+
+  function selected(p, r) {
+    let sel = S.compare[p.slug];
+    const ids = new Set(r.map((x) => x.prod.id));
+    if (!sel) sel = r.slice(0, 3).map((x) => x.prod.id);
+    sel = sel.filter((id) => ids.has(id));
+    S.compare[p.slug] = sel;
+    return sel;
+  }
+
+  function panelCompare(p, r) {
+    const sel = selected(p, r);
+    const byId = Object.fromEntries(r.map((x) => [x.prod.id, x]));
+    const pickers = `<div class="pickers" role="group" aria-label="Modèles à comparer">` + r.map((x) => {
+      const k = sel.indexOf(x.prod.id);
+      return `<button class="chip ${k >= 0 ? "c" + k : ""}" data-act="cmp" data-id="${esc(x.prod.id)}" aria-pressed="${k >= 0}">${esc(x.prod.name)}</button>`;
+    }).join("") + `</div>`;
+    if (!sel.length) return `<p class="small muted">Choisis jusqu'à 3 modèles.</p>` + pickers;
+    const items = sel.map((id) => byId[id]);
+    const radar = radarSvg(p, items);
+    const legend = `<div class="legend">` + items.map((x, i) => `<span><i style="background:var(--s${i + 1})"></i>${esc(x.prod.name)}</span>`).join("") + `</div>`;
+    const rows = p.criteria.map((c) => {
+      const vals = items.map((x) => critScore(c, x.prod));
+      const max = Math.max(...vals), min = Math.min(...vals);
+      if (S.diffOnly && max - min < 1) return "";
+      return `<tr><th scope="row">${esc(c.label)}</th>` + items.map((x, i) => {
+        const e = (x.prod.scores || {})[c.key] || {};
+        const t = c.auto === "price" ? fmtPrice(x.prod.price) : shortTxt(e.v);
+        return `<td class="${items.length > 1 && vals[i] === max && max > min ? "win" : ""}"><span class="n">${fmtScore(vals[i])}</span><span class="t">${esc(t)}</span></td>`;
+      }).join("") + `</tr>`;
+    }).join("");
+    const gs = items.map((x) => x.g); const gmax = Math.max(...gs);
+    const total = `<tr class="total"><th scope="row">Score global</th>` + items.map((x) => `<td class="${items.length > 1 && x.g === gmax ? "win" : ""}"><span class="n">${fmtScore(x.g)}</span><span class="t">${fmtPrice(x.prod.price)}</span></td>`).join("") + `</tr>`;
+    const head = `<tr><th scope="row"></th>` + items.map((x, i) => `<th scope="col" style="color:var(--s${i + 1})">${esc(x.prod.name)}</th>`).join("") + `</tr>`;
+    return `<p class="small muted">Choisis jusqu'à 3 modèles. Le surligné marque le meilleur de chaque ligne.</p>${pickers}
+      <div class="radar">${radar}${legend}</div>
+      <label class="toggle"><input type="checkbox" id="diff-${esc(p.slug)}" data-act="diff" ${S.diffOnly ? "checked" : ""}> Seulement les différences</label>
+      <div class="tablewrap"><table class="cmp"><thead>${head}</thead><tbody>${total}${rows}</tbody></table></div>`;
+  }
+  function shortTxt(v) { if (!v) return ""; const s = String(v).split(". ")[0]; return s.length > 90 ? s.slice(0, 88) + "…" : s; }
+
+  function radarSvg(p, items) {
+    const W = 380, H = 320, cx = W / 2, cy = H / 2 + 4, R = 104;
+    const n = p.criteria.length;
+    const ang = (i) => -Math.PI / 2 + (2 * Math.PI * i) / n;
+    const pt = (i, v) => [cx + Math.cos(ang(i)) * R * v / 10, cy + Math.sin(ang(i)) * R * v / 10];
+    let g = "";
+    [2, 4, 6, 8, 10].forEach((lv) => {
+      const pts = p.criteria.map((_, i) => pt(i, lv).map((z) => z.toFixed(1)).join(",")).join(" ");
+      g += `<polygon points="${pts}" fill="none" stroke="var(--line)" stroke-width="1"/>`;
+    });
+    p.criteria.forEach((c, i) => {
+      const [x, y] = pt(i, 10);
+      g += `<line x1="${cx}" y1="${cy}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="var(--line)" stroke-width="1"/>`;
+      const [lx, ly] = pt(i, 11.6);
+      const anchor = Math.abs(lx - cx) < 8 ? "middle" : lx > cx ? "start" : "end";
+      g += `<text x="${lx.toFixed(1)}" y="${(ly + 4).toFixed(1)}" text-anchor="${anchor}" font-size="12" font-family="Source Sans 3, system-ui, sans-serif" fill="var(--muted)">${esc(c.short || c.label)}</text>`;
+    });
+    g += `<text x="${cx + 3}" y="${(cy - R - 2 + 14).toFixed(1)}" font-size="9" fill="var(--muted)" font-family="IBM Plex Mono, monospace">10</text>`;
+    items.forEach((x, k) => {
+      const pts = p.criteria.map((c, i) => pt(i, critScore(c, x.prod)).map((z) => z.toFixed(1)).join(",")).join(" ");
+      g += `<polygon points="${pts}" fill="var(--s${k + 1})" fill-opacity="0.12" stroke="var(--s${k + 1})" stroke-width="2" stroke-linejoin="round"/>`;
+    });
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Profil des modèles sur chaque critère, de 0 à 10">${g}</svg>`;
+  }
+
+  function livePreview(p) {
+    const r = ranked(p).slice(0, 3);
+    return `<b>Avec ces réglages, le podium :</b><ol>` + r.map((x) => `<li>${esc(x.prod.name)} — <span class="num">${fmtScore(x.g)}</span></li>`).join("") + `</ol>`;
+  }
+
+  function panelWeights(p, r) {
+    const w = weightsOf(p);
+    const total = Object.values(w).reduce((a, b) => a + b, 0) || 1;
+    return `<div class="weights">
+      <div><h2>Ce qui compte pour moi</h2><p class="small muted">Glisse pour donner plus ou moins d'importance à un critère. Le classement se recalcule tout de suite et tes réglages sont gardés.</p></div>
+      <div class="live" id="live">${livePreview(p)}</div>
+      ${p.criteria.map((c) => `<div class="w-row">
+        <div class="w-top"><label for="w-${esc(p.slug)}-${esc(c.key)}">${esc(c.label)}</label><output id="o-${esc(c.key)}">${Math.round(100 * w[c.key] / total)} %</output></div>
+        <input type="range" min="0" max="30" step="1" id="w-${esc(p.slug)}-${esc(c.key)}" data-key="${esc(c.key)}" value="${w[c.key]}">
+        <details><summary>Ce que ça veut dire</summary><p>${esc(c.explain || "")}</p>${c.how ? `<p class="muted"><b>Comment on mesure :</b> ${esc(c.how)}</p>` : ""}</details>
+      </div>`).join("")}
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn" data-act="reset">Revenir aux réglages conseillés</button><span class="saved" id="saved">${esc(S.saveNote)}</span></div>
+    </div>`;
+  }
+
+  function panelRejects(p) {
+    const rej = (p.rejects || []).map((x) => `<li><b>${esc(x.name)}</b><span class="muted">${esc(x.reason)}</span></li>`).join("");
+    const notes = (p.notes || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    return `${rej ? `<h2>Écartés</h2><ul class="rej">${rej}</ul>` : ""}${notes ? `<h2>À savoir</h2><ul class="notes">${notes}</ul>` : ""}`;
+  }
+
+  /* ---------- Interactions ---------- */
+  app.addEventListener("click", (ev) => {
+    const b = ev.target.closest("[data-act]"); if (!b) return;
+    const p = project(); const act = b.dataset.act;
+    if (act === "tab") { S.tab = b.dataset.tab; render(); }
+    else if (act === "open") { const o = S.open[p.slug] = S.open[p.slug] || {}; o[b.dataset.id] = !o[b.dataset.id]; render(); }
+    else if (act === "goto") {
+      S.tab = "classement"; (S.open[p.slug] = S.open[p.slug] || {})[b.dataset.id] = true; render();
+      const el = document.getElementById("row-" + b.dataset.id); if (el) el.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+    else if (act === "cmp") {
+      let sel = S.compare[p.slug] || []; const id = b.dataset.id;
+      if (sel.includes(id)) sel = sel.filter((x) => x !== id); else { sel = sel.concat(id); if (sel.length > 3) sel = sel.slice(-3); }
+      S.compare[p.slug] = sel; render();
+    }
+    else if (act === "reset") {
+      const w = {}; p.criteria.forEach((c) => (w[c.key] = c.weight));
+      S.weights[p.slug] = w; render(); queueSave(p);
+    }
+  });
+  app.addEventListener("change", (ev) => {
+    if (ev.target.dataset.act === "diff") { S.diffOnly = ev.target.checked; render(); }
+  });
+  app.addEventListener("input", (ev) => {
+    const el = ev.target; if (el.type !== "range" || !el.dataset.key) return;
+    const p = project(); const w = Object.assign({}, weightsOf(p)); w[el.dataset.key] = Number(el.value);
+    S.weights[p.slug] = w;
+    const total = Object.values(w).reduce((a, b) => a + b, 0) || 1;
+    p.criteria.forEach((c) => { const o = document.getElementById("o-" + c.key); if (o) o.textContent = Math.round(100 * w[c.key] / total) + " %"; });
+    const live = document.getElementById("live"); if (live) live.innerHTML = livePreview(p);
+    queueSave(p);
+  });
+  nav.addEventListener("click", (ev) => {
+    const b = ev.target.closest("[data-act='proj']"); if (!b) return;
+    setActive(b.dataset.slug, true);
+  });
+
+  function setNote(t) { S.saveNote = t; const s = document.getElementById("saved"); if (s) s.textContent = t; }
+  function queueSave(p) {
+    if (!db) { setNote("Réglage valable pour cette visite."); return; }
+    clearTimeout(saveTimer);
+    setNote("…");
+    saveTimer = setTimeout(async () => {
+      try { await db.doc("projects/" + p.slug).update({ weights: S.weights[p.slug] }); setNote("Réglages enregistrés."); }
+      catch (e) { setNote("Réglage valable pour cette visite (pas enregistré)."); }
+    }, 700);
+  }
+
+  /* ---------- Données ---------- */
+  function setActive(slug, push) {
+    if (!S.projects[slug]) return;
+    S.active = slug;
+    if (push) { try { history.replaceState(null, "", "#" + slug); } catch (e) { location.hash = slug; } }
+    subscribeProducts(slug);
+    render();
+    window.scrollTo(0, 0);
+  }
+  function subscribeProducts(slug) {
+    if (!db || productSubs[slug]) return;
+    productSubs[slug] = db.collection("projects/" + slug + "/products").onSnapshot((snap) => {
+      const m = {}; snap.docs.forEach((d) => { const v = d.data(); if (v) m[d.id] = Object.assign({ id: d.id }, v); });
+      S.products[slug] = m; if (slug === S.active) render();
+    }, () => {});
+  }
+  window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (h && h !== S.active) setActive(h, false); });
+
+  const timer = setTimeout(() => { S.loadingTimedOut = true; if (!project()) render(); }, 10000);
+  const use = window.claude && window.claude.use ? window.claude.use("db") : Promise.resolve(null);
+  use.then((d) => {
+    if (!d) { clearTimeout(timer); S.noDb = true; render(); return; }
+    db = d;
+    db.collection("projects").onSnapshot((snap) => {
+      if (!snap.metadata.fromCache) clearTimeout(timer);
+      S.gotProjects = true;
+      const m = {}; snap.docs.forEach((doc) => { const v = doc.data(); if (v) m[doc.id] = Object.assign({ slug: doc.id }, v); });
+      S.projects = m;
+      const ae = document.activeElement;
+      if (S.active && m[S.active] && ae && ae.type === "range") return;
+      if (!S.active || !m[S.active]) {
+        const h = location.hash.slice(1);
+        const first = Object.values(m).sort((a, b) => (b.order || 0) - (a.order || 0))[0];
+        const slug = m[h] ? h : (first && first.slug);
+        if (slug) { S.active = slug; subscribeProducts(slug); }
+      }
+      render();
+    }, () => { clearTimeout(timer); S.loadingTimedOut = true; render(); });
+  }).catch(() => { clearTimeout(timer); S.noDb = true; render(); });
+})();
+</script>

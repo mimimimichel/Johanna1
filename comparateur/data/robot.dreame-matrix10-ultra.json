@@ -1,0 +1,99 @@
+{
+ "id": "dreame-matrix10-ultra",
+ "name": "Dreame Matrix10 Ultra",
+ "brand": "Dreame",
+ "price": 649,
+ "target": 649,
+ "priceNote": "649 € chez Dreame (au lieu de 1 199 €).",
+ "where": [
+  {
+   "shop": "Dreame FR",
+   "price": 649,
+   "url": "https://fr.dreametech.com/"
+  },
+  {
+   "shop": "Fnac",
+   "price": 749,
+   "url": "https://www.fnac.com/"
+  }
+ ],
+ "height": 8.9,
+ "tags": [
+  "8,9 cm",
+  "Serpillières déposées",
+  "Évite tout : 53/53",
+  "Matter"
+ ],
+ "verdict": "good",
+ "verdictText": "Champion pour éviter les crottes, très bon prix, mais faible sur les tapis épais.",
+ "pros": [
+  "53/53 aux obstacles, toutes les fausses crottes évitées",
+  "Dépose ses serpillières sur les tapis, capteur ultrasons",
+  "3 types de serpillières changées automatiquement"
+ ],
+ "cons": [
+  "Tapis épais : 0/10 sur les cheveux (enroulés) et 43 g/100 aspirés",
+  "Bon seulement si tes tapis sont ras ou moyens"
+ ],
+ "scores": {
+  "poils": {
+   "s": 7,
+   "v": "10/10 sur sol dur et tapis ras, mais 0/10 sur tapis épais avec enroulement (smarthomeassistent). 92 % chez Vacuum Wars.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+    },
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 8.5,
+   "v": "Capteur ultrasons, relevage 10,5 mm, dépose automatique des serpillières sur tapis épais. Navigation 19/21.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "43,1 g/100 sur tapis épais ; 84 % en profondeur chez Vacuum Wars.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 10,
+   "v": "53/53, toutes les fausses crottes évitées.",
+   "src": [
+    {
+     "label": "smarthomeassistent",
+     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 8,
+   "v": "3 jeux de serpillières, 3 détergents, séchage DashDry.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 10,
+   "v": "8,9 cm laser rentré.",
+   "src": []
+  },
+  "domotique": {
+   "s": 7,
+   "v": "Home Assistant via l'extension communautaire Dreame. Google Home. Matter : oui.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 6,
+   "v": "Dreame : SAV France critiqué. Bien testé.",
+   "src": []
+  }
+ }
+}
