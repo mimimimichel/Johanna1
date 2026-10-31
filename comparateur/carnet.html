@@ -85,6 +85,8 @@ details.need p { margin: 8px 0 0; }
 .pick-top { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
 .pick-name { font-family: var(--f-display); font-weight: 700; font-size: 1.12rem; font-stretch: 92%; }
 .pick p { margin: 0; }
+.pick-detail { margin: 6px -14px -14px; }
+.pick-detail .detail { border-radius: 0 0 var(--r) var(--r); }
 .pick-foot { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9rem; align-items: center; }
 @media (min-width: 640px) { .picks { grid-template-columns: repeat(2, minmax(0, 1fr)); } .pick.first { grid-column: 1 / -1; } }
 
@@ -211,7 +213,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
   const nav = document.getElementById("nav");
   const S = {
     projects: {}, products: {}, active: null, tab: "classement",
-    open: {}, compare: {}, diffOnly: false, weights: {}, noDb: false,
+    open: {}, pickOpen: {}, compare: {}, diffOnly: false, weights: {}, noDb: false,
     loadingTimedOut: false, gotProjects: false, saveNote: ""
   };
   let db = null;
@@ -292,7 +294,8 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
           <p class="eyebrow">${esc(pk.label)}</p>
           <div class="pick-top"><span class="pick-name">${esc(prod.name)}</span><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span></div>
           <p>${esc(pk.why)}</p>
-          <div class="pick-foot"><span class="price">${fmtPrice(prod.price)}</span>${prod.target && prod.target < prod.price ? `<span class="muted">cible ${fmtPrice(prod.target)}</span>` : ""}${best ? `<a href="${esc(best.url)}" target="_blank" rel="noopener">${esc(best.shop)} ↗</a>` : ""}<button class="btn small" data-act="goto" data-id="${esc(prod.id)}">Voir la fiche</button></div>
+          <div class="pick-foot"><span class="price">${fmtPrice(prod.price)}</span>${prod.target && prod.target < prod.price ? `<span class="muted">cible ${fmtPrice(prod.target)}</span>` : ""}${best ? `<a href="${esc(best.url)}" target="_blank" rel="noopener">${esc(best.shop)} ↗</a>` : ""}<button class="btn small" data-act="goto" data-id="${esc(prod.id)}" aria-expanded="${!!(S.pickOpen[p.slug] || {})[prod.id]}">${(S.pickOpen[p.slug] || {})[prod.id] ? "Masquer la fiche" : "Voir la fiche"}</button></div>
+          ${(S.pickOpen[p.slug] || {})[prod.id] ? `<div class="pick-detail">${detail(p, prod)}</div>` : ""}
         </article>`;
       }).join("") + `</section>`;
     }
@@ -459,8 +462,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
     if (act === "tab") { S.tab = b.dataset.tab; render(); }
     else if (act === "open") { const o = S.open[p.slug] = S.open[p.slug] || {}; o[b.dataset.id] = !o[b.dataset.id]; render(); }
     else if (act === "goto") {
-      S.tab = "classement"; (S.open[p.slug] = S.open[p.slug] || {})[b.dataset.id] = true; render();
-      const el = document.getElementById("row-" + b.dataset.id); if (el) el.scrollIntoView({ block: "start", behavior: "smooth" });
+      const o = S.pickOpen[p.slug] = S.pickOpen[p.slug] || {}; o[b.dataset.id] = !o[b.dataset.id]; render();
     }
     else if (act === "cmp") {
       let sel = S.compare[p.slug] || []; const id = b.dataset.id;
