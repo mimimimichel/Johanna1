@@ -1,6 +1,6 @@
 # Brief — Aspirateur laveur
 
-Statut: recherche v3 (poils = critère n° 1, prix non éliminatoire)
+Statut: recherche v4 (scan marché complet + tapis)
 Ouvert le: 2026-10-31
 Contexte : promos repérées sur Dealabs avant le Black Friday (27/11/2026). L'utilisatrice envoie des captures ; on rend un go / no go sur chaque offre.
 
@@ -28,6 +28,7 @@ Robot aspirateur laveur avec station pour un appartement de 70–100 m², surtou
 | 🟠 | Prix | Repère ≈ 400 € ; pas éliminatoire, juger le rapport qualité/prix | Historique de prix |
 | 🔴 | Vendeur | Vendeur sûr (pas de vendeur tiers) | Fiche de l'offre |
 | 🔴 | Poils et cheveux | Brosse principale et brosses latérales qui n'emmêlent pas les cheveux longs et frisés ; bonne aspiration des poils de chien | Tests d'enroulement (Vacuum Wars, Rtings) |
+| 🔴 | Tapis | Tapis un peu partout : détection fiable des tapis ET serpillières qui ne touchent jamais le tapis (serpillières détachables laissées à la station, ou relevage ≥ 10–20 mm) ; bonne aspiration des poils incrustés dans les tapis | Tests (Vacuum Wars, Rtings, smarthomeassistent) |
 | 🟠 | Hauteur | ≈ 10 cm sous le lit, à mesurer précisément (10,4 cm peut passer) | Fiche technique |
 | 🟠 | Évitement des déjections du chien | Caméra IA de préférence | Tests |
 | 🟠 | Entretien | Station : vidage auto, lavage/séchage à l'air chaud des serpillières | Fiche |
