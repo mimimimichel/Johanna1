@@ -311,7 +311,7 @@ add(id="roborock-qrevo-s-pro", name="Roborock Qrevo S Pro", brand="Roborock", pr
 project = {
  "slug":"robot", "order":2, "name":"Robot aspirateur laveur", "short":"Robot",
  "status":"Comparaison", "updated":"2026-10-31",
- "need":"Appartement de 70–100 m², chien à poils longs qui mue beaucoup, cheveux longs et frisés, tapis un peu partout, lit à environ 10 cm du sol, Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
+ "need":"Appartement de 70–100 m², chien à poils longs qui mue beaucoup (propre, mais pattes mouillées, eau et croquettes trempées autour de la gamelle), cheveux longs et frisés. Tapis ras un peu partout + un tapis épais dans la chambre. Lit à environ 10 cm du sol. Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
  "criteria":criteria,
  "presets":[
    {"label":"Priorité poils de chien","weights":{"poils":35,"tapis_mop":15,"tapis_asp":15,"obstacles":8,"lavage":9,"hauteur":6,"domotique":4,"prix":5,"fiabilite":3}},

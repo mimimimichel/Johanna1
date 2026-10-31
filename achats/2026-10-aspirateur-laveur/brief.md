@@ -13,6 +13,9 @@ Robot aspirateur laveur avec station pour un appartement de 70–100 m², surtou
 - Eau projetée autour de la gamelle, croquettes imbibées d'eau.
 → Un robot gère mal les débris mouillés. Piste étudiée : un **balai aspirateur laveur** (aspiration eau + débris) en complément, ou un robot à rouleau laveur.
 
+## Tapis (précisé le 2026-10-31)
+- Tapis ras un peu partout + **un tapis épais dans la chambre**. Lavage exclu sur le tapis épais si besoin ; il doit quand même être bien aspiré (poils incrustés).
+
 ## Ce que j'ai déjà
 - Google Home + Home Assistant (intégration locale = bonus pour un robot)
 
