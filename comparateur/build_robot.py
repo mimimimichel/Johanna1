@@ -313,6 +313,11 @@ project = {
  "status":"Comparaison", "updated":"2026-10-31",
  "need":"Appartement de 70–100 m², chien à poils longs qui mue beaucoup, cheveux longs et frisés, tapis un peu partout, lit à environ 10 cm du sol, Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
  "criteria":criteria,
+ "presets":[
+   {"label":"Priorité poils de chien","weights":{"poils":35,"tapis_mop":15,"tapis_asp":15,"obstacles":12,"lavage":5,"hauteur":6,"domotique":4,"prix":5,"fiabilite":3}},
+   {"label":"Priorité prix","weights":{"poils":20,"tapis_mop":12,"tapis_asp":8,"obstacles":10,"lavage":5,"hauteur":6,"domotique":4,"prix":30,"fiabilite":5}},
+   {"label":"Priorité domotique","weights":{"poils":22,"tapis_mop":13,"tapis_asp":8,"obstacles":11,"lavage":6,"hauteur":7,"domotique":20,"prix":8,"fiabilite":5}}
+ ],
  "picks":[
    {"label":"Meilleur choix","product":"roborock-saros20","why":"Le meilleur équilibre : serpillières qui ne touchent jamais les tapis, très bon sur les poils, meilleur lavage, et la meilleure intégration Home Assistant."},
    {"label":"Meilleur sur tapis épais","product":"mova-v70","why":"Aspire le mieux les poils incrustés dans les tapis épais, dépose ses serpillières, station sans sac."},

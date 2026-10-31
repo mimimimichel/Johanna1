@@ -171,6 +171,14 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
 .w-row details p { margin: 6px 0 0; font-size: .88rem; }
 .btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 12px; cursor: pointer; font-weight: 600; }
 .saved { font-size: .82rem; color: var(--muted); }
+.presets { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.word { font-size: .78rem; color: var(--muted); font-weight: 600; }
+.wt { font-weight: 400; color: var(--muted); font-size: .8rem; font-family: var(--f-data); }
+.wd { color: var(--ink); font-weight: 700; }
+.diffs { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px; display: grid; gap: 6px; }
+.diffs p { margin: 0; }
+.diffs ul { margin: 0; padding-left: 1.1em; display: grid; gap: 3px; }
+.cap { margin: 4px 8px 6px; }
 
 /* Écartés */
 .rej { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
@@ -215,6 +223,8 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
   const fmtPrice = (p) => p == null ? "—" : new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: (p % 1 ? 2 : 0) }).format(p);
   const VERDICT = { top: ["Recommandé", "v-top"], good: ["Bon choix", "v-good"], meh: ["Avec réserves", "v-meh"], no: ["À éviter", "v-no"] };
   const tierClass = (s) => s >= 7.5 ? "tier-good" : s >= 6 ? "tier-mid" : "tier-low";
+  const word = (s) => s >= 8 ? "Très bon" : s >= 6.5 ? "Bon" : s >= 5 ? "Moyen" : s >= 3.5 ? "Médiocre" : "Mauvais";
+  const byWeight = (p) => { const w = weightsOf(p); return p.criteria.slice().sort((a, b) => (w[b.key] || 0) - (w[a.key] || 0)); };
 
   function project() { return S.projects[S.active]; }
   function productsOf(slug) { return Object.values(S.products[slug] || {}); }
@@ -311,7 +321,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
           <span class="pos">${i + 1}</span>
           <span><span class="row-name">${esc(prod.name)}</span>
             <span class="row-sub">${v[0] ? `<span class="verdict ${v[1]}">${v[0]}</span>` : ""}${(prod.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span></span>
-          <span class="row-right"><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span><span class="price">${fmtPrice(prod.price)}</span></span>
+          <span class="row-right"><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span><span class="word">${word(x.g)}</span><span class="price">${fmtPrice(prod.price)}</span></span>
           <span class="bar ${tierClass(x.g)}" aria-hidden="true"><i style="width:${x.g * 10}%"></i></span>
         </button>
         ${isOpen ? detail(p, prod) : ""}
@@ -320,13 +330,14 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
   }
 
   function detail(p, prod) {
-    const crit = p.criteria.map((c) => {
+    const w = weightsOf(p); const tw = Object.values(w).reduce((a, b) => a + b, 0) || 1;
+    const crit = byWeight(p).map((c) => {
       const s = critScore(c, prod); const e = (prod.scores || {})[c.key] || {};
       const txt = c.auto === "price" ? `${fmtPrice(prod.price)}. ${prod.priceNote || ""}` : (e.v || "Pas de donnée.");
       const src = (e.src || []).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)} ↗</a>`).join("");
-      return `<div class="crit-row"><span class="lbl">${esc(c.label)}</span><span class="val">${fmtScore(s)}</span>
+      return `<div class="crit-row"><span class="lbl">${esc(c.label)} <span class="wt">poids ${Math.round(100 * (w[c.key] || 0) / tw)} %</span></span><span class="val">${fmtScore(s)}</span>
         <span class="mini" aria-hidden="true"><i style="width:${s * 10}%"></i></span>
-        <span class="txt">${esc(txt)}${src ? `<span class="src">${src}</span>` : ""}</span></div>`;
+        <span class="txt"><b class="wd">${word(s)}.</b> ${esc(txt)}${src ? `<span class="src">${src}</span>` : ""}</span></div>`;
     }).join("");
     const where = (prod.where || []).map((w) => `<li><a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.shop)} ↗</a><span class="num">${fmtPrice(w.price)}</span></li>`).join("");
     return `<div class="detail">
@@ -341,7 +352,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
   function selected(p, r) {
     let sel = S.compare[p.slug];
     const ids = new Set(r.map((x) => x.prod.id));
-    if (!sel) sel = r.slice(0, 3).map((x) => x.prod.id);
+    if (!sel) sel = r.slice(0, 2).map((x) => x.prod.id);
     sel = sel.filter((id) => ids.has(id));
     S.compare[p.slug] = sel;
     return sel;
@@ -358,37 +369,48 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
     const items = sel.map((id) => byId[id]);
     const radar = radarSvg(p, items);
     const legend = `<div class="legend">` + items.map((x, i) => `<span><i style="background:var(--s${i + 1})"></i>${esc(x.prod.name)}</span>`).join("") + `</div>`;
-    const rows = p.criteria.map((c) => {
+    const rows = byWeight(p).map((c) => {
       const vals = items.map((x) => critScore(c, x.prod));
       const max = Math.max(...vals), min = Math.min(...vals);
       if (S.diffOnly && max - min < 1) return "";
       return `<tr><th scope="row">${esc(c.label)}</th>` + items.map((x, i) => {
         const e = (x.prod.scores || {})[c.key] || {};
         const t = c.auto === "price" ? fmtPrice(x.prod.price) : shortTxt(e.v);
-        return `<td class="${items.length > 1 && vals[i] === max && max > min ? "win" : ""}"><span class="n">${fmtScore(vals[i])}</span><span class="t">${esc(t)}</span></td>`;
+        const won = items.length > 1 && vals[i] === max && max > min;
+        return `<td class="${won ? "win" : ""}"><span class="n">${won ? "✓ " : ""}${fmtScore(vals[i])}</span><span class="t">${esc(t)}</span></td>`;
       }).join("") + `</tr>`;
     }).join("");
     const gs = items.map((x) => x.g); const gmax = Math.max(...gs);
-    const total = `<tr class="total"><th scope="row">Score global</th>` + items.map((x) => `<td class="${items.length > 1 && x.g === gmax ? "win" : ""}"><span class="n">${fmtScore(x.g)}</span><span class="t">${fmtPrice(x.prod.price)}</span></td>`).join("") + `</tr>`;
+    const total = `<tr class="total"><th scope="row">Score global</th>` + items.map((x) => `<td class="${items.length > 1 && x.g === gmax ? "win" : ""}"><span class="n">${items.length > 1 && x.g === gmax ? "✓ " : ""}${fmtScore(x.g)}</span><span class="t">${fmtPrice(x.prod.price)}</span></td>`).join("") + `</tr>`;
     const head = `<tr><th scope="row"></th>` + items.map((x, i) => `<th scope="col" style="color:var(--s${i + 1})">${esc(x.prod.name)}</th>`).join("") + `</tr>`;
-    return `<p class="small muted">Choisis jusqu'à 3 modèles. Le surligné marque le meilleur de chaque ligne.</p>${pickers}
-      <div class="radar">${radar}${legend}</div>
+    return `<p class="small muted">Choisis 2 modèles (3 au maximum). ✓ marque le meilleur de chaque ligne.</p>${pickers}
+      ${diffs(p, items)}
+      <div class="radar">${radar}${legend}<p class="small muted cap">Chaque axe va de 0 à 10, dans l'ordre d'importance en partant du haut. Le graphique donne la même taille à tous les critères : le score global, lui, tient compte de leur poids.</p></div>
       <label class="toggle"><input type="checkbox" id="diff-${esc(p.slug)}" data-act="diff" ${S.diffOnly ? "checked" : ""}> Seulement les différences</label>
       <div class="tablewrap"><table class="cmp"><thead>${head}</thead><tbody>${total}${rows}</tbody></table></div>`;
+  }
+  function diffs(p, items) {
+    if (items.length < 2) return "";
+    const [a, b] = items; const w = weightsOf(p); const tw = Object.values(w).reduce((x, y) => x + y, 0) || 1;
+    const d = p.criteria.map((c) => { const sa = critScore(c, a.prod), sb = critScore(c, b.prod); return { c, sa, sb, imp: Math.abs(sa - sb) * (w[c.key] || 0) / tw }; })
+      .filter((x) => x.imp >= 0.08 && Math.abs(x.sa - x.sb) >= 1).sort((x, y) => y.imp - x.imp).slice(0, 4);
+    const lead = a.g === b.g ? "Égalité au score global." : `<b>${esc((a.g > b.g ? a : b).prod.name)}</b> l'emporte au score global (${fmtScore(Math.max(a.g, b.g))} contre ${fmtScore(Math.min(a.g, b.g))}).`;
+    const li = d.map((x) => { const win = x.sa > x.sb ? a : b; return `<li><b>${esc(x.c.label)}</b> : avantage ${esc(win.prod.name)} (${fmtScore(Math.max(x.sa, x.sb))} contre ${fmtScore(Math.min(x.sa, x.sb))})</li>`; }).join("");
+    return `<div class="diffs"><p>${lead}</p>${li ? `<p class="small muted">Les différences qui comptent le plus :</p><ul>${li}</ul>` : `<p class="small muted">Pas de grosse différence sur les critères importants.</p>`}</div>`;
   }
   function shortTxt(v) { if (!v) return ""; const s = String(v).split(". ")[0]; return s.length > 90 ? s.slice(0, 88) + "…" : s; }
 
   function radarSvg(p, items) {
     const W = 380, H = 320, cx = W / 2, cy = H / 2 + 4, R = 104;
-    const n = p.criteria.length;
+    const crits = byWeight(p); const n = crits.length;
     const ang = (i) => -Math.PI / 2 + (2 * Math.PI * i) / n;
     const pt = (i, v) => [cx + Math.cos(ang(i)) * R * v / 10, cy + Math.sin(ang(i)) * R * v / 10];
     let g = "";
     [2, 4, 6, 8, 10].forEach((lv) => {
-      const pts = p.criteria.map((_, i) => pt(i, lv).map((z) => z.toFixed(1)).join(",")).join(" ");
+      const pts = crits.map((_, i) => pt(i, lv).map((z) => z.toFixed(1)).join(",")).join(" ");
       g += `<polygon points="${pts}" fill="none" stroke="var(--line)" stroke-width="1"/>`;
     });
-    p.criteria.forEach((c, i) => {
+    crits.forEach((c, i) => {
       const [x, y] = pt(i, 10);
       g += `<line x1="${cx}" y1="${cy}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="var(--line)" stroke-width="1"/>`;
       const [lx, ly] = pt(i, 11.6);
@@ -397,8 +419,8 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
     });
     g += `<text x="${cx + 3}" y="${(cy - R - 2 + 14).toFixed(1)}" font-size="9" fill="var(--muted)" font-family="IBM Plex Mono, monospace">10</text>`;
     items.forEach((x, k) => {
-      const pts = p.criteria.map((c, i) => pt(i, critScore(c, x.prod)).map((z) => z.toFixed(1)).join(",")).join(" ");
-      g += `<polygon points="${pts}" fill="var(--s${k + 1})" fill-opacity="0.12" stroke="var(--s${k + 1})" stroke-width="2" stroke-linejoin="round"/>`;
+      const pts = crits.map((c, i) => pt(i, critScore(c, x.prod)).map((z) => z.toFixed(1)).join(",")).join(" ");
+      g += `<polygon points="${pts}" fill="none" stroke="var(--s${k + 1})" stroke-width="2.5" stroke-linejoin="round"/>`;
     });
     return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Profil des modèles sur chaque critère, de 0 à 10">${g}</svg>`;
   }
@@ -413,6 +435,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
     const total = Object.values(w).reduce((a, b) => a + b, 0) || 1;
     return `<div class="weights">
       <div><h2>Ce qui compte pour moi</h2><p class="small muted">Glisse pour donner plus ou moins d'importance à un critère. Le classement se recalcule tout de suite et tes réglages sont gardés.</p></div>
+      ${(p.presets || []).length ? `<div class="presets"><span class="small muted">Réglages tout prêts :</span><button class="chip" data-act="preset" data-i="-1">Conseillé</button>${p.presets.map((ps, i) => `<button class="chip" data-act="preset" data-i="${i}">${esc(ps.label)}</button>`).join("")}</div>` : ""}
       <div class="live" id="live">${livePreview(p)}</div>
       ${p.criteria.map((c) => `<div class="w-row">
         <div class="w-top"><label for="w-${esc(p.slug)}-${esc(c.key)}">${esc(c.label)}</label><output id="o-${esc(c.key)}">${Math.round(100 * w[c.key] / total)} %</output></div>
@@ -443,6 +466,12 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
       let sel = S.compare[p.slug] || []; const id = b.dataset.id;
       if (sel.includes(id)) sel = sel.filter((x) => x !== id); else { sel = sel.concat(id); if (sel.length > 3) sel = sel.slice(-3); }
       S.compare[p.slug] = sel; render();
+    }
+    else if (act === "preset") {
+      const i = Number(b.dataset.i); const w = {};
+      const src = i >= 0 && p.presets && p.presets[i] ? p.presets[i].weights : {};
+      p.criteria.forEach((c) => (w[c.key] = typeof src[c.key] === "number" ? src[c.key] : c.weight));
+      S.weights[p.slug] = w; render(); queueSave(p);
     }
     else if (act === "reset") {
       const w = {}; p.criteria.forEach((c) => (w[c.key] = c.weight));

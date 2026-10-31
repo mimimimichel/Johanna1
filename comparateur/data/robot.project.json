@@ -83,6 +83,50 @@
    "how": "Retours SAV, nombre de tests indépendants concordants."
   }
  ],
+ "presets": [
+  {
+   "label": "Priorité poils de chien",
+   "weights": {
+    "poils": 35,
+    "tapis_mop": 15,
+    "tapis_asp": 15,
+    "obstacles": 12,
+    "lavage": 5,
+    "hauteur": 6,
+    "domotique": 4,
+    "prix": 5,
+    "fiabilite": 3
+   }
+  },
+  {
+   "label": "Priorité prix",
+   "weights": {
+    "poils": 20,
+    "tapis_mop": 12,
+    "tapis_asp": 8,
+    "obstacles": 10,
+    "lavage": 5,
+    "hauteur": 6,
+    "domotique": 4,
+    "prix": 30,
+    "fiabilite": 5
+   }
+  },
+  {
+   "label": "Priorité domotique",
+   "weights": {
+    "poils": 22,
+    "tapis_mop": 13,
+    "tapis_asp": 8,
+    "obstacles": 11,
+    "lavage": 6,
+    "hauteur": 7,
+    "domotique": 20,
+    "prix": 8,
+    "fiabilite": 5
+   }
+  }
+ ],
  "picks": [
   {
    "label": "Meilleur choix",

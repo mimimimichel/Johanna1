@@ -67,6 +67,32 @@
    "how": "Fiche fabricant, retours d'utilisateurs."
   }
  ],
+ "presets": [
+  {
+   "label": "Priorité précision",
+   "weights": {
+    "precision": 40,
+    "liaison": 20,
+    "exterieur": 10,
+    "ha": 12,
+    "google": 6,
+    "prix": 8,
+    "autonomie": 4
+   }
+  },
+  {
+   "label": "Priorité prix",
+   "weights": {
+    "precision": 20,
+    "liaison": 15,
+    "exterieur": 10,
+    "ha": 12,
+    "google": 8,
+    "prix": 30,
+    "autonomie": 5
+   }
+  }
+ ],
  "picks": [
   {
    "label": "Meilleur choix",

@@ -111,6 +111,10 @@ add(id="tapo", name="Tapo H100 + T315 + 4 T310", brand="TP-Link Tapo", price=129
 project={"slug":"meteo","order":1,"name":"Station météo 5 zones","short":"Météo","status":"Reco prête","updated":"2026-10-29",
  "need":"Température et humidité fiables dans 5 zones (salon, cuisine, 2 chambres, extérieur), dans Home Assistant et si possible à la voix avec Google Home. Écran facultatif.",
  "criteria":criteria,
+ "presets":[
+   {"label":"Priorité précision","weights":{"precision":40,"liaison":20,"exterieur":10,"ha":12,"google":6,"prix":8,"autonomie":4}},
+   {"label":"Priorité prix","weights":{"precision":20,"liaison":15,"exterieur":10,"ha":12,"google":8,"prix":30,"autonomie":5}}
+ ],
  "picks":[{"label":"Meilleur choix","product":"sonoff-02p","why":"Le capteur le plus précis testé, réseau Zigbee fiable, 100 % local dans Home Assistant."},
           {"label":"Moins cher","product":"sonoff-02b","why":"Presque aussi précis, piles AAA, environ 35 € de moins."}],
  "rejects":[{"name":"Netatmo","reason":"Plus de 250 € pour 5 zones, pas de console."},{"name":"Bresser Tuya","reason":"Un seul capteur affiché à la fois, capteurs en rupture."},{"name":"La Crosse LW3101","reason":"± 1 °C, défilement, Google Home non vérifié."},{"name":"Sonoff SNZB-02 (sans P)","reason":"Lit environ 10 % d'humidité de trop."}],

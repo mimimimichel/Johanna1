@@ -55,6 +55,11 @@ Règles de preuve, non négociables :
 - Donne la **liste de panier exacte** (références, quantités, liens).
 - Ajoute la checklist de réception (tests à faire pendant le délai de retour).
 
+## Comparateur en ligne (Carnet d'achats)
+- Chaque projet a un espace dans la page https://claude.ai/artifact/VuTVNiFG2FryKBy8qepncQ (format des données : `comparateur/README.md`).
+- Dès la reco, crée ou mets à jour `projects/<slug>` et `projects/<slug>/products/<id>` via ArtifactData. Ne jamais écraser `weights` (réglages de l'utilisatrice).
+- Notes 0–10 sur des **ancres fixes** par critère (pas relatives à la moyenne, qui bougerait à chaque ajout de modèle), avec la valeur mesurée et la source.
+
 ## Après l'achat
 - Mets `Statut: acheté` dans le brief, ajoute la ligne dans `achats/README.md`.
 - Ce que tu as appris de ses goûts (ex. : « n'aime pas les écrans au style industriel ») va dans `profil.md`.
