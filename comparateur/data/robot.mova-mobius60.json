@@ -82,6 +82,16 @@
    "s": 4.5,
    "v": "Sous-marque récente, un seul test indépendant.",
    "src": []
+  },
+  "entretien": {
+   "s": 6.5,
+   "v": "Brosse sans enroulement (un bout ouvert pour évacuer les cheveux), station à sac 3,2 L. Pas de test longue durée.",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    }
+   ]
   }
  }
 }

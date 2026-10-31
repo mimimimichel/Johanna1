@@ -86,6 +86,11 @@
    "s": 4,
    "v": "Aucun test de cette version ; Ecovacs : SAV mitigé.",
    "src": []
+  },
+  "entretien": {
+   "s": 5.5,
+   "v": "Pas de donnée sur la Gen3. Modèle proche : brosse jamais démêlée, mais « un peu plus d'entretien ».",
+   "src": []
   }
  }
 }

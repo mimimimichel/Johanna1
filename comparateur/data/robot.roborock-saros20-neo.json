@@ -85,6 +85,16 @@
    "s": 7.5,
    "v": "Roborock : bon SAV. Moins de tests que le Saros 20.",
    "src": []
+  },
+  "entretien": {
+   "s": 7,
+   "v": "2 mois : aucun cheveu enroulé sur les brosses. Mais le filtre du bac s'encrasse vite et se nettoie mal.",
+   "src": [
+    {
+     "label": "Expert Reviews",
+     "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review"
+    }
+   ]
   }
  }
 }

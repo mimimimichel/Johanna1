@@ -84,6 +84,16 @@
    "s": 5.5,
    "v": "Ecovacs : SAV mitigé. Station sans sac bouchée par les poils (Vacuum Wars).",
    "src": []
+  },
+  "entretien": {
+   "s": 4,
+   "v": "Prendre la version Pro Omni à sac : la version sans sac s'est bouchée de poils de chien en 2 semaines (3 mois de test, Vacuum Wars).",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
+    }
+   ]
   }
  }
 }

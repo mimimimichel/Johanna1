@@ -4,9 +4,12 @@ SHA = "https://www.smarthomeassistent.de/saugroboter/"
 VW = "https://vacuumwars.com/"
 
 criteria = [
- {"key":"poils","short":"Poils","label":"Poils et cheveux","weight":25,
+ {"key":"poils","short":"Poils","label":"Poils et cheveux","weight":20,
   "explain":"Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
   "how":"Vacuum Wars : 2 g de poils d'animaux incrustés + 1 g de cheveux de 18 cm. smarthomeassistent : 1 g de vrais cheveux sur stratifié, tapis ras et tapis épais, −1 point si ça s'enroule."},
+ {"key":"entretien","short":"Entretien","label":"Ne se bouche pas","weight":15,
+  "explain":"Dans la durée, avec beaucoup de poils et de cheveux longs : faut-il démêler la brosse, déboucher l'entrée du bac ou le conduit de la station à la main ? Le vrai point faible aujourd'hui n'est plus la brosse, mais les « boudins » de cheveux qui bouchent l'entrée du bac ou le conduit vers la station.",
+  "how":"Tests de 2 à 4 mois avec chien qui perd ses poils (Just A Dad Approved, Tom's Guide, Expert Reviews, Vacuum Wars), problèmes fréquents compilés par Vacuum Wars. Aucun test de plus de 4 mois trouvé."},
  {"key":"tapis_mop","short":"Tapis au sec","label":"Tapis au sec","weight":15,
   "explain":"Le robot ne doit jamais poser de serpillière mouillée sur un tapis. Le plus sûr : il dépose ses serpillières à la station avant d'aller sur les tapis.",
   "how":"Fiche fabricant (dépose automatique, hauteur de relevage) + tests (tapis mouillés ou non, détection des tapis)."},
@@ -60,9 +63,9 @@ add(id="mova-v70", name="MOVA V70 Ultra Complete", brand="MOVA (Dreame)", price=
  priceNote="949 € sur la boutique MOVA. Vu à 849 € sur Amazon au Prime Day d'octobre.",
  where=[{"shop":"MOVA FR","price":949,"url":"https://fr.mova-tech.com/"}],
  height=8.8, tags=["8,8 cm","Serpillières déposées","Station sans sac","HA communautaire"],
- verdict="top", verdictText="Le meilleur sur les tapis épais, très bon sur les poils, et il dépose ses serpillières.",
+ verdict="good", verdictText="Le meilleur sur les tapis épais, mais des cheveux qui s'emmêlent dans la brosse latérale et les roues.",
  pros=["Meilleur score tapis épais testé : 93,4 g/100","0 % de cheveux enroulés, 94 % de poils (Vacuum Wars)","Obstacles 46/53","Station sans sac : pas de sacs à racheter"],
- cons=["Un point perdu pour des poils enroulés sur tapis épais (smarthomeassistent)","Eau de lavage mesurée bien sous les 100 °C annoncés","Matter non confirmé"],
+ cons=["Cheveux longs très emmêlés dans la brosse latérale et les roues (TechRadar)","Station sans sac jamais testée avec beaucoup de poils de chien","Un point perdu pour des poils enroulés sur tapis épais (smarthomeassistent)","Eau de lavage mesurée bien sous les 100 °C annoncés","Matter non confirmé"],
  scores={
   "poils":S(8.5,"10 / 7,8 / 8,2 sur 10, un léger enroulement sur tapis épais (smarthomeassistent). 94 % de poils, 0 % d'enroulement (Vacuum Wars).",("smarthomeassistent",SHA+"mova-v70-ultra-complete/")),
   "tapis_mop":S(8.5,"Laisse ses serpillières à la station avant les tapis (smarthomeassistent). Navigation sur tapis 19,25/21.",("smarthomeassistent",SHA+"mova-v70-ultra-complete/")),
@@ -132,9 +135,9 @@ add(id="roborock-saros20", name="Roborock Saros 20", brand="Roborock", price=989
  priceNote="989 € chez Darty (Saros 20X, date non visible). Vu à 939 €. Prix à confirmer avant achat.",
  where=[{"shop":"Darty (Saros 20X)","price":989,"url":"https://www.dealabs.com/bons-plans/robot-aspirateur-laveur-roborock-saros-20x-36-000-pa-adaptilift-30-starsight-20-station-rockdock-3353232"}],
  height=7.95, tags=["7,95 cm","Serpillières déposées","HA officiel","Matter"],
- verdict="good", verdictText="Le meilleur équilibre : poils, tapis jamais mouillés, et la meilleure domotique. Lavage moyen sur la boue.",
- pros=["Serpillières laissées à la station ou relevées de 20 à 35 mm","Intégration Home Assistant officielle + Matter","7,95 cm, sans tourelle"],
- cons=["Lavage : résultats contradictoires (parfait chez netzwelt, faible chez smarthomeassistent), moyen sur la boue","Petit bac (259 ml) : vidage fréquent en mue","Rtings : se prend dans les franges de tapis","88 % de poils, un peu moins que les meilleurs"],
+ verdict="top", verdictText="Le meilleur équilibre : poils, tapis jamais mouillés, et la meilleure domotique. Lavage moyen sur la boue.",
+ pros=["3 mois avec un chien : brosse jamais démêlée à la main","Serpillières laissées à la station ou relevées de 20 à 35 mm","Intégration Home Assistant officielle + Matter","7,95 cm, sans tourelle"],
+ cons=["Lavage : résultats contradictoires (parfait chez netzwelt, faible chez smarthomeassistent), moyen sur la boue","Petit bac (259 ml) : régler le vidage automatique sur « élevé »","Rtings : se prend dans les franges de tapis","88 % de poils, un peu moins que les meilleurs"],
  scores={
   "poils":S(8.5,"88 % de poils, 0 % d'enroulement (Vacuum Wars). 10 / 9,9 sur tapis (smarthomeassistent).",("Vacuum Wars",VW+"roborock-saros-20-review/"),("smarthomeassistent",SHA+"roborock-saros-20/")),
   "tapis_mop":S(8.5,"Serpillières laissées à la station (modes aspiration seule / tapis d'abord) ou relevées de 20 à 35 mm, châssis relevable. Franges : contourner par une zone interdite.",("Rtings","https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20")),
@@ -314,15 +317,15 @@ project = {
  "need":"Appartement de 70–100 m², chien à poils longs qui mue beaucoup (propre, mais pattes mouillées, eau et croquettes trempées autour de la gamelle), cheveux longs et frisés. Tapis ras un peu partout + un tapis épais dans la chambre. Lit à environ 10 cm du sol. Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
  "criteria":criteria,
  "presets":[
-   {"label":"Priorité poils de chien","weights":{"poils":35,"tapis_mop":15,"tapis_asp":15,"obstacles":8,"lavage":9,"hauteur":6,"domotique":4,"prix":5,"fiabilite":3}},
-   {"label":"Priorité prix","weights":{"poils":20,"tapis_mop":12,"tapis_asp":8,"obstacles":7,"lavage":8,"hauteur":6,"domotique":4,"prix":30,"fiabilite":5}},
-   {"label":"Priorité domotique","weights":{"poils":22,"tapis_mop":13,"tapis_asp":8,"obstacles":8,"lavage":9,"hauteur":7,"domotique":20,"prix":8,"fiabilite":5}}
+   {"label":"Priorité poils de chien","weights":{"poils":25,"entretien":20,"tapis_mop":13,"tapis_asp":15,"obstacles":8,"lavage":9,"hauteur":6,"domotique":4,"prix":5,"fiabilite":3}},
+   {"label":"Priorité prix","weights":{"poils":16,"entretien":12,"tapis_mop":12,"tapis_asp":8,"obstacles":7,"lavage":8,"hauteur":6,"domotique":4,"prix":30,"fiabilite":5}},
+   {"label":"Priorité domotique","weights":{"poils":18,"entretien":12,"tapis_mop":13,"tapis_asp":8,"obstacles":8,"lavage":9,"hauteur":7,"domotique":20,"prix":8,"fiabilite":5}}
  ],
  "picks":[
-   {"label":"Meilleur choix","product":"mova-v70","why":"Le plus complet pour ton foyer : meilleur sur les poils incrustés dans les tapis épais, serpillières déposées avant les tapis, très bon sur la boue séchée (Lavelab 5/5), station sans sac. Point faible : Home Assistant seulement via l'extension communautaire."},
-   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"649 € : le meilleur lavage du lot, champion des obstacles, serpillières déposées sur les tapis. À prendre si tes tapis sont ras ou moyens : il est faible sur les tapis épais."},
-   {"label":"Meilleure domotique","product":"roborock-saros20","why":"Seul du podium avec une intégration Home Assistant officielle, 7,95 cm, serpillières déposées. Mais lavage moyen sur la boue et résultats de lavage contradictoires."},
-   {"label":"Haut de gamme, à surveiller","product":"dreame-x60-pro","why":"Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui : à prendre seulement s'il redescend vers 1 099 € ou moins."}
+   {"label":"Meilleur choix","product":"roborock-saros20","why":"Le seul testé 3 mois avec un chien qui perd ses poils sans jamais démêler la brosse. Station à sac, serpillières déposées avant les tapis, 7,95 cm, intégration Home Assistant officielle. Points faibles : lavage moyen sur la boue, petit bac (vidage auto sur « élevé »)."},
+   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"540,83 € sur Amazon : meilleur lavage, champion des obstacles, serpillières déposées. Mais aucun test longue durée, et faible sur le tapis épais de la chambre."},
+   {"label":"Meilleur sur tapis épais","product":"mova-v70","why":"Le meilleur pour les poils incrustés dans un tapis épais. Mais cheveux longs emmêlés dans la brosse latérale et les roues, et station sans sac jamais testée avec beaucoup de poils de chien."},
+   {"label":"Haut de gamme, à surveiller","product":"dreame-x60-pro","why":"Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui et presque aucune donnée sur l'entretien."}
  ],
  "rejects":[
    {"name":"Dreame Aqua10 Ultra Roller","reason":"50 % des cheveux longs enroulés (Vacuum Wars)."},
@@ -346,6 +349,9 @@ project = {
    "Prix relevés le 31/10/2026. Black Friday le 27/11 : les prix cibles sont indiqués sur chaque fiche.",
  ],
 }
+E={'roborock-saros20': (7.5, "3 mois chaque jour avec un chien qui perd ses poils : brosse jamais démêlée, environ 25 min d'entretien au total. Station à sac. Petit bac de 260 ml : régler le vidage auto sur « élevé ».", [('Just A Dad Approved', 'https://justadadapproved.com/product/roborock-saros-20-robot/')]), 'roborock-saros20-neo': (7, "2 mois : aucun cheveu enroulé sur les brosses. Mais le filtre du bac s'encrasse vite et se nettoie mal.", [('Expert Reviews', 'https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review')]), 'roborock-saros20-sonic': (7, 'Même brosse que le Saros 20 (déduction), station à sac. Pas de test longue durée.', []), 'roborock-saros10r': (6.5, "4 mois avec chien et chats : peu d'enroulement, mais des cheveux coincés entre les rouleaux et l'entrée du bac ; bouchon partiel pas toujours signalé par l'appli.", [("Tom's Guide", 'https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review'), ('Vacuum Wars', 'https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/')]), 'mova-v70': (5, "Brosse principale sans enroulement, mais cheveux longs très emmêlés dans la brosse latérale et les roues, difficiles à couper (TechRadar). Station sans sac jamais testée avec beaucoup de poils de chien : c'est le type de station qui s'est bouché sur l'Ecovacs X12.", [('TechRadar', 'https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review')]), 'mova-mobius60': (6.5, 'Brosse sans enroulement (un bout ouvert pour évacuer les cheveux), station à sac 3,2 L. Pas de test longue durée.', [('Vacuum Wars', 'https://vacuumwars.com/mova-mobius-60-review/')]), 'dreame-matrix10-ultra': (6, "Brosse sans enroulement en test, station à sac. Pas de test longue durée ; même double brosse que le X50, qui forme des boudins de cheveux bouchant l'entrée du bac (déduction). Mécanisme de changement de serpillières en plus.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-matrix10-ultra-review/')]), 'dreame-x60-pro': (6, "Brosse anti-emmêlement 2.0 prometteuse, mais presque aucune donnée. Dreame reconnaît que la brosse latérale peut s'emmêler avec beaucoup de cheveux.", [('Support Dreame', 'https://support.dreametech.com/hc/en-us/articles/14136139554063-Why-does-the-offset-circular-side-brush-still-get-clogged-with-hair')]), 'dreame-x50': (5, "Avec un chien qui perd beaucoup : boudins de cheveux qui bouchent l'entrée et la sortie du bac et l'entrée du sac ; bac vidé à la main plusieurs fois par semaine.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/')]), 'dreame-l40s-pro': (5.5, 'Cheveux enroulés en test court (smarthomeassistent). Pas de test longue durée.', []), 'ecovacs-t50-gen3': (5.5, "Pas de donnée sur la Gen3. Modèle proche : brosse jamais démêlée, mais « un peu plus d'entretien ».", []), 'ecovacs-x12s': (4, "Prendre la version Pro Omni à sac : la version sans sac s'est bouchée de poils de chien en 2 semaines (3 mois de test, Vacuum Wars).", [('Vacuum Wars', 'https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/')]), 'narwal-flow2': (5, 'Pas de test longue durée. Rouleau malodorant après des salissures alimentaires (PCWorld).', []), 'dreame-l50-ae': (3, "Brosse TriCut où beaucoup de cheveux s'emmêlent dès le test court.", []), 'roborock-qrevo-s-pro': (5, 'Pas de test longue durée ; avis mitigés sur les poils.', [])}
+for p in P:
+    e=E[p["id"]]; p["scores"]["entretien"]={"s":e[0],"v":e[1],"src":[{"label":a,"url":b} for a,b in e[2]]}
 os.makedirs(OUT, exist_ok=True)
 json.dump(project, open(os.path.join(OUT,"robot.project.json"),"w"), ensure_ascii=False, indent=1)
 for p in P:

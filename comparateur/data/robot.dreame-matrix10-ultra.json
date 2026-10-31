@@ -108,6 +108,16 @@
    "s": 6,
    "v": "Dreame : SAV France critiqué. Bien testé.",
    "src": []
+  },
+  "entretien": {
+   "s": 6,
+   "v": "Brosse sans enroulement en test, station à sac. Pas de test longue durée ; même double brosse que le X50, qui forme des boudins de cheveux bouchant l'entrée du bac (déduction). Mécanisme de changement de serpillières en plus.",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
   }
  }
 }

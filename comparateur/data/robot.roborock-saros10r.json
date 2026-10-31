@@ -80,6 +80,20 @@
    "s": 7.5,
    "v": "Roborock : bon SAV.",
    "src": []
+  },
+  "entretien": {
+   "s": 6.5,
+   "v": "4 mois avec chien et chats : peu d'enroulement, mais des cheveux coincés entre les rouleaux et l'entrée du bac ; bouchon partiel pas toujours signalé par l'appli.",
+   "src": [
+    {
+     "label": "Tom's Guide",
+     "url": "https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review"
+    },
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/"
+    }
+   ]
   }
  }
 }

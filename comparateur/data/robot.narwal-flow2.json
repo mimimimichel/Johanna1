@@ -88,6 +88,11 @@
    "s": 5,
    "v": "Narwal : peu présent en France.",
    "src": []
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Pas de test longue durée. Rouleau malodorant après des salissures alimentaires (PCWorld).",
+   "src": []
   }
  }
 }

@@ -103,6 +103,16 @@
    "s": 6,
    "v": "Dreame : SAV France critiqué. Modèle bien testé (smarthomeassistent, Lavelab, Vacuum Wars).",
    "src": []
+  },
+  "entretien": {
+   "s": 6,
+   "v": "Brosse anti-emmêlement 2.0 prometteuse, mais presque aucune donnée. Dreame reconnaît que la brosse latérale peut s'emmêler avec beaucoup de cheveux.",
+   "src": [
+    {
+     "label": "Support Dreame",
+     "url": "https://support.dreametech.com/hc/en-us/articles/14136139554063-Why-does-the-offset-circular-side-brush-still-get-clogged-with-hair"
+    }
+   ]
   }
  }
 }

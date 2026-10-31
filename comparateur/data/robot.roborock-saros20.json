@@ -19,16 +19,17 @@
   "HA officiel",
   "Matter"
  ],
- "verdict": "good",
+ "verdict": "top",
  "verdictText": "Le meilleur équilibre : poils, tapis jamais mouillés, et la meilleure domotique. Lavage moyen sur la boue.",
  "pros": [
+  "3 mois avec un chien : brosse jamais démêlée à la main",
   "Serpillières laissées à la station ou relevées de 20 à 35 mm",
   "Intégration Home Assistant officielle + Matter",
   "7,95 cm, sans tourelle"
  ],
  "cons": [
   "Lavage : résultats contradictoires (parfait chez netzwelt, faible chez smarthomeassistent), moyen sur la boue",
-  "Petit bac (259 ml) : vidage fréquent en mue",
+  "Petit bac (259 ml) : régler le vidage automatique sur « élevé »",
   "Rtings : se prend dans les franges de tapis",
   "88 % de poils, un peu moins que les meilleurs"
  ],
@@ -100,6 +101,16 @@
    "s": 8,
    "v": "Roborock : meilleure réputation SAV et pièces en France. Bien testé.",
    "src": []
+  },
+  "entretien": {
+   "s": 7.5,
+   "v": "3 mois chaque jour avec un chien qui perd ses poils : brosse jamais démêlée, environ 25 min d'entretien au total. Station à sac. Petit bac de 260 ml : régler le vidage auto sur « élevé ».",
+   "src": [
+    {
+     "label": "Just A Dad Approved",
+     "url": "https://justadadapproved.com/product/roborock-saros-20-robot/"
+    }
+   ]
   }
  }
 }

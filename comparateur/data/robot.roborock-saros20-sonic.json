@@ -84,6 +84,11 @@
    "s": 7.5,
    "v": "Roborock : bon SAV.",
    "src": []
+  },
+  "entretien": {
+   "s": 7,
+   "v": "Même brosse que le Saros 20 (déduction), station à sac. Pas de test longue durée.",
+   "src": []
   }
  }
 }

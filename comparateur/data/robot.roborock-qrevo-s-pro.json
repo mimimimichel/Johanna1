@@ -75,6 +75,11 @@
    "s": 7,
    "v": "Roborock : bon SAV.",
    "src": []
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Pas de test longue durée ; avis mitigés sur les poils.",
+   "src": []
   }
  }
 }

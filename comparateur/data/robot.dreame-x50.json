@@ -89,6 +89,16 @@
    "s": 6,
    "v": "Dreame : SAV France critiqué. Modèle de 2025, bien testé.",
    "src": []
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Avec un chien qui perd beaucoup : boudins de cheveux qui bouchent l'entrée et la sortie du bac et l'entrée du sac ; bac vidé à la main plusieurs fois par semaine.",
+   "src": [
+    {
+     "label": "Vacuum Wars",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/"
+    }
+   ]
   }
  }
 }

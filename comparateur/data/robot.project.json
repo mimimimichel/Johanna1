@@ -11,9 +11,17 @@
    "key": "poils",
    "short": "Poils",
    "label": "Poils et cheveux",
-   "weight": 25,
+   "weight": 20,
    "explain": "Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
    "how": "Vacuum Wars : 2 g de poils d'animaux incrustés + 1 g de cheveux de 18 cm. smarthomeassistent : 1 g de vrais cheveux sur stratifié, tapis ras et tapis épais, −1 point si ça s'enroule."
+  },
+  {
+   "key": "entretien",
+   "short": "Entretien",
+   "label": "Ne se bouche pas",
+   "weight": 15,
+   "explain": "Dans la durée, avec beaucoup de poils et de cheveux longs : faut-il démêler la brosse, déboucher l'entrée du bac ou le conduit de la station à la main ? Le vrai point faible aujourd'hui n'est plus la brosse, mais les « boudins » de cheveux qui bouchent l'entrée du bac ou le conduit vers la station.",
+   "how": "Tests de 2 à 4 mois avec chien qui perd ses poils (Just A Dad Approved, Tom's Guide, Expert Reviews, Vacuum Wars), problèmes fréquents compilés par Vacuum Wars. Aucun test de plus de 4 mois trouvé."
   },
   {
    "key": "tapis_mop",
@@ -87,8 +95,9 @@
   {
    "label": "Priorité poils de chien",
    "weights": {
-    "poils": 35,
-    "tapis_mop": 15,
+    "poils": 25,
+    "entretien": 20,
+    "tapis_mop": 13,
     "tapis_asp": 15,
     "obstacles": 8,
     "lavage": 9,
@@ -101,7 +110,8 @@
   {
    "label": "Priorité prix",
    "weights": {
-    "poils": 20,
+    "poils": 16,
+    "entretien": 12,
     "tapis_mop": 12,
     "tapis_asp": 8,
     "obstacles": 7,
@@ -115,7 +125,8 @@
   {
    "label": "Priorité domotique",
    "weights": {
-    "poils": 22,
+    "poils": 18,
+    "entretien": 12,
     "tapis_mop": 13,
     "tapis_asp": 8,
     "obstacles": 8,
@@ -130,23 +141,23 @@
  "picks": [
   {
    "label": "Meilleur choix",
-   "product": "mova-v70",
-   "why": "Le plus complet pour ton foyer : meilleur sur les poils incrustés dans les tapis épais, serpillières déposées avant les tapis, très bon sur la boue séchée (Lavelab 5/5), station sans sac. Point faible : Home Assistant seulement via l'extension communautaire."
+   "product": "roborock-saros20",
+   "why": "Le seul testé 3 mois avec un chien qui perd ses poils sans jamais démêler la brosse. Station à sac, serpillières déposées avant les tapis, 7,95 cm, intégration Home Assistant officielle. Points faibles : lavage moyen sur la boue, petit bac (vidage auto sur « élevé »)."
   },
   {
    "label": "Meilleur rapport qualité/prix",
    "product": "dreame-matrix10-ultra",
-   "why": "649 € : le meilleur lavage du lot, champion des obstacles, serpillières déposées sur les tapis. À prendre si tes tapis sont ras ou moyens : il est faible sur les tapis épais."
+   "why": "540,83 € sur Amazon : meilleur lavage, champion des obstacles, serpillières déposées. Mais aucun test longue durée, et faible sur le tapis épais de la chambre."
   },
   {
-   "label": "Meilleure domotique",
-   "product": "roborock-saros20",
-   "why": "Seul du podium avec une intégration Home Assistant officielle, 7,95 cm, serpillières déposées. Mais lavage moyen sur la boue et résultats de lavage contradictoires."
+   "label": "Meilleur sur tapis épais",
+   "product": "mova-v70",
+   "why": "Le meilleur pour les poils incrustés dans un tapis épais. Mais cheveux longs emmêlés dans la brosse latérale et les roues, et station sans sac jamais testée avec beaucoup de poils de chien."
   },
   {
    "label": "Haut de gamme, à surveiller",
    "product": "dreame-x60-pro",
-   "why": "Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui : à prendre seulement s'il redescend vers 1 099 € ou moins."
+   "why": "Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui et presque aucune donnée sur l'entretien."
   }
  ],
  "rejects": [

@@ -19,8 +19,8 @@
   "Station sans sac",
   "HA communautaire"
  ],
- "verdict": "top",
- "verdictText": "Le meilleur sur les tapis épais, très bon sur les poils, et il dépose ses serpillières.",
+ "verdict": "good",
+ "verdictText": "Le meilleur sur les tapis épais, mais des cheveux qui s'emmêlent dans la brosse latérale et les roues.",
  "pros": [
   "Meilleur score tapis épais testé : 93,4 g/100",
   "0 % de cheveux enroulés, 94 % de poils (Vacuum Wars)",
@@ -28,6 +28,8 @@
   "Station sans sac : pas de sacs à racheter"
  ],
  "cons": [
+  "Cheveux longs très emmêlés dans la brosse latérale et les roues (TechRadar)",
+  "Station sans sac jamais testée avec beaucoup de poils de chien",
   "Un point perdu pour des poils enroulés sur tapis épais (smarthomeassistent)",
   "Eau de lavage mesurée bien sous les 100 °C annoncés",
   "Matter non confirmé"
@@ -97,6 +99,16 @@
    "s": 5,
    "v": "MOVA = sous-marque récente de Dreame, SAV peu documenté. Un seul test complet.",
    "src": []
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Brosse principale sans enroulement, mais cheveux longs très emmêlés dans la brosse latérale et les roues, difficiles à couper (TechRadar). Station sans sac jamais testée avec beaucoup de poils de chien : c'est le type de station qui s'est bouché sur l'Ecovacs X12.",
+   "src": [
+    {
+     "label": "TechRadar",
+     "url": "https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review"
+    }
+   ]
   }
  }
 }
