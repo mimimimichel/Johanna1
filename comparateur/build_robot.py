@@ -74,9 +74,9 @@ add(id="mova-v70", name="MOVA V70 Ultra Complete", brand="MOVA (Dreame)", price=
   "fiabilite":S(5,"MOVA = sous-marque récente de Dreame, SAV peu documenté. Un seul test complet."),
  })
 
-add(id="dreame-matrix10-ultra", name="Dreame Matrix10 Ultra", brand="Dreame", price=649, target=649,
- priceNote="649 € chez Dreame (au lieu de 1 199 €).",
- where=[{"shop":"Dreame FR","price":649,"url":"https://fr.dreametech.com/"},{"shop":"Fnac","price":749,"url":"https://www.fnac.com/"}],
+add(id="dreame-matrix10-ultra", name="Dreame Matrix10 Ultra", brand="Dreame", price=540.83, target=540.83,
+ priceNote="540,83 € sur Amazon (offre Dealabs du 31/10/2026, le plus bas trouvé). 649 € chez Dreame, 749 € à la Fnac. Vérifier « Expédié et vendu par Amazon » et « Retours sous 30 jours ».",
+ where=[{"shop":"Amazon (Dealabs 31/10)","price":540.83,"url":"https://www.dealabs.com/bons-plans/dreame-matrix10-ultra-robot-aspirateur-laveur-multi-serpilliere-30-000-pa-3442874"},{"shop":"Dreame FR","price":649,"url":"https://fr.dreametech.com/"},{"shop":"Fnac","price":749,"url":"https://www.fnac.com/"}],
  height=8.9, tags=["8,9 cm","Serpillières déposées","Obstacles 53/53","Matter"],
  verdict="top", verdictText="Meilleur lavage et champion des obstacles pour 649 €, mais faible sur les tapis épais.",
  pros=["53/53 aux obstacles (parcours complet)","Dépose ses serpillières sur les tapis, capteur ultrasons","3 types de serpillières changées automatiquement"],
