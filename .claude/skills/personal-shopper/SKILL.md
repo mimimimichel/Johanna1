@@ -24,6 +24,7 @@ Chaque étape produit ou met à jour un fichier dans `achats/AAAA-MM-<slug>/`. N
 - Au plus 5 critères 🔴. Un critère 🔴 doit être vérifiable (chiffre, fonction présente ou non).
 - Pour chaque critère, écris **comment on le vérifie** (fiche technique, manuel, test indépendant, avis d'utilisateurs).
 - Repère tout de suite les **critères en tension** (ex. : bel écran + 5 zones + domotique + budget) et annonce l'arbitrage probable.
+- Le budget sert à classer et à juger le rapport qualité/prix ; il n'élimine une option que si l'utilisatrice le dit explicitement. Quand elle envoie des offres précises, évalue-les toutes.
 - Fais valider la grille avant de chercher, sauf si elle a dit « fonce ».
 
 ### 3. Cartographier le marché → `recherche.md`
