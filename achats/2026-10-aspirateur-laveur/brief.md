@@ -7,6 +7,12 @@ Contexte : promos repérées sur Dealabs avant le Black Friday (27/11/2026). L'u
 ## Usage réel
 Robot aspirateur laveur avec station pour un appartement de 70–100 m², surtout des sols durs. Foyer avec un **chien à poils longs et sous-poil dense** (grosse mue chaque année) et une personne aux **cheveux très longs et très frisés**. Le robot doit passer sous un lit d'environ **10 cm** de dégagement.
 
+## Salissures humides (automne/hiver)
+- Traces de pattes mouillées et boueuses dans la cuisine et l'entrée.
+- Feuilles mouillées ramenées par le chien.
+- Eau projetée autour de la gamelle, croquettes imbibées d'eau.
+→ Un robot gère mal les débris mouillés. Piste étudiée : un **balai aspirateur laveur** (aspiration eau + débris) en complément, ou un robot à rouleau laveur.
+
 ## Ce que j'ai déjà
 - Google Home + Home Assistant (intégration locale = bonus pour un robot)
 
