@@ -6,22 +6,22 @@ VW = "https://vacuumwars.com/"
 criteria = [
  {"key":"poils","short":"Poils","label":"Poils et cheveux","weight":20,
   "explain":"Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
-  "how":"Vacuum Wars : 2 g de poils d'animaux incrustés + 1 g de cheveux de 18 cm. smarthomeassistent : 1 g de vrais cheveux sur stratifié, tapis ras et tapis épais, −1 point si ça s'enroule."},
+  "how":"Sources retenues : Rtings et Stiftung Warentest (indépendants, niveau A), Vacuum Wars et The Hook Up (protocole publié, niveau B). Vacuum Wars : 2 g de poils d'animaux + 1 g de cheveux de 18 cm. Les avis isolés et les sites qui reçoivent les robots sans protocole publié (niveau C) ne comptent pas."},
  {"key":"entretien","short":"Entretien","label":"Ne se bouche pas","weight":15,
   "explain":"Dans la durée, avec beaucoup de poils et de cheveux longs : faut-il démêler la brosse, déboucher l'entrée du bac ou le conduit de la station à la main ? Le vrai point faible aujourd'hui n'est plus la brosse, mais les « boudins » de cheveux qui bouchent l'entrée du bac ou le conduit vers la station.",
-  "how":"Tests de 2 à 4 mois avec chien qui perd ses poils (Just A Dad Approved, Tom's Guide, Expert Reviews, Vacuum Wars), problèmes fréquents compilés par Vacuum Wars. Aucun test de plus de 4 mois trouvé."},
+  "how":"Rtings (A), Expert Reviews et Vacuum Wars (B). Les témoignages isolés (blogs affiliés) ne comptent pas. Aucun test de plus de 4 mois trouvé : sans donnée fiable, la note est neutre (5)."},
  {"key":"tapis_mop","short":"Tapis au sec","label":"Tapis au sec","weight":15,
   "explain":"Le robot ne doit jamais poser de serpillière mouillée sur un tapis. Le plus sûr : il dépose ses serpillières à la station avant d'aller sur les tapis.",
   "how":"Fiche fabricant (dépose automatique, hauteur de relevage) + tests (tapis mouillés ou non, détection des tapis)."},
  {"key":"tapis_asp","short":"Tapis épais","label":"Poils dans les tapis","weight":10,
   "explain":"Capacité à extraire les poils incrustés dans un tapis épais, là où le sous-poil du chien s'accroche.",
-  "how":"smarthomeassistent : grammes récupérés sur 100 g dans un tapis épais. Vacuum Wars : nettoyage en profondeur des tapis."},
+  "how":"Rtings (A) : poils d'animaux dans les tapis. Vacuum Wars (B) : nettoyage en profondeur des tapis."},
  {"key":"obstacles","short":"Obstacles","label":"Évite les obstacles","weight":8,
   "explain":"Contourner la gamelle, les câbles, les chaussettes et les jouets sans les pousser ni s'y coincer.",
-  "how":"smarthomeassistent : parcours de 53 points (câbles, chaussettes, jouets, et aussi de fausses déjections en plastique, un test standard pour les foyers avec chien). Vacuum Wars : 24 obstacles."},
+  "how":"Vacuum Wars (B) : parcours de 24 obstacles. The Hook Up (B). Rtings (A) quand le résumé en parle."},
  {"key":"lavage","short":"Lavage","label":"Lavage et traces de pattes","weight":12,
   "explain":"Qualité du lavage, notamment sur les traces de pattes mouillées de l'entrée et de la cuisine, et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
-  "how":"Fiche fabricant + mesures de température et de lavage dans les tests."},
+  "how":"Vacuum Wars (B) : taches séchées de café et de jus. The Hook Up (B) : boue séchée. Rtings (A) quand le résumé en parle."},
  {"key":"hauteur","short":"Hauteur","label":"Passe sous le lit","weight":8,
   "explain":"Le lit laisse environ 10 cm. Sous 9 cm, aucun souci ; 9,5 à 9,8 cm, ça passe de justesse ; 10,4 cm, il faut mesurer.",
   "how":"Hauteur du robot, laser rentré pour les modèles à tourelle rétractable."},
@@ -31,9 +31,9 @@ criteria = [
  {"key":"prix","short":"Prix","label":"Prix","weight":10,"auto":"price","best":300,"worst":1500,
   "explain":"Calculé automatiquement : 10/10 à 300 €, 5/10 à 900 €, 0/10 à 1 500 €. Prix chez un vendeur sûr à la date indiquée.",
   "how":"Boutiques officielles et grandes enseignes, relevés du 31/10/2026."},
- {"key":"fiabilite","short":"Fiabilité","label":"Fiabilité et SAV","weight":5,
-  "explain":"Réputation du service après-vente en France, pièces détachées, et solidité des preuves (modèle testé par plusieurs labos ou pas du tout).",
-  "how":"Retours SAV, nombre de tests indépendants concordants."},
+ {"key":"fiabilite","short":"Fiabilité","label":"Fiabilité de la marque","weight":5,
+  "explain":"Fiabilité déclarée par les propriétaires de la marque dans une grande enquête indépendante.",
+  "how":"Enquête de fiabilité Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires), indépendante."},
 ]
 
 def S(s, v, *src): return {"s": s, "v": v, "src": [{"label":a,"url":b} for a,b in src]}
@@ -322,10 +322,9 @@ project = {
    {"label":"Priorité domotique","weights":{"poils":18,"entretien":12,"tapis_mop":13,"tapis_asp":8,"obstacles":8,"lavage":9,"hauteur":7,"domotique":20,"prix":8,"fiabilite":5}}
  ],
  "picks":[
-   {"label":"Meilleur choix","product":"roborock-saros20","why":"Le seul testé 3 mois avec un chien qui perd ses poils sans jamais démêler la brosse. Station à sac, serpillières déposées avant les tapis, 7,95 cm, intégration Home Assistant officielle. Points faibles : lavage moyen sur la boue, petit bac (vidage auto sur « élevé »)."},
-   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"540,83 € sur Amazon : meilleur lavage, champion des obstacles, serpillières déposées. Mais aucun test longue durée, et faible sur le tapis épais de la chambre."},
-   {"label":"Meilleur sur tapis épais","product":"mova-v70","why":"Le meilleur pour les poils incrustés dans un tapis épais. Mais cheveux longs emmêlés dans la brosse latérale et les roues, et station sans sac jamais testée avec beaucoup de poils de chien."},
-   {"label":"Haut de gamme, à surveiller","product":"dreame-x60-pro","why":"Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui et presque aucune donnée sur l'entretien."}
+   {"label":"Le mieux étayé par les tests indépendants","product":"roborock-saros20","why":"Rtings (indépendant) le juge bon sur les poils, y compris incrustés dans les tapis ; Vacuum Wars mesure 0 % d'enroulement. Serpillières déposables, 7,95 cm, Home Assistant officiel. Limites : obstacles moyens, petit bac, prix (≈ 989 €)."},
+   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"540,83 € : meilleur lavage mesuré par Vacuum Wars, 92 % de poils sans enroulement. Limites : aucun test indépendant, rien sur l'entretien dans la durée."},
+   {"label":"Salué pour les cheveux longs","product":"dreame-x50","why":"Le seul que Stiftung Warentest (indépendant) qualifie de « bon avec les cheveux longs ». 599 €. Limites : lavage sous la moyenne, poils incrustés dans les tapis (Rtings)."}
  ],
  "rejects":[
    {"name":"Dreame Aqua10 Ultra Roller","reason":"50 % des cheveux longs enroulés (Vacuum Wars)."},
@@ -340,6 +339,8 @@ project = {
    {"name":"Xiaomi X20 Max","reason":"Gestion des cheveux faible (Vacuum Wars)."},
  ],
  "notes":[
+   "Méthode : seules comptent les sources indépendantes (A : Rtings, Stiftung Warentest, enquêtes de consommateurs) et les tests à protocole publié (B : Vacuum Wars, The Hook Up, Expert Reviews). Sans donnée A ou B, la note est neutre (5/10, « pas de donnée fiable »). smarthomeassistent.de, netzwelt, Lavelab et les blogs affiliés (C) ne comptent plus : robots souvent prêtés par les marques, pas de protocole publié.",
+   "Les notes détaillées de Rtings, Que Choisir et Stiftung Warentest sont payantes : seuls leurs résumés ont pu être lus.",
    "Aucun test ne reproduit le sous-poil dense d'un chien à poils longs : le test « poils d'animaux » de Vacuum Wars est ce qui s'en rapproche le plus.",
    "Tous les bacs des robots font 230 à 320 ml : en période de mue, la station videra après chaque passage.",
    "Croquettes trempées et eau autour de la gamelle : aucun robot n'a été testé là-dessus, et les manuels Roborock et Dreame interdisent de passer sur un liquide ou une substance collante. C'est à faire à la main ou au balai aspirateur laveur (Tineco Floor One Stretch S6 ≤ 200 €, Roborock F25 XT ≈ 260 €), testés avec succès sur lait + céréales. Astuce : un tapis sous la gamelle et une zone interdite dans l'appli.",
@@ -352,6 +353,12 @@ project = {
 E={'roborock-saros20': (7.5, "3 mois chaque jour avec un chien qui perd ses poils : brosse jamais démêlée, environ 25 min d'entretien au total. Station à sac. Petit bac de 260 ml : régler le vidage auto sur « élevé ».", [('Just A Dad Approved', 'https://justadadapproved.com/product/roborock-saros-20-robot/')]), 'roborock-saros20-neo': (7, "2 mois : aucun cheveu enroulé sur les brosses. Mais le filtre du bac s'encrasse vite et se nettoie mal.", [('Expert Reviews', 'https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review')]), 'roborock-saros20-sonic': (7, 'Même brosse que le Saros 20 (déduction), station à sac. Pas de test longue durée.', []), 'roborock-saros10r': (6.5, "4 mois avec chien et chats : peu d'enroulement, mais des cheveux coincés entre les rouleaux et l'entrée du bac ; bouchon partiel pas toujours signalé par l'appli.", [("Tom's Guide", 'https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review'), ('Vacuum Wars', 'https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/')]), 'mova-v70': (5, "Brosse principale sans enroulement, mais cheveux longs très emmêlés dans la brosse latérale et les roues, difficiles à couper (TechRadar). Station sans sac jamais testée avec beaucoup de poils de chien : c'est le type de station qui s'est bouché sur l'Ecovacs X12.", [('TechRadar', 'https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review')]), 'mova-mobius60': (6.5, 'Brosse sans enroulement (un bout ouvert pour évacuer les cheveux), station à sac 3,2 L. Pas de test longue durée.', [('Vacuum Wars', 'https://vacuumwars.com/mova-mobius-60-review/')]), 'dreame-matrix10-ultra': (6, "Brosse sans enroulement en test, station à sac. Pas de test longue durée ; même double brosse que le X50, qui forme des boudins de cheveux bouchant l'entrée du bac (déduction). Mécanisme de changement de serpillières en plus.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-matrix10-ultra-review/')]), 'dreame-x60-pro': (6, "Brosse anti-emmêlement 2.0 prometteuse, mais presque aucune donnée. Dreame reconnaît que la brosse latérale peut s'emmêler avec beaucoup de cheveux.", [('Support Dreame', 'https://support.dreametech.com/hc/en-us/articles/14136139554063-Why-does-the-offset-circular-side-brush-still-get-clogged-with-hair')]), 'dreame-x50': (5, "Avec un chien qui perd beaucoup : boudins de cheveux qui bouchent l'entrée et la sortie du bac et l'entrée du sac ; bac vidé à la main plusieurs fois par semaine.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/')]), 'dreame-l40s-pro': (5.5, 'Cheveux enroulés en test court (smarthomeassistent). Pas de test longue durée.', []), 'ecovacs-t50-gen3': (5.5, "Pas de donnée sur la Gen3. Modèle proche : brosse jamais démêlée, mais « un peu plus d'entretien ».", []), 'ecovacs-x12s': (4, "Prendre la version Pro Omni à sac : la version sans sac s'est bouchée de poils de chien en 2 semaines (3 mois de test, Vacuum Wars).", [('Vacuum Wars', 'https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/')]), 'narwal-flow2': (5, 'Pas de test longue durée. Rouleau malodorant après des salissures alimentaires (PCWorld).', []), 'dreame-l50-ae': (3, "Brosse TriCut où beaucoup de cheveux s'emmêlent dès le test court.", []), 'roborock-qrevo-s-pro': (5, 'Pas de test longue durée ; avis mitigés sur les poils.', [])}
 for p in P:
     e=E[p["id"]]; p["scores"]["entretien"]={"s":e[0],"v":e[1],"src":[{"label":a,"url":b} for a,b in e[2]]}
+from overrides_robot import OV, TXT
+for p in P:
+    for k,(sc,v,src) in OV[p["id"]].items():
+        p["scores"][k]={"s":sc,"v":v,"src":[{"label":a,"url":b} for a,b in src]}
+    vd,vt,pr,co=TXT[p["id"]]; p["verdict"]=vd; p["verdictText"]=vt; p["pros"]=pr; p["cons"]=co
+    p["tags"]=[t for t in p.get("tags",[]) if not any(x in t for x in ("53/53","47/53","Évite","obstacles","Obstacles"))]
 os.makedirs(OUT, exist_ok=True)
 json.dump(project, open(os.path.join(OUT,"robot.project.json"),"w"), ensure_ascii=False, indent=1)
 for p in P:

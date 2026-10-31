@@ -26,71 +26,57 @@
  "tags": [
   "8,9 cm",
   "Serpillières déposées",
-  "Obstacles 53/53",
   "Matter"
  ],
- "verdict": "top",
- "verdictText": "Meilleur lavage et champion des obstacles pour 649 €, mais faible sur les tapis épais.",
+ "verdict": "good",
+ "verdictText": "Le meilleur lavage mesuré par Vacuum Wars, bon sur les poils, prix bas ; pas de test indépendant.",
  "pros": [
-  "53/53 aux obstacles (parcours complet)",
-  "Dépose ses serpillières sur les tapis, capteur ultrasons",
-  "3 types de serpillières changées automatiquement"
+  "Lavage nettement au-dessus de la moyenne (Vacuum Wars)",
+  "92 % de poils, 0 % d'enroulement (Vacuum Wars)",
+  "540,83 €"
  ],
  "cons": [
-  "Tapis épais : 0/10 sur les cheveux (enroulés) et 43 g/100 aspirés",
-  "Bon seulement si tes tapis sont ras ou moyens"
+  "Aucun test indépendant (A)",
+  "Pas de donnée sur l'entretien dans la durée"
  ],
  "scores": {
   "poils": {
    "s": 7,
-   "v": "10/10 sur sol dur et tapis ras, mais 0/10 sur tapis épais avec enroulement (smarthomeassistent). 92 % chez Vacuum Wars.",
+   "v": "Vacuum Wars (B) : 92 % de poils, 0 % d'enroulement. Aucun test indépendant (A).",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
-    },
-    {
-     "label": "Vacuum Wars",
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8.5,
-   "v": "Capteur ultrasons, relevage 10,5 mm, dépose automatique des serpillières sur tapis épais. Navigation 19/21.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
-    }
-   ]
-  },
-  "tapis_asp": {
-   "s": 5,
-   "v": "43,1 g/100 sur tapis épais ; 84 % en profondeur chez Vacuum Wars.",
+   "s": 7,
+   "v": "Dépose ses serpillières sur tapis (fabricant). Pas de test A/B sur tapis.",
    "src": []
   },
-  "obstacles": {
-   "s": 10,
-   "v": "53/53, parcours complet sans faute.",
+  "tapis_asp": {
+   "s": 6.5,
+   "v": "Vacuum Wars (B) : 84 % en nettoyage profond des tapis.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
     }
    ]
   },
+  "obstacles": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
   "lavage": {
-   "s": 9,
-   "v": "Parfait chez smarthomeassistent (1,0/6). Flaque de lait détectée et lavée plusieurs fois (home&smart). Très au-dessus de la moyenne chez Vacuum Wars.",
+   "s": 8.5,
+   "v": "Vacuum Wars (B) : nettement au-dessus de la moyenne sur taches séchées (136 et 147 points).",
    "src": [
     {
-     "label": "home&smart",
-     "url": "https://www.homeandsmart.de/dreame-matrix10-ultra-test-193904"
-    },
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-matrix10-ultra/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
     }
    ]
   },
@@ -105,19 +91,19 @@
    "src": []
   },
   "fiabilite": {
-   "s": 6,
-   "v": "Dreame : SAV France critiqué. Bien testé.",
-   "src": []
-  },
-  "entretien": {
-   "s": 6,
-   "v": "Brosse sans enroulement en test, station à sac. Pas de test longue durée ; même double brosse que le X50, qui forme des boudins de cheveux bouchant l'entrée du bac (déduction). Mécanisme de changement de serpillières en plus.",
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
    "src": [
     {
-     "label": "Vacuum Wars",
-     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
     }
    ]
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Pas de donnée fiable. Même famille de double brosse que le X50 (bouchons signalés par Vacuum Wars sur le X50).",
+   "src": []
   }
  }
 }

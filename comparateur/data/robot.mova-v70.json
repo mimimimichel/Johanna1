@@ -20,70 +20,52 @@
   "HA communautaire"
  ],
  "verdict": "good",
- "verdictText": "Le meilleur sur les tapis épais, mais des cheveux qui s'emmêlent dans la brosse latérale et les roues.",
+ "verdictText": "Très bon chez Vacuum Wars sur les poils et les tapis, mais aucun test indépendant.",
  "pros": [
-  "Meilleur score tapis épais testé : 93,4 g/100",
-  "0 % de cheveux enroulés, 94 % de poils (Vacuum Wars)",
-  "Obstacles 46/53",
-  "Station sans sac : pas de sacs à racheter"
+  "94 % de poils, 0 % d'enroulement (Vacuum Wars)",
+  "92 % en profondeur sur tapis (Vacuum Wars)",
+  "Dépose ses serpillières"
  ],
  "cons": [
-  "Cheveux longs très emmêlés dans la brosse latérale et les roues (TechRadar)",
-  "Station sans sac jamais testée avec beaucoup de poils de chien",
-  "Un point perdu pour des poils enroulés sur tapis épais (smarthomeassistent)",
-  "Eau de lavage mesurée bien sous les 100 °C annoncés",
-  "Matter non confirmé"
+  "Aucun test indépendant (A)",
+  "Station sans sac non testée avec beaucoup de poils",
+  "Marque absente des enquêtes de fiabilité"
  ],
  "scores": {
   "poils": {
-   "s": 8.5,
-   "v": "10 / 7,8 / 8,2 sur 10, un léger enroulement sur tapis épais (smarthomeassistent). 94 % de poils, 0 % d'enroulement (Vacuum Wars).",
+   "s": 7.5,
+   "v": "Vacuum Wars (B) : 94 % de poils, 0 % d'enroulement, son choix « anti-emmêlement ». Aucun test indépendant (A).",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/best-robot-vacuum-for-pet-hair/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8.5,
-   "v": "Laisse ses serpillières à la station avant les tapis (smarthomeassistent). Navigation sur tapis 19,25/21.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
-    }
-   ]
+   "s": 7,
+   "v": "Dépose ses serpillières avant les tapis (fabricant). Pas de test A/B sur tapis.",
+   "src": []
   },
   "tapis_asp": {
-   "s": 9.5,
-   "v": "93,4 g/100 dans un tapis épais (meilleur score testé). 92 % en profondeur chez Vacuum Wars.",
+   "s": 8,
+   "v": "Vacuum Wars (B) : 92 % en nettoyage profond des tapis.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/best-robot-vacuum-for-pet-hair/"
     }
    ]
   },
   "obstacles": {
-   "s": 8,
-   "v": "46/53.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/mova-v70-ultra-complete/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "lavage": {
-   "s": 8,
-   "v": "Lavelab : boue séchée 5/5, café 4/5, soda 5/5 (en 2 passages). Café frais 4/4 chez smarthomeassistent.",
-   "src": [
-    {
-     "label": "Lavelab",
-     "url": "https://lavelab.com/tests/mova-v70-ultra-complete/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "hauteur": {
    "s": 10,
@@ -97,18 +79,13 @@
   },
   "fiabilite": {
    "s": 5,
-   "v": "MOVA = sous-marque récente de Dreame, SAV peu documenté. Un seul test complet.",
+   "v": "Marque absente des enquêtes de fiabilité trouvées.",
    "src": []
   },
   "entretien": {
    "s": 5,
-   "v": "Brosse principale sans enroulement, mais cheveux longs très emmêlés dans la brosse latérale et les roues, difficiles à couper (TechRadar). Station sans sac jamais testée avec beaucoup de poils de chien : c'est le type de station qui s'est bouché sur l'Ecovacs X12.",
-   "src": [
-    {
-     "label": "TechRadar",
-     "url": "https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review"
-    }
-   ]
+   "v": "Pas de donnée fiable. Un testeur isolé (TechRadar, C) signale des cheveux emmêlés dans la brosse latérale et les roues ; station sans sac non testée avec beaucoup de poils.",
+   "src": []
   }
  }
 }

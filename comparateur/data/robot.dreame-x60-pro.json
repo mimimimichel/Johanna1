@@ -19,73 +19,54 @@
   "Matter",
   "HA communautaire"
  ],
- "verdict": "good",
- "verdictText": "Le plus complet sur les poils et les tapis, mais trop cher aujourd'hui.",
+ "verdict": "meh",
+ "verdictText": "Haut de gamme, mais les tests du modèle proche (X60 Max) sont moyens sur les poils et la boue.",
  "pros": [
-  "Aucun cheveu enroulé, 10/10 partout chez smarthomeassistent",
-  "Aspire 89,5 g/100 dans un tapis épais",
-  "Dépose ses serpillières avant les tapis épais"
+  "Détecte les liquides (fabricant)"
  ],
  "cons": [
-  "1 499 € : attendre ≤ 1 099 €",
-  "Lavelab : serpillières qui frottent un tapis, un petit tapis non détecté"
+  "1 499 €",
+  "Poils « passable » sur le X60 Max (Rtings)",
+  "Dernier sur la boue (The Hook Up, X60 Max)"
  ],
  "scores": {
   "poils": {
-   "s": 10,
-   "v": "10/10 sur stratifié, tapis et tapis épais, aucun enroulement (smarthomeassistent). 100 % / 0 % sur le X60 Max (Vacuum Wars).",
+   "s": 6.5,
+   "v": "Modèle proche X60 Max : Rtings (A) poils « passable », Vacuum Wars (B) 100 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-x60-pro-ultra-complete-nachtest/"
-    },
-    {
-     "label": "Vacuum Wars (X60 Max)",
-     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+     "label": "Rtings (A, X60 Max)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8,
-   "v": "Dépose automatique des serpillières sur tapis épais + relevage 21,5 mm. Lavelab : un petit tapis non détecté, serpillières qui frottent.",
+   "s": 6.5,
+   "v": "Dépose ses serpillières sur tapis épais (fabricant), mais The Hook Up (B) a vu celles du X60 Max traîner sur un tapis.",
    "src": [
     {
-     "label": "Lavelab",
-     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
   "tapis_asp": {
-   "s": 9,
-   "v": "89,5 g récupérés sur 100 g dans un tapis épais.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-x60-pro-ultra-complete-nachtest/"
-    }
-   ]
+   "s": 6,
+   "v": "Modèle proche X60 Max : Vacuum Wars (B) 89 % en profondeur ; Rtings (A) poils « passable ».",
+   "src": []
   },
   "obstacles": {
-   "s": 8,
-   "v": "47/53 (smarthomeassistent).",
-   "src": [
-    {
-     "label": "Lavelab",
-     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "lavage": {
-   "s": 8,
-   "v": "Lavelab : boue séchée 4/5, café et soda 5/5 ; liquide frais détecté puis lavé (aussi chez home&smart). netzwelt : taches séchées enlevées en 3 passages.",
+   "s": 4.5,
+   "v": "The Hook Up (B) : le X60 Max est le dernier sur la boue séchée. Détection des liquides frais : seulement des sources C.",
    "src": [
     {
-     "label": "Lavelab",
-     "url": "https://lavelab.com/tests/dreame-x60-pro-ultra-complete/"
-    },
-    {
-     "label": "home&smart",
-     "url": "https://www.homeandsmart.de/dreame-x60-pro-ultra-complete-test-2026-0041-548149"
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
@@ -100,19 +81,19 @@
    "src": []
   },
   "fiabilite": {
-   "s": 6,
-   "v": "Dreame : SAV France critiqué. Modèle bien testé (smarthomeassistent, Lavelab, Vacuum Wars).",
-   "src": []
-  },
-  "entretien": {
-   "s": 6,
-   "v": "Brosse anti-emmêlement 2.0 prometteuse, mais presque aucune donnée. Dreame reconnaît que la brosse latérale peut s'emmêler avec beaucoup de cheveux.",
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
    "src": [
     {
-     "label": "Support Dreame",
-     "url": "https://support.dreametech.com/hc/en-us/articles/14136139554063-Why-does-the-offset-circular-side-brush-still-get-clogged-with-hair"
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
     }
    ]
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Pas de donnée fiable. Rtings (A, X60 Max) : les franges de tapis s'enroulent dans la brosse.",
+   "src": []
   }
  }
 }

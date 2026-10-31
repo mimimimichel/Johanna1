@@ -20,45 +20,44 @@
   "⚠ poils"
  ],
  "verdict": "no",
- "verdictText": "Bonne domotique pour pas cher, mais déconseillé avec des animaux.",
+ "verdictText": "Pas de caméra, simple relevage des serpillières, faible sur les tapis (modèle proche, Rtings).",
  "pros": [
   "379,99 €",
-  "HA officiel"
+  "Home Assistant officiel"
  ],
  "cons": [
-  "home&smart le déconseille avec des animaux",
-  "Pas de caméra : rate les câbles",
-  "Pas de dosage du détergent"
+  "Pas de caméra",
+  "Faible sur les poils dans les tapis (Qrevo S, Rtings)"
  ],
  "scores": {
   "poils": {
-   "s": 4,
-   "v": "« Satisfaisant » sur les poils, en laisse sur les tapis (home&smart).",
-   "src": [
-    {
-     "label": "home&smart",
-     "url": "https://www.homeandsmart.de/roborock-qrevo-s-pro-18500-pa-saugkraft-test-0017-509669"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "tapis_mop": {
    "s": 4,
-   "v": "Relevage 10 mm seulement.",
+   "v": "Simple relevage de 10 mm (fabricant).",
    "src": []
   },
   "tapis_asp": {
    "s": 4,
-   "v": "Moyen sur tapis.",
-   "src": []
+   "v": "Modèle proche Qrevo S : Rtings (A) faible sur les poils dans les tapis.",
+   "src": [
+    {
+     "label": "Rtings (A, Qrevo S)",
+     "url": "https://www.rtings.com/vacuum/reviews/roborock/qrevo-s"
+    }
+   ]
   },
   "obstacles": {
-   "s": 2,
-   "v": "Pas de caméra.",
+   "s": 3,
+   "v": "Pas de caméra (fabricant).",
    "src": []
   },
   "lavage": {
-   "s": 6,
-   "v": "75 °C, séchage 45 °C, pas de détergent auto.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "hauteur": {
@@ -73,12 +72,17 @@
   },
   "fiabilite": {
    "s": 7,
-   "v": "Roborock : bon SAV.",
-   "src": []
+   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
   },
   "entretien": {
    "s": 5,
-   "v": "Pas de test longue durée ; avis mitigés sur les poils.",
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   }
  }

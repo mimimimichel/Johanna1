@@ -19,57 +19,46 @@
   "HA officiel",
   "Tapis épais"
  ],
- "verdict": "good",
- "verdictText": "Même système de serpillières que le Saros 20, meilleur sur les tapis épais, moins testé.",
+ "verdict": "meh",
+ "verdictText": "Probablement proche du Saros 20, mais presque aucun test indépendant.",
  "pros": [
-  "Meilleure aspiration de tapis : 96 / 92 sur 100",
-  "Serpillières déposées à la station",
-  "HA officiel"
+  "Brosses propres après 2 mois (Expert Reviews)",
+  "Serpillières déposables"
  ],
  "cons": [
-  "Pas de test Vacuum Wars",
-  "smarthomeassistent : gestion des serpillières sur tapis irrégulière d'un passage à l'autre"
+  "Peu testé",
+  "Filtre du bac vite encrassé"
  ],
  "scores": {
   "poils": {
-   "s": 8,
-   "v": "10 / 8,7 sur tapis ras / épais (smarthomeassistent). Pas de test Vacuum Wars.",
+   "s": 6,
+   "v": "Expert Reviews (B) : aucun cheveu enroulé en 2 mois. Pas de mesure des poils ramassés.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
+     "label": "Expert Reviews (B)",
+     "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review"
     }
    ]
   },
   "tapis_mop": {
-   "s": 7.5,
-   "v": "Dépose et relevage comme le Saros 20, mais comportement irrégulier en test.",
+   "s": 7,
+   "v": "Dépose ses serpillières (fabricant). Pas de test A/B sur tapis.",
    "src": []
   },
   "tapis_asp": {
-   "s": 9.5,
-   "v": "96 / 92 sur 100 (meilleur de Roborock).",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "obstacles": {
-   "s": 7.5,
-   "v": "41,5/53.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "lavage": {
    "s": 5,
-   "v": "5,1/6 chez smarthomeassistent : la détection des taches a raté le ketchup et le café séchés.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-neo/"
-    }
-   ]
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "hauteur": {
    "s": 10,
@@ -82,16 +71,21 @@
    "src": []
   },
   "fiabilite": {
-   "s": 7.5,
-   "v": "Roborock : bon SAV. Moins de tests que le Saros 20.",
-   "src": []
-  },
-  "entretien": {
    "s": 7,
-   "v": "2 mois : aucun cheveu enroulé sur les brosses. Mais le filtre du bac s'encrasse vite et se nettoie mal.",
+   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
    "src": [
     {
-     "label": "Expert Reviews",
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Expert Reviews (B) : brosses propres en 2 mois, mais filtre du bac vite encrassé et salissant à nettoyer.",
+   "src": [
+    {
+     "label": "Expert Reviews (B)",
      "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review"
     }
    ]

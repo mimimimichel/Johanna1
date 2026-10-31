@@ -20,48 +20,52 @@
   "⚠ tapis"
  ],
  "verdict": "meh",
- "verdictText": "Bonne domotique et bons obstacles, mais déçoit sur les poils dans les tapis.",
+ "verdictText": "Rtings (A) le trouve décevant sur les poils dans les tapis.",
  "pros": [
-  "44/53 aux obstacles",
-  "Serpillières déposées",
-  "HA officiel + Matter"
+  "Très bon lavage (Rtings)",
+  "Serpillières déposables"
  ],
  "cons": [
-  "Rtings : 5/10 sur les poils d'animaux dans les tapis",
-  "Tapis épais : 7,5/10 sur les cheveux"
+  "Poils dans les tapis : « décevant » (Rtings)",
+  "Cheveux qui bouchent l'espace entre les rouleaux (Vacuum Wars)"
  ],
  "scores": {
   "poils": {
-   "s": 6,
-   "v": "92 % chez Vacuum Wars, mais Rtings 5/10 (« décevant ») sur poils dans les tapis et 8,5 / 7,5 chez smarthomeassistent.",
+   "s": 5.5,
+   "v": "Rtings (A) : ramassage des poils d'animaux « décevant », plusieurs passages nécessaires. Vacuum Wars (B) : 92 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "Rtings",
-     "url": "https://rtings.com/robot-vacuum/reviews/roborock/saros-10r"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8,
-   "v": "Serpillières déposées + relevage.",
+   "s": 7,
+   "v": "Dépose ses serpillières (fabricant).",
    "src": []
   },
   "tapis_asp": {
-   "s": 6,
-   "v": "80 / 66 sur 100.",
-   "src": []
+   "s": 3.5,
+   "v": "Rtings (A) : la brosse en deux parties n'agite pas assez le tapis pour les poils incrustés.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
+    }
+   ]
   },
   "obstacles": {
-   "s": 8,
-   "v": "44/53.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "lavage": {
-   "s": 6.5,
-   "v": "Café frais 4/4 mais taches séchées moyennes (smarthomeassistent 5,5/6). Rtings : « très bon lavage ». Vacuum Wars : dans la moyenne.",
+   "s": 7,
+   "v": "Rtings (A) : très bon lavage. Vacuum Wars (B) : dans la moyenne.",
    "src": [
     {
-     "label": "Rtings",
+     "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
    ]
@@ -77,20 +81,21 @@
    "src": []
   },
   "fiabilite": {
-   "s": 7.5,
-   "v": "Roborock : bon SAV.",
-   "src": []
-  },
-  "entretien": {
-   "s": 6.5,
-   "v": "4 mois avec chien et chats : peu d'enroulement, mais des cheveux coincés entre les rouleaux et l'entrée du bac ; bouchon partiel pas toujours signalé par l'appli.",
+   "s": 7,
+   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
    "src": [
     {
-     "label": "Tom's Guide",
-     "url": "https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review"
-    },
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Vacuum Wars (B, problèmes fréquents) : cheveux qui bouchent l'espace entre les deux rouleaux, pas toujours signalé. Rtings (A) : entretien « raisonnable ».",
+   "src": [
     {
-     "label": "Vacuum Wars",
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/"
     }
    ]

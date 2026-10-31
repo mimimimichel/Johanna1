@@ -19,52 +19,50 @@
   "Dealabs"
  ],
  "verdict": "meh",
- "verdictText": "Bon prix, mais trop haut pour ton lit et faible sur les tapis épais.",
+ "verdictText": "Correct d'après des modèles proches, mais 10,35 cm.",
  "pros": [
   "459 €",
-  "Obstacles 42/53",
-  "Dépose ses serpillières"
+  "Obstacles 19/24 sur un modèle proche"
  ],
  "cons": [
-  "10,35 cm : passe seulement si le lit dégage plus de 10,5 cm",
-  "Tapis épais : 23 g/100 aspirés, 5,4/10 sur les cheveux",
-  "Cartographie mal les tapis (navigation 12/21)"
+  "10,35 cm : à mesurer sous le lit",
+  "Peu de données propres"
  ],
  "scores": {
   "poils": {
    "s": 6.5,
-   "v": "8,9 (−1) / 10 / 5,4 (−1) sur 10 : enroulements sur stratifié et tapis épais (smarthomeassistent).",
+   "v": "Modèle proche L40s Ultra : Vacuum Wars (B) 91 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l40s-pro-ultra/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-l40s-series-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 6,
-   "v": "Dépose automatique, mais repère mal les tapis et relève parfois les serpillières sans raison (12/21).",
+   "s": 6.5,
+   "v": "Dépose ses serpillières (fabricant).",
    "src": []
   },
   "tapis_asp": {
-   "s": 3,
-   "v": "23,2 g/100 sur tapis épais.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "obstacles": {
-   "s": 7.5,
-   "v": "42/53.",
-   "src": []
-  },
-  "lavage": {
-   "s": 8.5,
-   "v": "Parfait chez smarthomeassistent : taches séchées 4/4, café frais 4/4 (1,0/6).",
+   "s": 7,
+   "v": "Modèle proche L40s Ultra AE : Vacuum Wars (B) 19/24.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l40s-pro-ultra/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-l40s-series-review/"
     }
    ]
+  },
+  "lavage": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "hauteur": {
    "s": 3,
@@ -77,13 +75,18 @@
    "src": []
   },
   "fiabilite": {
-   "s": 6,
-   "v": "Dreame : SAV France critiqué.",
-   "src": []
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
   },
   "entretien": {
-   "s": 5.5,
-   "v": "Cheveux enroulés en test court (smarthomeassistent). Pas de test longue durée.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   }
  }

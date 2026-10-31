@@ -16,61 +16,65 @@
  "tags": [
   "9,5 cm",
   "Rouleau laveur",
-  "⚠ tapis mouillés",
-  "⚠ obstacles"
+  "⚠ tapis mouillés"
  ],
  "verdict": "no",
- "verdictText": "Très bon sur les poils, mais a mouillé les tapis en test.",
+ "verdictText": "A mouillé les tapis selon The Hook Up.",
  "pros": [
-  "0 % d'enroulement, 1er sur les poils chez The Hook Up",
-  "Rouleau laveur efficace"
+  "Ne s'emmêle pas (Rtings)",
+  "Très bon sur la boue (The Hook Up)"
  ],
  "cons": [
-  "A mouillé les tapis en test",
-  "Évitement d'obstacles moyen chez The Hook Up (3/6)",
-  "Ne dépose pas son rouleau"
+  "A mouillé les tapis (The Hook Up)",
+  "Ramassage des poils faible (Rtings)"
  ],
  "scores": {
   "poils": {
-   "s": 8.5,
-   "v": "0 % d'enroulement (Vacuum Wars), 100 % de poils chez The Hook Up.",
+   "s": 6.5,
+   "v": "Rtings (A) : les cheveux ne s'emmêlent pas, mais ramassage faible. Vacuum Wars (B) : 0 % d'enroulement. The Hook Up (B) : 1er sur les poils.",
    "src": [
     {
-     "label": "Vacuum Wars",
-     "url": "https://vacuumwars.com/narwal-flow-2-user-review/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     },
     {
-     "label": "The Hook Up",
+     "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
   "tapis_mop": {
    "s": 3,
-   "v": "Rouleau relevé de 10 mm seulement ; a mouillé les tapis chez The Hook Up.",
-   "src": []
+   "v": "The Hook Up (B) : a mouillé les tapis.",
+   "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
   },
   "tapis_asp": {
-   "s": 6,
-   "v": "84 % en profondeur ; tapis épais en 2 à 3 passages (Labo Maison).",
+   "s": 5.5,
+   "v": "Vacuum Wars (B) : 84 % en profondeur ; Rtings (A) : ramassage faible.",
    "src": []
   },
   "obstacles": {
-   "s": 5,
-   "v": "3/6 chez The Hook Up, 20/24 chez Vacuum Wars.",
-   "src": []
-  },
-  "lavage": {
-   "s": 8.5,
-   "v": "Boue séchée : très bon (2e chez The Hook Up). PCWorld : boue mouillée, ketchup, œuf cru, farine + sirop réussis, mais rouleau malodorant ensuite.",
+   "s": 6.5,
+   "v": "Vacuum Wars (B) : 20/24 ; The Hook Up (B) : 3/6.",
    "src": [
     {
-     "label": "The Hook Up 2026",
+     "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    },
+    }
+   ]
+  },
+  "lavage": {
+   "s": 7,
+   "v": "The Hook Up (B) : très bon sur la boue séchée (2e). Rtings (A) : plusieurs passages sur les taches tenaces.",
+   "src": [
     {
-     "label": "PCWorld",
-     "url": "https://www.pcworld.com/article/3139997/robot-stress-test-narwals-1500-mop-vs-my-nightmare-messes.html"
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
@@ -86,13 +90,18 @@
   },
   "fiabilite": {
    "s": 5,
-   "v": "Narwal : peu présent en France.",
+   "v": "Marque absente des enquêtes de fiabilité trouvées.",
    "src": []
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de test longue durée. Rouleau malodorant après des salissures alimentaires (PCWorld).",
-   "src": []
+   "s": 5.5,
+   "v": "Rtings (A) : pas d'emmêlement. Pas de test longue durée.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
+    }
+   ]
   }
  }
 }

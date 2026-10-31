@@ -16,56 +16,59 @@
  "tags": [
   "9,8 cm",
   "Rouleau laveur",
-  "Évite 53/53",
   "⚠ tapis épais"
  ],
  "verdict": "no",
- "verdictText": "Parfait sur les obstacles, mais bloqué 3 fois sur un tapis épais.",
+ "verdictText": "Mouille les tapis selon The Hook Up.",
  "pros": [
-  "53/53 aux obstacles",
-  "Rouleau laveur, bon sur les traces"
+  "Évite très bien les obstacles (The Hook Up)"
  ],
  "cons": [
-  "Bloqué 3 fois sur tapis épais (0/100)",
-  "Version sans sac : poils de chien qui bouchent la station",
-  "9,8 cm, très juste"
+  "A mouillé un tapis (The Hook Up)",
+  "Faible sur la boue"
  ],
  "scores": {
   "poils": {
    "s": 7,
-   "v": "10 / 6,2 sur tapis ras / épais (smarthomeassistent). 100 % / 0 % sur le X12 (Vacuum Wars).",
+   "v": "Modèle proche X12 : Vacuum Wars (B) 100 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/ecovacs-deebot-x12s-pro-omni/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 4,
-   "v": "Rouleau relevé de 15 mm + capot, mais fermeture du capot pas fiable en test.",
-   "src": []
+   "s": 3,
+   "v": "The Hook Up (B) : le X12 a mouillé un tapis par l'arrière malgré son capot.",
+   "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
   },
   "tapis_asp": {
-   "s": 2,
-   "v": "85 / 0 sur 100 : bloqué 3 fois sur tapis épais.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "obstacles": {
-   "s": 10,
-   "v": "53/53.",
-   "src": []
-  },
-  "lavage": {
-   "s": 7.5,
-   "v": "Parfait chez smarthomeassistent (1,0/6) sur taches séchées et café frais. Mais son prédécesseur X12 était faible sur la boue (The Hook Up).",
+   "s": 7,
+   "v": "The Hook Up (B) : X12, 6/6 au test des déjections factices (meilleur score).",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/ecovacs-deebot-x12s-pro-omni/"
-    },
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 5,
+   "v": "The Hook Up (B) : X12 étonnamment faible sur la boue pour un rouleau.",
+   "src": [
     {
-     "label": "The Hook Up 2026",
+     "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
@@ -81,16 +84,21 @@
    "src": []
   },
   "fiabilite": {
-   "s": 5.5,
-   "v": "Ecovacs : SAV mitigé. Station sans sac bouchée par les poils (Vacuum Wars).",
-   "src": []
-  },
-  "entretien": {
-   "s": 4,
-   "v": "Prendre la version Pro Omni à sac : la version sans sac s'est bouchée de poils de chien en 2 semaines (3 mois de test, Vacuum Wars).",
+   "s": 6,
+   "v": "Enquête Euroconsumers 2026 : Ecovacs 75/100 en fiabilité.",
    "src": [
     {
-     "label": "Vacuum Wars",
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 5,
+   "v": "Version Pro Omni (avec sac) non testée. La version sans sac s'est bouchée de poils de chien en 2 semaines (Vacuum Wars, B, 3 mois).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
     }
    ]

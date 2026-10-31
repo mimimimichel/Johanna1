@@ -16,57 +16,50 @@
  "tags": [
   "8 cm",
   "Serpillière déposée",
-  "HA officiel",
-  "Évite 47/53"
+  "HA officiel"
  ],
- "verdict": "meh",
- "verdictText": "Excellent pour éviter les obstacles, mais faible sur les poils et le lavage.",
+ "verdict": "no",
+ "verdictText": "Faible sur les taches séchées et moyen sur les poils selon Vacuum Wars.",
  "pros": [
-  "47/53 aux obstacles, le meilleur des Roborock",
-  "Tapis : 92 / 86 sur 100"
+  "Plaque laissée à la station"
  ],
  "cons": [
-  "78 % de poils seulement (Vacuum Wars)",
-  "A aspiré du café frais au lieu de le laver, taches étalées"
+  "78 % de poils (Vacuum Wars)",
+  "Lavage très sous la moyenne"
  ],
  "scores": {
   "poils": {
-   "s": 7,
-   "v": "78 % de poils, 0 % d'enroulement (Vacuum Wars) ; 10 / 9,8 (smarthomeassistent).",
+   "s": 6,
+   "v": "Vacuum Wars (B) : 78 % de poils, 0 % d'enroulement.",
    "src": [
     {
-     "label": "Vacuum Wars",
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-saros-20-sonic-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8,
-   "v": "Plaque vibrante relevée ou laissée à la station.",
+   "s": 7,
+   "v": "Plaque laissée à la station (fabricant). Pas de test A/B sur tapis.",
    "src": []
   },
   "tapis_asp": {
-   "s": 8.5,
-   "v": "92 / 86 sur 100.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-sonic/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
   },
   "obstacles": {
-   "s": 8.5,
-   "v": "47/53, le meilleur des Roborock.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "lavage": {
-   "s": 2.5,
-   "v": "Café frais aspiré dans le bac à poussière au lieu d'être lavé, taches étalées (smarthomeassistent, 6,0/6). Vacuum Wars : 62 points contre 108 de moyenne.",
+   "s": 3,
+   "v": "Vacuum Wars (B) : 62 points contre 108 de moyenne sur taches séchées.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/roborock-saros-20-sonic/"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-saros-20-sonic-review/"
     }
    ]
   },
@@ -81,13 +74,18 @@
    "src": []
   },
   "fiabilite": {
-   "s": 7.5,
-   "v": "Roborock : bon SAV.",
-   "src": []
+   "s": 7,
+   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
   },
   "entretien": {
-   "s": 7,
-   "v": "Même brosse que le Saros 20 (déduction), station à sac. Pas de test longue durée.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   }
  }

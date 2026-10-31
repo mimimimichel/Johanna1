@@ -18,53 +18,68 @@
   "Serpillières déposées",
   "Peu testé"
  ],
- "verdict": "meh",
- "verdictText": "Même base que le Matrix10, bon sur les poils, mais un seul test.",
+ "verdict": "no",
+ "verdictText": "Rtings (A) : poils « sub-par » et entretien lourd.",
  "pros": [
-  "94 % de poils, enroulement « parfait » (Vacuum Wars)",
-  "Change et dépose ses serpillières"
+  "Obstacles 22/24 (Vacuum Wars)"
  ],
  "cons": [
-  "Aucun test smarthomeassistent",
-  "Matter non confirmé"
+  "Poils « sub-par » (Rtings)",
+  "Entretien lourd, beaucoup de pièces (Rtings)",
+  "Lavage sous la moyenne"
  ],
  "scores": {
   "poils": {
-   "s": 8,
-   "v": "94 % de poils, aucun enroulement (Vacuum Wars). Pas d'autre test.",
+   "s": 5.5,
+   "v": "Rtings (A) : ramassage des poils « sub-par », traîne des poils. Vacuum Wars (B) : 94 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "Vacuum Wars",
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
+    },
+    {
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-mobius-60-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 8,
-   "v": "Serpillières laissées à la base, relevage 10,5 mm (Vacuum Wars).",
-   "src": []
-  },
-  "tapis_asp": {
-   "s": 7,
-   "v": "88 % en profondeur sur tapis (Vacuum Wars).",
-   "src": []
-  },
-  "obstacles": {
    "s": 6.5,
-   "v": "22/24 chez Vacuum Wars.",
-   "src": []
-  },
-  "lavage": {
-   "s": 4.5,
-   "v": "Boue séchée : a peiné (The Hook Up). Détection des taches « pas fiable » (smarthomeassistent 4,6/6). Sous la moyenne chez Vacuum Wars.",
+   "v": "Dépose ses serpillières (fabricant), mais The Hook Up (B) les a vues traîner sur un tapis.",
    "src": [
     {
-     "label": "The Hook Up 2026",
+     "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    },
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "Vacuum Wars (B) : 88 % en profondeur ; Rtings (A) : traîne les poils.",
+   "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/mova-mobius-60/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
+    }
+   ]
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "Vacuum Wars (B) : 22/24.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    }
+   ]
+  },
+  "lavage": {
+   "s": 3.5,
+   "v": "Vacuum Wars (B) : sous la moyenne. The Hook Up (B) : faible sur la boue. Rtings (A) : n'enlève pas complètement les taches séchées.",
+   "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
@@ -79,17 +94,17 @@
    "src": []
   },
   "fiabilite": {
-   "s": 4.5,
-   "v": "Sous-marque récente, un seul test indépendant.",
+   "s": 5,
+   "v": "Marque absente des enquêtes de fiabilité trouvées.",
    "src": []
   },
   "entretien": {
-   "s": 6.5,
-   "v": "Brosse sans enroulement (un bout ouvert pour évacuer les cheveux), station à sac 3,2 L. Pas de test longue durée.",
+   "s": 4,
+   "v": "Rtings (A) : entretien plus lourd que voulu, beaucoup de pièces à nettoyer régulièrement ; se prend dans les franges.",
    "src": [
     {
-     "label": "Vacuum Wars",
-     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
     }
    ]
   }

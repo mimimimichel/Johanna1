@@ -13,7 +13,7 @@
    "label": "Poils et cheveux",
    "weight": 20,
    "explain": "Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
-   "how": "Vacuum Wars : 2 g de poils d'animaux incrustés + 1 g de cheveux de 18 cm. smarthomeassistent : 1 g de vrais cheveux sur stratifié, tapis ras et tapis épais, −1 point si ça s'enroule."
+   "how": "Sources retenues : Rtings et Stiftung Warentest (indépendants, niveau A), Vacuum Wars et The Hook Up (protocole publié, niveau B). Vacuum Wars : 2 g de poils d'animaux + 1 g de cheveux de 18 cm. Les avis isolés et les sites qui reçoivent les robots sans protocole publié (niveau C) ne comptent pas."
   },
   {
    "key": "entretien",
@@ -21,7 +21,7 @@
    "label": "Ne se bouche pas",
    "weight": 15,
    "explain": "Dans la durée, avec beaucoup de poils et de cheveux longs : faut-il démêler la brosse, déboucher l'entrée du bac ou le conduit de la station à la main ? Le vrai point faible aujourd'hui n'est plus la brosse, mais les « boudins » de cheveux qui bouchent l'entrée du bac ou le conduit vers la station.",
-   "how": "Tests de 2 à 4 mois avec chien qui perd ses poils (Just A Dad Approved, Tom's Guide, Expert Reviews, Vacuum Wars), problèmes fréquents compilés par Vacuum Wars. Aucun test de plus de 4 mois trouvé."
+   "how": "Rtings (A), Expert Reviews et Vacuum Wars (B). Les témoignages isolés (blogs affiliés) ne comptent pas. Aucun test de plus de 4 mois trouvé : sans donnée fiable, la note est neutre (5)."
   },
   {
    "key": "tapis_mop",
@@ -37,7 +37,7 @@
    "label": "Poils dans les tapis",
    "weight": 10,
    "explain": "Capacité à extraire les poils incrustés dans un tapis épais, là où le sous-poil du chien s'accroche.",
-   "how": "smarthomeassistent : grammes récupérés sur 100 g dans un tapis épais. Vacuum Wars : nettoyage en profondeur des tapis."
+   "how": "Rtings (A) : poils d'animaux dans les tapis. Vacuum Wars (B) : nettoyage en profondeur des tapis."
   },
   {
    "key": "obstacles",
@@ -45,7 +45,7 @@
    "label": "Évite les obstacles",
    "weight": 8,
    "explain": "Contourner la gamelle, les câbles, les chaussettes et les jouets sans les pousser ni s'y coincer.",
-   "how": "smarthomeassistent : parcours de 53 points (câbles, chaussettes, jouets, et aussi de fausses déjections en plastique, un test standard pour les foyers avec chien). Vacuum Wars : 24 obstacles."
+   "how": "Vacuum Wars (B) : parcours de 24 obstacles. The Hook Up (B). Rtings (A) quand le résumé en parle."
   },
   {
    "key": "lavage",
@@ -53,7 +53,7 @@
    "label": "Lavage et traces de pattes",
    "weight": 12,
    "explain": "Qualité du lavage, notamment sur les traces de pattes mouillées de l'entrée et de la cuisine, et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
-   "how": "Fiche fabricant + mesures de température et de lavage dans les tests."
+   "how": "Vacuum Wars (B) : taches séchées de café et de jus. The Hook Up (B) : boue séchée. Rtings (A) quand le résumé en parle."
   },
   {
    "key": "hauteur",
@@ -85,10 +85,10 @@
   {
    "key": "fiabilite",
    "short": "Fiabilité",
-   "label": "Fiabilité et SAV",
+   "label": "Fiabilité de la marque",
    "weight": 5,
-   "explain": "Réputation du service après-vente en France, pièces détachées, et solidité des preuves (modèle testé par plusieurs labos ou pas du tout).",
-   "how": "Retours SAV, nombre de tests indépendants concordants."
+   "explain": "Fiabilité déclarée par les propriétaires de la marque dans une grande enquête indépendante.",
+   "how": "Enquête de fiabilité Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires), indépendante."
   }
  ],
  "presets": [
@@ -140,24 +140,19 @@
  ],
  "picks": [
   {
-   "label": "Meilleur choix",
+   "label": "Le mieux étayé par les tests indépendants",
    "product": "roborock-saros20",
-   "why": "Le seul testé 3 mois avec un chien qui perd ses poils sans jamais démêler la brosse. Station à sac, serpillières déposées avant les tapis, 7,95 cm, intégration Home Assistant officielle. Points faibles : lavage moyen sur la boue, petit bac (vidage auto sur « élevé »)."
+   "why": "Rtings (indépendant) le juge bon sur les poils, y compris incrustés dans les tapis ; Vacuum Wars mesure 0 % d'enroulement. Serpillières déposables, 7,95 cm, Home Assistant officiel. Limites : obstacles moyens, petit bac, prix (≈ 989 €)."
   },
   {
    "label": "Meilleur rapport qualité/prix",
    "product": "dreame-matrix10-ultra",
-   "why": "540,83 € sur Amazon : meilleur lavage, champion des obstacles, serpillières déposées. Mais aucun test longue durée, et faible sur le tapis épais de la chambre."
+   "why": "540,83 € : meilleur lavage mesuré par Vacuum Wars, 92 % de poils sans enroulement. Limites : aucun test indépendant, rien sur l'entretien dans la durée."
   },
   {
-   "label": "Meilleur sur tapis épais",
-   "product": "mova-v70",
-   "why": "Le meilleur pour les poils incrustés dans un tapis épais. Mais cheveux longs emmêlés dans la brosse latérale et les roues, et station sans sac jamais testée avec beaucoup de poils de chien."
-  },
-  {
-   "label": "Haut de gamme, à surveiller",
-   "product": "dreame-x60-pro",
-   "why": "Excellent partout et détecte les liquides frais, mais 1 499 € aujourd'hui et presque aucune donnée sur l'entretien."
+   "label": "Salué pour les cheveux longs",
+   "product": "dreame-x50",
+   "why": "Le seul que Stiftung Warentest (indépendant) qualifie de « bon avec les cheveux longs ». 599 €. Limites : lavage sous la moyenne, poils incrustés dans les tapis (Rtings)."
   }
  ],
  "rejects": [
@@ -203,6 +198,8 @@
   }
  ],
  "notes": [
+  "Méthode : seules comptent les sources indépendantes (A : Rtings, Stiftung Warentest, enquêtes de consommateurs) et les tests à protocole publié (B : Vacuum Wars, The Hook Up, Expert Reviews). Sans donnée A ou B, la note est neutre (5/10, « pas de donnée fiable »). smarthomeassistent.de, netzwelt, Lavelab et les blogs affiliés (C) ne comptent plus : robots souvent prêtés par les marques, pas de protocole publié.",
+  "Les notes détaillées de Rtings, Que Choisir et Stiftung Warentest sont payantes : seuls leurs résumés ont pu être lus.",
   "Aucun test ne reproduit le sous-poil dense d'un chien à poils longs : le test « poils d'animaux » de Vacuum Wars est ce qui s'en rapproche le plus.",
   "Tous les bacs des robots font 230 à 320 ml : en période de mue, la station videra après chaque passage.",
   "Croquettes trempées et eau autour de la gamelle : aucun robot n'a été testé là-dessus, et les manuels Roborock et Dreame interdisent de passer sur un liquide ou une substance collante. C'est à faire à la main ou au balai aspirateur laveur (Tineco Floor One Stretch S6 ≤ 200 €, Roborock F25 XT ≈ 260 €), testés avec succès sur lait + céréales. Astuce : un tapis sous la gamelle et une zone interdite dans l'appli.",

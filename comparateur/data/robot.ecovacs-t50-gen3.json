@@ -24,50 +24,53 @@
   "Non testé"
  ],
  "verdict": "meh",
- "verdictText": "Le moins cher qui passe sous le lit, mais aucun test de cette version.",
+ "verdictText": "Le moins cher sous 8,1 cm, mais aucun test de cette version.",
  "pros": [
   "299–399 €",
   "8,1 cm",
-  "Caméra qui repère les taches et repasse"
+  "Excellent lavage sur la génération précédente"
  ],
  "cons": [
-  "Aucun test indépendant de la Gen3",
-  "Modèle proche : beaucoup de cheveux sur la brosse latérale",
-  "La 1re génération ratait des obstacles",
-  "Bac de 260 ml"
+  "Aucun test de la Gen3",
+  "Obstacles sous la moyenne (gen 1)"
  ],
  "scores": {
   "poils": {
    "s": 6,
-   "v": "Non testé. Modèles proches : 86 % / 0 % (T50 Pro gen 1, Vacuum Wars) mais cheveux enroulés sur la brosse latérale (T50 Max Pro, smarthomeassistent).",
+   "v": "Pas de test de la Gen3. T50 Pro gen 1 : Vacuum Wars (B) 86 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "Vacuum Wars (T50 gen 1)",
+     "label": "Vacuum Wars (B, gen 1)",
      "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
     }
    ]
   },
   "tapis_mop": {
    "s": 5,
-   "v": "Relevage des serpillières, dépose non confirmée.",
+   "v": "Dépose des serpillières non confirmée.",
    "src": []
   },
   "tapis_asp": {
    "s": 5,
-   "v": "Non testé (modèle proche : 6,8/10 sur tapis épais).",
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "obstacles": {
    "s": 4,
-   "v": "La 1re génération ratait des obstacles (Vacuum Wars). Vision Gen3 non testée.",
-   "src": []
+   "v": "T50 Pro gen 1 : Vacuum Wars (B) 15/24, sous la moyenne.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B, gen 1)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ]
   },
   "lavage": {
    "s": 7.5,
-   "v": "Pas de test de la Gen3. La T50 Pro (1re génération) a le meilleur score de taches jamais mesuré par Vacuum Wars (170 points contre 98 de moyenne).",
+   "v": "T50 Pro gen 1 : Vacuum Wars (B), meilleur score de taches jamais mesuré (170 contre 98).",
    "src": [
     {
-     "label": "Vacuum Wars (T50 gen 1)",
+     "label": "Vacuum Wars (B, gen 1)",
      "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
     }
    ]
@@ -83,13 +86,18 @@
    "src": []
   },
   "fiabilite": {
-   "s": 4,
-   "v": "Aucun test de cette version ; Ecovacs : SAV mitigé.",
-   "src": []
+   "s": 6,
+   "v": "Enquête Euroconsumers 2026 : Ecovacs 75/100 en fiabilité.",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
   },
   "entretien": {
-   "s": 5.5,
-   "v": "Pas de donnée sur la Gen3. Modèle proche : brosse jamais démêlée, mais « un peu plus d'entretien ».",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   }
  }

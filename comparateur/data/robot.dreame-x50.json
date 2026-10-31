@@ -16,62 +16,66 @@
  "tags": [
   "8,9 cm",
   "Serpillières déposées",
-  "Matter",
-  "⚠ obstacles"
+  "Matter"
  ],
- "verdict": "meh",
- "verdictText": "Excellent sur les poils pour 599 €, mais moyen pour éviter les obstacles.",
+ "verdict": "good",
+ "verdictText": "Seul modèle salué par Stiftung Warentest pour les cheveux longs ; lavage faible.",
  "pros": [
-  "98 % de poils, 0 % d'enroulement (Vacuum Wars)",
-  "Aucun enroulement chez smarthomeassistent",
-  "599 € chez Dreame"
+  "« Bon avec les cheveux longs » (Stiftung Warentest)",
+  "98 % de poils (Vacuum Wars)",
+  "599 €"
  ],
  "cons": [
-  "Obstacles moyens : 32/53",
-  "Tapis épais moyen : 56 g/100"
+  "Laisse des poils incrustés dans les tapis (Rtings)",
+  "Lavage sous la moyenne",
+  "Bouchons de cheveux signalés avec un gros chien (Vacuum Wars)"
  ],
  "scores": {
   "poils": {
-   "s": 9,
-   "v": "98 % / 0 % (Vacuum Wars). 10 / 10 / 6,4, aucun enroulement (smarthomeassistent).",
+   "s": 8,
+   "v": "Stiftung Warentest (A) : « bon avec les cheveux longs ». Rtings (A) : poils « acceptable ». Vacuum Wars (B) : 98 %, 0 % d'enroulement.",
    "src": [
     {
-     "label": "Vacuum Wars",
-     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet"
+     "label": "Stiftung Warentest (A, via résumé)",
+     "url": "https://www.test.de/Saugroboter-im-Test-4806685-0/"
     },
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/dreame-x50-ultra-complete-test/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    },
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet"
     }
    ]
   },
   "tapis_mop": {
-   "s": 7.5,
-   "v": "Relevage 10,5 mm, dépose automatique sur tapis épais, serpillières laissées en mode aspiration seule.",
+   "s": 6.5,
+   "v": "Dépose ses serpillières sur tapis épais (fabricant).",
    "src": []
   },
   "tapis_asp": {
    "s": 6,
-   "v": "56,2 g/100 sur tapis épais. Rtings : laisse des poils incrustés.",
-   "src": []
-  },
-  "obstacles": {
-   "s": 3,
-   "v": "32/53, le plus faible des Dreame haut de gamme.",
+   "v": "Rtings (A) : laisse des poils incrustés dans les tapis.",
    "src": [
     {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/dreame-x50-ultra-complete-test/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
    ]
   },
+  "obstacles": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
   "lavage": {
-   "s": 6.5,
-   "v": "Lait + céréales presque tout ramassé (meilleur de 3 robots, Michael Sleen). Mais taches séchées sous la moyenne chez Vacuum Wars et 3,1/6 chez smarthomeassistent.",
+   "s": 4.5,
+   "v": "Vacuum Wars (B) : sous la moyenne sur taches séchées. Rtings (A) : un passage de plus nécessaire.",
    "src": [
     {
-     "label": "Michael Sleen",
-     "url": "https://www.michaelsleen.com/best-robot-mop-2025/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
    ]
   },
@@ -86,16 +90,25 @@
    "src": []
   },
   "fiabilite": {
-   "s": 6,
-   "v": "Dreame : SAV France critiqué. Modèle de 2025, bien testé.",
-   "src": []
-  },
-  "entretien": {
-   "s": 5,
-   "v": "Avec un chien qui perd beaucoup : boudins de cheveux qui bouchent l'entrée et la sortie du bac et l'entrée du sac ; bac vidé à la main plusieurs fois par semaine.",
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
    "src": [
     {
-     "label": "Vacuum Wars",
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 5.5,
+   "v": "Rtings (A) : la station fait l'essentiel. Vacuum Wars (B) : avec un chien qui perd beaucoup, boudins de cheveux qui bouchent l'entrée du bac (une testeuse).",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    },
+    {
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/"
     }
    ]

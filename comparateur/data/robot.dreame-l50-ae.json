@@ -18,45 +18,39 @@
   "Dealabs",
   "⚠ cheveux"
  ],
- "verdict": "no",
- "verdictText": "À éviter avec un chien : les cheveux s'emmêlent dans la brosse.",
+ "verdict": "meh",
+ "verdictText": "Pas de test fiable ; deux avis isolés signalent des cheveux emmêlés.",
  "pros": [
-  "Prix",
-  "Lavage 100 °C"
+  "Prix"
  ],
  "cons": [
-  "« Beaucoup de cheveux emmêlés » : 2,1/10 sur tapis épais",
-  "16/53 aux obstacles"
+  "Pas de test fiable",
+  "Simple relevage des serpillières"
  ],
  "scores": {
   "poils": {
-   "s": 3,
-   "v": "6,4 / 8,8 / 2,1 sur 10, cheveux emmêlés dans la brosse TriCut.",
-   "src": [
-    {
-     "label": "smarthomeassistent",
-     "url": "https://www.smarthomeassistent.de/saugroboter/dreame-l50-ultra-ae/"
-    }
-   ]
+   "s": 5,
+   "v": "Pas de donnée fiable : seuls deux testeurs de niveau C signalent des cheveux emmêlés dans la brosse TriCut.",
+   "src": []
   },
   "tapis_mop": {
    "s": 4,
-   "v": "Relevage 10,5 mm ; dépose annoncée mais non confirmée.",
+   "v": "Simple relevage de 10,5 mm (fabricant).",
    "src": []
   },
   "tapis_asp": {
-   "s": 3.5,
-   "v": "36,9 g/100.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "obstacles": {
-   "s": 1,
-   "v": "16/53, le plus faible du lot.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "lavage": {
-   "s": 6,
-   "v": "Lavage 100 °C ; pas de test comparable trouvé.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   },
   "hauteur": {
@@ -70,13 +64,18 @@
    "src": []
   },
   "fiabilite": {
-   "s": 5.5,
-   "v": "Dreame : SAV France critiqué.",
-   "src": []
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
   },
   "entretien": {
-   "s": 3,
-   "v": "Brosse TriCut où beaucoup de cheveux s'emmêlent dès le test court.",
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
    "src": []
   }
  }
