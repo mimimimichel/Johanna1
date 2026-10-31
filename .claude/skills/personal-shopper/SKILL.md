@@ -34,6 +34,11 @@ Chaque étape produit ou met à jour un fichier dans `achats/AAAA-MM-<slug>/`. N
 
 ### 4. Vérifier les candidats → `recherche.md`
 Règles de preuve, non négociables :
+- **Classe chaque source** et dis-le dans la reco :
+  - A = indépendant, achète ses produits, sans affiliation (Que Choisir, Stiftung Warentest, Which?, Consumer Reports, Rtings) ;
+  - B = protocole de test standardisé publié mais financé par l'affiliation / produits prêtés (Vacuum Wars, smarthomeassistent…) ;
+  - C = testeur isolé, blog ou média à liens affiliés, influenceur.
+  Une conclusion ne repose jamais sur une seule source C. Ne jamais écrire « vérifié » ou « prouvé » pour une source B ou C.
 - **Source primaire** pour toute caractéristique éliminatoire : manuel PDF, fiche du fabricant, photo réelle de l'écran. Une fiche Amazon ou un comparatif SEO ne suffit pas.
 - **Prix datés** avec le nom du vendeur. Jamais de prix inventé ; si introuvable, écris « prix non trouvé ».
 - Une affirmation « ça n'existe pas » ou « c'est impossible » doit être démontrée (ce qu'on a cherché, où).

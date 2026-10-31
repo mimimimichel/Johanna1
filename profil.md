@@ -18,6 +18,7 @@ Préférences durables, mises à jour après chaque achat. À lire avant toute r
 - Reconditionné accepté avec garantie et économie nette.
 
 ## Ce qui ne marche pas avec elle
+- Les avis d'influenceurs et les sites à liens affiliés présentés comme des preuves : toujours dire qui a testé, comment il est financé, et préférer les tests indépendants.
 - Les suppositions non vérifiées sur son foyer : demander plutôt que supposer.
 - Les marques blanches Tuya / Smart Life sans centralisation claire.
 - Les recommandations qui ne vérifient pas les caractéristiques (affichage réel, compatibilité réelle).
