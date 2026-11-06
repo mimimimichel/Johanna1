@@ -40,7 +40,7 @@ Règles de preuve, non négociables :
   - C = testeur isolé, blog ou média à liens affiliés, influenceur.
   Une conclusion ne repose jamais sur une seule source C. Ne jamais écrire « vérifié » ou « prouvé » pour une source B ou C.
 - **Source primaire** pour toute caractéristique éliminatoire : manuel PDF, fiche du fabricant, photo réelle de l'écran. Une fiche Amazon ou un comparatif SEO ne suffit pas.
-- **Prix datés** avec le nom du vendeur. Jamais de prix inventé ; si introuvable, écris « prix non trouvé ».
+- **Prix datés** avec le nom du vendeur. Une offre Dealabs ou une promo flash est temporaire : ne jamais la mettre comme prix de référence ; la garder comme « prix cible », et revérifier le prix le jour où on en parle. Jamais de prix inventé ; si introuvable, écris « prix non trouvé ».
 - Une affirmation « ça n'existe pas » ou « c'est impossible » doit être démontrée (ce qu'on a cherché, où).
 - Distingue « compatible avec X » de « utilisable pour Y avec X » (ex. : visible dans Google Home ≠ utilisable dans une routine).
 - Calcule le **coût complet** : accessoires indispensables, livraison, piles, abonnement éventuel.

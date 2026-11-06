@@ -77,9 +77,9 @@ add(id="mova-v70", name="MOVA V70 Ultra Complete", brand="MOVA (Dreame)", price=
   "fiabilite":S(5,"MOVA = sous-marque récente de Dreame, SAV peu documenté. Un seul test complet."),
  })
 
-add(id="dreame-matrix10-ultra", name="Dreame Matrix10 Ultra", brand="Dreame", price=540.83, target=540.83,
- priceNote="540,83 € sur Amazon (offre Dealabs du 31/10/2026, le plus bas trouvé). 649 € chez Dreame, 749 € à la Fnac. Vérifier « Expédié et vendu par Amazon » et « Retours sous 30 jours ».",
- where=[{"shop":"Amazon (Dealabs 31/10)","price":540.83,"url":"https://www.dealabs.com/bons-plans/dreame-matrix10-ultra-robot-aspirateur-laveur-multi-serpilliere-30-000-pa-3442874"},{"shop":"Dreame FR","price":649,"url":"https://fr.dreametech.com/"},{"shop":"Fnac","price":749,"url":"https://www.fnac.com/"}],
+add(id="dreame-matrix10-ultra", name="Dreame Matrix10 Ultra", brand="Dreame", price=649, target=541,
+ priceNote="649 € (prix que tu as constaté le 06/11/2026, et prix de la boutique Dreame relevé le 31/10). L'offre Amazon à 540,83 € (Dealabs, 31/10) a expiré : c'est le prix à viser si elle revient au Black Friday.",
+ where=[{"shop":"Dreame FR","price":649,"url":"https://fr.dreametech.com/"},{"shop":"Fnac","price":749,"url":"https://www.fnac.com/"}],
  height=8.9, tags=["8,9 cm","Serpillières déposées","Obstacles 53/53","Matter"],
  verdict="top", verdictText="Meilleur lavage et champion des obstacles pour 649 €, mais faible sur les tapis épais.",
  pros=["53/53 aux obstacles (parcours complet)","Dépose ses serpillières sur les tapis, capteur ultrasons","3 types de serpillières changées automatiquement"],
@@ -323,7 +323,7 @@ project = {
  ],
  "picks":[
    {"label":"Le mieux étayé par les tests indépendants","product":"roborock-saros20","why":"Rtings (indépendant) le juge bon sur les poils, y compris incrustés dans les tapis ; Vacuum Wars mesure 0 % d'enroulement. Serpillières déposables, 7,95 cm, Home Assistant officiel. Limites : obstacles moyens, petit bac, prix (≈ 989 €)."},
-   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"540,83 € : meilleur lavage mesuré par Vacuum Wars, 92 % de poils sans enroulement. Limites : aucun test indépendant, rien sur l'entretien dans la durée."},
+   {"label":"Meilleur rapport qualité/prix","product":"dreame-matrix10-ultra","why":"649 € (540,83 € vu fin octobre, offre expirée) : meilleur lavage mesuré par Vacuum Wars, 92 % de poils sans enroulement. Limites : aucun test indépendant, rien sur l'entretien dans la durée."},
    {"label":"Salué pour les cheveux longs","product":"dreame-x50","why":"Le seul que Stiftung Warentest (indépendant) qualifie de « bon avec les cheveux longs ». 599 €. Limites : lavage sous la moyenne, poils incrustés dans les tapis (Rtings)."}
  ],
  "rejects":[
