@@ -19,21 +19,21 @@
   "⚠ tapis épais"
  ],
  "verdict": "no",
- "verdictText": "Score 5,3/10, calculé sur 91 % des critères (le reste n'est pas mesuré).",
+ "verdictText": "Score 5,0/10, calculé sur 52 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Home Assistant ou Google Home : 10/10",
   "Évite les obstacles : 10/10"
  ],
  "cons": [
-  "Tapis au sec : 2/10",
-  "Poils incrustés dans les tapis : 2/10",
+  "Tapis au sec : 2,0/10",
+  "Poils incrustés dans les tapis : 2,0/10",
   "Allergies et acariens : 3/10",
   "Non mesuré : Entretien facile, pièces abordables"
  ],
  "scores": {
   "poils": {
-   "s": 5.67,
-   "v": "Poils ramassés 100 % (Vacuum Wars, B, X12 proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, X12) → 10 ; The Hook Up (B, X12) : « really struggled », amas derrière le rouleau → 3 ; Bouchage par les poils (The Hook Up et Vacuum Wars, B) : −2 → -2. Moyenne : 5,7.",
+   "s": 4.5,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, X12 proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, X12) → 10 ; The Hook Up (B, X12) : « really struggled », amas derrière le rouleau → 3 ; Bouchage par les poils (The Hook Up et Vacuum Wars, B) : −2 → -2. Moyenne (Vacuum Wars compte à moitié) : 4,5. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -47,21 +47,23 @@
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
-   "s": 2,
-   "v": "Rouleau relevé de 15 mm + capot (fabricant) → 5 ; The Hook Up (B, X12) : tapis mouillés : −3 → -3.",
+   "s": 2.0,
+   "v": "Rouleau relevé de 15 mm + capot (fabricant) → 5 ; The Hook Up (B, X12) : tapis mouillés : −3 → -3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "sale": {
-   "s": 6,
-   "v": "Taches 112 pts / moyenne 108 (Vacuum Wars, B, X12) → 6 ; Boue séchée 5e sur 7 (The Hook Up, B, X12) → 6. Moyenne : 6.",
+   "s": 6.0,
+   "v": "Taches 112 pts / moyenne 108 (Vacuum Wars, B, X12) → 6 ; Boue séchée 5e sur 7 (The Hook Up, B, X12) → 6. Moyenne (Vacuum Wars compte à moitié) : 6,0. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -71,17 +73,19 @@
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 2,
-   "v": "Nettoyage profond tapis 76 % (Vacuum Wars, B, X12) → 2.",
+   "s": 2.0,
+   "v": "Nettoyage profond tapis 76 % (Vacuum Wars, B, X12) → 2. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/ecovacs-x12-review/"
     }
-   ]
+   ],
+   "conf": 0.25
   },
   "entretien": {
    "s": null,
@@ -91,7 +95,8 @@
   "allergies": {
    "s": 3,
    "v": "Filtre « haute efficacité », pas de classe HEPA (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 7.5,
@@ -101,22 +106,25 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
    "s": 10,
-   "v": "Obstacles 23/24 (Vacuum Wars, B, X12) → 10.",
+   "v": "Obstacles 23/24 (Vacuum Wars, B, X12) → 10. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/ecovacs-x12-review/"
     }
-   ]
+   ],
+   "conf": 0.25
   }
  },
  "heightFlag": null,

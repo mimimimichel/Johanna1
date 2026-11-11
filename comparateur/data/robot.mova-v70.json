@@ -19,51 +19,55 @@
   "Station sans sac",
   "HA communautaire"
  ],
- "verdict": "top",
- "verdictText": "Score 8,5/10, calculé sur 76 % des critères (le reste n'est pas mesuré).",
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
  "pros": [
   "Tapis au sec : 10/10",
   "Évite les obstacles : 10/10",
-  "Poils et cheveux : 9/10"
+  "Poils et cheveux : 9,0/10"
  ],
  "cons": [
   "Non mesuré : Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque"
  ],
  "scores": {
   "poils": {
-   "s": 9,
-   "v": "Poils ramassés 94 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 9.",
+   "s": 9.0,
+   "v": "Poils ramassés 94 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne (Vacuum Wars compte à moitié) : 9,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
    "s": 10,
    "v": "Dépose ses serpillières avant les tapis (fabricant) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 7,
-   "v": "Taches café 100 pts / moyenne 94 (Vacuum Wars, B) → 6 ; Taches café + raisin 133 pts / moyenne 108 (Vacuum Wars, B) → 8. Moyenne : 7.",
+   "s": 7.0,
+   "v": "Taches café 100 pts / moyenne 94 (Vacuum Wars, B) → 6 ; Taches café + raisin 133 pts / moyenne 108 (Vacuum Wars, B) → 8. Moyenne (Vacuum Wars compte à moitié) : 7,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 8,
-   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B) → 8.",
+   "s": 8.0,
+   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B) → 8. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "entretien": {
    "s": null,
@@ -83,17 +87,19 @@
   "domotique": {
    "s": 6,
    "v": "Home Assistant via extension non officielle ; Google Home non vérifié → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
    "s": 10,
-   "v": "Obstacles 23/24 (Vacuum Wars, B) → 10.",
+   "v": "Obstacles 23/24 (Vacuum Wars, B) → 10. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   }
  },
  "heightFlag": null,

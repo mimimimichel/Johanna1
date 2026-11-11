@@ -19,21 +19,21 @@
   "⚠ tapis mouillés"
  ],
  "verdict": "no",
- "verdictText": "Score 5,5/10, calculé sur 93 % des critères (le reste n'est pas mesuré).",
+ "verdictText": "Score 5,4/10, calculé sur 93 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Home Assistant ou Google Home : 8/10",
-  "Évite les obstacles : 8/10"
+  "Évite les obstacles : 8,0/10"
  ],
  "cons": [
-  "Tapis au sec : 2/10",
-  "Poils incrustés dans les tapis : 3/10",
-  "Entretien facile, pièces abordables : 3/10",
+  "Tapis au sec : 2,0/10",
+  "Poils incrustés dans les tapis : 2,7/10",
+  "Entretien facile, pièces abordables : 3,0/10",
   "Non mesuré : Fiabilité de la marque"
  ],
  "scores": {
   "poils": {
-   "s": 7.25,
-   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « mediocre » → 3 ; The Hook Up (B) : meilleur du test, aucun emmêlement → 10. Moyenne : 7,2.",
+   "s": 7.0,
+   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « mediocre » → 3 ; The Hook Up (B) : meilleur du test, aucun emmêlement → 10. Moyenne (Vacuum Wars compte à moitié) : 7,0.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -47,21 +47,23 @@
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_mop": {
-   "s": 2,
+   "s": 2.0,
    "v": "Rouleau sans capot, relevage limité (fabricant) → 5 ; The Hook Up (B) : tapis mouillés : −3 → -3.",
    "src": [
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "sale": {
-   "s": 7,
-   "v": "Boue séchée 2e sur 7 (The Hook Up, B) → 9 ; Rtings (A) : « several passes for tough stains » → 5. Moyenne : 7.",
+   "s": 7.0,
+   "v": "Boue séchée 2e sur 7 (The Hook Up, B) → 9 ; Rtings (A) : « several passes for tough stains » → 5. Moyenne (Vacuum Wars compte à moitié) : 7,0.",
    "src": [
     {
      "label": "The Hook Up (B)",
@@ -71,11 +73,12 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_asp": {
-   "s": 3,
-   "v": "Nettoyage profond tapis 84 % (Vacuum Wars, B) → 4 ; Rtings (A) : « performs poorly on carpet » → 2. Moyenne : 3.",
+   "s": 2.67,
+   "v": "Nettoyage profond tapis 84 % (Vacuum Wars, B) → 4 ; Rtings (A) : « performs poorly on carpet » → 2. Moyenne (Vacuum Wars compte à moitié) : 2,7.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -85,22 +88,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
-   ]
+   ],
+   "conf": 1
   },
   "entretien": {
-   "s": 3,
-   "v": "Rtings (A) : « tricky », beaucoup de pièces → 3 ; Kit pièces : 139,99 € (Narwal, sans sacs) → 3. Moyenne : 3.",
+   "s": 3.0,
+   "v": "Rtings (A) : « tricky », beaucoup de pièces → 3 ; Kit pièces : 139,99 € (Narwal, sans sacs) → 3. Moyenne (Vacuum Wars compte à moitié) : 3,0.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
-   ]
+   ],
+   "conf": 1
   },
   "allergies": {
    "s": 6,
    "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": null,
@@ -110,11 +116,12 @@
   "domotique": {
    "s": 8,
    "v": "Google Home via Matter ; Home Assistant via extension non officielle → 8.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 8,
-   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « good » → 8. Moyenne : 8.",
+   "s": 8.0,
+   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « good » → 8. Moyenne (Vacuum Wars compte à moitié) : 8,0.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -124,7 +131,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
-   ]
+   ],
+   "conf": 1
   }
  },
  "heightFlag": null,

@@ -19,19 +19,19 @@
   "Matter"
  ],
  "verdict": "meh",
- "verdictText": "Score 6,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdictText": "Score 6,6/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Tapis au sec : 10/10",
   "Fiabilité de la marque : 9,6/10",
-  "Évite les obstacles : 9/10"
+  "Évite les obstacles : 9,3/10"
  ],
  "cons": [
-  "Sol très sale : 3,5/10"
+  "Sol très sale : 3,3/10"
  ],
  "scores": {
   "poils": {
-   "s": 6.25,
-   "v": "Poils ramassés 98 % (Vacuum Wars, B) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : poils « acceptable » → 5 ; Stiftung Warentest (A, via résumé) : « gut bei langen Haaren » → 8 ; Bouchage par les cheveux, bac et station (Vacuum Wars, B) : −2 → -2. Moyenne : 6,2.",
+   "s": 5.67,
+   "v": "Poils ramassés 98 % (Vacuum Wars, B) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : poils « acceptable » → 5 ; Stiftung Warentest (A, via résumé) : « gut bei langen Haaren » → 8 ; Bouchage par les cheveux, bac et station (Vacuum Wars, B) : −2 → -2. Moyenne (Vacuum Wars compte à moitié) : 5,7.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -49,16 +49,18 @@
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_mop": {
    "s": 10,
    "v": "Dépose ses serpillières sur tapis épais (fabricant) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 3.5,
-   "v": "Taches séchées 80 pts / moyenne 94 (Vacuum Wars, B) → 4 ; Rtings (A) : « mediocre on stains » → 3. Moyenne : 3,5.",
+   "s": 3.33,
+   "v": "Taches séchées 80 pts / moyenne 94 (Vacuum Wars, B) → 4 ; Rtings (A) : « mediocre on stains » → 3. Moyenne (Vacuum Wars compte à moitié) : 3,3.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -68,11 +70,12 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Nettoyage profond tapis 83 % (Vacuum Wars, B) → 4 ; Rtings (A) : tapis « satisfactory » → 6. Moyenne : 5.",
+   "s": 5.33,
+   "v": "Nettoyage profond tapis 83 % (Vacuum Wars, B) → 4 ; Rtings (A) : tapis « satisfactory » → 6. Moyenne (Vacuum Wars compte à moitié) : 5,3.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -82,22 +85,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
-   ]
+   ],
+   "conf": 1
   },
   "entretien": {
    "s": 5.5,
-   "v": "Rtings (A) : la station fait l'essentiel → 8 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne : 5,5.",
+   "v": "Rtings (A) : la station fait l'essentiel → 8 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne (Vacuum Wars compte à moitié) : 5,5.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
-   ]
+   ],
+   "conf": 1
   },
   "allergies": {
    "s": 6,
    "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 9.6,
@@ -107,16 +113,18 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 8,
    "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 9,
-   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « great » → 10. Moyenne : 9.",
+   "s": 9.33,
+   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « great » → 10. Moyenne (Vacuum Wars compte à moitié) : 9,3.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -126,7 +134,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
     }
-   ]
+   ],
+   "conf": 1
   }
  },
  "heightFlag": null,

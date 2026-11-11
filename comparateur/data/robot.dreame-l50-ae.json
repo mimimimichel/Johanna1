@@ -18,20 +18,21 @@
   "Dealabs",
   "⚠ cheveux"
  ],
- "verdict": "meh",
- "verdictText": "Score 5,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdict": "no",
+ "verdictText": "Score 5,4/10, calculé sur 61 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Fiabilité de la marque : 9,6/10",
   "Home Assistant ou Google Home : 8/10"
  ],
  "cons": [
-  "Sol très sale : 3/10",
-  "Évite les obstacles : 3/10"
+  "Sol très sale : 3,0/10",
+  "Évite les obstacles : 3,0/10",
+  "Poils et cheveux : 4,5/10"
  ],
  "scores": {
   "poils": {
-   "s": 5.67,
-   "v": "Poils ramassés 100 % (Vacuum Wars, B, L50 Ultra proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, L50 Ultra) → 10 ; Rtings (A, L50 Ultra) : « mediocre » → 3 ; Bouchage par les poils chaque semaine, 3 mois (Vacuum Wars, B, L50 Ultra) : −2 → -2. Moyenne : 5,7.",
+   "s": 4.5,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, L50 Ultra proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, L50 Ultra) → 10 ; Rtings (A, L50 Ultra) : « mediocre » → 3 ; Bouchage par les poils chaque semaine, 3 mois (Vacuum Wars, B, L50 Ultra) : −2 → -2. Moyenne (Vacuum Wars compte à moitié) : 4,5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -45,26 +46,29 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
-   "s": 5,
-   "v": "Relevage 10,5 mm (fabricant ; dépose non confirmée) → 5.",
-   "src": []
+   "s": 5.0,
+   "v": "Relevage 10,5 mm (fabricant ; dépose non confirmée) → 5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   },
   "sale": {
-   "s": 3,
-   "v": "Rtings (A, L50 Ultra) : taches « limited » → 3.",
+   "s": 3.0,
+   "v": "Rtings (A, L50 Ultra) : taches « limited » → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 7,
-   "v": "Nettoyage profond tapis 90 % (Vacuum Wars, B, L50 Ultra) → 8 ; Rtings (A, L50 Ultra) : tapis « adequate » → 6. Moyenne : 7.",
+   "s": 6.67,
+   "v": "Nettoyage profond tapis 90 % (Vacuum Wars, B, L50 Ultra) → 8 ; Rtings (A, L50 Ultra) : tapis « adequate » → 6. Moyenne (Vacuum Wars compte à moitié) : 6,7. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -74,22 +78,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "entretien": {
-   "s": 6,
-   "v": "Rtings (A, L50 Ultra) : entretien « manageable » → 6.",
+   "s": 6.0,
+   "v": "Rtings (A, L50 Ultra) : entretien « manageable » → 6. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "allergies": {
    "s": 6,
    "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 9.6,
@@ -99,17 +106,20 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 8,
    "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 3,
-   "v": "Pas de caméra sur l'AE (fabricant) : plafond 3 → 3.",
-   "src": []
+   "s": 3.0,
+   "v": "Pas de caméra sur l'AE (fabricant) : plafond 3 → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   }
  },
  "heightFlag": null,

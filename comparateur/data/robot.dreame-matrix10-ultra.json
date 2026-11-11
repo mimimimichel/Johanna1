@@ -23,36 +23,38 @@
   "Serpillières déposées",
   "Matter"
  ],
- "verdict": "top",
- "verdictText": "Score 7,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdict": "good",
+ "verdictText": "Score 7,7/10, calculé sur 72 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Tapis au sec : 10/10",
   "Fiabilité de la marque : 9,6/10",
-  "Poils et cheveux : 9/10"
+  "Poils et cheveux : 9,0/10"
  ],
  "cons": [
-  "Entretien facile, pièces abordables : 3/10",
-  "Poils incrustés dans les tapis : 4/10"
+  "Entretien facile, pièces abordables : 3,0/10",
+  "Poils incrustés dans les tapis : 4,0/10"
  ],
  "scores": {
   "poils": {
-   "s": 9,
-   "v": "Poils ramassés 92 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 9.",
+   "s": 9.0,
+   "v": "Poils ramassés 92 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne (Vacuum Wars compte à moitié) : 9,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
    "s": 10,
    "v": "Dépose ses serpillières sur tapis (fabricant) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 9,
-   "v": "Taches séchées 136 pts / moyenne 112 (Vacuum Wars, B) → 8 ; Nouveau test taches 147 pts / moyenne 98 (Vacuum Wars, B) → 10. Moyenne : 9.",
+   "s": 9.0,
+   "v": "Taches séchées 136 pts / moyenne 112 (Vacuum Wars, B) → 8 ; Nouveau test taches 147 pts / moyenne 98 (Vacuum Wars, B) → 10. Moyenne (Vacuum Wars compte à moitié) : 9,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -62,27 +64,31 @@
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-mobius-60-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 4,
-   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B ; 84 % sur une autre page) → 4.",
+   "s": 4.0,
+   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B ; 84 % sur une autre page) → 4. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "entretien": {
-   "s": 3,
+   "s": 3.0,
    "v": "Kit pièces 1 an : 139,99 € (Dreame FR) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "allergies": {
    "s": 6,
    "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 9.6,
@@ -92,22 +98,25 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 8,
    "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 8,
-   "v": "Obstacles 19/24 (Vacuum Wars, B) → 8.",
+   "s": 8.0,
+   "v": "Obstacles 19/24 (Vacuum Wars, B) → 8. Repose sur Vacuum Wars seul (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   }
  },
  "heightFlag": null,

@@ -20,19 +20,20 @@
   "⚠ tapis"
  ],
  "verdict": "good",
- "verdictText": "Score 6,9/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdictText": "Score 6,8/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Tapis au sec : 10/10",
   "Home Assistant ou Google Home : 10/10",
-  "Évite les obstacles : 9,5/10"
+  "Évite les obstacles : 9,3/10"
  ],
  "cons": [
-  "Allergies et acariens : 3/10"
+  "Allergies et acariens : 3/10",
+  "Poils et cheveux : 4,0/10"
  ],
  "scores": {
   "poils": {
-   "s": 5,
-   "v": "Poils ramassés 92 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « disappointing » → 3 ; Bouchage par les cheveux entre les brosses (Vacuum Wars, B) : −2 → -2. Moyenne : 5.",
+   "s": 4.0,
+   "v": "Poils ramassés 92 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « disappointing » → 3 ; Bouchage par les cheveux entre les brosses (Vacuum Wars, B) : −2 → -2. Moyenne (Vacuum Wars compte à moitié) : 4,0. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -46,16 +47,18 @@
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_mop": {
    "s": 10,
    "v": "Dépose ses serpillières (fabricant) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 8,
-   "v": "Taches séchées 103 pts / moyenne 98 (Vacuum Wars, B) → 6 ; Rtings (A) : « great mopping performance » → 10. Moyenne : 8.",
+   "s": 8.67,
+   "v": "Taches séchées 103 pts / moyenne 98 (Vacuum Wars, B) → 6 ; Rtings (A) : « great mopping performance » → 10. Moyenne (Vacuum Wars compte à moitié) : 8,7. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -65,11 +68,12 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B) → 4 ; Rtings (A) : tapis « adequate » → 6. Moyenne : 5.",
+   "s": 5.33,
+   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B) → 4 ; Rtings (A) : tapis « adequate » → 6. Moyenne (Vacuum Wars compte à moitié) : 5,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -79,22 +83,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
-   ]
+   ],
+   "conf": 1
   },
   "entretien": {
    "s": 5.5,
-   "v": "Rtings (A) : entretien « reasonable » → 6 ; Kit pièces 1 an : 89,99 € (officiel FR, en rupture) → 5. Moyenne : 5,5.",
+   "v": "Rtings (A) : entretien « reasonable » → 6 ; Kit pièces 1 an : 89,99 € (officiel FR, en rupture) → 5. Moyenne (Vacuum Wars compte à moitié) : 5,5.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
-   ]
+   ],
+   "conf": 1
   },
   "allergies": {
    "s": 3,
    "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 8.3,
@@ -104,16 +111,18 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 9.5,
-   "v": "Obstacles 24/24 (Vacuum Wars, B) → 10 ; Rtings (A) : « very good » → 9. Moyenne : 9,5.",
+   "s": 9.33,
+   "v": "Obstacles 24/24 (Vacuum Wars, B) → 10 ; Rtings (A) : « very good » → 9. Moyenne (Vacuum Wars compte à moitié) : 9,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -123,7 +132,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
     }
-   ]
+   ],
+   "conf": 1
   }
  },
  "heightFlag": null,

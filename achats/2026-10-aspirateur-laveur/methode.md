@@ -9,6 +9,7 @@
   - 3 = enquête indépendante auprès des propriétaires.
 - Les avis isolés, blogs affiliés et sites recevant les robots sans protocole publié (C) ne comptent pas. Les étoiles Amazon non plus (avis achetés ou incités).
 - Un critère non mesuré est **retiré du calcul** du robot ; on affiche la **couverture** (part des poids réellement mesurée).
+- **Règles Vacuum Wars (validées le 2026-11-11)** : une mesure Vacuum Wars compte à moitié dans la moyenne d'un critère ; un critère qui ne repose que sur Vacuum Wars compte à moitié dans la couverture ; sur Roborock et Ecovacs, ses mesures portent une alerte de conflit d'intérêts (conseil passé pour ces marques, reconnu sur sa page « À propos »).
 - Si deux sources se contredisent : la source A l'emporte sur la B ; entre deux B, on fait la moyenne et on le signale.
 - **Prix à part** : il n'entre pas dans le score. Il est affiché à côté, daté, avec un prix cible.
 - **Hauteur éliminatoire** : le robot doit passer sous le lit (mesure à fournir).

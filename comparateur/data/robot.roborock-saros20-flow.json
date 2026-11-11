@@ -59,7 +59,8 @@
   "allergies": {
    "s": 3,
    "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 8.3,
@@ -69,12 +70,14 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
    "s": null,

@@ -19,8 +19,8 @@
   "HA officiel",
   "Matter"
  ],
- "verdict": "good",
- "verdictText": "Score 6,8/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdict": "meh",
+ "verdictText": "Score 6,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Home Assistant ou Google Home : 10/10",
   "Fiabilité de la marque : 8,3/10"
@@ -30,8 +30,8 @@
  ],
  "scores": {
   "poils": {
-   "s": 7.5,
-   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux 18 cm enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « good » sur les poils dans les tapis → 8 ; The Hook Up (B) : enroulement « pretty average » → 6. Moyenne : 7,5.",
+   "s": 7.33,
+   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux 18 cm enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « good » sur les poils dans les tapis → 8 ; The Hook Up (B) : enroulement « pretty average » → 6. Moyenne (Vacuum Wars compte à moitié) : 7,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -45,21 +45,23 @@
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_mop": {
-   "s": 7,
+   "s": 7.0,
    "v": "Dépose ses serpillières (fabricant) : 10 → 10 ; The Hook Up (B) : serpillières qui frottent le tapis : −3 → -3.",
    "src": [
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
-   ]
+   ],
+   "conf": 1
   },
   "sale": {
-   "s": 6.67,
-   "v": "Taches séchées 116 pts / moyenne 94 (Vacuum Wars, B) → 8 ; Boue séchée 4e sur 7 (The Hook Up, B) → 6 ; Rtings (A) : « fine for everyday messes » → 6. Moyenne : 6,7.",
+   "s": 6.4,
+   "v": "Taches séchées 116 pts / moyenne 94 (Vacuum Wars, B) → 8 ; Boue séchée 4e sur 7 (The Hook Up, B) → 6 ; Rtings (A) : « fine for everyday messes » → 6. Moyenne (Vacuum Wars compte à moitié) : 6,4. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -73,11 +75,12 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_asp": {
-   "s": 6,
-   "v": "Nettoyage profond tapis 89 % (Vacuum Wars, B) → 6 ; Rtings (A) : tapis « decent » → 6. Moyenne : 6.",
+   "s": 6.0,
+   "v": "Nettoyage profond tapis 89 % (Vacuum Wars, B) → 6 ; Rtings (A) : tapis « decent » → 6. Moyenne (Vacuum Wars compte à moitié) : 6,0. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -87,22 +90,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
-   ]
+   ],
+   "conf": 1
   },
   "entretien": {
    "s": 6.5,
-   "v": "Rtings (A) : la station fait l'essentiel (« takes care of most ») → 8 ; Kit pièces 1 an : 89,99 € (officiel, Amazon.fr) → 5. Moyenne : 6,5.",
+   "v": "Rtings (A) : la station fait l'essentiel (« takes care of most ») → 8 ; Kit pièces 1 an : 89,99 € (officiel, Amazon.fr) → 5. Moyenne (Vacuum Wars compte à moitié) : 6,5.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
-   ]
+   ],
+   "conf": 1
   },
   "allergies": {
    "s": 3,
    "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 8.3,
@@ -112,16 +118,18 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 5.5,
-   "v": "Obstacles 17/24 (Vacuum Wars, B) → 6 ; Rtings (A) : « inconsistent » → 5. Moyenne : 5,5.",
+   "s": 5.33,
+   "v": "Obstacles 17/24 (Vacuum Wars, B) → 6 ; Rtings (A) : « inconsistent » → 5. Moyenne (Vacuum Wars compte à moitié) : 5,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -131,7 +139,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
-   ]
+   ],
+   "conf": 1
   }
  },
  "heightFlag": null,

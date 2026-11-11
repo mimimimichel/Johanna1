@@ -258,7 +258,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
   }
   function coverage(p, prod, w) {
     let all = 0, got = 0;
-    p.criteria.forEach((c) => { const wi = w[c.key] || 0; all += wi; if (critScore(c, prod) != null) got += wi; });
+    p.criteria.forEach((c) => { const wi = w[c.key] || 0; all += wi; if (critScore(c, prod) != null) { const e = (prod.scores || {})[c.key] || {}; got += wi * (typeof e.conf === "number" ? e.conf : 1); } });
     return all ? got / all : 0;
   }
   const MINCOV = 0.5;

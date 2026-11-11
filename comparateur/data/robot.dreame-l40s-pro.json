@@ -18,20 +18,20 @@
   "Serpillières déposées",
   "Dealabs"
  ],
- "verdict": "good",
- "verdictText": "Score 6,8/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdict": "meh",
+ "verdictText": "Score 6,6/10, calculé sur 61 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Tapis au sec : 10/10",
   "Fiabilité de la marque : 9,6/10",
   "Home Assistant ou Google Home : 8/10"
  ],
  "cons": [
-  "Entretien facile, pièces abordables : 3/10"
+  "Entretien facile, pièces abordables : 3,0/10"
  ],
  "scores": {
   "poils": {
-   "s": 7,
-   "v": "Poils ramassés 91 % (Vacuum Wars, B, L40s Ultra proche) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B, L40s Ultra) → 10 ; Rtings (A, L40 Ultra proche) : « poor job » → 3. Moyenne : 7.",
+   "s": 6.0,
+   "v": "Poils ramassés 91 % (Vacuum Wars, B, L40s Ultra proche) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B, L40s Ultra) → 10 ; Rtings (A, L40 Ultra proche) : « poor job » → 3. Moyenne (Vacuum Wars compte à moitié) : 6,0. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -41,26 +41,29 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
    "s": 10,
-   "v": "Dépose ses serpillières (fabricant) → 10.",
-   "src": []
+   "v": "Dépose ses serpillières (fabricant) → 10. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   },
   "sale": {
-   "s": 5,
-   "v": "Rtings (A, L40 Ultra) : lavage « acceptable » → 5.",
+   "s": 5.0,
+   "v": "Rtings (A, L40 Ultra) : lavage « acceptable » → 5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 7,
-   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B, L40s Ultra) → 8 ; Rtings (A, L40 Ultra) : tapis « alright » → 6. Moyenne : 7.",
+   "s": 6.67,
+   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B, L40s Ultra) → 8 ; Rtings (A, L40 Ultra) : tapis « alright » → 6. Moyenne (Vacuum Wars compte à moitié) : 6,7. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -70,22 +73,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "entretien": {
-   "s": 3,
-   "v": "Rtings (A, L40 Ultra) : « many parts », coûts récurrents élevés → 3 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne : 3.",
+   "s": 3.0,
+   "v": "Rtings (A, L40 Ultra) : « many parts », coûts récurrents élevés → 3 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne (Vacuum Wars compte à moitié) : 3,0. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "allergies": {
    "s": 6,
    "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 9.6,
@@ -95,16 +101,18 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 8,
    "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 5,
-   "v": "Obstacles 7/24 (Vacuum Wars, B, L40s Ultra) → 2 ; Rtings (A, L40 Ultra) : « good » → 8. Moyenne : 5.",
+   "s": 6.0,
+   "v": "Obstacles 7/24 (Vacuum Wars, B, L40s Ultra) → 2 ; Rtings (A, L40 Ultra) : « good » → 8. Moyenne (Vacuum Wars compte à moitié) : 6,0. Mesures d'un modèle proche (compte à moitié dans la couverture).",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -114,7 +122,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
-   ]
+   ],
+   "conf": 0.5
   }
  },
  "heightFlag": "⚠ à mesurer sous le lit",

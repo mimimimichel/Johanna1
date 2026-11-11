@@ -20,21 +20,21 @@
   "⚠ poils"
  ],
  "verdict": "no",
- "verdictText": "Score 4,9/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
+ "verdictText": "Score 5,0/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Home Assistant ou Google Home : 10/10",
-  "Sol très sale : 9,5/10",
+  "Sol très sale : 9,3/10",
   "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "Évite les obstacles : 1,5/10",
-  "Poils et cheveux : 2/10",
-  "Entretien facile, pièces abordables : 3/10"
+  "Évite les obstacles : 1,3/10",
+  "Poils et cheveux : 2,2/10",
+  "Entretien facile, pièces abordables : 3,0/10"
  ],
  "scores": {
   "poils": {
-   "s": 2,
-   "v": "Poils ramassés 43 % (Vacuum Wars, B) → 2 ; Cheveux enroulés 62 % (Vacuum Wars, B) → 1 ; Rtings (A, Qrevo S proche) : « disappointing » → 3. Moyenne : 2.",
+   "s": 2.25,
+   "v": "Poils ramassés 43 % (Vacuum Wars, B) → 2 ; Cheveux enroulés 62 % (Vacuum Wars, B) → 1 ; Rtings (A, Qrevo S proche) : « disappointing » → 3. Moyenne (Vacuum Wars compte à moitié) : 2,2. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -44,16 +44,18 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_mop": {
-   "s": 5,
+   "s": 5.0,
    "v": "Relevage 10 mm (fabricant) → 5.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 9.5,
-   "v": "Taches séchées 149 pts / moyenne 108 (Vacuum Wars, B) → 10 ; Rtings (A, Qrevo S) : lavage « very effective » → 9. Moyenne : 9,5.",
+   "s": 9.33,
+   "v": "Taches séchées 149 pts / moyenne 108 (Vacuum Wars, B) → 10 ; Rtings (A, Qrevo S) : lavage « very effective » → 9. Moyenne (Vacuum Wars compte à moitié) : 9,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -63,11 +65,12 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
-   ]
+   ],
+   "conf": 1
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Nettoyage profond tapis 81 % (Vacuum Wars, B) → 4 ; Rtings (A, Qrevo S) : tapis « isn't bad » → 6. Moyenne : 5.",
+   "s": 5.33,
+   "v": "Nettoyage profond tapis 81 % (Vacuum Wars, B) → 4 ; Rtings (A, Qrevo S) : tapis « isn't bad » → 6. Moyenne (Vacuum Wars compte à moitié) : 5,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -77,22 +80,25 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
-   ]
+   ],
+   "conf": 1
   },
   "entretien": {
-   "s": 3,
+   "s": 3.0,
    "v": "Rtings (A, Qrevo S) : « many parts », coûts récurrents élevés → 3.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
-   ]
+   ],
+   "conf": 1
   },
   "allergies": {
    "s": 3,
    "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 8.3,
@@ -102,16 +108,18 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 1.5,
-   "v": "Obstacles 5/24 (Vacuum Wars, B) → 2 ; Rtings (A, Qrevo S) : « terrible » → 1. Moyenne : 1,5.",
+   "s": 1.33,
+   "v": "Obstacles 5/24 (Vacuum Wars, B) → 2 ; Rtings (A, Qrevo S) : « terrible » → 1. Moyenne (Vacuum Wars compte à moitié) : 1,3. ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -121,7 +129,8 @@
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
-   ]
+   ],
+   "conf": 1
   }
  },
  "heightFlag": null,

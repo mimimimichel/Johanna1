@@ -233,22 +233,29 @@ for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
     for key,*_ in CRIT:
         base=[(l,s,src,u) for c,l,s,src,u in items if c==key and s>0]
         mal=[(l,s,src,u) for c,l,s,src,u in items if c==key and s<0]
-        val=None; parts=[]
+        val=None; parts=[]; vwonly=False
         if key=="fiabilite" and b.get("fiab"): val=b["fiab"][0]; parts=[(b["fiab"][1],val,"Euroconsumers (A)",EU)]
         elif key=="domotique" and b.get("dom"): val=b["dom"][0]; parts=[(b["dom"][1],val,"","")]
         elif key=="allergies":
             if b.get("allerg"): val=b["allerg"][0]; parts=[(b["allerg"][1],val,"","")]
             if mal and val is not None: val=max(0,val+sum(m[1] for m in mal)); parts+=mal
         elif base:
-            val=statistics.mean(s for _,s,_,_ in base)+sum(m[1] for m in mal); val=max(0,min(10,val)); parts=base+mal
+            wts=[(0.5 if src.startswith("Vacuum Wars") else 1.0) for _,_,src,_ in base]
+            val=sum(s*wt for (_,s,_,_),wt in zip(base,wts))/sum(wts)+sum(m[1] for m in mal); val=max(0,min(10,val)); parts=base+mal
+            vwonly=all(src.startswith("Vacuum Wars") for _,_,src,_ in base)
         if val is None:
             sc[key]={"s":None,"v":"Non mesuré : aucune donnée A ou B, critère retiré du calcul.","src":[]}
         else:
             txt=" ; ".join(f"{l} → {('+' if s>0 and l.startswith('Bouch') else '')}{str(s).replace('.',',')}" for l,s,_,_ in parts)
-            if len(base)>1: txt+=f". Moyenne : {str(round(val,1)).replace('.',',')}"
+            if len(base)>1: txt+=f". Moyenne (Vacuum Wars compte à moitié) : {str(round(val,1)).replace('.',',')}"
             src=[{"label":srcl,"url":u} for _,_,srcl,u in parts if u]
             seen=set(); src=[x for x in src if not (x["url"] in seen or seen.add(x["url"]))]
-            sc[key]={"s":round(val,2),"v":txt+".","src":src}
+            if vwonly: txt+=". Repose sur Vacuum Wars seul (compte à moitié dans la couverture)"
+            if p["brand"] in ("Roborock","Ecovacs") and any(src.startswith("Vacuum Wars") for _,_,src,_ in parts): txt+=". ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour "+p["brand"]
+            SIB={"dreame-x60-pro","dreame-l40s-pro","dreame-l50-ae","ecovacs-t50-gen3","ecovacs-x12s","dreame-matrix10-pro"}
+            conf=(0.5 if vwonly else 1)*(0.5 if rid in SIB and key not in ("fiabilite","domotique","allergies") else 1)
+            if rid in SIB and key not in ("fiabilite","domotique","allergies"): txt+=". Mesures d'un modèle proche (compte à moitié dans la couverture)"
+            sc[key]={"s":round(val,2),"v":txt+".","src":src,"conf":conf}
     p["scores"]=sc
     H=p.get("height")
     p["heightFlag"]= "⚠ à mesurer sous le lit" if H and H>10 else None
@@ -269,8 +276,9 @@ for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
     p=json.load(open(path)); tot=0; w=0
     for k,wt in W.items():
         s=p["scores"][k]["s"]
-        if s is not None: tot+=s*wt; w+=wt
-    rows.append((round(tot/w,2) if w else 0, round(100*w/T), p["name"], p["price"], p.get("heightFlag") or ""))
+        if s is not None: tot+=s*wt; w+=wt*p["scores"][k].get("conf",1)
+    ws=sum(wt for k,wt in W.items() if p["scores"][k]["s"] is not None)
+    rows.append((round(tot/ws,2) if ws else 0, round(100*w/T), p["name"], p["price"], p.get("heightFlag") or ""))
 for r in sorted(rows,reverse=True): print(r)
 
 # --- Verdicts, points forts/faibles et choix, générés depuis les notes (pas de texte libre)
@@ -283,8 +291,9 @@ for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
     p=json.load(open(path)); tot=0; w=0
     for k,wt in W.items():
         s=p["scores"][k]["s"]
-        if s is not None: tot+=s*wt; w+=wt
-    g=tot/w if w else 0; cov=w/T
+        if s is not None: tot+=s*wt; w+=wt; 
+    cw=sum(wt*p["scores"][k].get("conf",1) for k,wt in W.items() if p["scores"][k]["s"] is not None)
+    g=tot/w if w else 0; cov=cw/T
     meas=[(k,p["scores"][k]["s"]) for k in W if p["scores"][k]["s"] is not None]
     nm=[LBL[k] for k in W if p["scores"][k]["s"] is None]
     p["pros"]=[f"{LBL[k]} : {str(round(s,1)).replace('.',',')}/10" for k,s in sorted(meas,key=lambda x:(-x[1],-W[x[0]])) if s>=8][:3]
@@ -296,10 +305,10 @@ for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
     json.dump(p,open(path,"w"),ensure_ascii=False,indent=1)
     res.append((g,cov,p))
 ok=sorted([x for x in res if x[1]>=0.75 and not x[2].get("heightFlag")],key=lambda x:-x[0])
-best=ok[0][2]; val=max(ok[:6],key=lambda x:x[0]/x[2]["price"])[2]
+best=ok[0][2]; val=min([x for x in ok if x[0]>=ok[0][0]-1.0],key=lambda x:x[2]["price"])[2]
 pr=json.load(open(os.path.join(OUT,"robot.project.json")))
-pr["picks"]=[{"label":"Meilleur score (≥ 75 % mesuré, passe sous le lit)","product":best["id"],"why":"Choix calculé automatiquement avec la méthode et tes poids. Voir sa fiche pour le détail des mesures."}]
-if val["id"]!=best["id"]: pr["picks"].append({"label":"Meilleur rapport score / prix","product":val["id"],"why":"Le meilleur score par euro parmi les 6 premiers. Prix à revérifier le jour de l'achat."})
+pr["picks"]=[{"label":"Meilleur score (≥ 75 % mesuré par des sources fiables, passe sous le lit)","product":best["id"],"why":"Choix calculé automatiquement avec la méthode et tes poids. Voir sa fiche pour le détail des mesures."}]
+if val["id"]!=best["id"]: pr["picks"].append({"label":"Le moins cher à moins d'un point du meilleur","product":val["id"],"why":"Le moins cher parmi les robots à moins d'un point du meilleur score (≥ 75 % mesuré). Prix à revérifier le jour de l'achat."})
 pr["notes"]=[n for n in pr.get("notes",[]) if not n.startswith("Méthode")]
 pr["notes"].insert(0,"Méthode v2 (11/11/2026) : barèmes fixes appliqués mécaniquement, sources A et B uniquement, critère non mesuré retiré du calcul, prix à part. Détail dans l'onglet Critères.")
 json.dump(pr,open(os.path.join(OUT,"robot.project.json"),"w"),ensure_ascii=False,indent=1)

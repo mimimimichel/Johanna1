@@ -19,8 +19,8 @@
   "HA officiel",
   "Tapis épais"
  ],
- "verdict": "top",
- "verdictText": "Score 7,6/10, calculé sur 91 % des critères (le reste n'est pas mesuré).",
+ "verdict": "good",
+ "verdictText": "Score 7,6/10, calculé sur 63 % des critères (le reste n'est pas mesuré).",
  "pros": [
   "Tapis au sec : 10/10",
   "Home Assistant ou Google Home : 10/10",
@@ -32,39 +32,43 @@
  ],
  "scores": {
   "poils": {
-   "s": 8,
-   "v": "Poils ramassés 87,5 % (Vacuum Wars, B ; Qrevo Edge 3 Pro = même robot) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 8.",
+   "s": 8.0,
+   "v": "Poils ramassés 87,5 % (Vacuum Wars, B ; Qrevo Edge 3 Pro = même robot) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne (Vacuum Wars compte à moitié) : 8,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_mop": {
    "s": 10,
    "v": "Dépose ses serpillières (fabricant) → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": 6,
-   "v": "Taches séchées 115 pts / moyenne 107,8 (Vacuum Wars, B) → 6.",
+   "s": 6.0,
+   "v": "Taches séchées 115 pts / moyenne 107,8 (Vacuum Wars, B) → 6. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "tapis_asp": {
-   "s": 8,
-   "v": "Nettoyage profond tapis 93 % (Vacuum Wars, B) → 8.",
+   "s": 8.0,
+   "v": "Nettoyage profond tapis 93 % (Vacuum Wars, B) → 8. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   },
   "entretien": {
    "s": null,
@@ -74,7 +78,8 @@
   "allergies": {
    "s": 3,
    "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": 8.3,
@@ -84,22 +89,25 @@
      "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
-   ]
+   ],
+   "conf": 1
   },
   "domotique": {
    "s": 10,
    "v": "Home Assistant : intégration officielle → 10.",
-   "src": []
+   "src": [],
+   "conf": 1
   },
   "obstacles": {
-   "s": 6,
-   "v": "Obstacles 18/24 (Vacuum Wars, B) → 6.",
+   "s": 6.0,
+   "v": "Obstacles 18/24 (Vacuum Wars, B) → 6. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
-   ]
+   ],
+   "conf": 0.5
   }
  },
  "heightFlag": null,
