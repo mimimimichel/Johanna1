@@ -1,0 +1,83 @@
+{
+ "id": "mova-s70-ultra-roller",
+ "name": "MOVA S70 Ultra Roller",
+ "brand": "MOVA (Dreame)",
+ "price": 588,
+ "priceUsual": 600,
+ "deal": {
+  "price": 588,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/210673443"
+ },
+ "priceNote": "Idealo, 6 mois : moyenne 717,18 €, plus haut 880,92 € (juin), plus bas 588 € (maintenant). Le prix baisse depuis l'été et tourne autour de 590–600 € depuis mi-octobre : prix habituel retenu ≈ 600 € (prix récent, la moyenne 6 mois est tirée par l'été).",
+ "height": 9.0,
+ "tags": [
+  "9 cm",
+  "Rouleau + capot"
+ ],
+ "target": 588,
+ "where": [
+  {
+   "shop": "Idealo",
+   "price": 588,
+   "url": "https://www.idealo.fr/prix/210673443"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via extension non officielle ; Google Home non vérifié → 6.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [],
+ "cons": [
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

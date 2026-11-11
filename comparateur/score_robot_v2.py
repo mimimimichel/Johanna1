@@ -212,6 +212,7 @@ BRAND={"Roborock":dict(fiab=(8.3,"Fiabilité Roborock 83/100 (Euroconsumers 2026
        "Dreame":dict(fiab=(9.6,"Fiabilité Dreame 96/100 (Euroconsumers 2026, A)"),dom=(8,"Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle"),allerg=(6,"Filtre « HEPA » sans classe (fabricant)")),
        "MOVA (Dreame)":dict(fiab=None,dom=(6,"Home Assistant via extension non officielle ; Google Home non vérifié"),allerg=None),
        "Ecovacs":dict(fiab=(7.5,"Fiabilité Ecovacs 75/100 (Euroconsumers 2026, A)"),dom=(10,"Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets)"),allerg=(3,"Filtre « haute efficacité », pas de classe HEPA (fabricant)")),
+       "TP-Link Tapo":dict(fiab=None,dom=(6,"Matter / Home Assistant non vérifiés pour ce modèle"),allerg=None),
        "Narwal":dict(fiab=None,dom=(8,"Google Home via Matter ; Home Assistant via extension non officielle"),allerg=(6,"Filtre « HEPA » sans classe (fabricant)"))}
 CRIT=[("poils","Poils","Poils et cheveux",25,"Ramassés, sans s'emmêler ni boucher l'aspiration."),
  ("tapis_mop","Tapis au sec","Tapis au sec",15,"Les serpillières ne touchent jamais les tapis."),

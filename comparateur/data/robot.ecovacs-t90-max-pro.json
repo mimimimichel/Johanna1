@@ -1,0 +1,93 @@
+{
+ "id": "ecovacs-t90-max-pro",
+ "name": "Ecovacs Deebot T90 Max Pro Omni (Care Kit)",
+ "brand": "Ecovacs",
+ "price": 468,
+ "priceUsual": 560,
+ "deal": {
+  "price": 468,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/214189831"
+ },
+ "priceNote": "Idealo, 52 jours : moyenne 561,58 €, plus haut 599 € (il y a 3 jours), plus bas 468 € (maintenant). Prix habituel retenu ≈ 560 € (plateaux entre 545 et 600 €).",
+ "height": 9.5,
+ "tags": [
+  "≈ 9,5 cm",
+  "Rouleau laveur"
+ ],
+ "target": 468,
+ "where": [
+  {
+   "shop": "Idealo",
+   "price": 468,
+   "url": "https://www.idealo.fr/prix/214189831"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre « haute efficacité », pas de classe HEPA (fabricant) → 3.",
+   "src": [],
+   "conf": 1
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Fiabilité Ecovacs 75/100 (Euroconsumers 2026, A) → 7,5.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ],
+   "conf": 1
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [
+  "Home Assistant ou Google Home : 10/10"
+ ],
+ "cons": [
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

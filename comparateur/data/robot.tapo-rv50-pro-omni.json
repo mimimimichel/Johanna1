@@ -1,0 +1,82 @@
+{
+ "id": "tapo-rv50-pro-omni",
+ "name": "TP-Link Tapo RV50 Pro Omni",
+ "brand": "TP-Link Tapo",
+ "price": 449,
+ "priceUsual": 445,
+ "deal": {
+  "price": 449,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/209290894"
+ },
+ "priceNote": "Idealo, 6 mois : moyenne 444,72 €, plus bas 389,99 € (il y a 138 jours), plus haut 505,10 €. À 449 €, il est à son prix habituel : ce n'est pas une promo.",
+ "height": null,
+ "tags": [
+  "Serpillières déposées"
+ ],
+ "target": 449,
+ "where": [
+  {
+   "shop": "Idealo",
+   "price": 449,
+   "url": "https://www.idealo.fr/prix/209290894"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Matter / Home Assistant non vérifiés pour ce modèle → 6.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [],
+ "cons": [
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

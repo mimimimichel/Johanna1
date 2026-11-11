@@ -1,0 +1,92 @@
+{
+ "id": "roborock-qrevo-edge-2x",
+ "name": "Roborock Qrevo Edge 2X",
+ "brand": "Roborock",
+ "price": 471.85,
+ "priceUsual": 590,
+ "deal": {
+  "price": 471.85,
+  "crossed": 790,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/211062324"
+ },
+ "priceNote": "Idealo, 5 mois : moyenne 618,75 €, plateau à ≈ 600 € de juillet à septembre, 520–550 € en octobre, puis remontée à ≈ 790 € début novembre juste avant la baisse (prix gonflé avant promo). Prix habituel retenu ≈ 590 €.",
+ "height": null,
+ "tags": [],
+ "target": 471.85,
+ "where": [
+  {
+   "shop": "Idealo",
+   "price": 471.85,
+   "url": "https://www.idealo.fr/prix/211062324"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
+   "src": [],
+   "conf": 1
+  },
+  "fiabilite": {
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ],
+   "conf": 1
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [
+  "Home Assistant ou Google Home : 10/10",
+  "Fiabilité de la marque : 8,3/10"
+ ],
+ "cons": [
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

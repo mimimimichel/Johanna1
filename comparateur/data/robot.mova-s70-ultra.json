@@ -1,0 +1,80 @@
+{
+ "id": "mova-s70-ultra",
+ "name": "MOVA S70 Ultra",
+ "brand": "MOVA (Dreame)",
+ "price": 599,
+ "priceUsual": 650,
+ "deal": {
+  "price": 599,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/210296457"
+ },
+ "priceNote": "Idealo, 6 mois : moyenne 803,88 €, plus haut 999 €, plus bas 599 € (maintenant). Le prix descend par paliers depuis juin (1 000 → 850 → 700 → 650 → 599 €) : prix habituel récent retenu ≈ 650 €.",
+ "height": null,
+ "tags": [],
+ "target": 599,
+ "where": [
+  {
+   "shop": "Idealo",
+   "price": 599,
+   "url": "https://www.idealo.fr/prix/210296457"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via extension non officielle ; Google Home non vérifié → 6.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [],
+ "cons": [
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

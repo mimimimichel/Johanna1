@@ -4,7 +4,7 @@
  "brand": "Roborock",
  "price": 379.99,
  "target": 349,
- "priceNote": "379,99 € sur la boutique Roborock (version blanche).",
+ "priceNote": "Idealo, 6 mois : yo-yo permanent entre ≈ 590 € et 355–490 €. Il passe une grande partie du temps à ≤ 390 € (août, octobre, novembre) ; plus bas 354,99 € il y a 48 jours ; moyenne 501,73 €. Prix habituel non établi (deux niveaux) : à 380 €, c'est son prix « bas » courant ; le payer 590 € serait trop cher.",
  "where": [
   {
    "shop": "Roborock FR",
@@ -134,5 +134,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": null,
+ "deal": {
+  "price": 379.99,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/209981365"
+ }
 }
