@@ -19,73 +19,85 @@
   "Station sans sac",
   "HA communautaire"
  ],
- "verdict": "good",
- "verdictText": "Très bon chez Vacuum Wars sur les poils et les tapis, mais aucun test indépendant.",
+ "verdict": "top",
+ "verdictText": "Score 8,5/10, calculé sur 76 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "94 % de poils, 0 % d'enroulement (Vacuum Wars)",
-  "92 % en profondeur sur tapis (Vacuum Wars)",
-  "Dépose ses serpillières"
+  "Tapis au sec : 10/10",
+  "Évite les obstacles : 10/10",
+  "Poils et cheveux : 9/10"
  ],
  "cons": [
-  "Aucun test indépendant (A)",
-  "Station sans sac non testée avec beaucoup de poils",
-  "Marque absente des enquêtes de fiabilité"
+  "Non mesuré : Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque"
  ],
  "scores": {
   "poils": {
-   "s": 7.5,
-   "v": "Vacuum Wars (B) : 94 % de poils, 0 % d'enroulement, son choix « anti-emmêlement ». Aucun test indépendant (A).",
+   "s": 9,
+   "v": "Poils ramassés 94 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 9.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/best-robot-vacuum-for-pet-hair/"
+     "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 7,
-   "v": "Dépose ses serpillières avant les tapis (fabricant). Pas de test A/B sur tapis.",
+   "s": 10,
+   "v": "Dépose ses serpillières avant les tapis (fabricant) → 10.",
    "src": []
   },
-  "tapis_asp": {
-   "s": 8,
-   "v": "Vacuum Wars (B) : 92 % en nettoyage profond des tapis.",
+  "sale": {
+   "s": 7,
+   "v": "Taches café 100 pts / moyenne 94 (Vacuum Wars, B) → 6 ; Taches café + raisin 133 pts / moyenne 108 (Vacuum Wars, B) → 8. Moyenne : 7.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/best-robot-vacuum-for-pet-hair/"
+     "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
     }
    ]
   },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+  "tapis_asp": {
+   "s": 8,
+   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B) → 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
+    }
+   ]
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
-  "lavage": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "8,8 cm laser rentré.",
-   "src": []
-  },
-  "domotique": {
-   "s": 5.5,
-   "v": "Home Assistant via l'extension communautaire (compte MovaHome). Google Home. Matter non confirmé.",
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
   "fiabilite": {
-   "s": 5,
-   "v": "Marque absente des enquêtes de fiabilité trouvées.",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
-  "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable. Un testeur isolé (TechRadar, C) signale des cheveux emmêlés dans la brosse latérale et les roues ; station sans sac non testée avec beaucoup de poils.",
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via extension non officielle ; Google Home non vérifié → 6.",
    "src": []
+  },
+  "obstacles": {
+   "s": 10,
+   "v": "Obstacles 23/24 (Vacuum Wars, B) → 10.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-v70-ultra-complete-review/"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": [
+  "Vacuum Wars (B) a retiré sa recommandation le 04/11/2026 : serpillières qui sèchent et se décrochent selon des propriétaires."
+ ]
 }

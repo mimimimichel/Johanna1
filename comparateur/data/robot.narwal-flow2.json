@@ -19,20 +19,26 @@
   "⚠ tapis mouillés"
  ],
  "verdict": "no",
- "verdictText": "A mouillé les tapis selon The Hook Up.",
+ "verdictText": "Score 5,5/10, calculé sur 93 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Ne s'emmêle pas (Rtings)",
-  "Très bon sur la boue (The Hook Up)"
+  "Home Assistant ou Google Home : 8/10",
+  "Évite les obstacles : 8/10"
  ],
  "cons": [
-  "A mouillé les tapis (The Hook Up)",
-  "Ramassage des poils faible (Rtings)"
+  "Tapis au sec : 2/10",
+  "Poils incrustés dans les tapis : 3/10",
+  "Entretien facile, pièces abordables : 3/10",
+  "Non mesuré : Fiabilité de la marque"
  ],
  "scores": {
   "poils": {
-   "s": 6.5,
-   "v": "Rtings (A) : les cheveux ne s'emmêlent pas, mais ramassage faible. Vacuum Wars (B) : 0 % d'enroulement. The Hook Up (B) : 1er sur les poils.",
+   "s": 7.25,
+   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « mediocre » → 3 ; The Hook Up (B) : meilleur du test, aucun emmêlement → 10. Moyenne : 7,2.",
    "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/narwal-flow-2-review/"
+    },
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
@@ -44,64 +50,83 @@
    ]
   },
   "tapis_mop": {
-   "s": 3,
-   "v": "The Hook Up (B) : a mouillé les tapis.",
+   "s": 2,
+   "v": "Rouleau sans capot, relevage limité (fabricant) → 5 ; The Hook Up (B) : tapis mouillés : −3 → -3.",
    "src": [
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "sale": {
+   "s": 7,
+   "v": "Boue séchée 2e sur 7 (The Hook Up, B) → 9 ; Rtings (A) : « several passes for tough stains » → 5. Moyenne : 7.",
+   "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
    ]
   },
   "tapis_asp": {
-   "s": 5.5,
-   "v": "Vacuum Wars (B) : 84 % en profondeur ; Rtings (A) : ramassage faible.",
-   "src": []
-  },
-  "obstacles": {
-   "s": 6.5,
-   "v": "Vacuum Wars (B) : 20/24 ; The Hook Up (B) : 3/6.",
+   "s": 3,
+   "v": "Nettoyage profond tapis 84 % (Vacuum Wars, B) → 4 ; Rtings (A) : « performs poorly on carpet » → 2. Moyenne : 3.",
    "src": [
     {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 7,
-   "v": "The Hook Up (B) : très bon sur la boue séchée (2e). Rtings (A) : plusieurs passages sur les taches tenaces.",
-   "src": [
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/narwal-flow-2-review/"
+    },
     {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
    ]
-  },
-  "hauteur": {
-   "s": 7,
-   "v": "9,5 cm : passe de justesse.",
-   "src": []
-  },
-  "domotique": {
-   "s": 6,
-   "v": "Home Assistant via extension communautaire locale, Matter, Google Home via Matter.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 5,
-   "v": "Marque absente des enquêtes de fiabilité trouvées.",
-   "src": []
   },
   "entretien": {
-   "s": 5.5,
-   "v": "Rtings (A) : pas d'emmêlement. Pas de test longue durée.",
+   "s": 3,
+   "v": "Rtings (A) : « tricky », beaucoup de pièces → 3 ; Kit pièces : 139,99 € (Narwal, sans sacs) → 3. Moyenne : 3.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
     }
    ]
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home via Matter ; Home Assistant via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « good » → 8. Moyenne : 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/narwal-flow-2-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

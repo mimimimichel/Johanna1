@@ -18,100 +18,117 @@
   "Serpillières déposées",
   "Matter"
  ],
- "verdict": "good",
- "verdictText": "Seul modèle salué par Stiftung Warentest pour les cheveux longs ; lavage faible.",
+ "verdict": "meh",
+ "verdictText": "Score 6,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "« Bon avec les cheveux longs » (Stiftung Warentest)",
-  "98 % de poils (Vacuum Wars)",
-  "599 €"
+  "Tapis au sec : 10/10",
+  "Fiabilité de la marque : 9,6/10",
+  "Évite les obstacles : 9/10"
  ],
  "cons": [
-  "Laisse des poils incrustés dans les tapis (Rtings)",
-  "Lavage sous la moyenne",
-  "Bouchons de cheveux signalés avec un gros chien (Vacuum Wars)"
+  "Sol très sale : 3,5/10"
  ],
  "scores": {
   "poils": {
-   "s": 8,
-   "v": "Stiftung Warentest (A) : « bon avec les cheveux longs ». Rtings (A) : poils « acceptable ». Vacuum Wars (B) : 98 %, 0 % d'enroulement.",
+   "s": 6.25,
+   "v": "Poils ramassés 98 % (Vacuum Wars, B) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : poils « acceptable » → 5 ; Stiftung Warentest (A, via résumé) : « gut bei langen Haaren » → 8 ; Bouchage par les cheveux, bac et station (Vacuum Wars, B) : −2 → -2. Moyenne : 6,2.",
    "src": [
-    {
-     "label": "Stiftung Warentest (A, via résumé)",
-     "url": "https://www.test.de/Saugroboter-im-Test-4806685-0/"
-    },
-    {
-     "label": "Rtings (A)",
-     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
-    },
     {
      "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet"
-    }
-   ]
-  },
-  "tapis_mop": {
-   "s": 6.5,
-   "v": "Dépose ses serpillières sur tapis épais (fabricant).",
-   "src": []
-  },
-  "tapis_asp": {
-   "s": 6,
-   "v": "Rtings (A) : laisse des poils incrustés dans les tapis.",
-   "src": [
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet/"
+    },
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
-    }
-   ]
-  },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 4.5,
-   "v": "Vacuum Wars (B) : sous la moyenne sur taches séchées. Rtings (A) : un passage de plus nécessaire.",
-   "src": [
+    },
     {
-     "label": "Rtings (A)",
-     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "8,9 cm laser rentré.",
-   "src": []
-  },
-  "domotique": {
-   "s": 7,
-   "v": "Home Assistant via l'extension communautaire Dreame. Google Home. Matter 1.4.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
-   "src": [
-    {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
-    }
-   ]
-  },
-  "entretien": {
-   "s": 5.5,
-   "v": "Rtings (A) : la station fait l'essentiel. Vacuum Wars (B) : avec un chien qui perd beaucoup, boudins de cheveux qui bouchent l'entrée du bac (une testeuse).",
-   "src": [
-    {
-     "label": "Rtings (A)",
-     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+     "label": "Stiftung Warentest (A)",
+     "url": "https://www.test.de/Saugroboter-im-Test-4806685-0/"
     },
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/"
     }
    ]
+  },
+  "tapis_mop": {
+   "s": 10,
+   "v": "Dépose ses serpillières sur tapis épais (fabricant) → 10.",
+   "src": []
+  },
+  "sale": {
+   "s": 3.5,
+   "v": "Taches séchées 80 pts / moyenne 94 (Vacuum Wars, B) → 4 ; Rtings (A) : « mediocre on stains » → 3. Moyenne : 3,5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "Nettoyage profond tapis 83 % (Vacuum Wars, B) → 4 ; Rtings (A) : tapis « satisfactory » → 6. Moyenne : 5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 5.5,
+   "v": "Rtings (A) : la station fait l'essentiel → 8 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne : 5,5.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    }
+   ]
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 9,
+   "v": "Obstacles 20/24 (Vacuum Wars, B) → 8 ; Rtings (A) : « great » → 10. Moyenne : 9.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x50-ultra-review-is-it-the-best-yet/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x50-ultra"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

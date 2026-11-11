@@ -18,76 +18,107 @@
   "Serpillières déposées",
   "Dealabs"
  ],
- "verdict": "meh",
- "verdictText": "Correct d'après des modèles proches, mais 10,35 cm.",
+ "verdict": "good",
+ "verdictText": "Score 6,8/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "459 €",
-  "Obstacles 19/24 sur un modèle proche"
+  "Tapis au sec : 10/10",
+  "Fiabilité de la marque : 9,6/10",
+  "Home Assistant ou Google Home : 8/10"
  ],
  "cons": [
-  "10,35 cm : à mesurer sous le lit",
-  "Peu de données propres"
+  "Entretien facile, pièces abordables : 3/10"
  ],
  "scores": {
   "poils": {
-   "s": 6.5,
-   "v": "Modèle proche L40s Ultra : Vacuum Wars (B) 91 %, 0 % d'enroulement.",
+   "s": 7,
+   "v": "Poils ramassés 91 % (Vacuum Wars, B, L40s Ultra proche) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B, L40s Ultra) → 10 ; Rtings (A, L40 Ultra proche) : « poor job » → 3. Moyenne : 7.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-l40s-series-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
    ]
   },
   "tapis_mop": {
-   "s": 6.5,
-   "v": "Dépose ses serpillières (fabricant).",
+   "s": 10,
+   "v": "Dépose ses serpillières (fabricant) → 10.",
    "src": []
+  },
+  "sale": {
+   "s": 5,
+   "v": "Rtings (A, L40 Ultra) : lavage « acceptable » → 5.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ]
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
    "s": 7,
-   "v": "Modèle proche L40s Ultra AE : Vacuum Wars (B) 19/24.",
+   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B, L40s Ultra) → 8 ; Rtings (A, L40 Ultra) : tapis « alright » → 6. Moyenne : 7.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/dreame-l40s-series-review/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "hauteur": {
-   "s": 3,
-   "v": "10,35 cm : à mesurer sous le lit.",
-   "src": []
-  },
-  "domotique": {
-   "s": 6,
-   "v": "Home Assistant via l'extension communautaire Dreame. Google Home.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
-   "src": [
+    },
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": 3,
+   "v": "Rtings (A, L40 Ultra) : « many parts », coûts récurrents élevés → 3 ; Kit pièces 1 an : 139,99 € (Dreame FR, Boulanger) → 3. Moyenne : 3.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ]
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
    "src": []
+  },
+  "fiabilite": {
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 5,
+   "v": "Obstacles 7/24 (Vacuum Wars, B, L40s Ultra) → 2 ; Rtings (A, L40 Ultra) : « good » → 8. Moyenne : 5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-l40s-series-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": "⚠ à mesurer sous le lit",
+ "alerts": [
+  "Hauteur 10,35 cm : ne passe sous le lit que si le dégagement est supérieur."
+ ]
 }

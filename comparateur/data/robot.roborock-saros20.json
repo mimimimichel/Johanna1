@@ -19,30 +19,27 @@
   "HA officiel",
   "Matter"
  ],
- "verdict": "top",
- "verdictText": "Le plus solide sur les preuves indépendantes : Rtings (A) le juge bon sur les poils, y compris dans les tapis.",
+ "verdict": "good",
+ "verdictText": "Score 6,8/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Rtings (A) : retire la plupart des poils, même dans les tapis",
-  "Serpillières déposables, 7,95 cm",
-  "Intégration Home Assistant officielle"
+  "Home Assistant ou Google Home : 10/10",
+  "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "Obstacles moyens (Vacuum Wars 17/24)",
-  "Serpillières vues traînant sur un tapis (The Hook Up)",
-  "Petit bac de 260 ml"
+  "Allergies et acariens : 3/10"
  ],
  "scores": {
   "poils": {
    "s": 7.5,
-   "v": "Rtings (A) : « clears most hair in a single pass ». Vacuum Wars (B) : 88 % de poils, 0 % d'enroulement. The Hook Up (B) : enroulement « dans la moyenne ».",
+   "v": "Poils ramassés 88 % (Vacuum Wars, B) → 6 ; Cheveux 18 cm enroulés 0 % (Vacuum Wars, B) → 10 ; Rtings (A) : « good » sur les poils dans les tapis → 8 ; The Hook Up (B) : enroulement « pretty average » → 6. Moyenne : 7,5.",
    "src": [
-    {
-     "label": "Rtings (A)",
-     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
-    },
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-saros-20-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     },
     {
      "label": "The Hook Up (B)",
@@ -51,9 +48,23 @@
    ]
   },
   "tapis_mop": {
-   "s": 6.5,
-   "v": "Peut déposer ses serpillières (fabricant). Mais The Hook Up (B) a vu ses serpillières traîner sur un tapis ; Rtings (A) : se prend dans les franges.",
+   "s": 7,
+   "v": "Dépose ses serpillières (fabricant) : 10 → 10 ; The Hook Up (B) : serpillières qui frottent le tapis : −3 → -3.",
    "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "sale": {
+   "s": 6.67,
+   "v": "Taches séchées 116 pts / moyenne 94 (Vacuum Wars, B) → 8 ; Boue séchée 4e sur 7 (The Hook Up, B) → 6 ; Rtings (A) : « fine for everyday messes » → 6. Moyenne : 6,7.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-saros-20-review/"
+    },
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
@@ -65,68 +76,64 @@
    ]
   },
   "tapis_asp": {
-   "s": 8,
-   "v": "Rtings (A) : retire la plupart des poils d'animaux des tapis en un seul passage.",
-   "src": [
-    {
-     "label": "Rtings (A)",
-     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
-    }
-   ]
-  },
-  "obstacles": {
-   "s": 5.5,
-   "v": "Vacuum Wars (B) : 17/24. Rtings (A) : évitement peu fiable sur tapis.",
-   "src": [
-    {
-     "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/roborock-saros-20-review/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 6.5,
-   "v": "Vacuum Wars (B) : au-dessus de la moyenne sur taches séchées. The Hook Up (B) : moyen sur la boue. Rtings (A) : bien pour le quotidien, pas pour les taches tenaces.",
+   "s": 6,
+   "v": "Nettoyage profond tapis 89 % (Vacuum Wars, B) → 6 ; Rtings (A) : tapis « decent » → 6. Moyenne : 6.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/roborock-saros-20-review/"
     },
     {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "7,95 cm, pas de tourelle.",
-   "src": []
-  },
-  "domotique": {
-   "s": 9.5,
-   "v": "Intégration Home Assistant officielle (en partie locale), Google Home, Matter.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 7,
-   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
-   "src": [
-    {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
    ]
   },
   "entretien": {
    "s": 6.5,
-   "v": "Rtings (A) : la station assure l'essentiel de l'entretien courant. Score d'entretien détaillé payant. Petit bac de 260 ml.",
+   "v": "Rtings (A) : la station fait l'essentiel (« takes care of most ») → 8 ; Kit pièces 1 an : 89,99 € (officiel, Amazon.fr) → 5. Moyenne : 6,5.",
    "src": [
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
     }
    ]
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 5.5,
+   "v": "Obstacles 17/24 (Vacuum Wars, B) → 6 ; Rtings (A) : « inconsistent » → 5. Moyenne : 5,5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-saros-20-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

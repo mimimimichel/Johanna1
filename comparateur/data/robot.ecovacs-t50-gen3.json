@@ -24,81 +24,90 @@
   "Non testé"
  ],
  "verdict": "meh",
- "verdictText": "Le moins cher sous 8,1 cm, mais aucun test de cette version.",
+ "verdictText": "Score 6,4/10, calculé sur 86 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "299–399 €",
-  "8,1 cm",
-  "Excellent lavage sur la génération précédente"
+  "Sol très sale : 10/10",
+  "Home Assistant ou Google Home : 10/10",
+  "Poils et cheveux : 8/10"
  ],
  "cons": [
-  "Aucun test de la Gen3",
-  "Obstacles sous la moyenne (gen 1)"
+  "Poils incrustés dans les tapis : 2/10",
+  "Entretien facile, pièces abordables : 3/10",
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Tapis au sec"
  ],
  "scores": {
   "poils": {
-   "s": 6,
-   "v": "Pas de test de la Gen3. T50 Pro gen 1 : Vacuum Wars (B) 86 %, 0 % d'enroulement.",
+   "s": 8,
+   "v": "Poils ramassés 86 % (Vacuum Wars, B, T50 Pro Omni proche) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B, T50 Pro) → 10. Moyenne : 8.",
    "src": [
     {
-     "label": "Vacuum Wars (B, gen 1)",
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 5,
-   "v": "Dépose des serpillières non confirmée.",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
+  },
+  "sale": {
+   "s": 10,
+   "v": "Taches 170 pts / moyenne 98 (Vacuum Wars, B, T50 Pro) → 10.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ]
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
-   "s": 4,
-   "v": "T50 Pro gen 1 : Vacuum Wars (B) 15/24, sous la moyenne.",
+   "s": 2,
+   "v": "Nettoyage profond tapis 79 % (Vacuum Wars, B, T50 Pro) → 2.",
    "src": [
     {
-     "label": "Vacuum Wars (B, gen 1)",
+     "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 7.5,
-   "v": "T50 Pro gen 1 : Vacuum Wars (B), meilleur score de taches jamais mesuré (170 contre 98).",
-   "src": [
-    {
-     "label": "Vacuum Wars (B, gen 1)",
-     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "8,1 cm.",
-   "src": []
-  },
-  "domotique": {
-   "s": 5.5,
-   "v": "Home Assistant officiel depuis 2026.10.2 (sauf version Care Kit), pièces et carte non garanties. Google Home.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 6,
-   "v": "Enquête Euroconsumers 2026 : Ecovacs 75/100 en fiabilité.",
-   "src": [
-    {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": 3,
+   "v": "Pièces : 79 € le kit 6 mois, soit 158 €/an (Ecovacs FR) → 3.",
    "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre « haute efficacité », pas de classe HEPA (fabricant) → 3.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Fiabilité Ecovacs 75/100 (Euroconsumers 2026, A) → 7,5.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 4,
+   "v": "Obstacles 15/24 (Vacuum Wars, B, T50 Pro) → 4.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

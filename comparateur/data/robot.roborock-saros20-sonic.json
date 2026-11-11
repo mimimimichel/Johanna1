@@ -18,19 +18,22 @@
   "Serpillière déposée",
   "HA officiel"
  ],
- "verdict": "no",
- "verdictText": "Faible sur les taches séchées et moyen sur les poils selon Vacuum Wars.",
+ "verdict": "meh",
+ "verdictText": "Score 6,6/10, calculé sur 91 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Plaque laissée à la station"
+  "Tapis au sec : 10/10",
+  "Home Assistant ou Google Home : 10/10",
+  "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "78 % de poils (Vacuum Wars)",
-  "Lavage très sous la moyenne"
+  "Sol très sale : 2/10",
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Entretien facile, pièces abordables"
  ],
  "scores": {
   "poils": {
    "s": 6,
-   "v": "Vacuum Wars (B) : 78 % de poils, 0 % d'enroulement.",
+   "v": "Poils ramassés 78 % (Vacuum Wars, B) → 2 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 6.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -39,23 +42,13 @@
    ]
   },
   "tapis_mop": {
-   "s": 7,
-   "v": "Plaque laissée à la station (fabricant). Pas de test A/B sur tapis.",
+   "s": 10,
+   "v": "Plaque laissée à la station (fabricant) → 10.",
    "src": []
   },
-  "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 3,
-   "v": "Vacuum Wars (B) : 62 points contre 108 de moyenne sur taches séchées.",
+  "sale": {
+   "s": 2,
+   "v": "Taches séchées 62 pts / moyenne 108 (Vacuum Wars, B) → 2.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -63,30 +56,52 @@
     }
    ]
   },
-  "hauteur": {
-   "s": 10,
-   "v": "Environ 8 cm.",
-   "src": []
-  },
-  "domotique": {
-   "s": 9,
-   "v": "Home Assistant officiel, Google Home.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 7,
-   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+  "tapis_asp": {
+   "s": 8,
+   "v": "Nettoyage profond tapis 92 % (Vacuum Wars, B) → 8.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-saros-20-sonic-review/"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "Obstacles 19/24 (Vacuum Wars, B) → 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-saros-20-sonic-review/"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

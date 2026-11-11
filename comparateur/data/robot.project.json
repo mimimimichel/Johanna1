@@ -4,155 +4,122 @@
  "name": "Robot aspirateur laveur",
  "short": "Robot",
  "status": "Comparaison",
- "updated": "2026-10-31",
+ "updated": "2026-11-11",
  "need": "Appartement de 70–100 m², chien à poils longs qui mue beaucoup (propre, mais pattes mouillées, eau et croquettes trempées autour de la gamelle), cheveux longs et frisés. Tapis ras un peu partout + un tapis épais dans la chambre. Lit à environ 10 cm du sol. Home Assistant + Google Home. Budget repère : 400 € (pas éliminatoire).",
  "criteria": [
   {
    "key": "poils",
    "short": "Poils",
    "label": "Poils et cheveux",
-   "weight": 20,
-   "explain": "Part des poils de chien ramassés et cheveux longs qui s'enroulent (ou pas) dans les brosses. Le nom de la brosse ne prouve rien : seuls les tests comptent.",
-   "how": "Sources retenues : Rtings et Stiftung Warentest (indépendants, niveau A), Vacuum Wars et The Hook Up (protocole publié, niveau B). Vacuum Wars : 2 g de poils d'animaux + 1 g de cheveux de 18 cm. Les avis isolés et les sites qui reçoivent les robots sans protocole publié (niveau C) ne comptent pas."
-  },
-  {
-   "key": "entretien",
-   "short": "Entretien",
-   "label": "Ne se bouche pas",
-   "weight": 15,
-   "explain": "Dans la durée, avec beaucoup de poils et de cheveux longs : faut-il démêler la brosse, déboucher l'entrée du bac ou le conduit de la station à la main ? Le vrai point faible aujourd'hui n'est plus la brosse, mais les « boudins » de cheveux qui bouchent l'entrée du bac ou le conduit vers la station.",
-   "how": "Rtings (A), Expert Reviews et Vacuum Wars (B). Les témoignages isolés (blogs affiliés) ne comptent pas. Aucun test de plus de 4 mois trouvé : sans donnée fiable, la note est neutre (5)."
+   "weight": 25,
+   "explain": "Ramassés, sans s'emmêler ni boucher l'aspiration.",
+   "how": "Barème : voir la méthode ci-dessous."
   },
   {
    "key": "tapis_mop",
    "short": "Tapis au sec",
    "label": "Tapis au sec",
    "weight": 15,
-   "explain": "Le robot ne doit jamais poser de serpillière mouillée sur un tapis. Le plus sûr : il dépose ses serpillières à la station avant d'aller sur les tapis.",
-   "how": "Fiche fabricant (dépose automatique, hauteur de relevage) + tests (tapis mouillés ou non, détection des tapis)."
+   "explain": "Les serpillières ne touchent jamais les tapis.",
+   "how": "Barème : voir la méthode ci-dessous."
+  },
+  {
+   "key": "sale",
+   "short": "Sol sale",
+   "label": "Sol très sale",
+   "weight": 15,
+   "explain": "Boue, taches séchées. Les aliments ramollis (croquettes) ne sont testés par aucun labo sur robot.",
+   "how": "Barème : voir la méthode ci-dessous."
   },
   {
    "key": "tapis_asp",
    "short": "Tapis épais",
-   "label": "Poils dans les tapis",
-   "weight": 10,
-   "explain": "Capacité à extraire les poils incrustés dans un tapis épais, là où le sous-poil du chien s'accroche.",
-   "how": "Rtings (A) : poils d'animaux dans les tapis. Vacuum Wars (B) : nettoyage en profondeur des tapis."
-  },
-  {
-   "key": "obstacles",
-   "short": "Obstacles",
-   "label": "Évite les obstacles",
-   "weight": 8,
-   "explain": "Contourner la gamelle, les câbles, les chaussettes et les jouets sans les pousser ni s'y coincer.",
-   "how": "Vacuum Wars (B) : parcours de 24 obstacles. The Hook Up (B). Rtings (A) quand le résumé en parle."
-  },
-  {
-   "key": "lavage",
-   "short": "Lavage",
-   "label": "Lavage et traces de pattes",
+   "label": "Poils incrustés dans les tapis",
    "weight": 12,
-   "explain": "Qualité du lavage, notamment sur les traces de pattes mouillées de l'entrée et de la cuisine, et hygiène de la station : eau chaude, séchage à l'air chaud, dosage du détergent.",
-   "how": "Vacuum Wars (B) : taches séchées de café et de jus. The Hook Up (B) : boue séchée. Rtings (A) quand le résumé en parle."
+   "explain": "Extraire les poils coincés dans un tapis.",
+   "how": "Barème : voir la méthode ci-dessous."
   },
   {
-   "key": "hauteur",
-   "short": "Hauteur",
-   "label": "Passe sous le lit",
-   "weight": 8,
-   "explain": "Le lit laisse environ 10 cm. Sous 9 cm, aucun souci ; 9,5 à 9,8 cm, ça passe de justesse ; 10,4 cm, il faut mesurer.",
-   "how": "Hauteur du robot, laser rentré pour les modèles à tourelle rétractable."
-  },
-  {
-   "key": "domotique",
-   "short": "Domotique",
-   "label": "Home Assistant et Google",
-   "weight": 7,
-   "explain": "Commande à la voix et routines Google Home, intégration Home Assistant (officielle ou communautaire), Matter.",
-   "how": "Doc Home Assistant, listes Matter, intégrations communautaires."
-  },
-  {
-   "key": "prix",
-   "short": "Prix",
-   "label": "Prix",
+   "key": "entretien",
+   "short": "Entretien",
+   "label": "Entretien facile, pièces abordables",
    "weight": 10,
-   "auto": "price",
-   "best": 300,
-   "worst": 1500,
-   "explain": "Calculé automatiquement : 10/10 à 300 €, 5/10 à 900 €, 0/10 à 1 500 €. Prix chez un vendeur sûr à la date indiquée.",
-   "how": "Boutiques officielles et grandes enseignes, relevés du 31/10/2026."
+   "explain": "Facile à nettoyer, rarement, pièces de rechange disponibles et pas trop chères.",
+   "how": "Barème : voir la méthode ci-dessous."
+  },
+  {
+   "key": "allergies",
+   "short": "Allergies",
+   "label": "Allergies et acariens",
+   "weight": 8,
+   "explain": "Filtre HEPA certifié, station à sac fermé. Aucun fabricant n'annonce de HEPA certifié H12/H13 ; aucune mesure d'émission de poussière publique.",
+   "how": "Barème : voir la méthode ci-dessous."
   },
   {
    "key": "fiabilite",
    "short": "Fiabilité",
    "label": "Fiabilité de la marque",
-   "weight": 5,
-   "explain": "Fiabilité déclarée par les propriétaires de la marque dans une grande enquête indépendante.",
-   "how": "Enquête de fiabilité Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires), indépendante."
+   "weight": 8,
+   "explain": "Enquête indépendante auprès des propriétaires (Euroconsumers 2026).",
+   "how": "Barème : voir la méthode ci-dessous."
+  },
+  {
+   "key": "domotique",
+   "short": "Domotique",
+   "label": "Home Assistant ou Google Home",
+   "weight": 7,
+   "explain": "Home Assistant officiel = 10 ; Google Home réellement connecté = 8 ; extension non officielle = 6.",
+   "how": "Barème : voir la méthode ci-dessous."
+  },
+  {
+   "key": "obstacles",
+   "short": "Obstacles",
+   "label": "Évite les obstacles",
+   "weight": 7,
+   "explain": "Parcours Vacuum Wars de 24 objets (câbles, tissus, chaussures, jouets, excréments factices), verdicts Rtings.",
+   "how": "Barème : voir la méthode ci-dessous."
   }
  ],
  "presets": [
   {
-   "label": "Priorité poils de chien",
+   "label": "Priorité poils",
    "weights": {
-    "poils": 25,
-    "entretien": 20,
-    "tapis_mop": 13,
+    "poils": 35,
+    "tapis_mop": 15,
+    "sale": 10,
     "tapis_asp": 15,
-    "obstacles": 8,
-    "lavage": 9,
-    "hauteur": 6,
-    "domotique": 4,
-    "prix": 5,
-    "fiabilite": 3
+    "entretien": 10,
+    "allergies": 5,
+    "fiabilite": 5,
+    "domotique": 3,
+    "obstacles": 2
    }
   },
   {
-   "label": "Priorité prix",
+   "label": "Priorité sol sale",
    "weights": {
-    "poils": 16,
-    "entretien": 12,
-    "tapis_mop": 12,
+    "poils": 20,
+    "tapis_mop": 15,
+    "sale": 30,
     "tapis_asp": 8,
-    "obstacles": 7,
-    "lavage": 8,
-    "hauteur": 6,
+    "entretien": 8,
+    "allergies": 6,
+    "fiabilite": 6,
     "domotique": 4,
-    "prix": 30,
-    "fiabilite": 5
-   }
-  },
-  {
-   "label": "Priorité domotique",
-   "weights": {
-    "poils": 18,
-    "entretien": 12,
-    "tapis_mop": 13,
-    "tapis_asp": 8,
-    "obstacles": 8,
-    "lavage": 9,
-    "hauteur": 7,
-    "domotique": 20,
-    "prix": 8,
-    "fiabilite": 5
+    "obstacles": 3
    }
   }
  ],
  "picks": [
   {
-   "label": "Le mieux étayé par les tests indépendants",
-   "product": "roborock-saros20",
-   "why": "Rtings (indépendant) le juge bon sur les poils, y compris incrustés dans les tapis ; Vacuum Wars mesure 0 % d'enroulement. Serpillières déposables, 7,95 cm, Home Assistant officiel. Limites : obstacles moyens, petit bac, prix (≈ 989 €)."
+   "label": "Meilleur score (≥ 75 % mesuré, passe sous le lit)",
+   "product": "mova-v70",
+   "why": "Choix calculé automatiquement avec la méthode et tes poids. Voir sa fiche pour le détail des mesures."
   },
   {
-   "label": "Meilleur rapport qualité/prix",
+   "label": "Meilleur rapport score / prix",
    "product": "dreame-matrix10-ultra",
-   "why": "649 € (540,83 € vu fin octobre, offre expirée) : meilleur lavage mesuré par Vacuum Wars, 92 % de poils sans enroulement. Limites : aucun test indépendant, rien sur l'entretien dans la durée."
-  },
-  {
-   "label": "Salué pour les cheveux longs",
-   "product": "dreame-x50",
-   "why": "Le seul que Stiftung Warentest (indépendant) qualifie de « bon avec les cheveux longs ». 599 €. Limites : lavage sous la moyenne, poils incrustés dans les tapis (Rtings)."
+   "why": "Le meilleur score par euro parmi les 6 premiers. Prix à revérifier le jour de l'achat."
   }
  ],
  "rejects": [
@@ -198,7 +165,7 @@
   }
  ],
  "notes": [
-  "Méthode : seules comptent les sources indépendantes (A : Rtings, Stiftung Warentest, enquêtes de consommateurs) et les tests à protocole publié (B : Vacuum Wars, The Hook Up, Expert Reviews). Sans donnée A ou B, la note est neutre (5/10, « pas de donnée fiable »). smarthomeassistent.de, netzwelt, Lavelab et les blogs affiliés (C) ne comptent plus : robots souvent prêtés par les marques, pas de protocole publié.",
+  "Méthode v2 (11/11/2026) : barèmes fixes appliqués mécaniquement, sources A et B uniquement, critère non mesuré retiré du calcul, prix à part. Détail dans l'onglet Critères.",
   "Les notes détaillées de Rtings, Que Choisir et Stiftung Warentest sont payantes : seuls leurs résumés ont pu être lus.",
   "Aucun test ne reproduit le sous-poil dense d'un chien à poils longs : le test « poils d'animaux » de Vacuum Wars est ce qui s'en rapproche le plus.",
   "Tous les bacs des robots font 230 à 320 ml : en période de mue, la station videra après chaque passage.",
@@ -207,5 +174,6 @@
   "Feuilles mouillées : aucun test trouvé. Ramasse les grosses à la main, ou mets un grand paillasson à l'entrée.",
   "Les labos se contredisent parfois fortement sur le lavage (Saros 20 : parfait chez netzwelt, faible chez smarthomeassistent). Les notes de lavage tiennent compte de tous les tests trouvés.",
   "Prix relevés le 31/10/2026. Black Friday le 27/11 : les prix cibles sont indiqués sur chaque fiche."
- ]
+ ],
+ "method": "# Méthode de notation — robot aspirateur laveur (validée le 2026-11-08)\n\n## Principes\n- Chaque critère a un **barème fixe** : la même mesure donne toujours la même note.\n- Le **niveau de preuve** est affiché à part :\n  - 0 = annonce du fabricant seule → « non mesuré », critère retiré du calcul ;\n  - 1 = un test à protocole publié (B : Vacuum Wars, The Hook Up, Expert Reviews) ;\n  - 2 = deux tests B concordants, ou un test indépendant (A : Rtings, Stiftung Warentest, Que Choisir, Which?, Consumer Reports) ;\n  - 3 = enquête indépendante auprès des propriétaires.\n- Les avis isolés, blogs affiliés et sites recevant les robots sans protocole publié (C) ne comptent pas. Les étoiles Amazon non plus (avis achetés ou incités).\n- Un critère non mesuré est **retiré du calcul** du robot ; on affiche la **couverture** (part des poids réellement mesurée).\n- Si deux sources se contredisent : la source A l'emporte sur la B ; entre deux B, on fait la moyenne et on le signale.\n- **Prix à part** : il n'entre pas dans le score. Il est affiché à côté, daté, avec un prix cible.\n- **Hauteur éliminatoire** : le robot doit passer sous le lit (mesure à fournir).\n\n## Critères, poids et barèmes\n| Critère | Poids | Barème |\n|---|---|---|\n| Poils et cheveux (ramassés, sans s'emmêler ni boucher) | 25 | Moyenne de : poils ramassés Vacuum Wars (≥ 95 % = 10 ; 90–94 = 8 ; 85–89 = 6 ; 80–84 = 4 ; < 80 = 2) ; enroulement cheveux 18 cm Vacuum Wars (0 % = 10 ; 1–10 % = 7 ; 11–30 % = 4 ; > 30 % = 1) ; verdict Rtings ou Stiftung Warentest (excellent = 10, bon = 8, correct = 6, passable / acceptable = 5, décevant / médiocre = 3, mauvais = 1). Bouchage par les cheveux signalé par une source A ou B : −2. |\n| Tapis au sec | 15 | Dépose automatique des serpillières = 10 ; relevage ≥ 20 mm = 7 ; 10–19 mm = 5 ; < 10 mm = 2 (fiche fabricant, acceptée pour une capacité mécanique). −3 si un test A/B a vu un tapis mouillé. |\n| Sol très sale (boue, taches, aliments ramollis) | 15 | Taches séchées Vacuum Wars, écart à la moyenne du test (≥ +30 % = 10 ; +10 à +29 % = 8 ; −9 à +9 % = 6 ; −10 à −29 % = 4 ; ≤ −30 % = 2) ; boue séchée The Hook Up (classement : tiers supérieur = 9, milieu = 6, tiers inférieur = 3) ; verdict Rtings lavage (même échelle de mots). Moyenne des mesures disponibles. Aliments ramollis : aucun test robot existant → signalé. |\n| Poils incrustés dans les tapis | 12 | Nettoyage profond tapis Vacuum Wars (≥ 95 % = 10 ; 90–94 = 8 ; 85–89 = 6 ; 80–84 = 4 ; < 80 = 2) ; verdict Rtings poils sur tapis (échelle de mots). |\n| Entretien facile et rare + pièces | 10 | Sous-notes : facilité d'accès et de nettoyage (Rtings « maintenance », tests B) ; fréquence d'entretien (station autonettoyante, séchage, sac vs sans sac) ; pièces de rechange en France (disponibles chez le fabricant ET en grande enseigne, prix du kit annuel : < 40 € = 10 ; 40–69 € = 7 ; 70–99 € = 5 ; ≥ 100 € = 3 ; introuvable = 0). |\n| Allergies et acariens | 8 | Filtre HEPA certifié (classe H12/H13 selon EN 1822) = 10 ; « HEPA » sans classe = 6 ; filtre standard = 3 ; station à sac fermé +, station sans sac −2 (poussière à vider à la main) ; mesure d'émission de poussière par un labo A/B si disponible (prioritaire). |\n| Fiabilité de la marque | 8 | Enquête Euroconsumers 2026 (Test-Achats…) : note de fiabilité / 10. Marque absente : non mesuré. |\n| Domotique | 7 | Home Assistant intégration officielle = 10 ; Google Home réellement connecté (voix + routines, natif ou Matter) = 8 ; Home Assistant via extension non officielle = 6 ; Matter seul sans Google testé = 6 ; rien = 0. On retient la meilleure option disponible. |\n| Obstacles | 7 | Parcours Vacuum Wars de 24 objets (câbles, tissus, chaussures, jouets d'enfant, excréments factices ; liste exacte non publiée, moyenne ≈ 16/24) : ≥ 22 = 10 ; 19–21 = 8 ; 16–18 = 6 ; 13–15 = 4 ; < 13 = 2. Sans caméra : 3 maximum. Verdict Rtings si pas de Vacuum Wars. |\n"
 }

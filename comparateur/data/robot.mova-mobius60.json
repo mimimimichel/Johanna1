@@ -18,34 +18,39 @@
   "Serpillières déposées",
   "Peu testé"
  ],
- "verdict": "no",
- "verdictText": "Rtings (A) : poils « sub-par » et entretien lourd.",
+ "verdict": "meh",
+ "verdictText": "Score 5,7/10, calculé sur 85 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Obstacles 22/24 (Vacuum Wars)"
+  "Évite les obstacles : 10/10"
  ],
  "cons": [
-  "Poils « sub-par » (Rtings)",
-  "Entretien lourd, beaucoup de pièces (Rtings)",
-  "Lavage sous la moyenne"
+  "Entretien facile, pièces abordables : 3/10",
+  "Sol très sale : 4/10",
+  "Poils incrustés dans les tapis : 4,5/10",
+  "Non mesuré : Allergies et acariens, Fiabilité de la marque"
  ],
  "scores": {
   "poils": {
-   "s": 5.5,
-   "v": "Rtings (A) : ramassage des poils « sub-par », traîne des poils. Vacuum Wars (B) : 94 %, 0 % d'enroulement.",
+   "s": 6.25,
+   "v": "Poils ramassés 94 % (Vacuum Wars, B) → 8 ; Enroulement : « perfect score » (Vacuum Wars, B) → 10 ; Rtings (A) : « sub-par » → 3 ; The Hook Up (B) : boule de cheveux dans le logement de roue → 4. Moyenne : 6,2.",
    "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    },
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
     },
     {
-     "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 6.5,
-   "v": "Dépose ses serpillières (fabricant), mais The Hook Up (B) les a vues traîner sur un tapis.",
+   "s": 7,
+   "v": "Dépose ses serpillières (fabricant) → 10 ; The Hook Up (B) : serpillières qui frottent le tapis : −3 → -3.",
    "src": [
     {
      "label": "The Hook Up (B)",
@@ -53,9 +58,41 @@
     }
    ]
   },
+  "sale": {
+   "s": 4,
+   "v": "Taches 98 pts / moyenne 112 (Vacuum Wars, B) → 4 ; Nouveau test taches 89 pts / moyenne 98 (Vacuum Wars, B) → 6 ; Boue séchée 6e sur 7 (The Hook Up, B) → 3 ; Rtings (A) : « won't thoroughly clear stains » → 3. Moyenne : 4.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    },
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
+    }
+   ]
+  },
   "tapis_asp": {
-   "s": 5,
-   "v": "Vacuum Wars (B) : 88 % en profondeur ; Rtings (A) : traîne les poils.",
+   "s": 4.5,
+   "v": "Nettoyage profond tapis 88 % (Vacuum Wars, B) → 6 ; Rtings (A) : tapis « mediocre » → 3. Moyenne : 4,5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
+    }
+   ]
+  },
+  "entretien": {
+   "s": 3,
+   "v": "Rtings (A) : « more effort than you might like » → 3.",
    "src": [
     {
      "label": "Rtings (A)",
@@ -63,50 +100,36 @@
     }
    ]
   },
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 6,
+   "v": "Home Assistant via extension non officielle ; Google Home non vérifié → 6.",
+   "src": []
+  },
   "obstacles": {
-   "s": 8,
-   "v": "Vacuum Wars (B) : 22/24.",
+   "s": 10,
+   "v": "Obstacles 22/24 (Vacuum Wars, B) → 10 ; Rtings (A) : « great » → 10. Moyenne : 10.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/mova-mobius-60-review/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 3.5,
-   "v": "Vacuum Wars (B) : sous la moyenne. The Hook Up (B) : faible sur la boue. Rtings (A) : n'enlève pas complètement les taches séchées.",
-   "src": [
-    {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 9.5,
-   "v": "Environ 8,9 cm (3,5 pouces).",
-   "src": []
-  },
-  "domotique": {
-   "s": 5.5,
-   "v": "Home Assistant via l'extension communautaire. Google Home. Matter non confirmé.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 5,
-   "v": "Marque absente des enquêtes de fiabilité trouvées.",
-   "src": []
-  },
-  "entretien": {
-   "s": 4,
-   "v": "Rtings (A) : entretien plus lourd que voulu, beaucoup de pièces à nettoyer régulièrement ; se prend dans les franges.",
-   "src": [
+    },
     {
      "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/mova/mobius-60"
     }
    ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

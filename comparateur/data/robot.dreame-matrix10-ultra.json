@@ -23,21 +23,21 @@
   "Serpillières déposées",
   "Matter"
  ],
- "verdict": "good",
- "verdictText": "Le meilleur lavage mesuré par Vacuum Wars, bon sur les poils, prix bas ; pas de test indépendant.",
+ "verdict": "top",
+ "verdictText": "Score 7,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Lavage nettement au-dessus de la moyenne (Vacuum Wars)",
-  "92 % de poils, 0 % d'enroulement (Vacuum Wars)",
-  "649 € (540,83 € vu le 31/10, offre expirée)"
+  "Tapis au sec : 10/10",
+  "Fiabilité de la marque : 9,6/10",
+  "Poils et cheveux : 9/10"
  ],
  "cons": [
-  "Aucun test indépendant (A)",
-  "Pas de donnée sur l'entretien dans la durée"
+  "Entretien facile, pièces abordables : 3/10",
+  "Poils incrustés dans les tapis : 4/10"
  ],
  "scores": {
   "poils": {
-   "s": 7,
-   "v": "Vacuum Wars (B) : 92 % de poils, 0 % d'enroulement. Aucun test indépendant (A).",
+   "s": 9,
+   "v": "Poils ramassés 92 % (Vacuum Wars, B) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 9.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -46,13 +46,27 @@
    ]
   },
   "tapis_mop": {
-   "s": 7,
-   "v": "Dépose ses serpillières sur tapis (fabricant). Pas de test A/B sur tapis.",
+   "s": 10,
+   "v": "Dépose ses serpillières sur tapis (fabricant) → 10.",
    "src": []
   },
+  "sale": {
+   "s": 9,
+   "v": "Taches séchées 136 pts / moyenne 112 (Vacuum Wars, B) → 8 ; Nouveau test taches 147 pts / moyenne 98 (Vacuum Wars, B) → 10. Moyenne : 9.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    },
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    }
+   ]
+  },
   "tapis_asp": {
-   "s": 6.5,
-   "v": "Vacuum Wars (B) : 84 % en nettoyage profond des tapis.",
+   "s": 4,
+   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B ; 84 % sur une autre page) → 4.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
@@ -60,45 +74,42 @@
     }
    ]
   },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+  "entretien": {
+   "s": 3,
+   "v": "Kit pièces 1 an : 139,99 € (Dreame FR) → 3.",
    "src": []
   },
-  "lavage": {
-   "s": 8.5,
-   "v": "Vacuum Wars (B) : nettement au-dessus de la moyenne sur taches séchées (136 et 147 points).",
-   "src": [
-    {
-     "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/mova-mobius-60-review/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "8,9 cm laser rentré.",
-   "src": []
-  },
-  "domotique": {
-   "s": 7,
-   "v": "Home Assistant via l'extension communautaire Dreame. Google Home. Matter : oui.",
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
    "src": []
   },
   "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
+     "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
    ]
   },
-  "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable. Même famille de double brosse que le X50 (bouchons signalés par Vacuum Wars sur le X50).",
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
    "src": []
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "Obstacles 19/24 (Vacuum Wars, B) → 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

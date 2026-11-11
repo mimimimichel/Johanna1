@@ -31,67 +31,96 @@
   "Serpillières déposées",
   "Matter"
  ],
- "verdict": "meh",
- "verdictText": "Même robot que le Matrix10 Ultra, mais tourelle fixe à 10,4 cm : à mesurer sous le lit.",
+ "verdict": "top",
+ "verdictText": "Score 7,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "569 €",
-  "Même brosse et même changement de serpillières que l'Ultra"
+  "Tapis au sec : 10/10",
+  "Fiabilité de la marque : 9,6/10",
+  "Poils et cheveux : 9/10"
  ],
  "cons": [
-  "10,4 cm : ne passe pas si le lit dégage moins de 10,6 cm",
-  "Aucun test à son nom (données de l'Ultra)",
-  "Promo à 569 € = prix habituel chez Dreame et Boulanger (0 % réel)"
+  "Entretien facile, pièces abordables : 3/10",
+  "Poils incrustés dans les tapis : 4/10"
  ],
  "scores": {
-  "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
   "poils": {
-   "s": 7,
-   "v": "Données du Matrix10 Ultra (même brosse) : Vacuum Wars (B) 92 %, 0 % d'enroulement.",
-   "src": []
+   "s": 9,
+   "v": "Poils ramassés 92 % (Vacuum Wars, B) — données du Matrix10 Ultra (modèle proche) → 8 ; Cheveux enroulés 0 % (Vacuum Wars, B) — données du Matrix10 Ultra (modèle proche) → 10. Moyenne : 9.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
   },
   "tapis_mop": {
-   "s": 7,
-   "v": "Dépose ses serpillières sur tapis (fabricant).",
+   "s": 10,
+   "v": "Dépose ses serpillières sur tapis (fabricant) → 10.",
    "src": []
+  },
+  "sale": {
+   "s": 9,
+   "v": "Taches séchées 136 pts / moyenne 112 (Vacuum Wars, B) — données du Matrix10 Ultra (modèle proche) → 8 ; Nouveau test taches 147 pts / moyenne 98 (Vacuum Wars, B) — données du Matrix10 Ultra (modèle proche) → 10. Moyenne : 9.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    },
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/mova-mobius-60-review/"
+    }
+   ]
   },
   "tapis_asp": {
-   "s": 6.5,
-   "v": "Données du Matrix10 Ultra : Vacuum Wars (B) 84 % en profondeur.",
-   "src": []
+   "s": 4,
+   "v": "Nettoyage profond tapis 80 % (Vacuum Wars, B ; 84 % sur une autre page) — données du Matrix10 Ultra (modèle proche) → 4.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
   },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 8.5,
-   "v": "Données du Matrix10 Ultra : Vacuum Wars (B) nettement au-dessus de la moyenne.",
-   "src": []
-  },
-  "hauteur": {
+  "entretien": {
    "s": 3,
-   "v": "10,4 cm, tourelle fixe (fabricant).",
+   "v": "Kit pièces 1 an : 139,99 € (Dreame FR) → 3.",
    "src": []
   },
-  "domotique": {
-   "s": 7,
-   "v": "Extension Home Assistant non officielle, Google Home, Matter annoncé.",
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
    "src": []
   },
   "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
+     "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
    ]
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 8,
+   "v": "Obstacles 19/24 (Vacuum Wars, B) — données du Matrix10 Ultra (modèle proche) → 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": "⚠ à mesurer sous le lit",
+ "alerts": [
+  "Aucune mesure à son nom : notes reprises du Matrix10 Ultra (modèle proche).",
+  "Hauteur 10,4 cm : ne passe sous le lit que si le dégagement est supérieur."
+ ]
 }

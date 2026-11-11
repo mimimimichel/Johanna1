@@ -21,66 +21,67 @@
   "Non testé"
  ],
  "verdict": "meh",
- "verdictText": "Version à rouleau du Saros 20, sans aucun test fiable à son nom ; protection des tapis inconnue.",
+ "verdictText": "Pas assez de données fiables pour le classer.",
  "pros": [
-  "Rouleau laveur",
-  "Home Assistant officiel"
+  "Home Assistant ou Google Home : 10/10",
+  "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "Aucun test indépendant ni à protocole publié",
-  "Rouleau non déposable : risque pour les tapis",
-  "Prix habituel inconnu (1 299 € = prix de lancement)"
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Évite les obstacles"
  ],
  "scores": {
-  "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
   "poils": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
   "tapis_mop": {
-   "s": 5,
-   "v": "Rouleau laveur : protection des tapis non documentée.",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
    "src": []
   },
-  "lavage": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "hauteur": {
-   "s": 7,
-   "v": "≈ 9 cm selon une seule source (niveau C).",
-   "src": []
-  },
-  "domotique": {
-   "s": 9.5,
-   "v": "Home Assistant officiel (Roborock), Google Home.",
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
    "src": []
   },
   "fiabilite": {
-   "s": 7,
-   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
+     "label": "Euroconsumers (A)",
      "url": "https://www.greenme.it/?p=1431832"
     }
    ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

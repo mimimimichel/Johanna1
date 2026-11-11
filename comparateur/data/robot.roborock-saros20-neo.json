@@ -19,76 +19,89 @@
   "HA officiel",
   "Tapis épais"
  ],
- "verdict": "meh",
- "verdictText": "Probablement proche du Saros 20, mais presque aucun test indépendant.",
+ "verdict": "top",
+ "verdictText": "Score 7,6/10, calculé sur 91 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Brosses propres après 2 mois (Expert Reviews)",
-  "Serpillières déposables"
+  "Tapis au sec : 10/10",
+  "Home Assistant ou Google Home : 10/10",
+  "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "Peu testé",
-  "Filtre du bac vite encrassé"
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Entretien facile, pièces abordables"
  ],
  "scores": {
   "poils": {
-   "s": 6,
-   "v": "Expert Reviews (B) : aucun cheveu enroulé en 2 mois. Pas de mesure des poils ramassés.",
+   "s": 8,
+   "v": "Poils ramassés 87,5 % (Vacuum Wars, B ; Qrevo Edge 3 Pro = même robot) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B) → 10. Moyenne : 8.",
    "src": [
     {
-     "label": "Expert Reviews (B)",
-     "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 7,
-   "v": "Dépose ses serpillières (fabricant). Pas de test A/B sur tapis.",
-   "src": []
-  },
-  "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "hauteur": {
    "s": 10,
-   "v": "7,98 cm laser rentré.",
+   "v": "Dépose ses serpillières (fabricant) → 10.",
    "src": []
   },
-  "domotique": {
-   "s": 9,
-   "v": "Home Assistant officiel, Google Home, Matter probable.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 7,
-   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+  "sale": {
+   "s": 6,
+   "v": "Taches séchées 115 pts / moyenne 107,8 (Vacuum Wars, B) → 6.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 8,
+   "v": "Nettoyage profond tapis 93 % (Vacuum Wars, B) → 8.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Expert Reviews (B) : brosses propres en 2 mois, mais filtre du bac vite encrassé et salissant à nettoyer.",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
    "src": [
     {
-     "label": "Expert Reviews (B)",
-     "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review"
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 6,
+   "v": "Obstacles 18/24 (Vacuum Wars, B) → 6.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-edge-3-pro-review/"
     }
    ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

@@ -19,64 +19,99 @@
   "⚠ cheveux"
  ],
  "verdict": "meh",
- "verdictText": "Pas de test fiable ; deux avis isolés signalent des cheveux emmêlés.",
+ "verdictText": "Score 5,7/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Prix"
+  "Fiabilité de la marque : 9,6/10",
+  "Home Assistant ou Google Home : 8/10"
  ],
  "cons": [
-  "Pas de test fiable",
-  "Simple relevage des serpillières"
+  "Sol très sale : 3/10",
+  "Évite les obstacles : 3/10"
  ],
  "scores": {
   "poils": {
-   "s": 5,
-   "v": "Pas de donnée fiable : seuls deux testeurs de niveau C signalent des cheveux emmêlés dans la brosse TriCut.",
-   "src": []
-  },
-  "tapis_mop": {
-   "s": 4,
-   "v": "Simple relevage de 10,5 mm (fabricant).",
-   "src": []
-  },
-  "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "hauteur": {
-   "s": 7,
-   "v": "9,7 cm.",
-   "src": []
-  },
-  "domotique": {
-   "s": 7,
-   "v": "Extension communautaire Dreame, Google Home, Matter.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "s": 5.67,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, L50 Ultra proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, L50 Ultra) → 10 ; Rtings (A, L50 Ultra) : « mediocre » → 3 ; Bouchage par les poils chaque semaine, 3 mois (Vacuum Wars, B, L50 Ultra) : −2 → -2. Moyenne : 5,7.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-l50-ultra-robot-vacuum-review/"
+    },
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-matrix10-ultra-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
+    }
+   ]
+  },
+  "tapis_mop": {
+   "s": 5,
+   "v": "Relevage 10,5 mm (fabricant ; dépose non confirmée) → 5.",
+   "src": []
+  },
+  "sale": {
+   "s": 3,
+   "v": "Rtings (A, L50 Ultra) : taches « limited » → 3.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 7,
+   "v": "Nettoyage profond tapis 90 % (Vacuum Wars, B, L50 Ultra) → 8 ; Rtings (A, L50 Ultra) : tapis « adequate » → 6. Moyenne : 7.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-l50-ultra-robot-vacuum-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": 6,
+   "v": "Rtings (A, L50 Ultra) : entretien « manageable » → 6.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l50-ultra"
+    }
+   ]
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 3,
+   "v": "Pas de caméra sur l'AE (fabricant) : plafond 3 → 3.",
    "src": []
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

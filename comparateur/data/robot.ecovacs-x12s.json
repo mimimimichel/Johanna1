@@ -19,19 +19,30 @@
   "⚠ tapis épais"
  ],
  "verdict": "no",
- "verdictText": "Mouille les tapis selon The Hook Up.",
+ "verdictText": "Score 5,3/10, calculé sur 91 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Évite très bien les obstacles (The Hook Up)"
+  "Home Assistant ou Google Home : 10/10",
+  "Évite les obstacles : 10/10"
  ],
  "cons": [
-  "A mouillé un tapis (The Hook Up)",
-  "Faible sur la boue"
+  "Tapis au sec : 2/10",
+  "Poils incrustés dans les tapis : 2/10",
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Entretien facile, pièces abordables"
  ],
  "scores": {
   "poils": {
-   "s": 7,
-   "v": "Modèle proche X12 : Vacuum Wars (B) 100 %, 0 % d'enroulement.",
+   "s": 5.67,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, X12 proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, X12) → 10 ; The Hook Up (B, X12) : « really struggled », amas derrière le rouleau → 3 ; Bouchage par les poils (The Hook Up et Vacuum Wars, B) : −2 → -2. Moyenne : 5,7.",
    "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/ecovacs-x12-review/"
+    },
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
     {
      "label": "Vacuum Wars (B)",
      "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
@@ -39,9 +50,23 @@
    ]
   },
   "tapis_mop": {
-   "s": 3,
-   "v": "The Hook Up (B) : le X12 a mouillé un tapis par l'arrière malgré son capot.",
+   "s": 2,
+   "v": "Rouleau relevé de 15 mm + capot (fabricant) → 5 ; The Hook Up (B, X12) : tapis mouillés : −3 → -3.",
    "src": [
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "sale": {
+   "s": 6,
+   "v": "Taches 112 pts / moyenne 108 (Vacuum Wars, B, X12) → 6 ; Boue séchée 5e sur 7 (The Hook Up, B, X12) → 6. Moyenne : 6.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/ecovacs-x12-review/"
+    },
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
@@ -49,59 +74,51 @@
    ]
   },
   "tapis_asp": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "obstacles": {
-   "s": 7,
-   "v": "The Hook Up (B) : X12, 6/6 au test des déjections factices (meilleur score).",
+   "s": 2,
+   "v": "Nettoyage profond tapis 76 % (Vacuum Wars, B, X12) → 2.",
    "src": [
     {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "lavage": {
-   "s": 5,
-   "v": "The Hook Up (B) : X12 étonnamment faible sur la boue pour un rouleau.",
-   "src": [
-    {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 6,
-   "v": "9,8 cm : passe de justesse.",
-   "src": []
-  },
-  "domotique": {
-   "s": 6,
-   "v": "Home Assistant officiel (cloud), nouveaux modèles souvent incomplets. Google Home.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 6,
-   "v": "Enquête Euroconsumers 2026 : Ecovacs 75/100 en fiabilité.",
-   "src": [
-    {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/ecovacs-x12-review/"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Version Pro Omni (avec sac) non testée. La version sans sac s'est bouchée de poils de chien en 2 semaines (Vacuum Wars, B, 3 mois).",
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre « haute efficacité », pas de classe HEPA (fabricant) → 3.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Fiabilité Ecovacs 75/100 (Euroconsumers 2026, A) → 7,5.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 10,
+   "v": "Obstacles 23/24 (Vacuum Wars, B, X12) → 10.",
    "src": [
     {
      "label": "Vacuum Wars (B)",
-     "url": "https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/"
+     "url": "https://vacuumwars.com/ecovacs-x12-review/"
     }
    ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

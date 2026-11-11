@@ -20,70 +20,110 @@
   "⚠ poils"
  ],
  "verdict": "no",
- "verdictText": "Pas de caméra, simple relevage des serpillières, faible sur les tapis (modèle proche, Rtings).",
+ "verdictText": "Score 4,9/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "379,99 €",
-  "Home Assistant officiel"
+  "Home Assistant ou Google Home : 10/10",
+  "Sol très sale : 9,5/10",
+  "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
-  "Pas de caméra",
-  "Faible sur les poils dans les tapis (Qrevo S, Rtings)"
+  "Évite les obstacles : 1,5/10",
+  "Poils et cheveux : 2/10",
+  "Entretien facile, pièces abordables : 3/10"
  ],
  "scores": {
   "poils": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "tapis_mop": {
-   "s": 4,
-   "v": "Simple relevage de 10 mm (fabricant).",
-   "src": []
-  },
-  "tapis_asp": {
-   "s": 4,
-   "v": "Modèle proche Qrevo S : Rtings (A) faible sur les poils dans les tapis.",
+   "s": 2,
+   "v": "Poils ramassés 43 % (Vacuum Wars, B) → 2 ; Cheveux enroulés 62 % (Vacuum Wars, B) → 1 ; Rtings (A, Qrevo S proche) : « disappointing » → 3. Moyenne : 2.",
    "src": [
     {
-     "label": "Rtings (A, Qrevo S)",
-     "url": "https://www.rtings.com/vacuum/reviews/roborock/qrevo-s"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-s-pro-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
    ]
   },
-  "obstacles": {
-   "s": 3,
-   "v": "Pas de caméra (fabricant).",
-   "src": []
-  },
-  "lavage": {
+  "tapis_mop": {
    "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "v": "Relevage 10 mm (fabricant) → 5.",
    "src": []
   },
-  "hauteur": {
-   "s": 7,
-   "v": "9,7 cm.",
-   "src": []
-  },
-  "domotique": {
-   "s": 8.5,
-   "v": "Home Assistant officiel, Google Home, pas de Matter.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 7,
-   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+  "sale": {
+   "s": 9.5,
+   "v": "Taches séchées 149 pts / moyenne 108 (Vacuum Wars, B) → 10 ; Rtings (A, Qrevo S) : lavage « very effective » → 9. Moyenne : 9,5.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-s-pro-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
+    }
+   ]
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "Nettoyage profond tapis 81 % (Vacuum Wars, B) → 4 ; Rtings (A, Qrevo S) : tapis « isn't bad » → 6. Moyenne : 5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-s-pro-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "s": 3,
+   "v": "Rtings (A, Qrevo S) : « many parts », coûts récurrents élevés → 3.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
+    }
+   ]
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre lavable, pas de classe HEPA annoncée (fabricant) → 3.",
    "src": []
+  },
+  "fiabilite": {
+   "s": 8.3,
+   "v": "Fiabilité Roborock 83/100 (Euroconsumers 2026, A) → 8,3.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle → 10.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 1.5,
+   "v": "Obstacles 5/24 (Vacuum Wars, B) → 2 ; Rtings (A, Qrevo S) : « terrible » → 1. Moyenne : 1,5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/roborock-qrevo-s-pro-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }

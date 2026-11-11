@@ -19,81 +19,120 @@
   "Matter",
   "HA communautaire"
  ],
- "verdict": "meh",
- "verdictText": "Haut de gamme, mais les tests du modèle proche (X60 Max) sont moyens sur les poils et la boue.",
+ "verdict": "good",
+ "verdictText": "Score 7,5/10, calculé sur 100 % des critères (le reste n'est pas mesuré).",
  "pros": [
-  "Détecte les liquides (fabricant)"
+  "Fiabilité de la marque : 9,6/10",
+  "Évite les obstacles : 9,5/10",
+  "Entretien facile, pièces abordables : 8/10"
  ],
- "cons": [
-  "1 499 €",
-  "Poils « passable » sur le X60 Max (Rtings)",
-  "Dernier sur la boue (The Hook Up, X60 Max)"
- ],
+ "cons": [],
  "scores": {
   "poils": {
-   "s": 6.5,
-   "v": "Modèle proche X60 Max : Rtings (A) poils « passable », Vacuum Wars (B) 100 %, 0 % d'enroulement.",
+   "s": 7.75,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, X60 Max proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, X60 Max) → 10 ; Rtings (A, X60 Max) : « passable » → 5 ; The Hook Up (B, X60 Max) : « pretty average » → 6. Moyenne : 7,8.",
    "src": [
     {
-     "label": "Rtings (A, X60 Max)",
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+    },
+    {
+     "label": "Rtings (A)",
      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
+    },
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
     }
    ]
   },
   "tapis_mop": {
-   "s": 6.5,
-   "v": "Dépose ses serpillières sur tapis épais (fabricant), mais The Hook Up (B) a vu celles du X60 Max traîner sur un tapis.",
+   "s": 7,
+   "v": "Dépose ses serpillières sur tapis épais (fabricant) → 10 ; The Hook Up (B, X60 Max) : serpillières qui frottent le tapis : −3 → -3.",
    "src": [
     {
      "label": "The Hook Up (B)",
      "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    }
+   ]
+  },
+  "sale": {
+   "s": 6,
+   "v": "Taches séchées 136 pts / moyenne 93 (Vacuum Wars, B, X60 Max) → 10 ; Boue séchée 7e sur 7 (The Hook Up, B, X60 Max) → 3 ; Rtings (A, X60 Max) : « won't be wowed » → 5. Moyenne : 6.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+    },
+    {
+     "label": "The Hook Up (B)",
+     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
     }
    ]
   },
   "tapis_asp": {
-   "s": 6,
-   "v": "Modèle proche X60 Max : Vacuum Wars (B) 89 % en profondeur ; Rtings (A) poils « passable ».",
-   "src": []
-  },
-  "obstacles": {
-   "s": 5,
-   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
-   "src": []
-  },
-  "lavage": {
-   "s": 4.5,
-   "v": "The Hook Up (B) : le X60 Max est le dernier sur la boue séchée. Détection des liquides frais : seulement des sources C.",
-   "src": [
-    {
-     "label": "The Hook Up (B)",
-     "url": "https://www.thesmarthomehookup.com/2026-ultimate-robot-vacuum-and-mop-comparison/"
-    }
-   ]
-  },
-  "hauteur": {
-   "s": 10,
-   "v": "8,9 cm laser rentré.",
-   "src": []
-  },
-  "domotique": {
    "s": 7,
-   "v": "Home Assistant via l'extension communautaire Dreame (très complète). Google Home. Matter : oui.",
-   "src": []
-  },
-  "fiabilite": {
-   "s": 8,
-   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "v": "Nettoyage profond tapis 89 % (Vacuum Wars, B, X60 Max) → 6 ; Rtings (A, X60 Max) : « good choice for carpeted homes » → 8. Moyenne : 7.",
    "src": [
     {
-     "label": "Euroconsumers (A, via GreenMe)",
-     "url": "https://www.greenme.it/?p=1431832"
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
     }
    ]
   },
   "entretien": {
-   "s": 5,
-   "v": "Pas de donnée fiable. Rtings (A, X60 Max) : les franges de tapis s'enroulent dans la brosse.",
+   "s": 8,
+   "v": "Rtings (A, X60 Max) : la station fait l'essentiel → 8.",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
+    }
+   ]
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
    "src": []
+  },
+  "fiabilite": {
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 9.5,
+   "v": "Obstacles 22/24 (Vacuum Wars, B, X60 Max) → 10 ; Rtings (A, X60 Max) : « very good » → 9. Moyenne : 9,5.",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/dreame-x60-max-ultra-complete-review/"
+    },
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/x60-max-ultra-complete"
+    }
+   ]
   }
- }
+ },
+ "heightFlag": null,
+ "alerts": []
 }
