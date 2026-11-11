@@ -2,9 +2,9 @@
  "id": "mova-v70",
  "name": "MOVA V70 Ultra Complete",
  "brand": "MOVA (Dreame)",
- "price": 949,
- "target": 849,
- "priceNote": "949 € sur la boutique MOVA. Vu à 849 € sur Amazon au Prime Day d'octobre.",
+ "price": 799,
+ "target": 799,
+ "priceNote": "Idealo, 75 jours : prix le plus fréquent 949 € (septembre, mi-octobre à début novembre), 849 € en octobre, et trois pics à 1 399 € juste avant des baisses (dont il y a 2 jours) : prix gonflé avant promo. Prix habituel retenu 949 €, plus bas jamais vu : 799 € (maintenant).",
  "where": [
   {
    "shop": "MOVA FR",
@@ -105,5 +105,13 @@
  "heightFlag": null,
  "alerts": [
   "Vacuum Wars (B) a retiré sa recommandation le 04/11/2026 : serpillières qui sèchent et se décrochent selon des propriétaires."
- ]
+ ],
+ "priceUsual": 949,
+ "deal": {
+  "price": 799,
+  "crossed": 1399,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/213527860"
+ }
 }
