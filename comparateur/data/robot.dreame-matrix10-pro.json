@@ -1,0 +1,97 @@
+{
+ "id": "dreame-matrix10-pro",
+ "name": "Dreame Matrix10 Pro",
+ "brand": "Dreame",
+ "price": 569,
+ "target": 569,
+ "priceUsual": 569,
+ "deal": {
+  "price": 569,
+  "crossed": 886.97,
+  "shop": "Amazon (Dealabs)",
+  "date": "2026-11-08",
+  "url": "https://www.dealabs.com/"
+ },
+ "priceNote": "Prix habituel constaté : 569 € chez Dreame et Boulanger depuis fin octobre (699 € chez Electro Dépôt). Le prix barré de 886,97 € correspond à la moyenne Amazon de l'été : la « promo » à 569 € ne fait pas baisser le prix par rapport à ces enseignes. Historique sur 90 jours non consulté.",
+ "where": [
+  {
+   "shop": "Dreame FR",
+   "price": 569,
+   "url": "https://fr.dreametech.com/"
+  },
+  {
+   "shop": "Boulanger",
+   "price": 569,
+   "url": "https://www.boulanger.com/ref/1242635"
+  }
+ ],
+ "height": 10.4,
+ "tags": [
+  "10,4 cm ⚠",
+  "Serpillières déposées",
+  "Matter"
+ ],
+ "verdict": "meh",
+ "verdictText": "Même robot que le Matrix10 Ultra, mais tourelle fixe à 10,4 cm : à mesurer sous le lit.",
+ "pros": [
+  "569 €",
+  "Même brosse et même changement de serpillières que l'Ultra"
+ ],
+ "cons": [
+  "10,4 cm : ne passe pas si le lit dégage moins de 10,6 cm",
+  "Aucun test à son nom (données de l'Ultra)",
+  "Promo à 569 € = prix habituel chez Dreame et Boulanger (0 % réel)"
+ ],
+ "scores": {
+  "entretien": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "poils": {
+   "s": 7,
+   "v": "Données du Matrix10 Ultra (même brosse) : Vacuum Wars (B) 92 %, 0 % d'enroulement.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": 7,
+   "v": "Dépose ses serpillières sur tapis (fabricant).",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 6.5,
+   "v": "Données du Matrix10 Ultra : Vacuum Wars (B) 84 % en profondeur.",
+   "src": []
+  },
+  "obstacles": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "lavage": {
+   "s": 8.5,
+   "v": "Données du Matrix10 Ultra : Vacuum Wars (B) nettement au-dessus de la moyenne.",
+   "src": []
+  },
+  "hauteur": {
+   "s": 3,
+   "v": "10,4 cm, tourelle fixe (fabricant).",
+   "src": []
+  },
+  "domotique": {
+   "s": 7,
+   "v": "Extension Home Assistant non officielle, Google Home, Matter annoncé.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 8,
+   "v": "Enquête Euroconsumers 2026 (Test-Achats, Altroconsumo… 8 500 propriétaires) : Dreame 96/100 en fiabilité, la meilleure note.",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  }
+ }
+}

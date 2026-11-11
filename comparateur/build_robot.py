@@ -311,6 +311,25 @@ add(id="roborock-qrevo-s-pro", name="Roborock Qrevo S Pro", brand="Roborock", pr
   "fiabilite":S(7,"Roborock : bon SAV."),
  })
 
+add(id="dreame-matrix10-pro", name="Dreame Matrix10 Pro", brand="Dreame", price=569, target=569,
+ priceUsual=569, deal={"price":569,"crossed":886.97,"shop":"Amazon (Dealabs)","date":"2026-11-08","url":"https://www.dealabs.com/"},
+ priceNote="Prix habituel constaté : 569 € chez Dreame et Boulanger depuis fin octobre (699 € chez Electro Dépôt). Le prix barré de 886,97 € correspond à la moyenne Amazon de l'été : la « promo » à 569 € ne fait pas baisser le prix par rapport à ces enseignes. Historique sur 90 jours non consulté.",
+ where=[{"shop":"Dreame FR","price":569,"url":"https://fr.dreametech.com/"},{"shop":"Boulanger","price":569,"url":"https://www.boulanger.com/ref/1242635"}],
+ height=10.4, tags=["10,4 cm ⚠","Serpillières déposées","Matter"],
+ verdict="meh", verdictText="Même robot que le Matrix10 Ultra, mais tourelle fixe à 10,4 cm : à mesurer sous le lit.",
+ pros=["569 €","Même brosse et même changement de serpillières que l'Ultra"],
+ cons=["10,4 cm : ne passe pas si le lit dégage moins de 10,6 cm","Aucun test à son nom (données de l'Ultra)"],
+ scores={})
+add(id="roborock-saros20-flow", name="Roborock Saros 20 Flow Complete", brand="Roborock", price=799, target=799,
+ priceUsual=None, deal={"price":799,"crossed":1299,"shop":"Dealabs","date":"2026-11-11","url":"https://www.dealabs.com/"},
+ priceNote="Prix habituel non établi : 1 299 € est le prix de lancement, pas un prix constaté. Aucun historique trouvé.",
+ where=[],
+ height=9.0, tags=["≈ 9 cm","Rouleau laveur","Non testé"],
+ verdict="meh", verdictText="Version à rouleau du Saros 20, sans aucun test fiable à son nom ; protection des tapis inconnue.",
+ pros=["Rouleau laveur","HA officiel (Roborock)"],
+ cons=["Aucun test indépendant ni à protocole publié","Rouleau non déposable : risque pour les tapis à vérifier","Hauteur ≈ 9 cm selon une seule source (niveau C)"],
+ scores={})
+
 project = {
  "slug":"robot", "order":2, "name":"Robot aspirateur laveur", "short":"Robot",
  "status":"Comparaison", "updated":"2026-10-31",
@@ -352,7 +371,7 @@ project = {
 }
 E={'roborock-saros20': (7.5, "3 mois chaque jour avec un chien qui perd ses poils : brosse jamais démêlée, environ 25 min d'entretien au total. Station à sac. Petit bac de 260 ml : régler le vidage auto sur « élevé ».", [('Just A Dad Approved', 'https://justadadapproved.com/product/roborock-saros-20-robot/')]), 'roborock-saros20-neo': (7, "2 mois : aucun cheveu enroulé sur les brosses. Mais le filtre du bac s'encrasse vite et se nettoie mal.", [('Expert Reviews', 'https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/roborock-saros-20-neo-review')]), 'roborock-saros20-sonic': (7, 'Même brosse que le Saros 20 (déduction), station à sac. Pas de test longue durée.', []), 'roborock-saros10r': (6.5, "4 mois avec chien et chats : peu d'enroulement, mais des cheveux coincés entre les rouleaux et l'entrée du bac ; bouchon partiel pas toujours signalé par l'appli.", [("Tom's Guide", 'https://www.tomsguide.com/home/home-appliances/roborock-saros-10r-review'), ('Vacuum Wars', 'https://vacuumwars.com/roborock-saros-10r-common-problems-and-fixes/')]), 'mova-v70': (5, "Brosse principale sans enroulement, mais cheveux longs très emmêlés dans la brosse latérale et les roues, difficiles à couper (TechRadar). Station sans sac jamais testée avec beaucoup de poils de chien : c'est le type de station qui s'est bouché sur l'Ecovacs X12.", [('TechRadar', 'https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review')]), 'mova-mobius60': (6.5, 'Brosse sans enroulement (un bout ouvert pour évacuer les cheveux), station à sac 3,2 L. Pas de test longue durée.', [('Vacuum Wars', 'https://vacuumwars.com/mova-mobius-60-review/')]), 'dreame-matrix10-ultra': (6, "Brosse sans enroulement en test, station à sac. Pas de test longue durée ; même double brosse que le X50, qui forme des boudins de cheveux bouchant l'entrée du bac (déduction). Mécanisme de changement de serpillières en plus.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-matrix10-ultra-review/')]), 'dreame-x60-pro': (6, "Brosse anti-emmêlement 2.0 prometteuse, mais presque aucune donnée. Dreame reconnaît que la brosse latérale peut s'emmêler avec beaucoup de cheveux.", [('Support Dreame', 'https://support.dreametech.com/hc/en-us/articles/14136139554063-Why-does-the-offset-circular-side-brush-still-get-clogged-with-hair')]), 'dreame-x50': (5, "Avec un chien qui perd beaucoup : boudins de cheveux qui bouchent l'entrée et la sortie du bac et l'entrée du sac ; bac vidé à la main plusieurs fois par semaine.", [('Vacuum Wars', 'https://vacuumwars.com/dreame-x50-ultra-robot-vacuum-common-complaints-and-how-to-fix-them/')]), 'dreame-l40s-pro': (5.5, 'Cheveux enroulés en test court (smarthomeassistent). Pas de test longue durée.', []), 'ecovacs-t50-gen3': (5.5, "Pas de donnée sur la Gen3. Modèle proche : brosse jamais démêlée, mais « un peu plus d'entretien ».", []), 'ecovacs-x12s': (4, "Prendre la version Pro Omni à sac : la version sans sac s'est bouchée de poils de chien en 2 semaines (3 mois de test, Vacuum Wars).", [('Vacuum Wars', 'https://vacuumwars.com/ecovacs-x12-omnicyclone-long-term-review/')]), 'narwal-flow2': (5, 'Pas de test longue durée. Rouleau malodorant après des salissures alimentaires (PCWorld).', []), 'dreame-l50-ae': (3, "Brosse TriCut où beaucoup de cheveux s'emmêlent dès le test court.", []), 'roborock-qrevo-s-pro': (5, 'Pas de test longue durée ; avis mitigés sur les poils.', [])}
 for p in P:
-    e=E[p["id"]]; p["scores"]["entretien"]={"s":e[0],"v":e[1],"src":[{"label":a,"url":b} for a,b in e[2]]}
+    e=E.get(p["id"],(5,"",[])); p["scores"]["entretien"]={"s":e[0],"v":e[1],"src":[{"label":a,"url":b} for a,b in e[2]]}
 from overrides_robot import OV, TXT
 for p in P:
     for k,(sc,v,src) in OV[p["id"]].items():

@@ -112,6 +112,18 @@ OV={
  "tapis_asp":r(4,"Modèle proche Qrevo S : Rtings (A) faible sur les poils dans les tapis.",("Rtings (A, Qrevo S)","https://www.rtings.com/vacuum/reviews/roborock/qrevo-s")),
  "obstacles":r(3,"Pas de caméra (fabricant)."),"lavage":r(5,N),"fiabilite":FIA_ROBO},
 }
+OV["dreame-matrix10-pro"]={
+ "poils":r(7,"Données du Matrix10 Ultra (même brosse) : Vacuum Wars (B) 92 %, 0 % d'enroulement."),
+ "entretien":r(5,N),"tapis_mop":r(7,"Dépose ses serpillières sur tapis (fabricant)."),
+ "tapis_asp":r(6.5,"Données du Matrix10 Ultra : Vacuum Wars (B) 84 % en profondeur."),
+ "obstacles":r(5,N),"lavage":r(8.5,"Données du Matrix10 Ultra : Vacuum Wars (B) nettement au-dessus de la moyenne."),
+ "hauteur":r(3,"10,4 cm, tourelle fixe (fabricant)."),"domotique":r(7,"Extension Home Assistant non officielle, Google Home, Matter annoncé."),
+ "fiabilite":FIA_DREAME}
+OV["roborock-saros20-flow"]={
+ "poils":r(5,N),"entretien":r(5,N),"tapis_mop":r(5,"Rouleau laveur : protection des tapis non documentée."),
+ "tapis_asp":r(5,N),"obstacles":r(5,N),"lavage":r(5,N),
+ "hauteur":r(7,"≈ 9 cm selon une seule source (niveau C)."),"domotique":r(9.5,"Home Assistant officiel (Roborock), Google Home."),
+ "fiabilite":FIA_ROBO}
 TXT={
 "roborock-saros20":("top","Le plus solide sur les preuves indépendantes : Rtings (A) le juge bon sur les poils, y compris dans les tapis.",["Rtings (A) : retire la plupart des poils, même dans les tapis","Serpillières déposables, 7,95 cm","Intégration Home Assistant officielle"],["Obstacles moyens (Vacuum Wars 17/24)","Serpillières vues traînant sur un tapis (The Hook Up)","Petit bac de 260 ml"]),
 "roborock-saros20-neo":("meh","Probablement proche du Saros 20, mais presque aucun test indépendant.",["Brosses propres après 2 mois (Expert Reviews)","Serpillières déposables"],["Peu testé","Filtre du bac vite encrassé"]),
@@ -127,5 +139,7 @@ TXT={
 "ecovacs-x12s":("no","Mouille les tapis selon The Hook Up.",["Évite très bien les obstacles (The Hook Up)"],["A mouillé un tapis (The Hook Up)","Faible sur la boue"]),
 "narwal-flow2":("no","A mouillé les tapis selon The Hook Up.",["Ne s'emmêle pas (Rtings)","Très bon sur la boue (The Hook Up)"],["A mouillé les tapis (The Hook Up)","Ramassage des poils faible (Rtings)"]),
 "dreame-l50-ae":("meh","Pas de test fiable ; deux avis isolés signalent des cheveux emmêlés.",["Prix"],["Pas de test fiable","Simple relevage des serpillières"]),
+"dreame-matrix10-pro":("meh","Même robot que le Matrix10 Ultra, mais tourelle fixe à 10,4 cm : à mesurer sous le lit.",["569 €","Même brosse et même changement de serpillières que l'Ultra"],["10,4 cm : ne passe pas si le lit dégage moins de 10,6 cm","Aucun test à son nom (données de l'Ultra)","Promo à 569 € = prix habituel chez Dreame et Boulanger (0 % réel)"]),
+"roborock-saros20-flow":("meh","Version à rouleau du Saros 20, sans aucun test fiable à son nom ; protection des tapis inconnue.",["Rouleau laveur","Home Assistant officiel"],["Aucun test indépendant ni à protocole publié","Rouleau non déposable : risque pour les tapis","Prix habituel inconnu (1 299 € = prix de lancement)"]),
 "roborock-qrevo-s-pro":("no","Pas de caméra, simple relevage des serpillières, faible sur les tapis (modèle proche, Rtings).",["379,99 €","Home Assistant officiel"],["Pas de caméra","Faible sur les poils dans les tapis (Qrevo S, Rtings)"]),
 }

@@ -15,6 +15,7 @@ Préférences durables, mises à jour après chaque achat. À lire avant toute r
 - **Fiabilité des données d'abord** (précision, pas de trous), puis connectivité, puis esthétique/écran.
 - Un écran est facultatif si la commande vocale Google répond.
 - **Le budget est un repère, pas un filtre** : quand elle envoie des offres, les évaluer toutes sur leurs mérites, en affichant le prix, et dire si l'écart vaut le coup. Ne jamais écarter une option uniquement pour son prix.
+- Méfiance envers les prix barrés : comparer toujours au **prix habituel constaté** (pas au prix de lancement) et donner la réduction réelle.
 - Reconditionné accepté avec garantie et économie nette.
 
 ## Ce qui ne marche pas avec elle

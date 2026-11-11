@@ -137,6 +137,7 @@ details.need p { margin: 8px 0 0; }
 .buy { background: var(--bg); border-radius: 8px; padding: 10px; display: grid; gap: 6px; font-size: .9rem; }
 .buy ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
 .buy li { display: flex; justify-content: space-between; gap: 10px; }
+.tag.deal { border-color: var(--warn); color: var(--warn); }
 
 /* Comparer */
 .pickers { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -305,6 +306,12 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
     app.innerHTML = html;
   }
 
+  function dealInfo(prod) {
+    const d = prod.deal; if (!d || d.price == null) return null;
+    const u = prod.priceUsual;
+    const pct = u ? Math.round(100 * (1 - d.price / u)) : null;
+    return { d, u, pct };
+  }
   function frDate(d) { if (!d) return "—"; const [y, m, dd] = String(d).split("-"); return dd ? `${dd}/${m}/${y}` : d; }
 
   function panel(p, r) {
@@ -323,7 +330,7 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
         <button class="row-btn" data-act="open" data-id="${esc(prod.id)}" aria-expanded="${isOpen}">
           <span class="pos">${i + 1}</span>
           <span><span class="row-name">${esc(prod.name)}</span>
-            <span class="row-sub">${v[0] ? `<span class="verdict ${v[1]}">${v[0]}</span>` : ""}${(prod.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span></span>
+            <span class="row-sub">${v[0] ? `<span class="verdict ${v[1]}">${v[0]}</span>` : ""}${(prod.tags || []).slice(0, 4).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}${(() => { const di = dealInfo(prod); return di ? `<span class="tag deal">Promo ${fmtPrice(di.d.price)}${di.pct != null ? ` · ${di.pct > 0 ? "−" + di.pct : di.pct === 0 ? "0" : "+" + (-di.pct)} % réel` : ""}</span>` : ""; })()}</span></span>
           <span class="row-right"><span class="score"><b>${fmtScore(x.g)}</b><span>/10</span></span><span class="word">${word(x.g)}</span><span class="price">${fmtPrice(prod.price)}</span></span>
           <span class="bar ${tierClass(x.g)}" aria-hidden="true"><i style="width:${x.g * 10}%"></i></span>
         </button>
@@ -348,7 +355,15 @@ input[type="range"] { width: 100%; accent-color: var(--accent); }
       <div class="pc"><div class="pros"><h3>Points forts</h3><ul>${(prod.pros || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
       <div class="cons"><h3>Points faibles</h3><ul>${(prod.cons || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div></div>
       <div class="crit">${crit}</div>
-      <div class="buy"><b>Où acheter</b>${prod.priceNote ? `<span class="muted">${esc(prod.priceNote)}</span>` : ""}${where ? `<ul>${where}</ul>` : ""}</div>
+      <div class="buy"><b>Prix et où acheter</b>${(() => {
+        const di = dealInfo(prod); const u = prod.priceUsual;
+        let h = `<ul class="prices"><li><span>Prix habituel constaté</span><span class="num">${u ? fmtPrice(u) : "non établi"}</span></li>`;
+        if (di) h += `<li><span>Promo ${esc(di.d.shop || "")} ${di.d.date ? "(" + esc(frDate(di.d.date)) + ")" : ""}${di.d.url ? ` <a href="${esc(di.d.url)}" target="_blank" rel="noopener">↗</a>` : ""}</span><span class="num">${fmtPrice(di.d.price)}</span></li>`
+          + (di.d.crossed ? `<li class="muted"><span>Prix barré affiché par le vendeur</span><span class="num">${fmtPrice(di.d.crossed)}${di.d.crossed && di.d.price ? " (−" + Math.round(100 * (1 - di.d.price / di.d.crossed)) + " % annoncé)" : ""}</span></li>` : "")
+          + `<li><b>Réduction réelle</b><b class="num">${di.pct == null ? "inconnue" : (di.pct > 0 ? "−" + di.pct + " %" : di.pct === 0 ? "0 %" : "+" + (-di.pct) + " %")}</b></li>`;
+        if (prod.target) h += `<li><span>Prix à viser</span><span class="num">${fmtPrice(prod.target)}</span></li>`;
+        return h + `</ul>`;
+      })()}${prod.priceNote ? `<span class="muted">${esc(prod.priceNote)}</span>` : ""}${where ? `<ul>${where}</ul>` : ""}</div>
     </div>`;
   }
 

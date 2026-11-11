@@ -1,0 +1,86 @@
+{
+ "id": "roborock-saros20-flow",
+ "name": "Roborock Saros 20 Flow Complete",
+ "brand": "Roborock",
+ "price": 799,
+ "target": 799,
+ "priceUsual": null,
+ "deal": {
+  "price": 799,
+  "crossed": 1299,
+  "shop": "Dealabs",
+  "date": "2026-11-11",
+  "url": "https://www.dealabs.com/"
+ },
+ "priceNote": "Prix habituel non établi : 1 299 € est le prix de lancement, pas un prix constaté. Aucun historique trouvé.",
+ "where": [],
+ "height": 9.0,
+ "tags": [
+  "≈ 9 cm",
+  "Rouleau laveur",
+  "Non testé"
+ ],
+ "verdict": "meh",
+ "verdictText": "Version à rouleau du Saros 20, sans aucun test fiable à son nom ; protection des tapis inconnue.",
+ "pros": [
+  "Rouleau laveur",
+  "Home Assistant officiel"
+ ],
+ "cons": [
+  "Aucun test indépendant ni à protocole publié",
+  "Rouleau non déposable : risque pour les tapis",
+  "Prix habituel inconnu (1 299 € = prix de lancement)"
+ ],
+ "scores": {
+  "entretien": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "poils": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": 5,
+   "v": "Rouleau laveur : protection des tapis non documentée.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "obstacles": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "lavage": {
+   "s": 5,
+   "v": "Pas de donnée fiable (aucun test indépendant ni protocole publié).",
+   "src": []
+  },
+  "hauteur": {
+   "s": 7,
+   "v": "≈ 9 cm selon une seule source (niveau C).",
+   "src": []
+  },
+  "domotique": {
+   "s": 9.5,
+   "v": "Home Assistant officiel (Roborock), Google Home.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": 7,
+   "v": "Enquête Euroconsumers 2026 : Roborock 83/100 en fiabilité (Dreame 96, Ecovacs 75).",
+   "src": [
+    {
+     "label": "Euroconsumers (A, via GreenMe)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ]
+  }
+ }
+}

@@ -60,6 +60,13 @@ Règles de preuve, non négociables :
 - Donne la **liste de panier exacte** (références, quantités, liens).
 - Ajoute la checklist de réception (tests à faire pendant le délai de retour).
 
+## Prix : habituel vs promo
+- Quand l'utilisatrice envoie une offre, ajoute le produit au comparateur avec :
+  - **prix habituel constaté** = prix le plus fréquent sur ~90 jours chez des vendeurs sûrs (historique Keepa / Idealo / LeDénicheur, relevés datés), jamais le prix de lancement ni le prix barré du vendeur ;
+  - **prix promo** (vendeur, date, lien) et **réduction réelle** = 1 − promo / habituel.
+- Si le produit est souvent à ce prix « promo », dis-le : la réduction réelle est proche de 0 % et acheter plus cher hors promo serait payer trop.
+- Si l'historique est introuvable, écris « prix habituel non établi » plutôt que d'inventer.
+
 ## Comparateur en ligne (Carnet d'achats)
 - Chaque projet a un espace dans la page https://claude.ai/artifact/VuTVNiFG2FryKBy8qepncQ (format des données : `comparateur/README.md`).
 - Dès la reco, crée ou mets à jour `projects/<slug>` et `projects/<slug>/products/<id>` via ArtifactData. Ne jamais écraser `weights` (réglages de l'utilisatrice).
