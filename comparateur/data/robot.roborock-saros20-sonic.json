@@ -2,14 +2,14 @@
  "id": "roborock-saros20-sonic",
  "name": "Roborock Saros 20 Sonic",
  "brand": "Roborock",
- "price": 899,
- "target": 899,
- "priceNote": "899 € sur la boutique Roborock (promo Black Friday anticipée).",
+ "price": 799,
+ "target": 640,
+ "priceNote": "Idealo, 5 mois : 1 250 € (juillet), 1 000 € (août), ≈ 950–990 € (septembre-octobre), ≈ 900 € début novembre. Il est descendu à 636,80 € il y a 7 jours : 799 € n'est donc pas son plus bas. Prix habituel retenu ≈ 950 €.",
  "where": [
   {
-   "shop": "Roborock FR",
-   "price": 899,
-   "url": "https://fr.roborock.com/"
+   "shop": "Idealo",
+   "price": 799,
+   "url": "https://www.idealo.fr/prix/210725475"
   }
  ],
  "height": 8.0,
@@ -111,5 +111,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": 950,
+ "deal": {
+  "price": 799,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/210725475"
+ }
 }

@@ -2,14 +2,14 @@
  "id": "roborock-saros20",
  "name": "Roborock Saros 20",
  "brand": "Roborock",
- "price": 989,
- "target": 939,
- "priceNote": "989 € chez Darty (Saros 20X, date non visible). Vu à 939 €. Prix à confirmer avant achat.",
+ "price": 799,
+ "target": 788,
+ "priceNote": "Idealo, 5 mois : ≈ 1 200 € en juillet, ≈ 1 000 € d'août à septembre, ≈ 950 € en octobre, pics à 1 300 € avant chaque baisse. Prix habituel retenu ≈ 980 €. La variante Saros 20X (vendue chez Darty) est à 788 € (habituel ≈ 930 €).",
  "where": [
   {
-   "shop": "Darty (Saros 20X)",
-   "price": 989,
-   "url": "https://www.dealabs.com/bons-plans/robot-aspirateur-laveur-roborock-saros-20x-36-000-pa-adaptilift-30-starsight-20-station-rockdock-3353232"
+   "shop": "Idealo",
+   "price": 799,
+   "url": "https://www.idealo.fr/prix/210683941"
   }
  ],
  "height": 7.95,
@@ -144,5 +144,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": 980,
+ "deal": {
+  "price": 799,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/210683941"
+ }
 }
