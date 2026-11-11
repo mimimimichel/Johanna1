@@ -2,10 +2,15 @@
  "id": "roborock-saros10r",
  "name": "Roborock Saros 10R",
  "brand": "Roborock",
- "price": 699,
- "target": 699,
- "priceNote": "699,99 € sur la boutique Roborock.",
+ "price": 499.99,
+ "target": 499.99,
+ "priceNote": "Idealo, 6 mois : 900 € (juin), 800 € (juillet-août), 720–750 € (septembre), 700 € (octobre-novembre), pic à 840 € fin octobre. Prix habituel retenu ≈ 700 €. 499,99 € est le plus bas des 6 mois.",
  "where": [
+  {
+   "shop": "Idealo",
+   "price": 499.99,
+   "url": "https://www.idealo.fr/prix/206020700"
+  },
   {
    "shop": "Roborock FR",
    "price": 699.99,
@@ -137,5 +142,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": 700,
+ "deal": {
+  "price": 499.99,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/206020700"
+ }
 }

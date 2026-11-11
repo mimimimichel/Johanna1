@@ -11,7 +11,7 @@
   "url": "https://www.idealo.fr/prix/209290894"
  },
  "priceNote": "Idealo, 6 mois : moyenne 444,72 €, plus bas 389,99 € (il y a 138 jours), plus haut 505,10 €. À 449 €, il est à son prix habituel : ce n'est pas une promo.",
- "height": null,
+ "height": 10.03,
  "tags": [
   "Serpillières déposées"
  ],
@@ -30,14 +30,21 @@
    "src": []
   },
   "tapis_mop": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 10,
+   "v": "Dépose automatique des serpillières (fabricant) → 10.",
+   "src": [],
+   "conf": 1
   },
   "sale": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 8.0,
+   "v": "Expert Reviews (B) : bon sur les taches → 8.",
+   "src": [
+    {
+     "label": "Expert Reviews (B)",
+     "url": "https://www.expertreviews.co.uk/"
+    }
+   ],
+   "conf": 1
   },
   "tapis_asp": {
    "s": null,
@@ -45,14 +52,16 @@
    "src": []
   },
   "entretien": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 5.0,
+   "v": "Kit annuel RVA110 : 79,99 € sans les sacs (Tapo) → 5.",
+   "src": [],
+   "conf": 1
   },
   "allergies": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 6,
+   "v": "Filtre HEPA H11, en dessous des classes H12/H13 (fabricant) → 6.",
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": null,
@@ -60,23 +69,31 @@
    "src": []
   },
   "domotique": {
-   "s": 6,
-   "v": "Matter / Home Assistant non vérifiés pour ce modèle → 6.",
+   "s": 8,
+   "v": "Google Home et Matter ; Home Assistant via Matter non testé → 8.",
    "src": [],
    "conf": 1
   },
   "obstacles": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 3.0,
+   "v": "Pas de caméra (fabricant) : plafond 3 → 3.",
+   "src": [],
+   "conf": 1
   }
  },
- "verdict": "meh",
- "verdictText": "Pas assez de données fiables pour le classer.",
- "pros": [],
- "cons": [
-  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+ "verdict": "good",
+ "verdictText": "Score 7,2/10, calculé sur 58 % des critères (le reste n'est pas mesuré).",
+ "pros": [
+  "Tapis au sec : 10/10",
+  "Sol très sale : 8,0/10",
+  "Home Assistant ou Google Home : 8/10"
  ],
- "heightFlag": null,
- "alerts": []
+ "cons": [
+  "Évite les obstacles : 3,0/10",
+  "Non mesuré : Poils et cheveux, Poils incrustés dans les tapis, Fiabilité de la marque"
+ ],
+ "heightFlag": "⚠ à mesurer sous le lit",
+ "alerts": [
+  "Hauteur 10,03 cm : ne passe sous le lit que si le dégagement est supérieur."
+ ]
 }

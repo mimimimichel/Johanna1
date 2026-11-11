@@ -12,7 +12,7 @@
   "url": "https://www.idealo.fr/prix/211062324"
  },
  "priceNote": "Idealo, 5 mois : moyenne 618,75 €, plateau à ≈ 600 € de juillet à septembre, 520–550 € en octobre, puis remontée à ≈ 790 € début novembre juste avant la baisse (prix gonflé avant promo). Prix habituel retenu ≈ 590 €.",
- "height": null,
+ "height": 7.98,
  "tags": [],
  "target": 471.85,
  "where": [
@@ -24,14 +24,21 @@
  ],
  "scores": {
   "poils": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 8.0,
+   "v": "Poils ramassés 89,5 % (Vacuum Wars, B, Qrevo Edge 2 proche) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B, Qrevo Edge 2) → 10. Moyenne (Vacuum Wars compte à moitié) : 8,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   },
   "tapis_mop": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 10,
+   "v": "Dépose automatique des serpillières (fabricant, Edge 2) → 10. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   },
   "sale": {
    "s": null,
@@ -39,9 +46,15 @@
    "src": []
   },
   "tapis_asp": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 8.0,
+   "v": "Nettoyage profond tapis 94 % (Vacuum Wars, B, Edge 2) → 8. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   },
   "entretien": {
    "s": null,
@@ -72,21 +85,31 @@
    "conf": 1
   },
   "obstacles": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 4.0,
+   "v": "Obstacles 14/24 (Vacuum Wars, B, Edge 2) → 4. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Roborock. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   }
  },
  "verdict": "meh",
  "verdictText": "Pas assez de données fiables pour le classer.",
  "pros": [
+  "Tapis au sec : 10/10",
   "Home Assistant ou Google Home : 10/10",
   "Fiabilité de la marque : 8,3/10"
  ],
  "cons": [
   "Allergies et acariens : 3/10",
-  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Évite les obstacles"
+  "Évite les obstacles : 4,0/10",
+  "Non mesuré : Sol très sale, Entretien facile, pièces abordables"
  ],
  "heightFlag": null,
- "alerts": []
+ "alerts": [
+  "Mesures du Qrevo Edge 2 : Roborock ne confirme pas que le 2X est le même robot."
+ ]
 }

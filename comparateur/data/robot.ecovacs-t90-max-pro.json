@@ -26,29 +26,49 @@
  ],
  "scores": {
   "poils": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 10,
+   "v": "Poils ramassés 100 % (Vacuum Wars, B, T90 Pro proche) → 10 ; Cheveux enroulés 0 % (Vacuum Wars, B, T90 Pro) → 10. Moyenne (Vacuum Wars compte à moitié) : 10. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   },
   "tapis_mop": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 5.0,
+   "v": "Rouleau relevé de 15 mm, pas de dépose (fabricant) → 5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   },
   "sale": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 10,
+   "v": "Taches 157 pts / moyenne 108 (Vacuum Wars, B, T90 Pro) → 10. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   },
   "tapis_asp": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 4.0,
+   "v": "Nettoyage profond tapis 81 % (Vacuum Wars, B, T90 Pro) → 4. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/"
+    }
+   ],
+   "conf": 0.25
   },
   "entretien": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 3.0,
+   "v": "Pièces : coffret trimestriel 104,40 €, soit plus de 400 €/an (Ecovacs FR) → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   },
   "allergies": {
    "s": 3,
@@ -68,26 +88,32 @@
    "conf": 1
   },
   "domotique": {
-   "s": 10,
-   "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
+   "s": 8,
+   "v": "Google Assistant ; Home Assistant : modèle non pris en charge (ticket ouvert le 08/11/2026) → 8.",
    "src": [],
    "conf": 1
   },
   "obstacles": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 3.0,
+   "v": "Pas de caméra sur le Max (fabricant) : plafond 3 → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
   }
  },
  "verdict": "meh",
  "verdictText": "Pas assez de données fiables pour le classer.",
  "pros": [
-  "Home Assistant ou Google Home : 10/10"
+  "Poils et cheveux : 10/10",
+  "Sol très sale : 10/10",
+  "Home Assistant ou Google Home : 8/10"
  ],
  "cons": [
+  "Entretien facile, pièces abordables : 3,0/10",
   "Allergies et acariens : 3/10",
-  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Évite les obstacles"
+  "Évite les obstacles : 3,0/10"
  ],
  "heightFlag": null,
- "alerts": []
+ "alerts": [
+  "Version Care Kit non prise en charge par Home Assistant pour l'instant."
+ ]
 }

@@ -207,6 +207,36 @@ M("narwal-flow2",
  ("obstacles","Obstacles 20/24 (Vacuum Wars, B)",g_obs(20),"Vacuum Wars (B)",VWU+"narwal-flow-2-review/"),
  ("obstacles","Rtings (A) : « good »",WORD["good"],"Rtings (A)",RT+"narwal/flow-2"))
 
+# --- Collecte du 2026-11-12 (5 nouveaux robots)
+M("ecovacs-t90-max-pro",
+ ("poils","Poils ramassés 100 % (Vacuum Wars, B, T90 Pro proche)",g_pct(100),"Vacuum Wars (B)",VWU),
+ ("poils","Cheveux enroulés 0 % (Vacuum Wars, B, T90 Pro)",g_wrap(0),"Vacuum Wars (B)",VWU),
+ ("tapis_mop","Rouleau relevé de 15 mm, pas de dépose (fabricant)",5,"",""),
+ ("sale","Taches 157 pts / moyenne 108 (Vacuum Wars, B, T90 Pro)",g_stain(157,108),"Vacuum Wars (B)",VWU),
+ ("tapis_asp","Nettoyage profond tapis 81 % (Vacuum Wars, B, T90 Pro)",g_pct(81),"Vacuum Wars (B)",VWU),
+ ("entretien","Pièces : coffret trimestriel 104,40 €, soit plus de 400 €/an (Ecovacs FR)",g_kit(417),"",""),
+ ("obstacles","Pas de caméra sur le Max (fabricant) : plafond 3",3,"",""))
+SROLL=[("tapis_mop","Rouleau relevé de 12 mm avec capot, pas de dépose (fabricant)",5,"",""),
+ ("entretien","Kit pièces MRAK85 : 74,90 € (MOVA FR)",g_kit(74.90),"",""),
+ ("obstacles","Pas de caméra annoncée (fabricant) : plafond 3",3,"","")]
+M("mova-s70-ultra-roller",*SROLL)
+M("mova-s70-ultra",*SROLL)
+M("tapo-rv50-pro-omni",
+ ("tapis_mop","Dépose automatique des serpillières (fabricant)",10,"",""),
+ ("sale","Expert Reviews (B) : bon sur les taches",WORD["good"],"Expert Reviews (B)","https://www.expertreviews.co.uk/"),
+ ("entretien","Kit annuel RVA110 : 79,99 € sans les sacs (Tapo)",g_kit(79.99),"",""),
+ ("obstacles","Pas de caméra (fabricant) : plafond 3",3,"",""))
+M("roborock-qrevo-edge-2x",
+ ("poils","Poils ramassés 89,5 % (Vacuum Wars, B, Qrevo Edge 2 proche)",g_pct(89.5),"Vacuum Wars (B)",VWU),
+ ("poils","Cheveux enroulés 0 % (Vacuum Wars, B, Qrevo Edge 2)",g_wrap(0),"Vacuum Wars (B)",VWU),
+ ("tapis_mop","Dépose automatique des serpillières (fabricant, Edge 2)",10,"",""),
+ ("tapis_asp","Nettoyage profond tapis 94 % (Vacuum Wars, B, Edge 2)",g_pct(94),"Vacuum Wars (B)",VWU),
+ ("obstacles","Obstacles 14/24 (Vacuum Wars, B, Edge 2)",g_obs(14),"Vacuum Wars (B)",VWU))
+OVR={"ecovacs-t90-max-pro":{"dom":(8,"Google Assistant ; Home Assistant : modèle non pris en charge (ticket ouvert le 08/11/2026)")},
+     "mova-s70-ultra-roller":{"allerg":(3,"Pas de filtre HEPA annoncé, station à sac (fabricant)")},
+     "mova-s70-ultra":{"allerg":(3,"Pas de filtre HEPA annoncé, station à sac (fabricant)")},
+     "tapo-rv50-pro-omni":{"allerg":(6,"Filtre HEPA H11, en dessous des classes H12/H13 (fabricant)"),"dom":(8,"Google Home et Matter ; Home Assistant via Matter non testé")}}
+
 # Critères par marque (faits)
 BRAND={"Roborock":dict(fiab=(8.3,"Fiabilité Roborock 83/100 (Euroconsumers 2026, A)"),dom=(10,"Home Assistant : intégration officielle"),allerg=(3,"Filtre lavable, pas de classe HEPA annoncée (fabricant)")),
        "Dreame":dict(fiab=(9.6,"Fiabilité Dreame 96/100 (Euroconsumers 2026, A)"),dom=(8,"Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle"),allerg=(6,"Filtre « HEPA » sans classe (fabricant)")),
@@ -229,7 +259,7 @@ for f in ["../achats/2026-10-aspirateur-laveur/methode.md"]: pass
 def r1(x): return round(x*2)/2  # au demi-point
 for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
     if path.endswith(".project.json"): continue
-    p=json.load(open(path)); rid=p["id"]; items=D.get(rid,[]); b=BRAND.get(p["brand"],{})
+    p=json.load(open(path)); rid=p["id"]; items=D.get(rid,[]); b=dict(BRAND.get(p["brand"],{})); b.update(OVR.get(rid,{}))
     sc={}
     for key,*_ in CRIT:
         base=[(l,s,src,u) for c,l,s,src,u in items if c==key and s>0]
@@ -253,7 +283,7 @@ for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):
             seen=set(); src=[x for x in src if not (x["url"] in seen or seen.add(x["url"]))]
             if vwonly: txt+=". Repose sur Vacuum Wars seul (compte à moitié dans la couverture)"
             if p["brand"] in ("Roborock","Ecovacs") and any(src.startswith("Vacuum Wars") for _,_,src,_ in parts): txt+=". ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour "+p["brand"]
-            SIB={"dreame-x60-pro","dreame-l40s-pro","dreame-l50-ae","ecovacs-t50-gen3","ecovacs-x12s","dreame-matrix10-pro"}
+            SIB={"ecovacs-t90-max-pro","roborock-qrevo-edge-2x","dreame-x60-pro","dreame-l40s-pro","dreame-l50-ae","ecovacs-t50-gen3","ecovacs-x12s","dreame-matrix10-pro"}
             conf=(0.5 if vwonly else 1)*(0.5 if rid in SIB and key not in ("fiabilite","domotique","allergies") else 1)
             if rid in SIB and key not in ("fiabilite","domotique","allergies"): txt+=". Mesures d'un modèle proche (compte à moitié dans la couverture)"
             sc[key]={"s":round(val,2),"v":txt+".","src":src,"conf":conf}
@@ -284,7 +314,10 @@ for r in sorted(rows,reverse=True): print(r)
 
 # --- Verdicts, points forts/faibles et choix, générés depuis les notes (pas de texte libre)
 ALERTS={"mova-v70":["Vacuum Wars (B) a retiré sa recommandation le 04/11/2026 : serpillières qui sèchent et se décrochent selon des propriétaires."],
-        "dreame-matrix10-pro":["Aucune mesure à son nom : notes reprises du Matrix10 Ultra (modèle proche)."]}
+        "dreame-matrix10-pro":["Aucune mesure à son nom : notes reprises du Matrix10 Ultra (modèle proche)."],
+        "mova-s70-ultra":["Nom introuvable chez MOVA : probablement le S70 Ultra Roller vendu sous un autre nom. Vérifier la référence exacte avant d'acheter."],
+        "ecovacs-t90-max-pro":["Version Care Kit non prise en charge par Home Assistant pour l'instant."],
+        "roborock-qrevo-edge-2x":["Mesures du Qrevo Edge 2 : Roborock ne confirme pas que le 2X est le même robot."]}
 LBL={c[0]:c[2] for c in CRIT}
 res=[]
 for path in sorted(glob.glob(os.path.join(OUT,"robot.*.json"))):

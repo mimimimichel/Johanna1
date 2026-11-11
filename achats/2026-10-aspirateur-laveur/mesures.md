@@ -320,3 +320,136 @@ Les prix barrés et les prix de lancement ne sont pas utilisés, comme demandé.
 | Narwal Flow 2 | non établi | idem |
 
 Pour établir ces prix, il faut un relevé manuel : la courbe à 3 mois de LeDénicheur ou Idealo pour chaque modèle, en filtrant Amazon (vendu par Amazon), la boutique de la marque, Boulanger, Darty et Fnac.
+
+---
+
+# Collecte complémentaire du 2026-11-12 (5 nouveaux robots)
+
+Mêmes règles : sources A et B seulement, « non trouvé » si rien n'est publié, rien n'est estimé, données d'un **modèle proche** signalées. Les faits fabricant (hauteur, serpillières, filtre, sac, pièces) sont pris sur les sites officiels France quand ils existent. ⚠️ CI = alerte conflit d'intérêts Vacuum Wars (Roborock, Ecovacs), selon `methode.md`.
+
+Sources A vérifiées pour ces 5 robots :
+- **Rtings** : aucune fiche publiée (URL testées en 404 le 2026-11-12 ; aucun de ces modèles dans la liste des tests).
+- **Stiftung Warentest** : aucun de ces modèles dans les tableaux Ecovacs (T20, T30, X9, T50 Gen 2), Roborock (Qrevo Curv 5A1, S8 MaxV Ultra, S8 Pro Ultra, Saros Z70), Mova (E30 Ultra, P50 Pro Ultra). Aucun TP-Link/Tapo testé.
+- **Que Choisir** : seul le **Deebot T90 Pro Omni** figure au comparatif (note réservée aux abonnés). Ni T90 Max, ni MOVA S70, ni Tapo RV50, ni Qrevo Edge 2X.
+- **Which?** et **Consumer Reports** : aucune fiche trouvée.
+- **Choice** (Australie, association de consommateurs) : T90 Pro Omni, MOVA S70 Roller et Roborock Qrevo Edge 2 testés ; **toutes les notes sont réservées aux membres** (seules les fiches techniques sont publiques).
+- **Test-Achats** : aucun de ces modèles trouvé.
+- **The Hook Up 2026** : aucun de ces 5 robots dans le comparatif.
+
+## Ecovacs Deebot T90 Max Pro Omni (Care Kit) → mesures du **T90 Pro Omni (modèle proche)**
+⚠️ Le T90 Max Pro Omni détecte les obstacles par **lumière structurée seule** (« TrueDetect 3D », fiche Ecovacs : « Détection d'obstacles : Lumière structurée »), sans caméra. Le T90 Pro Omni a la caméra **AIVI 3D 4.0**. Le score d'obstacles du T90 Pro Omni n'est donc **pas transposable** au Max. Les autres mesures non plus de façon certaine (aspiration annoncée 40 000 Pa sur le Max contre 30 000 Pa sur le Pro).
+
+| Critère | Valeur mesurée | Tier | URL |
+|---|---|---|---|
+| VW poils (T90 Pro Omni) ⚠️ CI | 100 % (moy. 82 %), 2,5" aplatis | B | https://vacuumwars.com/ecovacs-deebot-t90-pro-omni-review/ (maj 2026-10-08) |
+| VW enroulement 7" (T90 Pro Omni) ⚠️ CI | 0 % (moy. 26 %) ; « no hair wrapping around the brush at all » | B | idem |
+| VW tapis profond (T90 Pro Omni) ⚠️ CI | 81 % (moy. 78 %) | B | idem |
+| VW obstacles (T90 Pro Omni, avec caméra) ⚠️ CI | 23/24 (moy. 16) — non transposable au Max (sans caméra) | B | idem |
+| VW taches (T90 Pro Omni) ⚠️ CI | café séché 157 pts (moy. 108) ; lavage combiné 34,6 (moy. 20,3) ; eau résiduelle 0,35 g (moy. 1,1 g) | B | idem |
+| VW tapis mouillé (T90 Pro Omni) | relevage 15 mm, « without wetting carpet fibers » (affirmation, pas de test chiffré) | B | idem |
+| VW T90 Max Pro Omni | non trouvé (pas de test ; seul un article de lancement du T90 Max Plus, 2026-10-23) | B | https://vacuumwars.com/ecovacs-launches-deebot-t90-max-plus/ |
+| Rtings / StiWa / Which? / CR | non trouvé | A | — |
+| QC (T90 Pro Omni, modèle proche) | testé ; note **réservée aux abonnés** | A | https://www.quechoisir.org/comparatif-aspirateur-robot-n387/aspirateur-robot-laveur-s1090/ |
+| Choice (T90 Pro Omni, modèle proche) | testé ; toutes les notes **réservées aux membres** | A | https://www.choice.com.au/products/home-and-living/laundry-and-cleaning/vacuum-cleaners/ecovacs-deebot-t90-pro-omni |
+| THU | non testé | B | — |
+| Expert Reviews | T90 Pro Omni : aperçu de lancement seulement, pas de test | B | — |
+| Bouchage par les cheveux | non trouvé | — | — |
+| Hauteur (fabricant) | **T90 Max Pro Omni : 95 mm** (353 × 351 × 95). T90 Pro Omni : 95 mm (Ecovacs) ; VW l'annonce à 94 mm ; Choice 9,5 cm ; La Redoute 9,8 cm | fab. | https://www.ecovacs.com/fr/shop/deebot-robotic-vacuum-cleaner/deebot-t90-max-pro-omni-care-kit |
+| Serpillière (fabricant) | rouleau OZMO ROLLER 3.0 ; **relevage 15 mm** sur tapis ; **pas de dépose** du rouleau | fab. | idem |
+| Filtre (fabricant) | « filtre antibactérien » / « filtre haute efficacité » ; **aucune classe HEPA** indiquée | fab. | idem |
+| Station | **avec sac** 2,5 L ; lavage à 100 °C, séchage air chaud 45 °C | fab. | idem |
+| Pièces France (fabricant) | T90 Max : seul le **sac antibactérien (19 €)** est vendu comme pièce dédiée au T90 Max ; « coffret d'accessoires trimestriel » 104,40 € annoncé compatible T90 MAX. Kits T90 / T90S (49 € standard : 3 filtres + 2 brosses latérales + 1 brosse ; 79 € haut de gamme : + rouleau + 3 sacs) **ne citent pas le T90 Max** | fab. | https://www.ecovacs.com/fr/shop/accessories/buddy-kit-t90 ; https://www.ecovacs.com/fr/shop/accessories/t90-buddy-kit |
+| Pièces en grande enseigne | non vérifié (Boulanger inaccessible à l'outil) | — | — |
+| Indice de réparabilité | T90 Max Pro Omni : non trouvé sur une source fiable. T90 Pro Omni (modèle proche) : 8,6/10 (badge La Redoute « IDR_86 ») ; pièces dispo 5 ans après fin de commercialisation | revendeur | https://www.laredoute.fr/ppdp/prod-602569307.aspx |
+| Prix Ecovacs France (2026-11-12) | Care Kit 479 € ; T90 Max Pro Omni 599 € (Blanc 399 €) ; T90 Pro Omni Care Kit 649 € ; T90S Pro Omni Care Kit 549 € | fab. | pages produit Ecovacs FR |
+
+### Frères T90 Pro Omni / T90S Pro Omni (faits fabricant)
+| Point | T90 Pro Omni | T90S Pro Omni | URL |
+|---|---|---|---|
+| Hauteur | 95 mm | 95 mm | ecovacs.com/fr (pages Care Kit) |
+| Obstacles | AIVI 3D 4.0 (caméra) | lumière structurée + lumière d'appoint RGB « AI+ », AIVI 3D 4.0 | idem |
+| Relevage rouleau | 15 mm | 15 mm | idem |
+| Tests A/B | VW (ci-dessus), QC et Choice (notes payantes) | **aucun** (VW, Rtings, QC, StiWa : non trouvé) | — |
+
+## MOVA S70 Ultra Roller
+| Critère | Valeur mesurée | Tier | URL |
+|---|---|---|---|
+| VW (tous tests) | non trouvé : seulement un article de lancement du S70 Roller (2026-07-17), sans mesure | B | https://vacuumwars.com/mova-s70-roller-launch/ |
+| Rtings / StiWa / QC / Which? / CR | non trouvé | A | — |
+| Choice (**S70 Roller, modèle proche** : 28–30 000 Pa, sans capot AutoShield) | testé ; notes **réservées aux membres** | A | https://www.choice.com.au/products/home-and-living/laundry-and-cleaning/vacuum-cleaners/mova-s70-roller |
+| THU / Expert Reviews | non testé | B | — |
+| Bouchage par les cheveux | non trouvé | — | — |
+| Hauteur (fabricant) | 350 × 350 × **91,5 mm** (tableau) ; « 90 mm » dans le texte commercial | fab. | https://fr.mova.tech/products/s70-ultra-roller-robot-aspirateur |
+| Serpillière (fabricant) | rouleau ; **relevage 12 mm** + « AutoShield » : « détecte automatiquement les tapis, relève la serpillière et bloque l'humidité » (capot) ; **pas de dépose** | fab. | idem |
+| Obstacles (fabricant) | laser dToF + IA, « plus de 280 obstacles » ; **aucune caméra annoncée** | fab. | idem |
+| Filtre (fabricant) | « filtre du bac à poussière » ; **aucune mention HEPA** | fab. | idem |
+| Station | **avec sac** 3,2 L (« jusqu'à 100 jours ») ; lavage 100 °C, séchage 70 °C | fab. | idem |
+| Pièces France (fabricant) | kit **MRAK85 74,90 €** (brosse Tricut, 2 brosses latérales, 2 filtres, 2 sacs, 2 serpillières, 1 L de produit) ; kit MRAK86 44,90 € (1 de chaque + 2 sacs) ; filtre seul 14,99 € | fab. | https://fr.mova.tech/products/kit-de-nettoyage-pour-s70-ultra-roller-s70-roller |
+| Pièces en grande enseigne | non vérifié | — | — |
+| Indice de réparabilité | non trouvé (fiche Boulanger inaccessible) | — | — |
+| Garantie (MOVA France) | 3 ans (boutique MOVA) | fab. | idem |
+| Prix MOVA France (2026-11-12) | 599 € (barré 999 €) | fab. | idem |
+
+## MOVA S70 Ultra (sans « Roller »)
+| Critère | Valeur mesurée | Tier | URL |
+|---|---|---|---|
+| Existence du modèle | **non trouvé** comme produit distinct : les boutiques MOVA France, Allemagne et internationale ne vendent que **S70 Roller** et **S70 Ultra Roller**. Le nom « S70 Ultra » apparaît chez des revendeurs (Galaxus) pour le S70 Ultra Roller | fab. | https://fr.mova.tech (catalogue) |
+| Toutes mesures | voir **S70 Ultra Roller** si c'est le même robot (équivalence non confirmée par MOVA) | — | — |
+
+## TP-Link Tapo RV50 Pro Omni
+| Critère | Valeur mesurée | Tier | URL |
+|---|---|---|---|
+| VW (tous tests) | non trouvé (aucune page Tapo chez VW) | B | — |
+| Rtings / StiWa / QC / Which? / CR / Choice | non trouvé | A | — |
+| THU | non testé | B | — |
+| Expert Reviews (31-12-2025, « Best Buy ») — protocole | pas de pourcentages publiés ; « performed well, matching the Eufy on every count » | B | https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/tapo-rv50-pro-omni-review |
+| Expert Reviews taches | ketchup séché et café enlevés « rather faster » que l'Eufy E25 et le Dreame Aqua10 (pas de chiffre) | B | idem |
+| Expert Reviews obstacles | **échoue au test de la crotte factice** ; évite chaussures, rideaux, pieds de chaise, câbles | B | idem |
+| Expert Reviews tapis mouillé | serpillières déposées à la station pour les tapis épais (pas de test chiffré) | B | idem |
+| Expert Reviews domotique | Google : commandes vocales exécutées (« vacuum the bedroom ») via liaison de compte ; Matter pris en charge | B | idem |
+| Poils, enroulement, tapis profond | non trouvé (aucune mesure publiée) | — | — |
+| Bouchage par les cheveux | non trouvé | — | — |
+| Hauteur (fabricant) | **Φ350 × 100,3 mm** (Expert Reviews : « a little over 100mm ») | fab. | https://www.tapo.com/fr/product/tapo-rv50-pro-omni-robot-vacuum/v1/1-pack/specs |
+| Serpillière (fabricant) | 2 patins rotatifs ; **dépose automatique** à la station pour les tapis (« Auto-Mop Removal: Yes ») ; relevage 0,47" (12 mm) sur tapis fins | fab. | idem + page produit EN |
+| Obstacles (fabricant) | « Dual-Laser Precision Avoidance » ; **pas de caméra** | fab. | idem |
+| Filtre (fabricant) | **HEPA H11** (« HEPA Filter: H11 ») | fab. | idem |
+| Station | **avec sac** 3 L (« sealed », jusqu'à 60 jours) ; lavage 60 °C, séchage 50 °C | fab. | idem |
+| Pièces France (fabricant) | kit annuel **RVA110 79,99 €** (2 brosses principales, 4 latérales, 6 lingettes, 6 filtres HEPA, 4 filtres éponge, 1 protection) — **sans sacs** ; sacs RVA210 ×5 19,99 € | fab. | https://fr.store.tapo.com/products/tapo-rva110 |
+| Pièces en grande enseigne | non vérifié | — | — |
+| Indice de réparabilité | **8/10** (fiche Auchan) | revendeur | https://www.auchan.fr/tp-link-robot-aspirateur-laveur-tapo-rv50-pro-omni/pr-24f606ad-3a3d-428d-ac2d-e992118ddc93 |
+| Garantie (fabricant) | 1 an robot et station (FAQ Tapo, page EN) ; Auchan affiche 2 ans | fab. / revendeur | — |
+| Prix Tapo France (2026-11-12) | 429,99 €, **indisponible** à la boutique Tapo | fab. | https://fr.store.tapo.com/products/tapo-rv50-pro-omni |
+
+## Roborock Qrevo Edge 2X → mesures du **Qrevo Edge 2 (modèle proche)**
+Roborock France ne vend pas le « 2X » (seulement le Qrevo Edge 2 à 479,99 €). Mêmes cotes (352 × 352 × 79,8 mm) et même aspiration (25 000 Pa) chez les revendeurs ; l'équivalence n'est **pas confirmée** par Roborock ni par une source A/B.
+
+| Critère | Valeur mesurée | Tier | URL |
+|---|---|---|---|
+| VW poils (Edge 2) ⚠️ CI | 89,5 % (moy. 82,2 %), 2,5" | B | https://vacuumwars.com/roborock-qrevo-edge-2-review/ (maj 2026-08-28) |
+| VW enroulement 7" (Edge 2) ⚠️ CI | 0 % (moy. 26 %) | B | idem |
+| VW tapis profond (Edge 2) ⚠️ CI | 94 % (moy. 78 %) | B | idem |
+| VW obstacles (Edge 2) ⚠️ CI | 14/24 (moy. 16) | B | idem |
+| VW taches (Edge 2) ⚠️ CI | 139 pts (moy. 108) ; lavage combiné 40,8 (moy. 20,3) ; eau résiduelle 0,65 g (moy. 1,07) | B | idem |
+| VW tapis mouillé (Edge 2) | relevage 12 mm, « without getting the carpet fibers wet » (affirmation, pas de test chiffré) | B | idem |
+| Rtings / StiWa / QC / Which? / CR | non trouvé (QC teste seulement le Qrevo Edge **5V1**, autre robot) | A | — |
+| Choice (Qrevo Edge 2) | testé ; notes **réservées aux membres** | A | https://www.choice.com.au/products/home-and-living/laundry-and-cleaning/vacuum-cleaners/roborock-qrevo-edge-2 |
+| THU / Expert Reviews | non testé | B | — |
+| Bouchage par les cheveux | non trouvé | — | — |
+| Hauteur (fabricant) | **79,8 mm** (Roborock, Qrevo Edge 2) ; LDLC « 7,98 cm » pour le 2X ; Choice indique 9 cm pour l'Edge 2 | fab. | https://fr.roborock.com/products/roborock-qrevo-edge-2 |
+| Serpillière (fabricant) | 2 patins rotatifs ; « Auto Mop Lifting » + **« Auto Mop Detaching »** (Roborock, Edge 2) ; relevage 12 mm (VW, Coolblue 2X) ; Boulanger annonce 10 mm (2X) | fab. | https://global.roborock.com/pages/roborock-qrevo-edge-2 |
+| Obstacles (fabricant) | lumière structurée + **caméra RGB** (« Reactive AI », 280 objets) | fab. | idem |
+| Filtre (fabricant) | « filtre lavable » ; **aucune classe HEPA** indiquée | fab. | fr.roborock.com |
+| Station | **avec sac** (« jusqu'à 65 jours ») ; eau 80 °C, séchage air chaud | fab. | idem |
+| Pièces France (fabricant) | pas de kit annuel pour l'Edge 2 ; à l'unité : brosse principale 29,99 €, filtres ×2 29,99 €, brosses latérales ×2 19,99 €, serpillières ×4 29,99 €, sacs ×3 18,99 € (×6 32,99 €) | fab. | https://fr.roborock.com (boutique) |
+| Pièces en grande enseigne | non vérifié | — | — |
+| Indice de réparabilité | **8,8/10** (fiche LDLC du Qrevo Edge 2X) | revendeur | https://www.ldlc.com/fiche/PB00746240.html |
+| Prix (2026-11-12) | Qrevo Edge 2X : 899,95 € chez LDLC ; Qrevo Edge 2 : 479,99 € chez Roborock France | revendeur / fab. | idem |
+
+## Domotique (Home Assistant, Google Home, Matter)
+| Robot | Home Assistant | Google Home | Matter | URL |
+|---|---|---|---|---|
+| Ecovacs T90 Max Pro Omni | intégration **officielle** « Ecovacs » mais modèle **non pris en charge** : ticket ouvert le 2026-11-08 (« not supported »), plusieurs demandes d'ajout ouvertes chez deebot-client (oct. 2026) | Google Assistant (fiche Ecovacs UK : « Alexa, Google Assistant, Alice, Siri Shortcut ») | non annoncé sur la fiche Ecovacs | https://github.com/home-assistant/core/issues/191353 ; https://github.com/DeebotUniverse/client.py/issues/1933 |
+| Ecovacs T90 Pro Omni (frère) | intégration officielle : reconnu, mais tickets ouverts (démarrage refusé « rcp not support », juin 2026 ; déconnexions, oct. 2026) | non vérifié sur la fiche | **oui** selon VW (« Matter compatible ») | https://github.com/home-assistant/core/issues/173158 ; https://github.com/home-assistant/core/issues/189788 |
+| MOVA S70 Ultra Roller | **pas d'intégration officielle** ; extension non officielle « dreame-vacuum » (Tasshack) qui liste le S70 Ultra Roller (codes mova.vacuum.r5770*) | non trouvé pour le S70 (l'article d'aide MOVA Google Home ne cite que des modèles plus anciens) ; la fiche MOVA ne cite que la voix « Hey MOVA » | non trouvé | https://dv.tasshack.com/guide/more/supported-devices |
+| Tapo RV50 Pro Omni | intégration officielle « TP-Link Smart Home » : **RV50 pas dans la liste** (seulement RV20 Max Plus, RV30 Max) ; possible via l'intégration Matter officielle de HA (non testé par une source) | **oui** (Expert Reviews : commandes vocales Google exécutées) | **oui** (fabricant + Expert Reviews) | https://www.home-assistant.io/integrations/tplink/ |
+| Roborock Qrevo Edge 2 / 2X | intégration **officielle** « Roborock » (série Qrevo « fully supported ») ; l'Edge 2 (roborock.vacuum.a298) est reconnu, bug de station corrigé en juillet 2026 | **oui** (fabricant : « compatible with Alexa, Siri, and Google Home ») | **oui** (fabricant : « Matter Supported ») | https://www.home-assistant.io/integrations/roborock/ ; https://github.com/Python-roborock/python-roborock/issues/896 |

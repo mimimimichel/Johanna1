@@ -2,10 +2,15 @@
  "id": "dreame-x50",
  "name": "Dreame X50 Ultra Complete",
  "brand": "Dreame",
- "price": 599,
- "target": 599,
- "priceNote": "599 € chez Dreame (au lieu de 999 €). Reconditionné B3 vu à 349–399 € chez Cdiscount.",
+ "price": 588,
+ "target": 588,
+ "priceNote": "Idealo, 6 mois : paliers à 800 € (juin), 750 € (juillet-août), ≈ 700 € (septembre-octobre), pics à 820–850 € début novembre juste avant la baisse. Moyenne 745 €, plus bas 479,20 € (un seul jour, il y a 148 jours). Prix habituel retenu ≈ 700 €.",
  "where": [
+  {
+   "shop": "Idealo",
+   "price": 588,
+   "url": "https://www.idealo.fr/prix/205569273"
+  },
   {
    "shop": "Dreame FR",
    "price": 599,
@@ -139,5 +144,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": 700,
+ "deal": {
+  "price": 588,
+  "shop": "Idealo (meilleure offre)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/205569273"
+ }
 }

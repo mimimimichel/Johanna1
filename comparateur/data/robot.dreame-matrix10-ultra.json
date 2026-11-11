@@ -2,10 +2,15 @@
  "id": "dreame-matrix10-ultra",
  "name": "Dreame Matrix10 Ultra",
  "brand": "Dreame",
- "price": 649,
- "target": 541,
- "priceNote": "649 € (prix que tu as constaté le 06/11/2026, et prix de la boutique Dreame relevé le 31/10). L'offre Amazon à 540,83 € (Dealabs, 31/10) a expiré : c'est le prix à viser si elle revient au Black Friday.",
+ "price": 540.83,
+ "target": 540.83,
+ "priceNote": "Idealo, 6 mois (blanc) : paliers à 1 000 € (juin), 900 € (juillet), 800 € (août-septembre), 750 € (octobre), puis remontée à 1 000–1 020 € fin octobre juste avant la baisse. Prix habituel récent retenu ≈ 770 €. Le noir est à 649 € (habituel similaire) : le blanc à 540,83 € est la meilleure affaire.",
  "where": [
+  {
+   "shop": "Idealo",
+   "price": 540.83,
+   "url": "https://www.idealo.fr/prix/207829835"
+  },
   {
    "shop": "Dreame FR",
    "price": 649,
@@ -120,5 +125,12 @@
   }
  },
  "heightFlag": null,
- "alerts": []
+ "alerts": [],
+ "priceUsual": 770,
+ "deal": {
+  "price": 540.83,
+  "shop": "Idealo (meilleure offre, coloris blanc)",
+  "date": "2026-11-12",
+  "url": "https://www.idealo.fr/prix/207829835"
+ }
 }

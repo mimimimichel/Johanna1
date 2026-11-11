@@ -28,9 +28,10 @@
    "src": []
   },
   "tapis_mop": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 5.0,
+   "v": "Rouleau relevé de 12 mm avec capot, pas de dépose (fabricant) → 5.",
+   "src": [],
+   "conf": 1
   },
   "sale": {
    "s": null,
@@ -43,14 +44,16 @@
    "src": []
   },
   "entretien": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 5.0,
+   "v": "Kit pièces MRAK85 : 74,90 € (MOVA FR) → 5.",
+   "src": [],
+   "conf": 1
   },
   "allergies": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 3,
+   "v": "Pas de filtre HEPA annoncé, station à sac (fabricant) → 3.",
+   "src": [],
+   "conf": 1
   },
   "fiabilite": {
    "s": null,
@@ -64,17 +67,22 @@
    "conf": 1
   },
   "obstacles": {
-   "s": null,
-   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
-   "src": []
+   "s": 3.0,
+   "v": "Pas de caméra annoncée (fabricant) : plafond 3 → 3.",
+   "src": [],
+   "conf": 1
   }
  },
  "verdict": "meh",
  "verdictText": "Pas assez de données fiables pour le classer.",
  "pros": [],
  "cons": [
-  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+  "Allergies et acariens : 3/10",
+  "Évite les obstacles : 3,0/10",
+  "Non mesuré : Poils et cheveux, Sol très sale, Poils incrustés dans les tapis, Fiabilité de la marque"
  ],
  "heightFlag": null,
- "alerts": []
+ "alerts": [
+  "Nom introuvable chez MOVA : probablement le S70 Ultra Roller vendu sous un autre nom. Vérifier la référence exacte avant d'acheter."
+ ]
 }

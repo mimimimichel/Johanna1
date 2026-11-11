@@ -115,11 +115,6 @@
    "label": "Meilleur score (≥ 75 % mesuré par des sources fiables, passe sous le lit)",
    "product": "roborock-saros10r",
    "why": "Choix calculé automatiquement avec la méthode et tes poids. Voir sa fiche pour le détail des mesures."
-  },
-  {
-   "label": "Le moins cher à moins d'un point du meilleur",
-   "product": "dreame-x50",
-   "why": "Le moins cher parmi les robots à moins d'un point du meilleur score (≥ 75 % mesuré). Prix à revérifier le jour de l'achat."
   }
  ],
  "rejects": [
