@@ -1,0 +1,117 @@
+{
+ "id": "ecovacs-t50-omni-gen3",
+ "name": "Ecovacs Deebot T50 Omni Gen3 (sans « Pro »)",
+ "brand": "Ecovacs",
+ "price": 234.99,
+ "priceUsual": null,
+ "target": 234.99,
+ "deal": {
+  "price": 234.99,
+  "shop": "Amazon (alerte Dealabs, 948°)",
+  "date": "2026-11-14",
+  "url": "https://www.dealabs.com/"
+ },
+ "priceNote": "Alerte Dealabs du 14/11/2026 : 234,99 € sur Amazon. Déjà vu à 254–299 € sur Amazon cet automne, 399 € chez Ecovacs. Prix habituel non établi (pas de courbe Idealo) : vérifier le vendeur (vendu par Amazon).",
+ "height": 8.1,
+ "tags": [
+  "8,1 cm",
+  "Pas de caméra"
+ ],
+ "where": [
+  {
+   "shop": "Amazon (alerte Dealabs, 948°)",
+   "price": 234.99,
+   "url": "https://www.dealabs.com/"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": 8.0,
+   "v": "Poils ramassés 86 % (Vacuum Wars, B, T50 Pro Omni proche) → 6 ; Cheveux enroulés 0 % (Vacuum Wars, B, T50 Pro) → 10. Moyenne (Vacuum Wars compte à moitié) : 8,0. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ],
+   "conf": 0.25
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": 10,
+   "v": "Taches 170 pts / moyenne 98 (Vacuum Wars, B, T50 Pro) → 10. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ],
+   "conf": 0.25
+  },
+  "tapis_asp": {
+   "s": 2.0,
+   "v": "Nettoyage profond tapis 79 % (Vacuum Wars, B, T50 Pro) → 2. Repose sur Vacuum Wars seul (compte à moitié dans la couverture). ⚠ Conflit d'intérêts : Vacuum Wars a fait du conseil pour Ecovacs. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Vacuum Wars (B)",
+     "url": "https://vacuumwars.com/t50-max-pro-omni-and-t50-pro/"
+    }
+   ],
+   "conf": 0.25
+  },
+  "entretien": {
+   "s": 3.0,
+   "v": "Pièces : 79 € le kit 6 mois, soit 158 €/an (Ecovacs FR) → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
+  },
+  "allergies": {
+   "s": 3,
+   "v": "Filtre « haute efficacité », pas de classe HEPA (fabricant) → 3.",
+   "src": [],
+   "conf": 1
+  },
+  "fiabilite": {
+   "s": 7.5,
+   "v": "Fiabilité Ecovacs 75/100 (Euroconsumers 2026, A) → 7,5.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ],
+   "conf": 1
+  },
+  "domotique": {
+   "s": 10,
+   "v": "Home Assistant : intégration officielle (cloud, nouveaux modèles parfois incomplets) → 10.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": 3.0,
+   "v": "Pas de caméra (lumière structurée seule, fabricant) : plafond 3 → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [
+  "Sol très sale : 10/10",
+  "Home Assistant ou Google Home : 10/10",
+  "Poils et cheveux : 8,0/10"
+ ],
+ "cons": [
+  "Poils incrustés dans les tapis : 2,0/10",
+  "Entretien facile, pièces abordables : 3,0/10",
+  "Allergies et acariens : 3/10",
+  "Non mesuré : Tapis au sec"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

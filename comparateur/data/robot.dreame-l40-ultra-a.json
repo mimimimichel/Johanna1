@@ -1,0 +1,121 @@
+{
+ "id": "dreame-l40-ultra-a",
+ "name": "Dreame L40 Ultra A",
+ "brand": "Dreame",
+ "price": 329,
+ "priceUsual": null,
+ "target": 329,
+ "deal": {
+  "price": 329,
+  "shop": "Amazon (alerte Dealabs)",
+  "date": "2026-11-14",
+  "url": "https://www.dealabs.com/"
+ },
+ "priceNote": "Alerte Dealabs du 14/11/2026 : 329 € sur Amazon. Vu à 349 € fin octobre. Prix habituel non établi.",
+ "height": 9.7,
+ "tags": [
+  "9,7 cm",
+  "Pas de caméra"
+ ],
+ "where": [
+  {
+   "shop": "Amazon (alerte Dealabs)",
+   "price": 329,
+   "url": "https://www.dealabs.com/"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": 3.0,
+   "v": "Rtings (A, L40 Ultra proche) : « poor job » → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ],
+   "conf": 0.5
+  },
+  "tapis_mop": {
+   "s": 5.0,
+   "v": "Relevage 10,5 mm (fabricant) → 5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
+  },
+  "sale": {
+   "s": 5.0,
+   "v": "Rtings (A, L40 Ultra) : lavage « acceptable » → 5. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ],
+   "conf": 0.5
+  },
+  "tapis_asp": {
+   "s": 6.0,
+   "v": "Rtings (A, L40 Ultra) : tapis « alright » → 6. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ],
+   "conf": 0.5
+  },
+  "entretien": {
+   "s": 3.0,
+   "v": "Rtings (A, L40 Ultra) : « many parts », coûts récurrents élevés → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [
+    {
+     "label": "Rtings (A)",
+     "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra"
+    }
+   ],
+   "conf": 0.5
+  },
+  "allergies": {
+   "s": 6,
+   "v": "Filtre « HEPA » sans classe (fabricant) → 6.",
+   "src": [],
+   "conf": 1
+  },
+  "fiabilite": {
+   "s": 9.6,
+   "v": "Fiabilité Dreame 96/100 (Euroconsumers 2026, A) → 9,6.",
+   "src": [
+    {
+     "label": "Euroconsumers (A)",
+     "url": "https://www.greenme.it/?p=1431832"
+    }
+   ],
+   "conf": 1
+  },
+  "domotique": {
+   "s": 8,
+   "v": "Google Home natif (voix + routines) ; Home Assistant seulement via extension non officielle → 8.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": 3.0,
+   "v": "Pas de caméra (fabricant) : plafond 3 → 3. Mesures d'un modèle proche (compte à moitié dans la couverture).",
+   "src": [],
+   "conf": 0.5
+  }
+ },
+ "verdict": "no",
+ "verdictText": "Score 4,9/10, calculé sur 61 % des critères (le reste n'est pas mesuré).",
+ "pros": [
+  "Fiabilité de la marque : 9,6/10",
+  "Home Assistant ou Google Home : 8/10"
+ ],
+ "cons": [
+  "Poils et cheveux : 3,0/10",
+  "Entretien facile, pièces abordables : 3,0/10",
+  "Évite les obstacles : 3,0/10"
+ ],
+ "heightFlag": null,
+ "alerts": []
+}

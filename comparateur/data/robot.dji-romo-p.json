@@ -1,0 +1,86 @@
+{
+ "id": "dji-romo-p",
+ "name": "DJI Romo P",
+ "brand": "DJI",
+ "price": 664,
+ "priceUsual": null,
+ "target": 664,
+ "deal": {
+  "price": 664,
+  "shop": "Amazon (alerte Dealabs)",
+  "date": "2026-11-14",
+  "url": "https://www.dealabs.com/"
+ },
+ "priceNote": "Alerte Dealabs du 14/11/2026 : 664 € sur Amazon. Vu à 749 € chez Amazon.de et MediaMarkt fin octobre ; 671 € + port en promo début novembre. Prix habituel non établi.",
+ "height": 9.8,
+ "tags": [
+  "9,8 cm",
+  "Pas de Home Assistant"
+ ],
+ "where": [
+  {
+   "shop": "Amazon (alerte Dealabs)",
+   "price": 664,
+   "url": "https://www.dealabs.com/"
+  }
+ ],
+ "scores": {
+  "poils": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_mop": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "sale": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "tapis_asp": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "entretien": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "allergies": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "fiabilite": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  },
+  "domotique": {
+   "s": 0,
+   "v": "Aucune intégration Home Assistant ; Matter non confirmé ; Google non documenté → 0.",
+   "src": [],
+   "conf": 1
+  },
+  "obstacles": {
+   "s": null,
+   "v": "Non mesuré : aucune donnée A ou B, critère retiré du calcul.",
+   "src": []
+  }
+ },
+ "verdict": "meh",
+ "verdictText": "Pas assez de données fiables pour le classer.",
+ "pros": [],
+ "cons": [
+  "Home Assistant ou Google Home : 0/10",
+  "Non mesuré : Poils et cheveux, Tapis au sec, Sol très sale, Poils incrustés dans les tapis, Entretien facile, pièces abordables, Allergies et acariens, Fiabilité de la marque, Évite les obstacles"
+ ],
+ "heightFlag": null,
+ "alerts": [
+  "Faille de sécurité en février 2026 (accès à distance aux caméras de 7 000 robots, corrigée). Aucun test A/B trouvé pour la grille."
+ ]
+}
